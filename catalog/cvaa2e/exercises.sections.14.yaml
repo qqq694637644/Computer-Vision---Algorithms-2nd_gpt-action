@@ -1,0 +1,619 @@
+data_version: '3'
+chapter_id: '14'
+exercises:
+- exercise_id: '14.1'
+  chapter_id: '14'
+  exercise_number: 1
+  starred: false
+  source_order: 1
+  problem_page_range:
+    pdf_page_index_start: 734
+    pdf_page_index_end: 734
+    pdf_page_number_start: 735
+    pdf_page_number_end: 735
+    printed_page_start: '713'
+    printed_page_end: '713'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 734
+      pdf_page_number: 735
+      printed_page_label: '713'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '14.1'
+      end_before:
+        kind: exercise
+        value: '14.2'
+    queries:
+    - +(14.1) +(printed page 713) --QDF=0
+    - +(3 Optional Kinks in straight lines introduced during view interpolation or extrapolation are) +(printed page 713)
+      --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '713'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 3. (Optional) Kinks in straight lines introduced during view interpolation or extrapolation are
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '14.1'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '14.2'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: exercise
+    target_id: '3.24'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+- exercise_id: '14.2'
+  chapter_id: '14'
+  exercise_number: 2
+  starred: false
+  source_order: 2
+  problem_page_range:
+    pdf_page_index_start: 734
+    pdf_page_index_end: 734
+    pdf_page_number_start: 735
+    pdf_page_number_end: 735
+    printed_page_start: '713'
+    printed_page_end: '713'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 734
+      pdf_page_number: 735
+      printed_page_label: '713'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '14.2'
+      end_before: null
+    queries:
+    - +(14.2) +(printed page 713) --QDF=0
+    - +(two reference views and then blend the images using a combination of z-buffering hole filing and) +(printed page 713)
+      --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '713'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: two reference views and then blend the images using a combination of z-buffering, hole filing, and
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '14.2'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: '14.1'
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+- exercise_id: '14.3'
+  chapter_id: '14'
+  exercise_number: 3
+  starred: false
+  source_order: 3
+  problem_page_range:
+    pdf_page_index_start: 735
+    pdf_page_index_end: 735
+    pdf_page_number_start: 736
+    pdf_page_number_end: 736
+    printed_page_start: '714'
+    printed_page_end: '714'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 735
+      pdf_page_number: 736
+      printed_page_label: '714'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '14.3'
+      end_before:
+        kind: exercise
+        value: '14.4'
+    queries:
+    - +(14.3) +(printed page 714) --QDF=0
+    - +(3 Optional Take a single image such as the Mona Lisa or a friend s picture) +(printed page 714) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '714'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 3. (Optional) Take a single image, such as the Mona Lisa or a friend’s picture, and create an
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '14.3'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '14.4'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '14.4'
+  chapter_id: '14'
+  exercise_number: 4
+  starred: false
+  source_order: 4
+  problem_page_range:
+    pdf_page_index_start: 735
+    pdf_page_index_end: 735
+    pdf_page_number_start: 736
+    pdf_page_number_end: 736
+    printed_page_start: '714'
+    printed_page_end: '714'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 735
+      pdf_page_number: 736
+      printed_page_label: '714'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '14.4'
+      end_before:
+        kind: exercise
+        value: '14.5'
+    queries:
+    - +(14.4) +(printed page 714) --QDF=0
+    - +(priate resampling or by figuring out how to use the texture mapping software to directly access) +(printed page 714)
+      --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '714'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: priate resampling or by figuring out how to use the texture mapping software to directly access
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '14.4'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '14.5'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: exercise
+    target_id: '11.10'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+  - kind: exercise
+    target_id: '12.9'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+  - kind: exercise
+    target_id: '12.10'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+  - kind: exercise
+    target_id: '13.8'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+- exercise_id: '14.5'
+  chapter_id: '14'
+  exercise_number: 5
+  starred: false
+  source_order: 5
+  problem_page_range:
+    pdf_page_index_start: 735
+    pdf_page_index_end: 735
+    pdf_page_number_start: 736
+    pdf_page_number_end: 736
+    printed_page_start: '714'
+    printed_page_end: '714'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 735
+      pdf_page_number: 736
+      printed_page_label: '714'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '14.5'
+      end_before:
+        kind: exercise
+        value: '14.6'
+    queries:
+    - +(14.5) +(printed page 714) --QDF=0
+    - +(store more than one depth or color value per pixel Shade Gortler et al 1998 i.e) +(printed page 714) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '714'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: store more than one depth or color value per pixel (Shade, Gortler et al. 1998), i.e., a layered depth
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '14.5'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '14.6'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: exercise
+    target_id: '14.2'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+- exercise_id: '14.6'
+  chapter_id: '14'
+  exercise_number: 6
+  starred: false
+  source_order: 6
+  problem_page_range:
+    pdf_page_index_start: 735
+    pdf_page_index_end: 735
+    pdf_page_number_start: 736
+    pdf_page_number_end: 736
+    printed_page_start: '714'
+    printed_page_end: '714'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 735
+      pdf_page_number: 736
+      printed_page_label: '714'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '14.6'
+      end_before: null
+    queries:
+    - +(14.6) +(printed page 714) --QDF=0
+    - +(3 Determine a back-to-front order based on expected visibility or add a z-buffer to your render) +(printed page 714)
+      --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '714'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 3. Determine a back-to-front order based on expected visibility or add a z-buffer to your render-
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '14.6'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: 14.2.1
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: exercise
+    target_id: '9.7'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+- exercise_id: '14.7'
+  chapter_id: '14'
+  exercise_number: 7
+  starred: false
+  source_order: 7
+  problem_page_range:
+    pdf_page_index_start: 736
+    pdf_page_index_end: 736
+    pdf_page_number_start: 737
+    pdf_page_number_end: 737
+    printed_page_start: '715'
+    printed_page_end: '715'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 736
+      pdf_page_number: 737
+      printed_page_label: '715'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '14.7'
+      end_before:
+        kind: exercise
+        value: '14.8'
+    queries:
+    - +(14.7) +(printed page 715) --QDF=0
+    - +(4 Prove that an image taken by a regular orthographic or perspective camera i.e one that) +(printed page 715) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '715'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 4. Prove that an image taken by a regular orthographic or perspective camera, i.e., one that
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '14.7'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '14.8'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids:
+      - '2.63'
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '14.8'
+  chapter_id: '14'
+  exercise_number: 8
+  starred: false
+  source_order: 8
+  problem_page_range:
+    pdf_page_index_start: 736
+    pdf_page_index_end: 736
+    pdf_page_number_start: 737
+    pdf_page_number_end: 737
+    printed_page_start: '715'
+    printed_page_end: '715'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 736
+      pdf_page_number: 737
+      printed_page_label: '715'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '14.8'
+      end_before:
+        kind: exercise
+        value: '14.9'
+    queries:
+    - +(14.8) +(printed page 715) --QDF=0
+    - +(1 Download one of the light field datasets from http lightfield.stanford.edu or https lightfield-analysis) +(printed
+      page 715) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '715'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 1. Download one of the light field datasets from http://lightfield.stanford.edu or https://lightfield-analysis.
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '14.8'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '14.9'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '14.9'
+  chapter_id: '14'
+  exercise_number: 9
+  starred: false
+  source_order: 9
+  problem_page_range:
+    pdf_page_index_start: 736
+    pdf_page_index_end: 737
+    pdf_page_number_start: 737
+    pdf_page_number_end: 738
+    printed_page_start: '715'
+    printed_page_end: '716'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 736
+      pdf_page_number: 737
+      printed_page_label: '715'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '14.9'
+      end_before: null
+    queries:
+    - +(14.9) +(printed page 715) --QDF=0
+    - +(2 Build a 3D model of the object using a multi-view stereo algorithm that is robust) +(printed page 715) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '715'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 2. Build a 3D model of the object using a multi-view stereo algorithm that is robust to outliers
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '14.9'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 737
+      pdf_page_number: 738
+      printed_page_label: '716'
+    content_window:
+      start_at: null
+      end_before:
+        kind: exercise
+        value: '14.10'
+    queries:
+    - +(imum color value What happens if there is Lambertian shading on the diffuse component) +(printed page 716) --QDF=0
+    - +(imum color value What happens if there is Lambertian shading on the diffuse component) +(Exercises) +(printed page
+      716) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '716'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: imum color value? What happens if there is Lambertian shading on the diffuse component?
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '14.10'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '14.10'
+  chapter_id: '14'
+  exercise_number: 10
+  starred: false
+  source_order: 10
+  problem_page_range:
+    pdf_page_index_start: 737
+    pdf_page_index_end: 737
+    pdf_page_number_start: 738
+    pdf_page_number_end: 738
+    printed_page_start: '716'
+    printed_page_end: '716'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 737
+      pdf_page_number: 738
+      printed_page_label: '716'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '14.10'
+      end_before:
+        kind: exercise
+        value: '14.11'
+    queries:
+    - +(14.10) +(printed page 716) --QDF=0
+    - +(1 Stand in the middle of a room with a camcorder held at arm s length) +(printed page 716) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '716'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 1. Stand in the middle of a room with a camcorder held at arm’s length in front of you and spin
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '14.10'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '14.11'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '14.11'
+  chapter_id: '14'
+  exercise_number: 11
+  starred: false
+  source_order: 11
+  problem_page_range:
+    pdf_page_index_start: 737
+    pdf_page_index_end: 737
+    pdf_page_number_start: 738
+    pdf_page_number_end: 738
+    printed_page_start: '716'
+    printed_page_end: '716'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 737
+      pdf_page_number: 738
+      printed_page_label: '716'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '14.11'
+      end_before:
+        kind: exercise
+        value: '14.12'
+    queries:
+    - +(14.11) +(printed page 716) --QDF=0
+    - +(fire or smiling face and loop the video seamlessly into an infinite length video Sch odl) +(printed page 716) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '716'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: fire, or smiling face, and loop the video seamlessly into an infinite length video (Sch ̈odl, Szeliski et
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '14.11'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '14.12'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '14.12'
+  chapter_id: '14'
+  exercise_number: 12
+  starred: false
+  source_order: 12
+  problem_page_range:
+    pdf_page_index_start: 737
+    pdf_page_index_end: 737
+    pdf_page_number_start: 738
+    pdf_page_number_end: 738
+    printed_page_start: '716'
+    printed_page_end: '716'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 737
+      pdf_page_number: 738
+      printed_page_label: '716'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '14.12'
+      end_before: null
+    queries:
+    - +(14.12) +(printed page 716) --QDF=0
+    - +(Try capturing your own dataset if this is feasible and describe additional breaking points of the) +(printed page
+      716) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '716'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Try capturing your own dataset, if this is feasible, and describe additional breaking points of the
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '14.12'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []

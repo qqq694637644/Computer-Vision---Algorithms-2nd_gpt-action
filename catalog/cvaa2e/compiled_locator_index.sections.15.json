@@ -1,0 +1,160 @@
+{
+  "data_version": "3",
+  "sections": {
+    "15": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "15",
+      "printed_section_id": "15",
+      "parent_section_id": null,
+      "title": "Conclusion",
+      "source_heading": "Chapter 15 Conclusion",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 738,
+          "pdf_page_number": 739,
+          "printed_page_label": "717"
+        },
+        "bbox": [
+          352.953,
+          152.762,
+          479.187,
+          231.47
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 1,
+      "page_range": {
+        "pdf_page_index_start": 738,
+        "pdf_page_index_end": 740,
+        "pdf_page_number_start": 739,
+        "pdf_page_number_end": 741,
+        "printed_page_start": "717",
+        "printed_page_end": "719"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 738,
+            "pdf_page_number": 739,
+            "printed_page_label": "717"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "Chapter 15 Conclusion"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(Chapter 15 Conclusion) +(printed page 717) --QDF=0",
+            "+(turn enabled us to build more complex applications such as large-scale image retrieval converting) +(Conclusion) +(printed page 717) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "717",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "turn, enabled us to build more complex applications, such as large-scale image retrieval, converting",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "Chapter 15 Conclusion",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Chapter 15 Conclusion"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 739,
+            "pdf_page_number": 740,
+            "printed_page_label": "718"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(alternatives for solving vision problems many of which are sketched out in the exercises for students) +(printed page 718) --QDF=0",
+            "+(alternatives for solving vision problems many of which are sketched out in the exercises for students) +(Conclusion) +(printed page 718) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "718",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "alternatives for solving vision problems, many of which are sketched out in the exercises for students",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 740,
+            "pdf_page_number": 741,
+            "printed_page_label": "719"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(aspects of artificial intelligence it will be interesting to see how these different AI modalities and) +(printed page 719) --QDF=0",
+            "+(aspects of artificial intelligence it will be interesting to see how these different AI modalities and) +(Conclusion) +(printed page 719) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "719",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "aspects of artificial intelligence, it will be interesting to see how these different AI modalities and",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    }
+  }
+}

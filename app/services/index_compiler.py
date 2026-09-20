@@ -32,8 +32,18 @@ class LocatorIndexCompiler:
 
         for printed in manifest.printed_sections:
             self._validate_sibling_order(printed.learning_units)
+            direct_printed_ordinals = [
+                int(candidate.rsplit(".", 1)[1])
+                for candidate in printed_ids
+                if candidate.startswith(f"{printed.printed_section_id}.")
+                and candidate.count(".") == printed.printed_section_id.count(".") + 1
+                and candidate.rsplit(".", 1)[1].isdigit()
+            ]
+            learning_ordinal_offset = max(direct_printed_ordinals, default=0)
             for ordinal, unit in enumerate(printed.learning_units, start=1):
-                section_id = f"{printed.printed_section_id}.{ordinal}"
+                section_id = (
+                    f"{printed.printed_section_id}.{learning_ordinal_offset + ordinal}"
+                )
                 self._compile_learning_unit_tree(
                     manifest=manifest,
                     printed=printed,

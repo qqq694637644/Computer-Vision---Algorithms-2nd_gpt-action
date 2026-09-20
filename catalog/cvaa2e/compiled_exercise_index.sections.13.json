@@ -1,0 +1,4176 @@
+{
+  "data_version": "3",
+  "chapter_id": "13",
+  "exercises": {
+    "13.1": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "13.1",
+      "chapter_id": "13",
+      "exercise_number": 1,
+      "starred": false,
+      "source_order": 1,
+      "problem_page_range": {
+        "pdf_page_index_start": 694,
+        "pdf_page_index_end": 694,
+        "pdf_page_number_start": 695,
+        "pdf_page_number_end": 695,
+        "printed_page_start": "673",
+        "printed_page_end": "673"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 694,
+            "pdf_page_number": 695,
+            "printed_page_label": "673"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "13.1"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "13.2"
+            }
+          },
+          "queries": [
+            "+(text 2 Try both a fronto-parallel planar target and one which is slanted so that it covers) +(printed page 673) --QDF=0",
+            "+(exercise 13.1) +(printed page 673) --QDF=0",
+            "+(exercise 13.2) +(printed page 673) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "673",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "2. Try both a fronto-parallel planar target and one which is slanted so that it covers the working",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "13.1",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "13.2",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    },
+    "13.2": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "13.2",
+      "chapter_id": "13",
+      "exercise_number": 2,
+      "starred": false,
+      "source_order": 2,
+      "problem_page_range": {
+        "pdf_page_index_start": 694,
+        "pdf_page_index_end": 694,
+        "pdf_page_number_start": 695,
+        "pdf_page_number_end": 695,
+        "printed_page_start": "673",
+        "printed_page_end": "673"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 694,
+            "pdf_page_number": 695,
+            "printed_page_label": "673"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "13.2"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "13.3"
+            }
+          },
+          "queries": [
+            "+(text 5 Optional remove the requirement for a known second vertical plane and infer its location) +(printed page 673) --QDF=0",
+            "+(exercise 13.2) +(printed page 673) --QDF=0",
+            "+(exercise 13.3) +(printed page 673) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "673",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "5. (Optional) remove the requirement for a known second (vertical) plane and infer its location",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "13.2",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "13.3",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 556,
+            "pdf_page_number": 557,
+            "printed_page_label": "535"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "10.9"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text 7 Optional Using a series of cast stick shadows estimate the deformation field for the destina) +(printed page 535) --QDF=0",
+            "+(exercise 10.9) +(printed page 535) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "535",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "7. (Optional) Using a series of cast stick shadows, estimate the deformation field for the destina-",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "10.9",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 557,
+            "pdf_page_number": 558,
+            "printed_page_label": "536"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "exercise",
+              "value": "10.10"
+            }
+          },
+          "queries": [
+            "+(text 10 Optional Re-implement the facial shadow removal algorithm of Zhang Barron et al 2020) +(printed page 536) --QDF=0",
+            "+(exercise 10.10) +(printed page 536) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "536",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "10. (Optional) Re-implement the facial shadow removal algorithm of Zhang, Barron et al. (2020)",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "10.10",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_targets": [
+        {
+          "kind": "exercise",
+          "target_id": "10.9",
+          "reason": "Explicit exercise reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "start",
+              "page": {
+                "pdf_page_index": 556,
+                "pdf_page_number": 557,
+                "printed_page_label": "535"
+              },
+              "content_window": {
+                "start_at": {
+                  "kind": "exercise",
+                  "value": "10.9"
+                },
+                "end_before": null
+              },
+              "queries": [
+                "+(text 7 Optional Using a series of cast stick shadows estimate the deformation field for the destina) +(printed page 535) --QDF=0",
+                "+(exercise 10.9) +(printed page 535) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "535",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "7. (Optional) Using a series of cast stick shadows, estimate the deformation field for the destina-",
+                  "verification_mode": "text_or_visual"
+                },
+                {
+                  "kind": "contains_exercise",
+                  "value": "10.9",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 2,
+              "page_role": "end",
+              "page": {
+                "pdf_page_index": 557,
+                "pdf_page_number": 558,
+                "printed_page_label": "536"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": {
+                  "kind": "exercise",
+                  "value": "10.10"
+                }
+              },
+              "queries": [
+                "+(text 10 Optional Re-implement the facial shadow removal algorithm of Zhang Barron et al 2020) +(printed page 536) --QDF=0",
+                "+(exercise 10.10) +(printed page 536) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "536",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "10. (Optional) Re-implement the facial shadow removal algorithm of Zhang, Barron et al. (2020)",
+                  "verification_mode": "text_or_visual"
+                },
+                {
+                  "kind": "contains_exercise",
+                  "value": "10.10",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "13.3": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "13.3",
+      "chapter_id": "13",
+      "exercise_number": 3,
+      "starred": false,
+      "source_order": 3,
+      "problem_page_range": {
+        "pdf_page_index_start": 694,
+        "pdf_page_index_end": 694,
+        "pdf_page_number_start": 695,
+        "pdf_page_number_end": 695,
+        "printed_page_start": "673",
+        "printed_page_end": "673"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 694,
+            "pdf_page_number": 695,
+            "printed_page_label": "673"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "13.3"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text an object using structure from motion to recover the camera poses and using a standard stereo) +(printed page 673) --QDF=0",
+            "+(exercise 13.3) +(printed page 673) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "673",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "an object, using structure from motion to recover the camera poses, and using a standard stereo",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "13.3",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 665,
+            "pdf_page_number": 666,
+            "printed_page_label": "644"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "13.2.1 Range data merging"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text While individual range images can be useful for applications such as real-time z-keying or facial) +(printed page 644) --QDF=0",
+            "+(heading 13.2.1 Range data merging) +(printed page 644) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "644",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "While individual range images can be useful for applications such as real-time z-keying or facial",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "13.2.1 Range data merging",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "13.2.1 Range data merging"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 666,
+            "pdf_page_number": 667,
+            "printed_page_label": "645"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text which an isosurface can be extracted green dashed line b the signed distance functions are combined) +(printed page 645) --QDF=0",
+            "+(which an isosurface can be extracted green dashed line b the signed distance functions are combined) +(text) +(printed page 645) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "645",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "which an isosurface can be extracted (green dashed line); (b) the signed distance functions are combined with",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "13.11"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 667,
+            "pdf_page_number": 668,
+            "printed_page_label": "646"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text 1996 ACM a photograph of the original statue after spray painting with matte gray b partial) +(printed page 646) --QDF=0",
+            "+(1996 ACM a photograph of the original statue after spray painting with matte gray b partial) +(text) +(printed page 646) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "646",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "1996 ACM: (a) photograph of the original statue after spray painting with matte gray; (b) partial range scan; (c)",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "13.12",
+              "13.11"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 4,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 668,
+            "pdf_page_number": 669,
+            "printed_page_label": "647"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text 2011 2011 IEEE The three images show an original noisy range scan rendered as a colored) +(printed page 647) --QDF=0",
+            "+(2011 2011 IEEE The three images show an original noisy range scan rendered as a colored) +(text) +(printed page 647) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "647",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "2011) © 2011 IEEE. The three images show an original (noisy) range scan, rendered as a colored normal map,",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "13.13"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 5,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 669,
+            "pdf_page_number": 670,
+            "printed_page_label": "648"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "13.2.2 Application: Digital heritage"
+            }
+          },
+          "queries": [
+            "+(text merged 3D model of the temple scanned using a laser range sensor mounted on a balloon) +(printed page 648) --QDF=0",
+            "+(heading 13.2.2 Application Digital heritage) +(printed page 648) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "648",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "merged 3D model of the temple scanned using a laser range sensor mounted on a balloon.",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "13.2.2 Application: Digital heritage",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "13.14"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_targets": [
+        {
+          "kind": "section",
+          "target_id": "13.2.1",
+          "reason": "Explicit section reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "start",
+              "page": {
+                "pdf_page_index": 665,
+                "pdf_page_number": 666,
+                "printed_page_label": "644"
+              },
+              "content_window": {
+                "start_at": {
+                  "kind": "heading",
+                  "value": "13.2.1 Range data merging"
+                },
+                "end_before": null
+              },
+              "queries": [
+                "+(text While individual range images can be useful for applications such as real-time z-keying or facial) +(printed page 644) --QDF=0",
+                "+(heading 13.2.1 Range data merging) +(printed page 644) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "644",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "While individual range images can be useful for applications such as real-time z-keying or facial",
+                  "verification_mode": "text_or_visual"
+                },
+                {
+                  "kind": "contains_heading",
+                  "value": "13.2.1 Range data merging",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "13.2.1 Range data merging"
+                ],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 2,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 666,
+                "pdf_page_number": 667,
+                "printed_page_label": "645"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text which an isosurface can be extracted green dashed line b the signed distance functions are combined) +(printed page 645) --QDF=0",
+                "+(which an isosurface can be extracted green dashed line b the signed distance functions are combined) +(text) +(printed page 645) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "645",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "which an isosurface can be extracted (green dashed line); (b) the signed distance functions are combined with",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [
+                  "13.11"
+                ],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 3,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 667,
+                "pdf_page_number": 668,
+                "printed_page_label": "646"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text 1996 ACM a photograph of the original statue after spray painting with matte gray b partial) +(printed page 646) --QDF=0",
+                "+(1996 ACM a photograph of the original statue after spray painting with matte gray b partial) +(text) +(printed page 646) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "646",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "1996 ACM: (a) photograph of the original statue after spray painting with matte gray; (b) partial range scan; (c)",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [
+                  "13.12",
+                  "13.11"
+                ],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 4,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 668,
+                "pdf_page_number": 669,
+                "printed_page_label": "647"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text 2011 2011 IEEE The three images show an original noisy range scan rendered as a colored) +(printed page 647) --QDF=0",
+                "+(2011 2011 IEEE The three images show an original noisy range scan rendered as a colored) +(text) +(printed page 647) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "647",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "2011) © 2011 IEEE. The three images show an original (noisy) range scan, rendered as a colored normal map,",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [
+                  "13.13"
+                ],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 5,
+              "page_role": "end",
+              "page": {
+                "pdf_page_index": 669,
+                "pdf_page_number": 670,
+                "printed_page_label": "648"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": {
+                  "kind": "heading",
+                  "value": "13.2.2 Application: Digital heritage"
+                }
+              },
+              "queries": [
+                "+(text merged 3D model of the temple scanned using a laser range sensor mounted on a balloon) +(printed page 648) --QDF=0",
+                "+(heading 13.2.2 Application Digital heritage) +(printed page 648) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "648",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "merged 3D model of the temple scanned using a laser range sensor mounted on a balloon.",
+                  "verification_mode": "text_or_visual"
+                },
+                {
+                  "kind": "contains_heading",
+                  "value": "13.2.2 Application: Digital heritage",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [
+                  "13.14"
+                ],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "13.4": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "13.4",
+      "chapter_id": "13",
+      "exercise_number": 4,
+      "starred": false,
+      "source_order": 4,
+      "problem_page_range": {
+        "pdf_page_index_start": 695,
+        "pdf_page_index_end": 695,
+        "pdf_page_number_start": 696,
+        "pdf_page_number_end": 696,
+        "printed_page_start": "674",
+        "printed_page_end": "674"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 695,
+            "pdf_page_number": 696,
+            "printed_page_label": "674"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "13.4"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "13.5"
+            }
+          },
+          "queries": [
+            "+(text using signed distance fields Curless and Levoy 1996 Hilton Stoddart et al 1996 or one of) +(printed page 674) --QDF=0",
+            "+(exercise 13.4) +(printed page 674) --QDF=0",
+            "+(exercise 13.5) +(printed page 674) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "674",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "using signed distance fields (Curless and Levoy 1996; Hilton, Stoddart et al. 1996) or one of their",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "13.4",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "13.5",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    },
+    "13.5": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "13.5",
+      "chapter_id": "13",
+      "exercise_number": 5,
+      "starred": false,
+      "source_order": 5,
+      "problem_page_range": {
+        "pdf_page_index_start": 695,
+        "pdf_page_index_end": 695,
+        "pdf_page_number_start": 696,
+        "pdf_page_number_end": 696,
+        "printed_page_start": "674",
+        "printed_page_end": "674"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 695,
+            "pdf_page_number": 696,
+            "printed_page_label": "674"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "13.5"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "13.6"
+            }
+          },
+          "queries": [
+            "+(text Surface simplification Use progressive meshes Hoppe 1996 or some other technique) +(printed page 674) --QDF=0",
+            "+(exercise 13.5) +(printed page 674) --QDF=0",
+            "+(exercise 13.6) +(printed page 674) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "674",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Surface simplification. Use progressive meshes (Hoppe 1996) or some other technique",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "13.5",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "13.6",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 671,
+            "pdf_page_number": 672,
+            "printed_page_label": "650"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "13.3.2 Surface simplification"
+            },
+            "end_before": {
+              "kind": "heading",
+              "value": "13.3.3 Geometry images"
+            }
+          },
+          "queries": [
+            "+(text this is to approximate a given mesh with one that has subdivision connectivity over which a) +(printed page 650) --QDF=0",
+            "+(heading 13.3.2 Surface simplification) +(printed page 650) --QDF=0",
+            "+(heading 13.3.3 Geometry images) +(printed page 650) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "650",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "this is to approximate a given mesh with one that has subdivision connectivity, over which a set of",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "13.3.2 Surface simplification",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "13.3.3 Geometry images",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "13.3.2 Surface simplification"
+            ],
+            "figure_ids": [
+              "13.15"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 768,
+            "pdf_page_number": 769,
+            "printed_page_label": "747"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "Appendix C Supplementary material"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text R Szeliski Computer Vision Texts in Computer Science) +(printed page 747) --QDF=0",
+            "+(heading Appendix C Supplementary material) +(printed page 747) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "747",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "R. Szeliski, Computer Vision, Texts in Computer Science,",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "Appendix C Supplementary material",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Appendix C Supplementary material"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 769,
+            "pdf_page_number": 770,
+            "printed_page_label": "748"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text code for the latest algorithms can be found I have already mentioned and in some cases) +(printed page 748) --QDF=0",
+            "+(code for the latest algorithms can be found I have already mentioned and in some cases) +(text) +(printed page 748) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "748",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "code) for the latest algorithms can be found. I have already mentioned (and in some cases tabulated)",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "C.1 Datasets and benchmarks",
+              "Chapter 2: Image formation",
+              "Chapter 4: Model fitting and optimization",
+              "Chapter 5: Deep learning"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 4,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 770,
+            "pdf_page_number": 771,
+            "printed_page_label": "749"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text Scharstein et al 2011 continues to be used for evaluation since it contains a variety of) +(printed page 749) --QDF=0",
+            "+(Scharstein et al 2011 continues to be used for evaluation since it contains a variety of) +(text) +(printed page 749) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "749",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Scharstein et al. 2011) continues to be used for evaluation, since it contains a variety of short",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Chapter 6: Recognition",
+              "Chapter 7: Feature detection and matching",
+              "Chapter 9: Motion estimation"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": [
+              "6.1",
+              "6.2",
+              "6.3",
+              "6.4"
+            ]
+          }
+        },
+        {
+          "sequence": 5,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 771,
+            "pdf_page_number": 772,
+            "printed_page_label": "750"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text used to train and test SR algorithms on real imaging degradations This dataset forms the basis) +(printed page 750) --QDF=0",
+            "+(used to train and test SR algorithms on real imaging degradations This dataset forms the basis) +(text) +(printed page 750) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "750",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "used to train and test SR algorithms on real imaging degradations. This dataset forms the basis",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Chapter 10: Computational photography"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 6,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 772,
+            "pdf_page_number": 773,
+            "printed_page_label": "751"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text Many algorithms that train and test on the same dataset e.g KITTI do not perform as) +(printed page 751) --QDF=0",
+            "+(Many algorithms that train and test on the same dataset e.g KITTI do not perform as) +(text) +(printed page 751) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "751",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "• Many algorithms that train and test on the same dataset (e.g., KITTI) do not perform as well",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Chapter 11: Structure from motion and SLAM",
+              "Chapter 12: Depth estimation"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 7,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 773,
+            "pdf_page_number": 774,
+            "printed_page_label": "752"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text robustvision.net along with the datasets and benchmarks that are included in each challenge) +(printed page 752) --QDF=0",
+            "+(robustvision.net along with the datasets and benchmarks that are included in each challenge) +(text) +(printed page 752) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "752",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "robustvision.net) along with the datasets and benchmarks that are included in each challenge.",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Chapter 13: 3D reconstruction"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 8,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 774,
+            "pdf_page_number": 775,
+            "printed_page_label": "753"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text 2Additional datasets can be found on the MPI Perceiving Systems https ps.is.mpg.de code and Virtual Humans) +(printed page 753) --QDF=0",
+            "+(2Additional datasets can be found on the MPI Perceiving Systems https ps.is.mpg.de code and Virtual Humans) +(text) +(printed page 753) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "753",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "2Additional datasets can be found on the MPI Perceiving Systems https://ps.is.mpg.de/code and Virtual Humans group",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Chapter 14: Image-based rendering",
+              "C.2 Software"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 9,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 775,
+            "pdf_page_number": 776,
+            "printed_page_label": "754"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text A big advantage of writing in this fashion is that it maps closely to the abstractions) +(printed page 754) --QDF=0",
+            "+(A big advantage of writing in this fashion is that it maps closely to the abstractions) +(text) +(printed page 754) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "754",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "A big advantage of writing in this fashion is that it maps closely to the abstractions used in the deep",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Chapter 3: Image processing",
+              "Chapter 4: Model fitting and optimization"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 10,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 776,
+            "pdf_page_number": 777,
+            "printed_page_label": "755"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text platform for the assignments in computer vision courses that can benefit from a GPU It pro) +(printed page 755) --QDF=0",
+            "+(platform for the assignments in computer vision courses that can benefit from a GPU It pro) +(text) +(printed page 755) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "755",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "platform for the assignments in computer vision courses that can benefit from a GPU. It pro-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Chapter 5: Deep learning"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 11,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 777,
+            "pdf_page_number": 778,
+            "printed_page_label": "756"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text 6Additional interactive demonstrations can be found at https cs.stanford.edu people karpathy convnetjs) +(printed page 756) --QDF=0",
+            "+(6Additional interactive demonstrations can be found at https cs.stanford.edu people karpathy convnetjs) +(text) +(printed page 756) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "756",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "6Additional interactive demonstrations can be found at https://cs.stanford.edu/people/karpathy/convnetjs.",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Chapter 6: Recognition"
+            ],
+            "figure_ids": [
+              "5.33",
+              "5.32.6"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 12,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 778,
+            "pdf_page_number": 779,
+            "printed_page_label": "757"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text Pointers to software for more specialized tasks such as face detection and recognition pedes) +(printed page 757) --QDF=0",
+            "+(Pointers to software for more specialized tasks such as face detection and recognition pedes) +(text) +(printed page 757) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "757",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "• Pointers to software for more specialized tasks such as face detection and recognition, pedes-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Chapter 7: Feature detection and matching",
+              "Chapter 9: Motion estimation",
+              "Chapter 10: Computational photography",
+              "Chapter 11: Structure from motion and SLAM"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 13,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 779,
+            "pdf_page_number": 780,
+            "printed_page_label": "758"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text Among these COLMAP appears to be the most often used today in other research projects) +(printed page 758) --QDF=0",
+            "+(Among these COLMAP appears to be the most often used today in other research projects) +(text) +(printed page 758) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "758",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Among these, COLMAP appears to be the most often used today in other research projects,",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Chapter 12: Stereo correspondence"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 14,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 780,
+            "pdf_page_number": 781,
+            "printed_page_label": "759"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text If you are interested in sparse linear least squares solvers it is worth looking at SuiteSparse) +(printed page 759) --QDF=0",
+            "+(If you are interested in sparse linear least squares solvers it is worth looking at SuiteSparse) +(text) +(printed page 759) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "759",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "• If you are interested in sparse linear least squares solvers, it is worth looking at SuiteSparse",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Chapter 13: 3D reconstruction",
+              "Chapter 14: Image-based rendering",
+              "Appendix A: Linear algebra and numerical techniques"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 15,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 781,
+            "pdf_page_number": 782,
+            "printed_page_label": "760"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text While there are no official slide sets to go with this book its content largely parallels) +(printed page 760) --QDF=0",
+            "+(While there are no official slide sets to go with this book its content largely parallels) +(text) +(printed page 760) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "760",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "While there are no official slide sets to go with this book, its content largely parallels that of the",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Appendix B: Bayesian modeling and inference",
+              "C.3 Slides and lectures"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_targets": [
+        {
+          "kind": "section",
+          "target_id": "13.3.2",
+          "reason": "Explicit section reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "single",
+              "page": {
+                "pdf_page_index": 671,
+                "pdf_page_number": 672,
+                "printed_page_label": "650"
+              },
+              "content_window": {
+                "start_at": {
+                  "kind": "heading",
+                  "value": "13.3.2 Surface simplification"
+                },
+                "end_before": {
+                  "kind": "heading",
+                  "value": "13.3.3 Geometry images"
+                }
+              },
+              "queries": [
+                "+(text this is to approximate a given mesh with one that has subdivision connectivity over which a) +(printed page 650) --QDF=0",
+                "+(heading 13.3.2 Surface simplification) +(printed page 650) --QDF=0",
+                "+(heading 13.3.3 Geometry images) +(printed page 650) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "650",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "this is to approximate a given mesh with one that has subdivision connectivity, over which a set of",
+                  "verification_mode": "text_or_visual"
+                },
+                {
+                  "kind": "contains_heading",
+                  "value": "13.3.2 Surface simplification",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_heading",
+                  "value": "13.3.3 Geometry images",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "13.3.2 Surface simplification"
+                ],
+                "figure_ids": [
+                  "13.15"
+                ],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        },
+        {
+          "kind": "section",
+          "target_id": "C",
+          "reason": "Explicit section reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "start",
+              "page": {
+                "pdf_page_index": 768,
+                "pdf_page_number": 769,
+                "printed_page_label": "747"
+              },
+              "content_window": {
+                "start_at": {
+                  "kind": "heading",
+                  "value": "Appendix C Supplementary material"
+                },
+                "end_before": null
+              },
+              "queries": [
+                "+(text R Szeliski Computer Vision Texts in Computer Science) +(printed page 747) --QDF=0",
+                "+(heading Appendix C Supplementary material) +(printed page 747) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "747",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "R. Szeliski, Computer Vision, Texts in Computer Science,",
+                  "verification_mode": "text_or_visual"
+                },
+                {
+                  "kind": "contains_heading",
+                  "value": "Appendix C Supplementary material",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "Appendix C Supplementary material"
+                ],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 2,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 769,
+                "pdf_page_number": 770,
+                "printed_page_label": "748"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text code for the latest algorithms can be found I have already mentioned and in some cases) +(printed page 748) --QDF=0",
+                "+(code for the latest algorithms can be found I have already mentioned and in some cases) +(text) +(printed page 748) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "748",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "code) for the latest algorithms can be found. I have already mentioned (and in some cases tabulated)",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "C.1 Datasets and benchmarks",
+                  "Chapter 2: Image formation",
+                  "Chapter 4: Model fitting and optimization",
+                  "Chapter 5: Deep learning"
+                ],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 3,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 770,
+                "pdf_page_number": 771,
+                "printed_page_label": "749"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text Scharstein et al 2011 continues to be used for evaluation since it contains a variety of) +(printed page 749) --QDF=0",
+                "+(Scharstein et al 2011 continues to be used for evaluation since it contains a variety of) +(text) +(printed page 749) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "749",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "Scharstein et al. 2011) continues to be used for evaluation, since it contains a variety of short",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "Chapter 6: Recognition",
+                  "Chapter 7: Feature detection and matching",
+                  "Chapter 9: Motion estimation"
+                ],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": [
+                  "6.1",
+                  "6.2",
+                  "6.3",
+                  "6.4"
+                ]
+              }
+            },
+            {
+              "sequence": 4,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 771,
+                "pdf_page_number": 772,
+                "printed_page_label": "750"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text used to train and test SR algorithms on real imaging degradations This dataset forms the basis) +(printed page 750) --QDF=0",
+                "+(used to train and test SR algorithms on real imaging degradations This dataset forms the basis) +(text) +(printed page 750) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "750",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "used to train and test SR algorithms on real imaging degradations. This dataset forms the basis",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "Chapter 10: Computational photography"
+                ],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 5,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 772,
+                "pdf_page_number": 773,
+                "printed_page_label": "751"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text Many algorithms that train and test on the same dataset e.g KITTI do not perform as) +(printed page 751) --QDF=0",
+                "+(Many algorithms that train and test on the same dataset e.g KITTI do not perform as) +(text) +(printed page 751) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "751",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "• Many algorithms that train and test on the same dataset (e.g., KITTI) do not perform as well",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "Chapter 11: Structure from motion and SLAM",
+                  "Chapter 12: Depth estimation"
+                ],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 6,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 773,
+                "pdf_page_number": 774,
+                "printed_page_label": "752"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text robustvision.net along with the datasets and benchmarks that are included in each challenge) +(printed page 752) --QDF=0",
+                "+(robustvision.net along with the datasets and benchmarks that are included in each challenge) +(text) +(printed page 752) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "752",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "robustvision.net) along with the datasets and benchmarks that are included in each challenge.",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "Chapter 13: 3D reconstruction"
+                ],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 7,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 774,
+                "pdf_page_number": 775,
+                "printed_page_label": "753"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text 2Additional datasets can be found on the MPI Perceiving Systems https ps.is.mpg.de code and Virtual Humans) +(printed page 753) --QDF=0",
+                "+(2Additional datasets can be found on the MPI Perceiving Systems https ps.is.mpg.de code and Virtual Humans) +(text) +(printed page 753) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "753",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "2Additional datasets can be found on the MPI Perceiving Systems https://ps.is.mpg.de/code and Virtual Humans group",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "Chapter 14: Image-based rendering",
+                  "C.2 Software"
+                ],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 8,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 775,
+                "pdf_page_number": 776,
+                "printed_page_label": "754"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text A big advantage of writing in this fashion is that it maps closely to the abstractions) +(printed page 754) --QDF=0",
+                "+(A big advantage of writing in this fashion is that it maps closely to the abstractions) +(text) +(printed page 754) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "754",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "A big advantage of writing in this fashion is that it maps closely to the abstractions used in the deep",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "Chapter 3: Image processing",
+                  "Chapter 4: Model fitting and optimization"
+                ],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 9,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 776,
+                "pdf_page_number": 777,
+                "printed_page_label": "755"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text platform for the assignments in computer vision courses that can benefit from a GPU It pro) +(printed page 755) --QDF=0",
+                "+(platform for the assignments in computer vision courses that can benefit from a GPU It pro) +(text) +(printed page 755) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "755",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "platform for the assignments in computer vision courses that can benefit from a GPU. It pro-",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "Chapter 5: Deep learning"
+                ],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 10,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 777,
+                "pdf_page_number": 778,
+                "printed_page_label": "756"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text 6Additional interactive demonstrations can be found at https cs.stanford.edu people karpathy convnetjs) +(printed page 756) --QDF=0",
+                "+(6Additional interactive demonstrations can be found at https cs.stanford.edu people karpathy convnetjs) +(text) +(printed page 756) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "756",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "6Additional interactive demonstrations can be found at https://cs.stanford.edu/people/karpathy/convnetjs.",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "Chapter 6: Recognition"
+                ],
+                "figure_ids": [
+                  "5.33",
+                  "5.32.6"
+                ],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 11,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 778,
+                "pdf_page_number": 779,
+                "printed_page_label": "757"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text Pointers to software for more specialized tasks such as face detection and recognition pedes) +(printed page 757) --QDF=0",
+                "+(Pointers to software for more specialized tasks such as face detection and recognition pedes) +(text) +(printed page 757) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "757",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "• Pointers to software for more specialized tasks such as face detection and recognition, pedes-",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "Chapter 7: Feature detection and matching",
+                  "Chapter 9: Motion estimation",
+                  "Chapter 10: Computational photography",
+                  "Chapter 11: Structure from motion and SLAM"
+                ],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 12,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 779,
+                "pdf_page_number": 780,
+                "printed_page_label": "758"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text Among these COLMAP appears to be the most often used today in other research projects) +(printed page 758) --QDF=0",
+                "+(Among these COLMAP appears to be the most often used today in other research projects) +(text) +(printed page 758) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "758",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "Among these, COLMAP appears to be the most often used today in other research projects,",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "Chapter 12: Stereo correspondence"
+                ],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 13,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 780,
+                "pdf_page_number": 781,
+                "printed_page_label": "759"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text If you are interested in sparse linear least squares solvers it is worth looking at SuiteSparse) +(printed page 759) --QDF=0",
+                "+(If you are interested in sparse linear least squares solvers it is worth looking at SuiteSparse) +(text) +(printed page 759) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "759",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "• If you are interested in sparse linear least squares solvers, it is worth looking at SuiteSparse",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "Chapter 13: 3D reconstruction",
+                  "Chapter 14: Image-based rendering",
+                  "Appendix A: Linear algebra and numerical techniques"
+                ],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 14,
+              "page_role": "end",
+              "page": {
+                "pdf_page_index": 781,
+                "pdf_page_number": 782,
+                "printed_page_label": "760"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text While there are no official slide sets to go with this book its content largely parallels) +(printed page 760) --QDF=0",
+                "+(While there are no official slide sets to go with this book its content largely parallels) +(text) +(printed page 760) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "760",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "While there are no official slide sets to go with this book, its content largely parallels that of the",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "Appendix B: Bayesian modeling and inference",
+                  "C.3 Slides and lectures"
+                ],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "13.6": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "13.6",
+      "chapter_id": "13",
+      "exercise_number": 6,
+      "starred": false,
+      "source_order": 6,
+      "problem_page_range": {
+        "pdf_page_index_start": 695,
+        "pdf_page_index_end": 695,
+        "pdf_page_number_start": 696,
+        "pdf_page_number_end": 696,
+        "printed_page_start": "674",
+        "printed_page_end": "674"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 695,
+            "pdf_page_number": 696,
+            "printed_page_label": "674"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "13.6"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "13.7"
+            }
+          },
+          "queries": [
+            "+(text 2 Use structure from motion to recover all of the camera poses and match up the) +(printed page 674) --QDF=0",
+            "+(exercise 13.6) +(printed page 674) --QDF=0",
+            "+(exercise 13.7) +(printed page 674) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "674",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "2. Use structure from motion to recover all of the camera poses and match up the vanishing",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "13.6",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "13.7",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 398,
+            "pdf_page_number": 399,
+            "printed_page_label": "377"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "7.4.1 Successive approximation"
+            },
+            "end_before": {
+              "kind": "heading",
+              "value": "7.4.2 Hough transforms"
+            }
+          },
+          "queries": [
+            "+(text Many techniques have been developed over the years to perform this approximation which is) +(printed page 377) --QDF=0",
+            "+(heading 7.4.1 Successive approximation) +(printed page 377) --QDF=0",
+            "+(heading 7.4.2 Hough transforms) +(printed page 377) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "377",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Many techniques have been developed over the years to perform this approximation, which is",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "7.4.1 Successive approximation",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "7.4.2 Hough transforms",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "7.4.1 Successive approximation"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 401,
+            "pdf_page_number": 402,
+            "printed_page_label": "380"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "7.4.3 Vanishing points"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text In many scenes structurally important lines have the same vanishing point because they are parallel) +(printed page 380) --QDF=0",
+            "+(heading 7.4.3 Vanishing points) +(printed page 380) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "380",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "In many scenes, structurally important lines have the same vanishing point because they are parallel",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "7.4.3 Vanishing points",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "7.4.3 Vanishing points"
+            ],
+            "figure_ids": [
+              "7.50"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 402,
+            "pdf_page_number": 403,
+            "printed_page_label": "381"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text nique based on having line pairs vote for potential vanishing point locations followed by a robust) +(printed page 381) --QDF=0",
+            "+(nique based on having line pairs vote for potential vanishing point locations followed by a robust) +(text) +(printed page 381) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "381",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "nique based on having line pairs vote for potential vanishing point locations, followed by a robust",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "7.51",
+              "7.50"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 4,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 403,
+            "pdf_page_number": 404,
+            "printed_page_label": "382"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "7.5 Segmentation"
+            }
+          },
+          "queries": [
+            "+(text equations search for corners near line intersections and then verify rectangle hypotheses by recti) +(printed page 382) --QDF=0",
+            "+(heading 7.5 Segmentation) +(printed page 382) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "382",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "equations, search for corners near line intersections, and then verify rectangle hypotheses by recti-",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "7.5 Segmentation",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Rectangle detection"
+            ],
+            "figure_ids": [
+              "7.51"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 5,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 415,
+            "pdf_page_number": 416,
+            "printed_page_label": "394"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "7.11"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "7.12"
+            }
+          },
+          "queries": [
+            "+(text tion 7.4.1 Ramer 1972 Douglas and Peucker 1973 to convert a hand-drawn curve or linked edge) +(printed page 394) --QDF=0",
+            "+(exercise 7.11) +(printed page 394) --QDF=0",
+            "+(exercise 7.12) +(printed page 394) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "394",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "tion 7.4.1) (Ramer 1972; Douglas and Peucker 1973) to convert a hand-drawn curve (or linked edge",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "7.11",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "7.12",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 6,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 415,
+            "pdf_page_number": 416,
+            "printed_page_label": "394"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "7.12"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text Line fitting uncertainty Estimate the uncertainty covariance in your line fit using un) +(printed page 394) --QDF=0",
+            "+(exercise 7.12) +(printed page 394) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "394",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Line fitting uncertainty. Estimate the uncertainty (covariance) in your line fit using un-",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "7.12",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 7,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 416,
+            "pdf_page_number": 417,
+            "printed_page_label": "395"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "exercise",
+              "value": "7.13"
+            }
+          },
+          "queries": [
+            "+(text 1 After determining which edgels belong to the line segment using either successive approxi) +(printed page 395) --QDF=0",
+            "+(exercise 7.13) +(printed page 395) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "395",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "1. After determining which edgels belong to the line segment (using either successive approxi-",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "7.13",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 8,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 416,
+            "pdf_page_number": 417,
+            "printed_page_label": "395"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "7.13"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "7.14"
+            }
+          },
+          "queries": [
+            "+(text vanishing point Your results can be used later to track a target or reconstruct architecture Sec) +(printed page 395) --QDF=0",
+            "+(exercise 7.13) +(printed page 395) --QDF=0",
+            "+(exercise 7.14) +(printed page 395) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "395",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "vanishing point. Your results can be used later to track a target or reconstruct architecture (Sec-",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "7.13",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "7.14",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 9,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 416,
+            "pdf_page_number": 417,
+            "printed_page_label": "395"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "7.14"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "7.15"
+            }
+          },
+          "queries": [
+            "+(text See the discussion of Bingham distributions by Collins and Weiss 1990 for some ideas) +(printed page 395) --QDF=0",
+            "+(exercise 7.14) +(printed page 395) --QDF=0",
+            "+(exercise 7.15) +(printed page 395) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "395",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "See the discussion of Bingham distributions by Collins and Weiss (1990) for some ideas.",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "7.14",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "7.15",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 10,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 563,
+            "pdf_page_number": 564,
+            "printed_page_label": "542"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "11.1.2 Application: Single view metrology"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text A fun application of vanishing point estimation and camera calibration is the single view metrology) +(printed page 542) --QDF=0",
+            "+(heading 11.1.2 Application Single view metrology) +(printed page 542) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "542",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "A fun application of vanishing point estimation and camera calibration is the single view metrology",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "11.1.2 Application: Single view metrology",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "11.1.2 Application: Single view metrology"
+            ],
+            "figure_ids": [
+              "11.4"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 11,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 564,
+            "pdf_page_number": 565,
+            "printed_page_label": "543"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "11.1.3 Rotational motion"
+            }
+          },
+          "queries": [
+            "+(text paired with their ground plane projections can also be recovered A fully metric reconstruction of) +(printed page 543) --QDF=0",
+            "+(heading 11.1.3 Rotational motion) +(printed page 543) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "543",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "paired with their ground plane projections, can also be recovered. A fully metric reconstruction of",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "11.1.3 Rotational motion",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "11.5"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 12,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 606,
+            "pdf_page_number": 607,
+            "printed_page_label": "585"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "11.4"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "11.5"
+            }
+          },
+          "queries": [
+            "+(text 3 Write a user interface that lets you click on ground plane points to recover their) +(printed page 585) --QDF=0",
+            "+(exercise 11.4) +(printed page 585) --QDF=0",
+            "+(exercise 11.5) +(printed page 585) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "585",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "3. Write a user interface that lets you click on ground plane points to recover their 3D locations.",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "11.4",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "11.5",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 13,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 675,
+            "pdf_page_number": 676,
+            "printed_page_label": "654"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "13.6.1 Architecture"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text selects block elements and aligns their edges with visible edges in the input images Figure 13.19a) +(printed page 654) --QDF=0",
+            "+(heading 13.6.1 Architecture) +(printed page 654) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "654",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "selects block elements and aligns their edges with visible edges in the input images (Figure 13.19a).",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "13.6.1 Architecture",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "13.6.1 Architecture"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 14,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 676,
+            "pdf_page_number": 677,
+            "printed_page_label": "655"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text more reliable than general feature-based structure from motion because it exploits the strong geom) +(printed page 655) --QDF=0",
+            "+(more reliable than general feature-based structure from motion because it exploits the strong geom) +(text) +(printed page 655) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "655",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "more reliable than general feature-based structure from motion, because it exploits the strong geom-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "13.19",
+              "13.20"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 15,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 677,
+            "pdf_page_number": 678,
+            "printed_page_label": "656"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text recently been called holistic 3D reconstruction More details can be found in the recent tutorial by) +(printed page 656) --QDF=0",
+            "+(recently been called holistic 3D reconstruction More details can be found in the recent tutorial by) +(text) +(printed page 656) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "656",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "recently been called holistic 3D reconstruction. More details can be found in the recent tutorial by",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "13.21",
+              "13.20"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 16,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 678,
+            "pdf_page_number": 679,
+            "printed_page_label": "657"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "13.6.2 Facial modeling and tracking"
+            }
+          },
+          "queries": [
+            "+(text mentation for vehicles Mi cu s k and Ko seck a 2009 build on these results) +(printed page 657) --QDF=0",
+            "+(heading 13.6.2 Facial modeling and tracking) +(printed page 657) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "657",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "mentation for vehicles. Miˇcuˇs ́ık and Koˇseck ́a (2009) build on these results using omni-directional",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "13.6.2 Facial modeling and tracking",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 17,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 761,
+            "pdf_page_number": 762,
+            "printed_page_label": "740"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "B.3 Robust statistics"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text inated noise model such as a Laplacian The negative log likelihood in this case rather than) +(printed page 740) --QDF=0",
+            "+(heading B.3 Robust statistics) +(printed page 740) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "740",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "inated noise model, such as a Laplacian. The negative log likelihood in this case, rather than being",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "B.3 Robust statistics",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "B.3 Robust statistics"
+            ],
+            "figure_ids": [
+              "4.7"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 18,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 762,
+            "pdf_page_number": 763,
+            "printed_page_label": "741"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text niques such as IRLS in the vicinity of a good solution by first randomly selecting small) +(printed page 741) --QDF=0",
+            "+(niques such as IRLS in the vicinity of a good solution by first randomly selecting small) +(text) +(printed page 741) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "741",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "niques, such as IRLS, in the vicinity of a good solution by first randomly selecting small subsets of",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 19,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 763,
+            "pdf_page_number": 764,
+            "printed_page_label": "742"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "B.4 Prior models and Bayesian inference"
+            }
+          },
+          "queries": [
+            "+(text Noskova et al 2020 compares many of these variants Yang Antonante et al 2020 claim that) +(printed page 742) --QDF=0",
+            "+(heading B.4 Prior models and Bayesian inference) +(printed page 742) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "742",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Noskova et al. (2020) compares many of these variants. Yang, Antonante et al. (2020) claim that",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "B.4 Prior models and Bayesian inference",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_targets": [
+        {
+          "kind": "exercise",
+          "target_id": "7.11",
+          "reason": "Explicit exercise reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "single",
+              "page": {
+                "pdf_page_index": 415,
+                "pdf_page_number": 416,
+                "printed_page_label": "394"
+              },
+              "content_window": {
+                "start_at": {
+                  "kind": "exercise",
+                  "value": "7.11"
+                },
+                "end_before": {
+                  "kind": "exercise",
+                  "value": "7.12"
+                }
+              },
+              "queries": [
+                "+(text tion 7.4.1 Ramer 1972 Douglas and Peucker 1973 to convert a hand-drawn curve or linked edge) +(printed page 394) --QDF=0",
+                "+(exercise 7.11) +(printed page 394) --QDF=0",
+                "+(exercise 7.12) +(printed page 394) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "394",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "tion 7.4.1) (Ramer 1972; Douglas and Peucker 1973) to convert a hand-drawn curve (or linked edge",
+                  "verification_mode": "text_or_visual"
+                },
+                {
+                  "kind": "contains_exercise",
+                  "value": "7.11",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_exercise",
+                  "value": "7.12",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        },
+        {
+          "kind": "exercise",
+          "target_id": "7.12",
+          "reason": "Explicit exercise reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "start",
+              "page": {
+                "pdf_page_index": 415,
+                "pdf_page_number": 416,
+                "printed_page_label": "394"
+              },
+              "content_window": {
+                "start_at": {
+                  "kind": "exercise",
+                  "value": "7.12"
+                },
+                "end_before": null
+              },
+              "queries": [
+                "+(text Line fitting uncertainty Estimate the uncertainty covariance in your line fit using un) +(printed page 394) --QDF=0",
+                "+(exercise 7.12) +(printed page 394) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "394",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "Line fitting uncertainty. Estimate the uncertainty (covariance) in your line fit using un-",
+                  "verification_mode": "text_or_visual"
+                },
+                {
+                  "kind": "contains_exercise",
+                  "value": "7.12",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 2,
+              "page_role": "end",
+              "page": {
+                "pdf_page_index": 416,
+                "pdf_page_number": 417,
+                "printed_page_label": "395"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": {
+                  "kind": "exercise",
+                  "value": "7.13"
+                }
+              },
+              "queries": [
+                "+(text 1 After determining which edgels belong to the line segment using either successive approxi) +(printed page 395) --QDF=0",
+                "+(exercise 7.13) +(printed page 395) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "395",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "1. After determining which edgels belong to the line segment (using either successive approxi-",
+                  "verification_mode": "text_or_visual"
+                },
+                {
+                  "kind": "contains_exercise",
+                  "value": "7.13",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        },
+        {
+          "kind": "exercise",
+          "target_id": "7.13",
+          "reason": "Explicit exercise reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "single",
+              "page": {
+                "pdf_page_index": 416,
+                "pdf_page_number": 417,
+                "printed_page_label": "395"
+              },
+              "content_window": {
+                "start_at": {
+                  "kind": "exercise",
+                  "value": "7.13"
+                },
+                "end_before": {
+                  "kind": "exercise",
+                  "value": "7.14"
+                }
+              },
+              "queries": [
+                "+(text vanishing point Your results can be used later to track a target or reconstruct architecture Sec) +(printed page 395) --QDF=0",
+                "+(exercise 7.13) +(printed page 395) --QDF=0",
+                "+(exercise 7.14) +(printed page 395) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "395",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "vanishing point. Your results can be used later to track a target or reconstruct architecture (Sec-",
+                  "verification_mode": "text_or_visual"
+                },
+                {
+                  "kind": "contains_exercise",
+                  "value": "7.13",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_exercise",
+                  "value": "7.14",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        },
+        {
+          "kind": "exercise",
+          "target_id": "7.14",
+          "reason": "Explicit exercise reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "single",
+              "page": {
+                "pdf_page_index": 416,
+                "pdf_page_number": 417,
+                "printed_page_label": "395"
+              },
+              "content_window": {
+                "start_at": {
+                  "kind": "exercise",
+                  "value": "7.14"
+                },
+                "end_before": {
+                  "kind": "exercise",
+                  "value": "7.15"
+                }
+              },
+              "queries": [
+                "+(text See the discussion of Bingham distributions by Collins and Weiss 1990 for some ideas) +(printed page 395) --QDF=0",
+                "+(exercise 7.14) +(printed page 395) --QDF=0",
+                "+(exercise 7.15) +(printed page 395) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "395",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "See the discussion of Bingham distributions by Collins and Weiss (1990) for some ideas.",
+                  "verification_mode": "text_or_visual"
+                },
+                {
+                  "kind": "contains_exercise",
+                  "value": "7.14",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_exercise",
+                  "value": "7.15",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        },
+        {
+          "kind": "exercise",
+          "target_id": "11.4",
+          "reason": "Explicit exercise reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "single",
+              "page": {
+                "pdf_page_index": 606,
+                "pdf_page_number": 607,
+                "printed_page_label": "585"
+              },
+              "content_window": {
+                "start_at": {
+                  "kind": "exercise",
+                  "value": "11.4"
+                },
+                "end_before": {
+                  "kind": "exercise",
+                  "value": "11.5"
+                }
+              },
+              "queries": [
+                "+(text 3 Write a user interface that lets you click on ground plane points to recover their) +(printed page 585) --QDF=0",
+                "+(exercise 11.4) +(printed page 585) --QDF=0",
+                "+(exercise 11.5) +(printed page 585) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "585",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "3. Write a user interface that lets you click on ground plane points to recover their 3D locations.",
+                  "verification_mode": "text_or_visual"
+                },
+                {
+                  "kind": "contains_exercise",
+                  "value": "11.4",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_exercise",
+                  "value": "11.5",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "13.7": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "13.7",
+      "chapter_id": "13",
+      "exercise_number": 7,
+      "starred": false,
+      "source_order": 7,
+      "problem_page_range": {
+        "pdf_page_index_start": 695,
+        "pdf_page_index_end": 695,
+        "pdf_page_number_start": 696,
+        "pdf_page_number_end": 696,
+        "printed_page_start": "674",
+        "printed_page_end": "674"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 695,
+            "pdf_page_number": 696,
+            "printed_page_label": "674"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "13.7"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "13.8"
+            }
+          },
+          "queries": [
+            "+(text such as HumanEva MPI FAUST or AMASS discussed in Section 13.6.4 Either implement a human) +(printed page 674) --QDF=0",
+            "+(exercise 13.7) +(printed page 674) --QDF=0",
+            "+(exercise 13.8) +(printed page 674) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "674",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "such as HumanEva, MPI FAUST, or AMASS discussed in Section 13.6.4. Either implement a human",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "13.7",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "13.8",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 683,
+            "pdf_page_number": 684,
+            "printed_page_label": "662"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "13.6.4 Human body modeling and tracking"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text which we do not cover in this book include those by Pavlovi c Sharma and Huang) +(printed page 662) --QDF=0",
+            "+(heading 13.6.4 Human body modeling and tracking) +(printed page 662) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "662",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "which we do not cover in this book, include those by Pavlovi ́c, Sharma, and Huang (1997) and Yang, Ahuja, and Tabb (2002).",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "13.6.4 Human body modeling and tracking",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "13.6.4 Human body modeling and tracking",
+              "Background subtraction."
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 684,
+            "pdf_page_number": 685,
+            "printed_page_label": "663"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text first detect or re-acquire their presence in individual video frames This topic is closely related) +(printed page 663) --QDF=0",
+            "+(first detect or re-acquire their presence in individual video frames This topic is closely related) +(text) +(printed page 663) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "663",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "first detect (or re-acquire) their presence in individual video frames. This topic is closely related",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Initialization and detection.",
+              "Tracking with flow.",
+              "3D kinematic models."
+            ],
+            "figure_ids": [
+              "6.25",
+              "6.42"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 685,
+            "pdf_page_number": 686,
+            "printed_page_label": "664"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text to associate an ellipsoid or superquadric with each rigid limb in the kinematic model as shown) +(printed page 664) --QDF=0",
+            "+(to associate an ellipsoid or superquadric with each rigid limb in the kinematic model as shown) +(text) +(printed page 664) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "664",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "to associate an ellipsoid or superquadric with each rigid limb in the kinematic model, as shown in",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "13.27",
+              "13.28"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 4,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 686,
+            "pdf_page_number": 687,
+            "printed_page_label": "665"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text tics and skeletal pose e.g the bulging of muscles as certain joints are flexed Figure 13.29) +(printed page 665) --QDF=0",
+            "+(tics and skeletal pose e.g the bulging of muscles as certain joints are flexed Figure 13.29) +(text) +(printed page 665) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "665",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "tics and skeletal pose, e.g., the bulging of muscles as certain joints are flexed (Figure 13.29, top",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Probabilistic models.",
+              "Adaptive shape modeling."
+            ],
+            "figure_ids": [
+              "13.28",
+              "13.29"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 5,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 687,
+            "pdf_page_number": 688,
+            "printed_page_label": "666"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text visual hull of the same person observed in multiple poses while Vlasic Baran et al 2008) +(printed page 666) --QDF=0",
+            "+(visual hull of the same person observed in multiple poses while Vlasic Baran et al 2008) +(text) +(printed page 666) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "666",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "visual hull of the same person observed in multiple poses, while Vlasic, Baran et al. (2008) adapt an",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "13.29"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 6,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 688,
+            "pdf_page_number": 689,
+            "printed_page_label": "667"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text matics Recent papers that continue to improve the accuracy and speed of single-image model fitting) +(printed page 667) --QDF=0",
+            "+(matics Recent papers that continue to improve the accuracy and speed of single-image model fitting) +(text) +(printed page 667) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "667",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "matics. Recent papers that continue to improve the accuracy and speed of single-image model fitting",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Activity recognition."
+            ],
+            "figure_ids": [
+              "13.30"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_targets": [
+        {
+          "kind": "section",
+          "target_id": "13.6.4",
+          "reason": "Explicit section reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "start",
+              "page": {
+                "pdf_page_index": 683,
+                "pdf_page_number": 684,
+                "printed_page_label": "662"
+              },
+              "content_window": {
+                "start_at": {
+                  "kind": "heading",
+                  "value": "13.6.4 Human body modeling and tracking"
+                },
+                "end_before": null
+              },
+              "queries": [
+                "+(text which we do not cover in this book include those by Pavlovi c Sharma and Huang) +(printed page 662) --QDF=0",
+                "+(heading 13.6.4 Human body modeling and tracking) +(printed page 662) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "662",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "which we do not cover in this book, include those by Pavlovi ́c, Sharma, and Huang (1997) and Yang, Ahuja, and Tabb (2002).",
+                  "verification_mode": "text_or_visual"
+                },
+                {
+                  "kind": "contains_heading",
+                  "value": "13.6.4 Human body modeling and tracking",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "13.6.4 Human body modeling and tracking",
+                  "Background subtraction."
+                ],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 2,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 684,
+                "pdf_page_number": 685,
+                "printed_page_label": "663"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text first detect or re-acquire their presence in individual video frames This topic is closely related) +(printed page 663) --QDF=0",
+                "+(first detect or re-acquire their presence in individual video frames This topic is closely related) +(text) +(printed page 663) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "663",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "first detect (or re-acquire) their presence in individual video frames. This topic is closely related",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "Initialization and detection.",
+                  "Tracking with flow.",
+                  "3D kinematic models."
+                ],
+                "figure_ids": [
+                  "6.25",
+                  "6.42"
+                ],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 3,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 685,
+                "pdf_page_number": 686,
+                "printed_page_label": "664"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text to associate an ellipsoid or superquadric with each rigid limb in the kinematic model as shown) +(printed page 664) --QDF=0",
+                "+(to associate an ellipsoid or superquadric with each rigid limb in the kinematic model as shown) +(text) +(printed page 664) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "664",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "to associate an ellipsoid or superquadric with each rigid limb in the kinematic model, as shown in",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [
+                  "13.27",
+                  "13.28"
+                ],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 4,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 686,
+                "pdf_page_number": 687,
+                "printed_page_label": "665"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text tics and skeletal pose e.g the bulging of muscles as certain joints are flexed Figure 13.29) +(printed page 665) --QDF=0",
+                "+(tics and skeletal pose e.g the bulging of muscles as certain joints are flexed Figure 13.29) +(text) +(printed page 665) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "665",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "tics and skeletal pose, e.g., the bulging of muscles as certain joints are flexed (Figure 13.29, top",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "Probabilistic models.",
+                  "Adaptive shape modeling."
+                ],
+                "figure_ids": [
+                  "13.28",
+                  "13.29"
+                ],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 5,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 687,
+                "pdf_page_number": 688,
+                "printed_page_label": "666"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text visual hull of the same person observed in multiple poses while Vlasic Baran et al 2008) +(printed page 666) --QDF=0",
+                "+(visual hull of the same person observed in multiple poses while Vlasic Baran et al 2008) +(text) +(printed page 666) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "666",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "visual hull of the same person observed in multiple poses, while Vlasic, Baran et al. (2008) adapt an",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [
+                  "13.29"
+                ],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 6,
+              "page_role": "end",
+              "page": {
+                "pdf_page_index": 688,
+                "pdf_page_number": 689,
+                "printed_page_label": "667"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text matics Recent papers that continue to improve the accuracy and speed of single-image model fitting) +(printed page 667) --QDF=0",
+                "+(matics Recent papers that continue to improve the accuracy and speed of single-image model fitting) +(text) +(printed page 667) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "667",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "matics. Recent papers that continue to improve the accuracy and speed of single-image model fitting",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "Activity recognition."
+                ],
+                "figure_ids": [
+                  "13.30"
+                ],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "13.8": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "13.8",
+      "chapter_id": "13",
+      "exercise_number": 8,
+      "starred": false,
+      "source_order": 8,
+      "problem_page_range": {
+        "pdf_page_index_start": 695,
+        "pdf_page_index_end": 695,
+        "pdf_page_number_start": 696,
+        "pdf_page_number_end": 696,
+        "printed_page_start": "674",
+        "printed_page_end": "674"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 695,
+            "pdf_page_number": 696,
+            "printed_page_label": "674"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "13.8"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text system that takes a series of photographs or a video and constructs a photorealistic texture-mapped) +(printed page 674) --QDF=0",
+            "+(exercise 13.8) +(printed page 674) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "674",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "system that takes a series of photographs or a video and constructs a photorealistic texture-mapped",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "13.8",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    }
+  }
+}

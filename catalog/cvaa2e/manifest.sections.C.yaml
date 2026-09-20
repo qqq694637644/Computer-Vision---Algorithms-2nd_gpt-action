@@ -1,0 +1,2562 @@
+data_version: '3'
+printed_sections:
+- printed_section_id: C
+  parent_printed_section_id: null
+  title: Supplementary material
+  source_heading: Appendix C Supplementary material
+  source_location:
+    page:
+      pdf_page_index: 768
+      pdf_page_number: 769
+      printed_page_label: '747'
+    bbox:
+    - 204.056
+    - 151.586
+    - 479.188
+    - 229.122
+  page_range:
+    pdf_page_index_start: 768
+    pdf_page_index_end: 781
+    pdf_page_number_start: 769
+    pdf_page_number_end: 782
+    printed_page_start: '747'
+    printed_page_end: '760'
+  outline:
+  - C.1
+  - C.2
+  - C.3
+  retrieval_plan:
+  - page:
+      pdf_page_index: 768
+      pdf_page_number: 769
+      printed_page_label: '747'
+    content_window:
+      start_at:
+        kind: heading
+        value: Appendix C Supplementary material
+      end_before: null
+    queries:
+    - +(Appendix C Supplementary material) +(printed page 747) --QDF=0
+    - +(R Szeliski Computer Vision Texts in Computer Science) +(Supplementary material) +(printed page 747) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '747'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: R. Szeliski, Computer Vision, Texts in Computer Science,
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: Appendix C Supplementary material
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - Appendix C Supplementary material
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 769
+      pdf_page_number: 770
+      printed_page_label: '748'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(code for the latest algorithms can be found I have already mentioned and in some cases) +(printed page 748) --QDF=0
+    - +(code for the latest algorithms can be found I have already mentioned and in some cases) +(Supplementary material)
+      +(printed page 748) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '748'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: code) for the latest algorithms can be found. I have already mentioned (and in some cases tabulated)
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - C.1 Datasets and benchmarks
+      - 'Chapter 2: Image formation'
+      - 'Chapter 4: Model fitting and optimization'
+      - 'Chapter 5: Deep learning'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 770
+      pdf_page_number: 771
+      printed_page_label: '749'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(Scharstein et al 2011 continues to be used for evaluation since it contains a variety of) +(printed page 749) --QDF=0
+    - +(Scharstein et al 2011 continues to be used for evaluation since it contains a variety of) +(Supplementary material)
+      +(printed page 749) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '749'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Scharstein et al. 2011) continues to be used for evaluation, since it contains a variety of short
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 'Chapter 6: Recognition'
+      - 'Chapter 7: Feature detection and matching'
+      - 'Chapter 9: Motion estimation'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids:
+      - '6.1'
+      - '6.2'
+      - '6.3'
+      - '6.4'
+  - page:
+      pdf_page_index: 771
+      pdf_page_number: 772
+      printed_page_label: '750'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(used to train and test SR algorithms on real imaging degradations This dataset forms the basis) +(printed page 750)
+      --QDF=0
+    - +(used to train and test SR algorithms on real imaging degradations This dataset forms the basis) +(Supplementary material)
+      +(printed page 750) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '750'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: used to train and test SR algorithms on real imaging degradations. This dataset forms the basis
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 'Chapter 10: Computational photography'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 772
+      pdf_page_number: 773
+      printed_page_label: '751'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(Many algorithms that train and test on the same dataset e.g KITTI do not perform as) +(printed page 751) --QDF=0
+    - +(Many algorithms that train and test on the same dataset e.g KITTI do not perform as) +(Supplementary material) +(printed
+      page 751) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '751'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: • Many algorithms that train and test on the same dataset (e.g., KITTI) do not perform as well
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 'Chapter 11: Structure from motion and SLAM'
+      - 'Chapter 12: Depth estimation'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 773
+      pdf_page_number: 774
+      printed_page_label: '752'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(robustvision.net along with the datasets and benchmarks that are included in each challenge) +(printed page 752) --QDF=0
+    - +(robustvision.net along with the datasets and benchmarks that are included in each challenge) +(Supplementary material)
+      +(printed page 752) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '752'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: robustvision.net) along with the datasets and benchmarks that are included in each challenge.
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 'Chapter 13: 3D reconstruction'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 774
+      pdf_page_number: 775
+      printed_page_label: '753'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(2Additional datasets can be found on the MPI Perceiving Systems https ps.is.mpg.de code and Virtual Humans) +(printed
+      page 753) --QDF=0
+    - +(2Additional datasets can be found on the MPI Perceiving Systems https ps.is.mpg.de code and Virtual Humans) +(Supplementary
+      material) +(printed page 753) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '753'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 2Additional datasets can be found on the MPI Perceiving Systems https://ps.is.mpg.de/code and Virtual Humans
+        group
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 'Chapter 14: Image-based rendering'
+      - C.2 Software
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 775
+      pdf_page_number: 776
+      printed_page_label: '754'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(A big advantage of writing in this fashion is that it maps closely to the abstractions) +(printed page 754) --QDF=0
+    - +(A big advantage of writing in this fashion is that it maps closely to the abstractions) +(Supplementary material)
+      +(printed page 754) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '754'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: A big advantage of writing in this fashion is that it maps closely to the abstractions used in the deep
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 'Chapter 3: Image processing'
+      - 'Chapter 4: Model fitting and optimization'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 776
+      pdf_page_number: 777
+      printed_page_label: '755'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(platform for the assignments in computer vision courses that can benefit from a GPU It pro) +(printed page 755) --QDF=0
+    - +(platform for the assignments in computer vision courses that can benefit from a GPU It pro) +(Supplementary material)
+      +(printed page 755) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '755'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: platform for the assignments in computer vision courses that can benefit from a GPU. It pro-
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 'Chapter 5: Deep learning'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 777
+      pdf_page_number: 778
+      printed_page_label: '756'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(6Additional interactive demonstrations can be found at https cs.stanford.edu people karpathy convnetjs) +(printed
+      page 756) --QDF=0
+    - +(6Additional interactive demonstrations can be found at https cs.stanford.edu people karpathy convnetjs) +(Supplementary
+      material) +(printed page 756) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '756'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 6Additional interactive demonstrations can be found at https://cs.stanford.edu/people/karpathy/convnetjs.
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 'Chapter 6: Recognition'
+      figure_ids:
+      - '5.33'
+      - 5.32.6
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 778
+      pdf_page_number: 779
+      printed_page_label: '757'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(Pointers to software for more specialized tasks such as face detection and recognition pedes) +(printed page 757)
+      --QDF=0
+    - +(Pointers to software for more specialized tasks such as face detection and recognition pedes) +(Supplementary material)
+      +(printed page 757) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '757'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: • Pointers to software for more specialized tasks such as face detection and recognition, pedes-
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 'Chapter 7: Feature detection and matching'
+      - 'Chapter 9: Motion estimation'
+      - 'Chapter 10: Computational photography'
+      - 'Chapter 11: Structure from motion and SLAM'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 779
+      pdf_page_number: 780
+      printed_page_label: '758'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(Among these COLMAP appears to be the most often used today in other research projects) +(printed page 758) --QDF=0
+    - +(Among these COLMAP appears to be the most often used today in other research projects) +(Supplementary material) +(printed
+      page 758) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '758'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Among these, COLMAP appears to be the most often used today in other research projects,
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 'Chapter 12: Stereo correspondence'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 780
+      pdf_page_number: 781
+      printed_page_label: '759'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(If you are interested in sparse linear least squares solvers it is worth looking at SuiteSparse) +(printed page 759)
+      --QDF=0
+    - +(If you are interested in sparse linear least squares solvers it is worth looking at SuiteSparse) +(Supplementary material)
+      +(printed page 759) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '759'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: • If you are interested in sparse linear least squares solvers, it is worth looking at SuiteSparse
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 'Chapter 13: 3D reconstruction'
+      - 'Chapter 14: Image-based rendering'
+      - 'Appendix A: Linear algebra and numerical techniques'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 781
+      pdf_page_number: 782
+      printed_page_label: '760'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(While there are no official slide sets to go with this book its content largely parallels) +(printed page 760) --QDF=0
+    - +(While there are no official slide sets to go with this book its content largely parallels) +(Supplementary material)
+      +(printed page 760) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '760'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: While there are no official slide sets to go with this book, its content largely parallels that of the
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 'Appendix B: Bayesian modeling and inference'
+      - C.3 Slides and lectures
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  learning_units: []
+- printed_section_id: C.1
+  parent_printed_section_id: C
+  title: Datasets and benchmarks
+  source_heading: C.1 Datasets and benchmarks
+  source_location:
+    page:
+      pdf_page_index: 769
+      pdf_page_number: 770
+      printed_page_label: '748'
+    bbox:
+    - 114.734
+    - 139.028
+    - 343.121
+    - 154.316
+  page_range:
+    pdf_page_index_start: 769
+    pdf_page_index_end: 774
+    pdf_page_number_start: 770
+    pdf_page_number_end: 775
+    printed_page_start: '748'
+    printed_page_end: '753'
+  outline:
+  - 'Chapter 2: Image formation'
+  - 'Chapter 4: Model fitting and optimization'
+  - 'Chapter 5: Deep learning'
+  - 'Chapter 6: Recognition'
+  - 'Chapter 7: Feature detection and matching'
+  - 'Chapter 9: Motion estimation'
+  - 'Chapter 10: Computational photography'
+  - 'Chapter 11: Structure from motion and SLAM'
+  - 'Chapter 12: Depth estimation'
+  - 'Chapter 13: 3D reconstruction'
+  - 'Chapter 14: Image-based rendering'
+  retrieval_plan:
+  - page:
+      pdf_page_index: 769
+      pdf_page_number: 770
+      printed_page_label: '748'
+    content_window:
+      start_at:
+        kind: heading
+        value: C.1 Datasets and benchmarks
+      end_before: null
+    queries:
+    - +(C.1 Datasets and benchmarks) +(printed page 748) --QDF=0
+    - +(code for the latest algorithms can be found I have already mentioned and in some cases) +(Datasets and benchmarks)
+      +(printed page 748) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '748'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: code) for the latest algorithms can be found. I have already mentioned (and in some cases tabulated)
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: C.1 Datasets and benchmarks
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - C.1 Datasets and benchmarks
+      - 'Chapter 2: Image formation'
+      - 'Chapter 4: Model fitting and optimization'
+      - 'Chapter 5: Deep learning'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 770
+      pdf_page_number: 771
+      printed_page_label: '749'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(Scharstein et al 2011 continues to be used for evaluation since it contains a variety of) +(printed page 749) --QDF=0
+    - +(Scharstein et al 2011 continues to be used for evaluation since it contains a variety of) +(Datasets and benchmarks)
+      +(printed page 749) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '749'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Scharstein et al. 2011) continues to be used for evaluation, since it contains a variety of short
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 'Chapter 6: Recognition'
+      - 'Chapter 7: Feature detection and matching'
+      - 'Chapter 9: Motion estimation'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids:
+      - '6.1'
+      - '6.2'
+      - '6.3'
+      - '6.4'
+  - page:
+      pdf_page_index: 771
+      pdf_page_number: 772
+      printed_page_label: '750'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(used to train and test SR algorithms on real imaging degradations This dataset forms the basis) +(printed page 750)
+      --QDF=0
+    - +(used to train and test SR algorithms on real imaging degradations This dataset forms the basis) +(Datasets and benchmarks)
+      +(printed page 750) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '750'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: used to train and test SR algorithms on real imaging degradations. This dataset forms the basis
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 'Chapter 10: Computational photography'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 772
+      pdf_page_number: 773
+      printed_page_label: '751'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(Many algorithms that train and test on the same dataset e.g KITTI do not perform as) +(printed page 751) --QDF=0
+    - +(Many algorithms that train and test on the same dataset e.g KITTI do not perform as) +(Datasets and benchmarks) +(printed
+      page 751) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '751'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: • Many algorithms that train and test on the same dataset (e.g., KITTI) do not perform as well
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 'Chapter 11: Structure from motion and SLAM'
+      - 'Chapter 12: Depth estimation'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 773
+      pdf_page_number: 774
+      printed_page_label: '752'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(robustvision.net along with the datasets and benchmarks that are included in each challenge) +(printed page 752) --QDF=0
+    - +(robustvision.net along with the datasets and benchmarks that are included in each challenge) +(Datasets and benchmarks)
+      +(printed page 752) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '752'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: robustvision.net) along with the datasets and benchmarks that are included in each challenge.
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 'Chapter 13: 3D reconstruction'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 774
+      pdf_page_number: 775
+      printed_page_label: '753'
+    content_window:
+      start_at: null
+      end_before:
+        kind: heading
+        value: C.2 Software
+    queries:
+    - +(Most of the recent Neural Rendering papers discussed in Section 14.6 either provide their own) +(printed page 753)
+      --QDF=0
+    - +(Most of the recent Neural Rendering papers discussed in Section 14.6 either provide their own) +(Datasets and benchmarks)
+      +(printed page 753) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '753'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: • Most of the recent Neural Rendering papers discussed in Section 14.6 either provide their own
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: C.2 Software
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - 'Chapter 14: Image-based rendering'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  learning_units:
+  - title: 'Chapter 2: Image formation'
+    source_heading: 'Chapter 2: Image formation'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 769
+        pdf_page_number: 770
+        printed_page_label: '748'
+      bbox:
+      - 114.734
+      - 382.996
+      - 253.257
+      - 393.612
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 769
+      pdf_page_index_end: 769
+      pdf_page_number_start: 770
+      pdf_page_number_end: 770
+      printed_page_start: '748'
+      printed_page_end: '748'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 769
+        pdf_page_number: 770
+        printed_page_label: '748'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Chapter 2: Image formation'
+        end_before:
+          kind: heading
+          value: 'Chapter 4: Model fitting and optimization'
+      queries:
+      - +(Chapter 2 Image formation) +(printed page 748) --QDF=0
+      - +(how they transform gamuts and colors https vision.middlebury.edu color data Chakrabarti) +(Chapter 2 Image formation)
+        +(printed page 748) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '748'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: how they transform gamuts and colors, https://vision.middlebury.edu/color/data (Chakrabarti,
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 2: Image formation'
+        verification_mode: visual_required
+      - kind: contains_heading
+        value: 'Chapter 4: Model fitting and optimization'
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Chapter 2: Image formation'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: 'Chapter 4: Model fitting and optimization'
+    source_heading: 'Chapter 4: Model fitting and optimization'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 769
+        pdf_page_number: 770
+        printed_page_label: '748'
+      bbox:
+      - 114.734
+      - 494.326
+      - 321.29
+      - 504.942
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 769
+      pdf_page_index_end: 769
+      pdf_page_number_start: 770
+      pdf_page_number_end: 770
+      printed_page_start: '748'
+      printed_page_end: '748'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 769
+        pdf_page_number: 770
+        printed_page_label: '748'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Chapter 4: Model fitting and optimization'
+        end_before:
+          kind: heading
+          value: 'Chapter 5: Deep learning'
+      queries:
+      - +(Chapter 4 Model fitting and optimization) +(printed page 748) --QDF=0
+      - +(The OpenGM2 library and benchmarks for discrete factor graph models http hciweb2.iwr) +(Chapter 4 Model fitting
+        and optimization) +(printed page 748) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '748'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: • The OpenGM2 library and benchmarks for discrete factor graph models, http://hciweb2.iwr.
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 4: Model fitting and optimization'
+        verification_mode: visual_required
+      - kind: contains_heading
+        value: 'Chapter 5: Deep learning'
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Chapter 4: Model fitting and optimization'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: 'Chapter 5: Deep learning'
+    source_heading: 'Chapter 5: Deep learning'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 769
+        pdf_page_number: 770
+        printed_page_label: '748'
+      bbox:
+      - 114.734
+      - 592.277
+      - 241.091
+      - 602.893
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 769
+      pdf_page_index_end: 770
+      pdf_page_number_start: 770
+      pdf_page_number_end: 771
+      printed_page_start: '748'
+      printed_page_end: '749'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 769
+        pdf_page_number: 770
+        printed_page_label: '748'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Chapter 5: Deep learning'
+        end_before: null
+      queries:
+      - +(Chapter 5 Deep learning) +(printed page 748) --QDF=0
+      - +(PyTorch TorchVision provides a great way to easily download some of the popular computer) +(Chapter 5 Deep learning)
+        +(printed page 748) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '748'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: • PyTorch TorchVision provides a great way to easily download some of the popular computer
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 5: Deep learning'
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Chapter 5: Deep learning'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    - page:
+        pdf_page_index: 770
+        pdf_page_number: 771
+        printed_page_label: '749'
+      content_window:
+        start_at: null
+        end_before:
+          kind: heading
+          value: 'Chapter 6: Recognition'
+      queries:
+      - +(Widely used recognition detection and segmentation datasets and benchmarks as listed in) +(printed page 749) --QDF=0
+      - +(Widely used recognition detection and segmentation datasets and benchmarks as listed in) +(Chapter 5 Deep learning)
+        +(printed page 749) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '749'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: • Widely used recognition, detection, and segmentation datasets and benchmarks, as listed in
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 6: Recognition'
+        verification_mode: visual_required
+      coverage:
+        subheadings: []
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: 'Chapter 6: Recognition'
+    source_heading: 'Chapter 6: Recognition'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 770
+        pdf_page_number: 771
+        printed_page_label: '749'
+      bbox:
+      - 57.188
+      - 135.934
+      - 174.682
+      - 146.55
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 770
+      pdf_page_index_end: 770
+      pdf_page_number_start: 771
+      pdf_page_number_end: 771
+      printed_page_start: '749'
+      printed_page_end: '749'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 770
+        pdf_page_number: 771
+        printed_page_label: '749'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Chapter 6: Recognition'
+        end_before:
+          kind: heading
+          value: 'Chapter 7: Feature detection and matching'
+      queries:
+      - +(Chapter 6 Recognition) +(printed page 749) --QDF=0
+      - +(segmentation Two recent workshops that highlight the latest results on these datasets are the) +(Chapter 6 Recognition)
+        +(printed page 749) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '749'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: segmentation. Two recent workshops that highlight the latest results on these datasets are the
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 6: Recognition'
+        verification_mode: visual_required
+      - kind: contains_heading
+        value: 'Chapter 7: Feature detection and matching'
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Chapter 6: Recognition'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids:
+        - '6.1'
+        - '6.2'
+        - '6.3'
+        - '6.4'
+    children: []
+  - title: 'Chapter 7: Feature detection and matching'
+    source_heading: 'Chapter 7: Feature detection and matching'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 770
+        pdf_page_number: 771
+        printed_page_label: '749'
+      bbox:
+      - 57.188
+      - 421.578
+      - 273.694
+      - 432.194
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 770
+      pdf_page_index_end: 770
+      pdf_page_number_start: 771
+      pdf_page_number_end: 771
+      printed_page_start: '749'
+      printed_page_end: '749'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 770
+        pdf_page_number: 771
+        printed_page_label: '749'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Chapter 7: Feature detection and matching'
+        end_before:
+          kind: heading
+          value: 'Chapter 9: Motion estimation'
+      queries:
+      - +(Chapter 7 Feature detection and matching) +(printed page 749) --QDF=0
+      - +(Pointers to datasets for evaluating instance retrieval algorithms can be found in Zheng Yang) +(Chapter 7 Feature
+        detection and matching) +(printed page 749) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '749'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: • Pointers to datasets for evaluating instance retrieval algorithms can be found in Zheng, Yang,
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 7: Feature detection and matching'
+        verification_mode: visual_required
+      - kind: contains_heading
+        value: 'Chapter 9: Motion estimation'
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Chapter 7: Feature detection and matching'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: 'Chapter 9: Motion estimation'
+    source_heading: 'Chapter 9: Motion estimation'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 770
+        pdf_page_number: 771
+        printed_page_label: '749'
+      bbox:
+      - 57.188
+      - 657.881
+      - 204.175
+      - 668.497
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 770
+      pdf_page_index_end: 771
+      pdf_page_number_start: 771
+      pdf_page_number_end: 772
+      printed_page_start: '749'
+      printed_page_end: '750'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 770
+        pdf_page_number: 771
+        printed_page_label: '749'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Chapter 9: Motion estimation'
+        end_before: null
+      queries:
+      - +(Chapter 9 Motion estimation) +(printed page 749) --QDF=0
+      - +(Scharstein et al 2011 continues to be used for evaluation since it contains a variety of) +(Chapter 9 Motion estimation)
+        +(printed page 749) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '749'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: Scharstein et al. 2011) continues to be used for evaluation, since it contains a variety of short
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 9: Motion estimation'
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Chapter 9: Motion estimation'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    - page:
+        pdf_page_index: 771
+        pdf_page_number: 772
+        printed_page_label: '750'
+      content_window:
+        start_at: null
+        end_before:
+          kind: heading
+          value: 'Chapter 10: Computational photography'
+      queries:
+      - +(Butler Wulff et al 2012 since it contains both training and test subsets and an active) +(printed page 750) --QDF=0
+      - +(Butler Wulff et al 2012 since it contains both training and test subsets and an active) +(Chapter 9 Motion estimation)
+        +(printed page 750) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '750'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: (Butler, Wulff et al. 2012), since it contains both training and test subsets and an active leader-
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 10: Computational photography'
+        verification_mode: visual_required
+      coverage:
+        subheadings: []
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: 'Chapter 10: Computational photography'
+    source_heading: 'Chapter 10: Computational photography'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 771
+        pdf_page_number: 772
+        printed_page_label: '750'
+      bbox:
+      - 114.734
+      - 393.523
+      - 318.72
+      - 404.139
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 771
+      pdf_page_index_end: 771
+      pdf_page_number_start: 772
+      pdf_page_number_end: 772
+      printed_page_start: '750'
+      printed_page_end: '750'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 771
+        pdf_page_number: 772
+        printed_page_label: '750'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Chapter 10: Computational photography'
+        end_before: null
+      queries:
+      - +(Chapter 10 Computational photography) +(printed page 750) --QDF=0
+      - +(used to train and test SR algorithms on real imaging degradations This dataset forms the basis) +(Chapter 10 Computational
+        photography) +(printed page 750) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '750'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: used to train and test SR algorithms on real imaging degradations. This dataset forms the basis
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 10: Computational photography'
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Chapter 10: Computational photography'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: 'Chapter 11: Structure from motion and SLAM'
+    source_heading: 'Chapter 11: Structure from motion and SLAM'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 772
+        pdf_page_number: 773
+        printed_page_label: '751'
+      bbox:
+      - 57.188
+      - 79.285
+      - 285.955
+      - 89.901
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 772
+      pdf_page_index_end: 772
+      pdf_page_number_start: 773
+      pdf_page_number_end: 773
+      printed_page_start: '751'
+      printed_page_end: '751'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 772
+        pdf_page_number: 773
+        printed_page_label: '751'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Chapter 11: Structure from motion and SLAM'
+        end_before:
+          kind: heading
+          value: 'Chapter 12: Depth estimation'
+      queries:
+      - +(Chapter 11 Structure from motion and SLAM) +(printed page 751) --QDF=0
+      - +(has results from the recent challenge and workshop at https bop.felk.cvut.cz challenges) +(Chapter 11 Structure
+        from motion and SLAM) +(printed page 751) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '751'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: has results from the recent challenge and workshop at https://bop.felk.cvut.cz/challenges/
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 11: Structure from motion and SLAM'
+        verification_mode: visual_required
+      - kind: contains_heading
+        value: 'Chapter 12: Depth estimation'
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Chapter 11: Structure from motion and SLAM'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: 'Chapter 12: Depth estimation'
+    source_heading: 'Chapter 12: Depth estimation'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 772
+        pdf_page_number: 773
+        printed_page_label: '751'
+      bbox:
+      - 57.188
+      - 480.158
+      - 205.365
+      - 490.774
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 772
+      pdf_page_index_end: 773
+      pdf_page_number_start: 773
+      pdf_page_number_end: 774
+      printed_page_start: '751'
+      printed_page_end: '752'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 772
+        pdf_page_number: 773
+        printed_page_label: '751'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Chapter 12: Depth estimation'
+        end_before: null
+      queries:
+      - +(Chapter 12 Depth estimation) +(printed page 751) --QDF=0
+      - +(Many algorithms that train and test on the same dataset e.g KITTI do not perform as) +(Chapter 12 Depth estimation)
+        +(printed page 751) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '751'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: • Many algorithms that train and test on the same dataset (e.g., KITTI) do not perform as well
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 12: Depth estimation'
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Chapter 12: Depth estimation'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    - page:
+        pdf_page_index: 773
+        pdf_page_number: 774
+        printed_page_label: '752'
+      content_window:
+        start_at: null
+        end_before:
+          kind: heading
+          value: 'Chapter 13: 3D reconstruction'
+      queries:
+      - +(robustvision.net along with the datasets and benchmarks that are included in each challenge) +(printed page 752)
+        --QDF=0
+      - +(robustvision.net along with the datasets and benchmarks that are included in each challenge) +(Chapter 12 Depth
+        estimation) +(printed page 752) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '752'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: robustvision.net) along with the datasets and benchmarks that are included in each challenge.
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 13: 3D reconstruction'
+        verification_mode: visual_required
+      coverage:
+        subheadings: []
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: 'Chapter 13: 3D reconstruction'
+    source_heading: 'Chapter 13: 3D reconstruction'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 773
+        pdf_page_number: 774
+        printed_page_label: '752'
+      bbox:
+      - 114.734
+      - 542.482
+      - 267.633
+      - 553.098
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 773
+      pdf_page_index_end: 774
+      pdf_page_number_start: 774
+      pdf_page_number_end: 775
+      printed_page_start: '752'
+      printed_page_end: '753'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 773
+        pdf_page_number: 774
+        printed_page_label: '752'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Chapter 13: 3D reconstruction'
+        end_before: null
+      queries:
+      - +(Chapter 13 3D reconstruction) +(printed page 752) --QDF=0
+      - +(ples Knapitsch Park et al 2017 Reviews of RGB-D datasets can be found in Firman 2016) +(Chapter 13 3D reconstruction)
+        +(printed page 752) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '752'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: ples (Knapitsch, Park et al. 2017). Reviews of RGB-D datasets can be found in Firman (2016)
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 13: 3D reconstruction'
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Chapter 13: 3D reconstruction'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    - page:
+        pdf_page_index: 774
+        pdf_page_number: 775
+        printed_page_label: '753'
+      content_window:
+        start_at: null
+        end_before:
+          kind: heading
+          value: 'Chapter 14: Image-based rendering'
+      queries:
+      - +(In parallel with these datasets 3D human body models and fitting algorithms have been devel) +(printed page 753)
+        --QDF=0
+      - +(In parallel with these datasets 3D human body models and fitting algorithms have been devel) +(Chapter 13 3D reconstruction)
+        +(printed page 753) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '753'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: • In parallel with these datasets, 3D human body models and fitting algorithms have been devel-
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 14: Image-based rendering'
+        verification_mode: visual_required
+      coverage:
+        subheadings: []
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: 'Chapter 14: Image-based rendering'
+    source_heading: 'Chapter 14: Image-based rendering'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 774
+        pdf_page_number: 775
+        printed_page_label: '753'
+      bbox:
+      - 57.188
+      - 263.326
+      - 236.057
+      - 273.942
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 774
+      pdf_page_index_end: 774
+      pdf_page_number_start: 775
+      pdf_page_number_end: 775
+      printed_page_start: '753'
+      printed_page_end: '753'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 774
+        pdf_page_number: 775
+        printed_page_label: '753'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Chapter 14: Image-based rendering'
+        end_before:
+          kind: heading
+          value: C.2 Software
+      queries:
+      - +(Chapter 14 Image-based rendering) +(printed page 753) --QDF=0
+      - +(Most of the recent Neural Rendering papers discussed in Section 14.6 either provide their own) +(Chapter 14 Image-based
+        rendering) +(printed page 753) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '753'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: • Most of the recent Neural Rendering papers discussed in Section 14.6 either provide their own
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 14: Image-based rendering'
+        verification_mode: visual_required
+      - kind: contains_heading
+        value: C.2 Software
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Chapter 14: Image-based rendering'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+- printed_section_id: C.2
+  parent_printed_section_id: C
+  title: Software
+  source_heading: C.2 Software
+  source_location:
+    page:
+      pdf_page_index: 774
+      pdf_page_number: 775
+      printed_page_label: '753'
+    bbox:
+    - 57.188
+    - 515.862
+    - 160.825
+    - 531.15
+  page_range:
+    pdf_page_index_start: 774
+    pdf_page_index_end: 781
+    pdf_page_number_start: 775
+    pdf_page_number_end: 782
+    printed_page_start: '753'
+    printed_page_end: '760'
+  outline:
+  - 'Chapter 3: Image processing'
+  - 'Chapter 4: Model fitting and optimization'
+  - 'Chapter 5: Deep learning'
+  - 'Chapter 6: Recognition'
+  - 'Chapter 7: Feature detection and matching'
+  - 'Chapter 9: Motion estimation'
+  - 'Chapter 10: Computational photography'
+  - 'Chapter 11: Structure from motion and SLAM'
+  - 'Chapter 12: Stereo correspondence'
+  - 'Chapter 13: 3D reconstruction'
+  - 'Chapter 14: Image-based rendering'
+  - 'Appendix A: Linear algebra and numerical techniques'
+  - 'Appendix B: Bayesian modeling and inference'
+  retrieval_plan:
+  - page:
+      pdf_page_index: 774
+      pdf_page_number: 775
+      printed_page_label: '753'
+    content_window:
+      start_at:
+        kind: heading
+        value: C.2 Software
+      end_before: null
+    queries:
+    - +(C.2 Software) +(printed page 753) --QDF=0
+    - +(2Additional datasets can be found on the MPI Perceiving Systems https ps.is.mpg.de code and Virtual Humans) +(Software)
+      +(printed page 753) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '753'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 2Additional datasets can be found on the MPI Perceiving Systems https://ps.is.mpg.de/code and Virtual Humans
+        group
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: C.2 Software
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - C.2 Software
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 775
+      pdf_page_number: 776
+      printed_page_label: '754'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(A big advantage of writing in this fashion is that it maps closely to the abstractions) +(printed page 754) --QDF=0
+    - +(A big advantage of writing in this fashion is that it maps closely to the abstractions) +(Software) +(printed page
+      754) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '754'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: A big advantage of writing in this fashion is that it maps closely to the abstractions used in the deep
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 'Chapter 3: Image processing'
+      - 'Chapter 4: Model fitting and optimization'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 776
+      pdf_page_number: 777
+      printed_page_label: '755'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(platform for the assignments in computer vision courses that can benefit from a GPU It pro) +(printed page 755) --QDF=0
+    - +(platform for the assignments in computer vision courses that can benefit from a GPU It pro) +(Software) +(printed
+      page 755) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '755'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: platform for the assignments in computer vision courses that can benefit from a GPU. It pro-
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 'Chapter 5: Deep learning'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 777
+      pdf_page_number: 778
+      printed_page_label: '756'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(6Additional interactive demonstrations can be found at https cs.stanford.edu people karpathy convnetjs) +(printed
+      page 756) --QDF=0
+    - +(6Additional interactive demonstrations can be found at https cs.stanford.edu people karpathy convnetjs) +(Software)
+      +(printed page 756) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '756'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 6Additional interactive demonstrations can be found at https://cs.stanford.edu/people/karpathy/convnetjs.
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 'Chapter 6: Recognition'
+      figure_ids:
+      - '5.33'
+      - 5.32.6
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 778
+      pdf_page_number: 779
+      printed_page_label: '757'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(Pointers to software for more specialized tasks such as face detection and recognition pedes) +(printed page 757)
+      --QDF=0
+    - +(Pointers to software for more specialized tasks such as face detection and recognition pedes) +(Software) +(printed
+      page 757) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '757'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: • Pointers to software for more specialized tasks such as face detection and recognition, pedes-
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 'Chapter 7: Feature detection and matching'
+      - 'Chapter 9: Motion estimation'
+      - 'Chapter 10: Computational photography'
+      - 'Chapter 11: Structure from motion and SLAM'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 779
+      pdf_page_number: 780
+      printed_page_label: '758'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(Among these COLMAP appears to be the most often used today in other research projects) +(printed page 758) --QDF=0
+    - +(Among these COLMAP appears to be the most often used today in other research projects) +(Software) +(printed page
+      758) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '758'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Among these, COLMAP appears to be the most often used today in other research projects,
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 'Chapter 12: Stereo correspondence'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 780
+      pdf_page_number: 781
+      printed_page_label: '759'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(If you are interested in sparse linear least squares solvers it is worth looking at SuiteSparse) +(printed page 759)
+      --QDF=0
+    - +(If you are interested in sparse linear least squares solvers it is worth looking at SuiteSparse) +(Software) +(printed
+      page 759) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '759'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: • If you are interested in sparse linear least squares solvers, it is worth looking at SuiteSparse
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 'Chapter 13: 3D reconstruction'
+      - 'Chapter 14: Image-based rendering'
+      - 'Appendix A: Linear algebra and numerical techniques'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 781
+      pdf_page_number: 782
+      printed_page_label: '760'
+    content_window:
+      start_at: null
+      end_before:
+        kind: heading
+        value: C.3 Slides and lectures
+    queries:
+    - +(iwr.uni-heidelberg.de opengm contains a more extensive and up-to-date set of algorithms) +(printed page 760) --QDF=0
+    - +(iwr.uni-heidelberg.de opengm contains a more extensive and up-to-date set of algorithms) +(Software) +(printed page
+      760) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '760'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: iwr.uni-heidelberg.de/opengm, contains a more extensive and up-to-date set of algorithms.
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: C.3 Slides and lectures
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - 'Appendix B: Bayesian modeling and inference'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  learning_units:
+  - title: 'Chapter 3: Image processing'
+    source_heading: 'Chapter 3: Image processing'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 775
+        pdf_page_number: 776
+        printed_page_label: '754'
+      bbox:
+      - 114.734
+      - 339.103
+      - 260.944
+      - 349.719
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 775
+      pdf_page_index_end: 775
+      pdf_page_number_start: 776
+      pdf_page_number_end: 776
+      printed_page_start: '754'
+      printed_page_end: '754'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 775
+        pdf_page_number: 776
+        printed_page_label: '754'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Chapter 3: Image processing'
+        end_before:
+          kind: heading
+          value: 'Chapter 4: Model fitting and optimization'
+      queries:
+      - +(Chapter 3 Image processing) +(printed page 754) --QDF=0
+      - +(As a warm-up exercise before diving into machine learning but after doing the basic PyTorch) +(Chapter 3 Image processing)
+        +(printed page 754) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '754'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: • As a warm-up exercise, before diving into machine learning but after doing the basic PyTorch
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 3: Image processing'
+        verification_mode: visual_required
+      - kind: contains_heading
+        value: 'Chapter 4: Model fitting and optimization'
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Chapter 3: Image processing'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: 'Chapter 4: Model fitting and optimization'
+    source_heading: 'Chapter 4: Model fitting and optimization'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 775
+        pdf_page_number: 776
+        printed_page_label: '754'
+      bbox:
+      - 114.734
+      - 649.33
+      - 321.29
+      - 659.946
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 775
+      pdf_page_index_end: 776
+      pdf_page_number_start: 776
+      pdf_page_number_end: 777
+      printed_page_start: '754'
+      printed_page_end: '755'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 775
+        pdf_page_number: 776
+        printed_page_label: '754'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Chapter 4: Model fitting and optimization'
+        end_before: null
+      queries:
+      - +(Chapter 4 Model fitting and optimization) +(printed page 754) --QDF=0
+      - +(Scikit-learn https scikit-learn.org implements a number of algorithms for regression i.e) +(Chapter 4 Model fitting
+        and optimization) +(printed page 754) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '754'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: • Scikit-learn (https://scikit-learn.org) implements a number of algorithms for regression, i.e.,
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 4: Model fitting and optimization'
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Chapter 4: Model fitting and optimization'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    - page:
+        pdf_page_index: 776
+        pdf_page_number: 777
+        printed_page_label: '755'
+      content_window:
+        start_at: null
+        end_before:
+          kind: heading
+          value: 'Chapter 5: Deep learning'
+      queries:
+      - +(crete factor graph models and distributive operations on these models It includes state-of) +(printed page 755)
+        --QDF=0
+      - +(crete factor graph models and distributive operations on these models It includes state-of) +(Chapter 4 Model fitting
+        and optimization) +(printed page 755) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '755'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: crete factor graph models and distributive operations on these models. It includes state-of-
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 5: Deep learning'
+        verification_mode: visual_required
+      coverage:
+        subheadings: []
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: 'Chapter 5: Deep learning'
+    source_heading: 'Chapter 5: Deep learning'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 776
+        pdf_page_number: 777
+        printed_page_label: '755'
+      bbox:
+      - 57.188
+      - 137.951
+      - 183.546
+      - 148.567
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 776
+      pdf_page_index_end: 777
+      pdf_page_number_start: 777
+      pdf_page_number_end: 778
+      printed_page_start: '755'
+      printed_page_end: '756'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 776
+        pdf_page_number: 777
+        printed_page_label: '755'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Chapter 5: Deep learning'
+        end_before: null
+      queries:
+      - +(Chapter 5 Deep learning) +(printed page 755) --QDF=0
+      - +(platform for the assignments in computer vision courses that can benefit from a GPU It pro) +(Chapter 5 Deep learning)
+        +(printed page 755) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '755'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: platform for the assignments in computer vision courses that can benefit from a GPU. It pro-
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 5: Deep learning'
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Chapter 5: Deep learning'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    - page:
+        pdf_page_index: 777
+        pdf_page_number: 778
+        printed_page_label: '756'
+      content_window:
+        start_at: null
+        end_before:
+          kind: heading
+          value: 'Chapter 6: Recognition'
+      queries:
+      - +(ing is to play with the interactive visualization at https playground.tensorflow.org as shown) +(printed page 756)
+        --QDF=0
+      - +(ing is to play with the interactive visualization at https playground.tensorflow.org as shown) +(Chapter 5 Deep
+        learning) +(printed page 756) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '756'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: ing is to play with the interactive visualization at https://playground.tensorflow.org, as shown
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 6: Recognition'
+        verification_mode: visual_required
+      coverage:
+        subheadings: []
+        figure_ids:
+        - '5.33'
+        - 5.32.6
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: 'Chapter 6: Recognition'
+    source_heading: 'Chapter 6: Recognition'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 777
+        pdf_page_number: 778
+        printed_page_label: '756'
+      bbox:
+      - 114.734
+      - 479.771
+      - 232.227
+      - 490.387
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 777
+      pdf_page_index_end: 778
+      pdf_page_number_start: 778
+      pdf_page_number_end: 779
+      printed_page_start: '756'
+      printed_page_end: '757'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 777
+        pdf_page_number: 778
+        printed_page_label: '756'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Chapter 6: Recognition'
+        end_before: null
+      queries:
+      - +(Chapter 6 Recognition) +(printed page 756) --QDF=0
+      - +(6Additional interactive demonstrations can be found at https cs.stanford.edu people karpathy convnetjs) +(Chapter
+        6 Recognition) +(printed page 756) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '756'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: 6Additional interactive demonstrations can be found at https://cs.stanford.edu/people/karpathy/convnetjs.
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 6: Recognition'
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Chapter 6: Recognition'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    - page:
+        pdf_page_index: 778
+        pdf_page_number: 779
+        printed_page_label: '757'
+      content_window:
+        start_at: null
+        end_before:
+          kind: heading
+          value: 'Chapter 7: Feature detection and matching'
+      queries:
+      - +(Pointers to software for more specialized tasks such as face detection and recognition pedes) +(printed page 757)
+        --QDF=0
+      - +(Pointers to software for more specialized tasks such as face detection and recognition pedes) +(Chapter 6 Recognition)
+        +(printed page 757) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '757'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: • Pointers to software for more specialized tasks such as face detection and recognition, pedes-
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 7: Feature detection and matching'
+        verification_mode: visual_required
+      coverage:
+        subheadings: []
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: 'Chapter 7: Feature detection and matching'
+    source_heading: 'Chapter 7: Feature detection and matching'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 778
+        pdf_page_number: 779
+        printed_page_label: '757'
+      bbox:
+      - 57.188
+      - 234.053
+      - 273.694
+      - 244.669
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 778
+      pdf_page_index_end: 778
+      pdf_page_number_start: 779
+      pdf_page_number_end: 779
+      printed_page_start: '757'
+      printed_page_end: '757'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 778
+        pdf_page_number: 779
+        printed_page_label: '757'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Chapter 7: Feature detection and matching'
+        end_before:
+          kind: heading
+          value: 'Chapter 9: Motion estimation'
+      queries:
+      - +(Chapter 7 Feature detection and matching) +(printed page 757) --QDF=0
+      - +(Implementations of many of the classic feature detectors and descriptors can be found in) +(Chapter 7 Feature detection
+        and matching) +(printed page 757) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '757'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: • Implementations of many of the “classic” feature detectors and descriptors can be found in
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 7: Feature detection and matching'
+        verification_mode: visual_required
+      - kind: contains_heading
+        value: 'Chapter 9: Motion estimation'
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Chapter 7: Feature detection and matching'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: 'Chapter 9: Motion estimation'
+    source_heading: 'Chapter 9: Motion estimation'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 778
+        pdf_page_number: 779
+        printed_page_label: '757'
+      bbox:
+      - 57.188
+      - 335.176
+      - 204.175
+      - 345.792
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 778
+      pdf_page_index_end: 778
+      pdf_page_number_start: 779
+      pdf_page_number_end: 779
+      printed_page_start: '757'
+      printed_page_end: '757'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 778
+        pdf_page_number: 779
+        printed_page_label: '757'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Chapter 9: Motion estimation'
+        end_before:
+          kind: heading
+          value: 'Chapter 10: Computational photography'
+      queries:
+      - +(Chapter 9 Motion estimation) +(printed page 757) --QDF=0
+      - +(eval results results-e1.php Sintel http sintel.is.tue.mpg.de results and KITTI http www) +(Chapter 9 Motion estimation)
+        +(printed page 757) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '757'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: eval/results/results-e1.php), Sintel (http://sintel.is.tue.mpg.de/results), and KITTI (http://www.
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 9: Motion estimation'
+        verification_mode: visual_required
+      - kind: contains_heading
+        value: 'Chapter 10: Computational photography'
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Chapter 9: Motion estimation'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: 'Chapter 10: Computational photography'
+    source_heading: 'Chapter 10: Computational photography'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 778
+        pdf_page_number: 779
+        printed_page_label: '757'
+      bbox:
+      - 57.188
+      - 427.254
+      - 261.175
+      - 437.87
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 778
+      pdf_page_index_end: 778
+      pdf_page_number_start: 779
+      pdf_page_number_end: 779
+      printed_page_start: '757'
+      printed_page_end: '757'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 778
+        pdf_page_number: 779
+        printed_page_label: '757'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Chapter 10: Computational photography'
+        end_before:
+          kind: heading
+          value: 'Chapter 11: Structure from motion and SLAM'
+      queries:
+      - +(Chapter 10 Computational photography) +(printed page 757) --QDF=0
+      - +(Pointers to papers and algorithms for a variety of computational photography tasks such as) +(Chapter 10 Computational
+        photography) +(printed page 757) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '757'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: • Pointers to papers and algorithms for a variety of computational photography tasks such as
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 10: Computational photography'
+        verification_mode: visual_required
+      - kind: contains_heading
+        value: 'Chapter 11: Structure from motion and SLAM'
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Chapter 10: Computational photography'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: 'Chapter 11: Structure from motion and SLAM'
+    source_heading: 'Chapter 11: Structure from motion and SLAM'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 778
+        pdf_page_number: 779
+        printed_page_label: '757'
+      bbox:
+      - 57.188
+      - 519.332
+      - 285.955
+      - 529.948
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 778
+      pdf_page_index_end: 779
+      pdf_page_number_start: 779
+      pdf_page_number_end: 780
+      printed_page_start: '757'
+      printed_page_end: '758'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 778
+        pdf_page_number: 779
+        printed_page_label: '757'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Chapter 11: Structure from motion and SLAM'
+        end_before: null
+      queries:
+      - +(Chapter 11 Structure from motion and SLAM) +(printed page 757) --QDF=0
+      - +(You can find an experimental comparison of a number of RANSAC variants at https opencv) +(Chapter 11 Structure from
+        motion and SLAM) +(printed page 757) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '757'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: • You can find an experimental comparison of a number of RANSAC variants at https://opencv.
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 11: Structure from motion and SLAM'
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Chapter 11: Structure from motion and SLAM'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    - page:
+        pdf_page_index: 779
+        pdf_page_number: 780
+        printed_page_label: '758'
+      content_window:
+        start_at: null
+        end_before:
+          kind: heading
+          value: 'Chapter 12: Stereo correspondence'
+      queries:
+      - +(Among these COLMAP appears to be the most often used today in other research projects) +(printed page 758) --QDF=0
+      - +(Among these COLMAP appears to be the most often used today in other research projects) +(Chapter 11 Structure from
+        motion and SLAM) +(printed page 758) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '758'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: Among these, COLMAP appears to be the most often used today in other research projects,
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 12: Stereo correspondence'
+        verification_mode: visual_required
+      coverage:
+        subheadings: []
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: 'Chapter 12: Stereo correspondence'
+    source_heading: 'Chapter 12: Stereo correspondence'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 779
+        pdf_page_number: 780
+        printed_page_label: '758'
+      bbox:
+      - 114.734
+      - 634.088
+      - 295.374
+      - 644.704
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 779
+      pdf_page_index_end: 780
+      pdf_page_number_start: 780
+      pdf_page_number_end: 781
+      printed_page_start: '758'
+      printed_page_end: '759'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 779
+        pdf_page_number: 780
+        printed_page_label: '758'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Chapter 12: Stereo correspondence'
+        end_before: null
+      queries:
+      - +(Chapter 12 Stereo correspondence) +(printed page 758) --QDF=0
+      - +(ence algorithms usually accompanies recently published papers Lists of the most recent and) +(Chapter 12 Stereo
+        correspondence) +(printed page 758) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '758'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: ence algorithms usually accompanies recently published papers. Lists of the most recent and
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 12: Stereo correspondence'
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Chapter 12: Stereo correspondence'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    - page:
+        pdf_page_index: 780
+        pdf_page_number: 781
+        printed_page_label: '759'
+      content_window:
+        start_at: null
+        end_before:
+          kind: heading
+          value: 'Chapter 13: 3D reconstruction'
+      queries:
+      - +(Both MVE https www.gcc.tu-darmstadt.de home proj mve Fuhrmann Langguth et al 2015) +(printed page 759) --QDF=0
+      - +(Both MVE https www.gcc.tu-darmstadt.de home proj mve Fuhrmann Langguth et al 2015) +(Chapter 12 Stereo correspondence)
+        +(printed page 759) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '759'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: • Both MVE (https://www.gcc.tu-darmstadt.de/home/proj/mve) (Fuhrmann, Langguth et al. 2015)
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 13: 3D reconstruction'
+        verification_mode: visual_required
+      coverage:
+        subheadings: []
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: 'Chapter 13: 3D reconstruction'
+    source_heading: 'Chapter 13: 3D reconstruction'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 780
+        pdf_page_number: 781
+        printed_page_label: '759'
+      bbox:
+      - 57.187
+      - 208.44
+      - 210.088
+      - 219.056
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 780
+      pdf_page_index_end: 780
+      pdf_page_number_start: 781
+      pdf_page_number_end: 781
+      printed_page_start: '759'
+      printed_page_end: '759'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 780
+        pdf_page_number: 781
+        printed_page_label: '759'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Chapter 13: 3D reconstruction'
+        end_before:
+          kind: heading
+          value: 'Chapter 14: Image-based rendering'
+      queries:
+      - +(Chapter 13 3D reconstruction) +(printed page 759) --QDF=0
+      - +(Open3D http www.open3d.org is a more recent package with similar registration and vol) +(Chapter 13 3D reconstruction)
+        +(printed page 759) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '759'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: • Open3D (http://www.open3d.org) is a more recent package with similar registration and vol-
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 13: 3D reconstruction'
+        verification_mode: visual_required
+      - kind: contains_heading
+        value: 'Chapter 14: Image-based rendering'
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Chapter 13: 3D reconstruction'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: 'Chapter 14: Image-based rendering'
+    source_heading: 'Chapter 14: Image-based rendering'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 780
+        pdf_page_number: 781
+        printed_page_label: '759'
+      bbox:
+      - 57.188
+      - 499.863
+      - 236.057
+      - 510.479
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 780
+      pdf_page_index_end: 780
+      pdf_page_number_start: 781
+      pdf_page_number_end: 781
+      printed_page_start: '759'
+      printed_page_end: '759'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 780
+        pdf_page_number: 781
+        printed_page_label: '759'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Chapter 14: Image-based rendering'
+        end_before:
+          kind: heading
+          value: 'Appendix A: Linear algebra and numerical techniques'
+      queries:
+      - +(Chapter 14 Image-based rendering) +(printed page 759) --QDF=0
+      - +(As with other areas of computer vision most recently published image-based rendering and) +(Chapter 14 Image-based
+        rendering) +(printed page 759) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '759'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: • As with other areas of computer vision, most recently published image-based rendering and
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Chapter 14: Image-based rendering'
+        verification_mode: visual_required
+      - kind: contains_heading
+        value: 'Appendix A: Linear algebra and numerical techniques'
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Chapter 14: Image-based rendering'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: 'Appendix A: Linear algebra and numerical techniques'
+    source_heading: 'Appendix A: Linear algebra and numerical techniques'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 780
+        pdf_page_number: 781
+        printed_page_label: '759'
+      bbox:
+      - 57.188
+      - 560.836
+      - 329.057
+      - 571.452
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 780
+      pdf_page_index_end: 780
+      pdf_page_number_start: 781
+      pdf_page_number_end: 781
+      printed_page_start: '759'
+      printed_page_end: '759'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 780
+        pdf_page_number: 781
+        printed_page_label: '759'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Appendix A: Linear algebra and numerical techniques'
+        end_before: null
+      queries:
+      - +(Appendix A Linear algebra and numerical techniques) +(printed page 759) --QDF=0
+      - +(If you are interested in sparse linear least squares solvers it is worth looking at SuiteSparse) +(Appendix A Linear
+        algebra and numerical techniques) +(printed page 759) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '759'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: • If you are interested in sparse linear least squares solvers, it is worth looking at SuiteSparse
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Appendix A: Linear algebra and numerical techniques'
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Appendix A: Linear algebra and numerical techniques'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: 'Appendix B: Bayesian modeling and inference'
+    source_heading: 'Appendix B: Bayesian modeling and inference'
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 781
+        pdf_page_number: 782
+        printed_page_label: '760'
+      bbox:
+      - 114.734
+      - 79.285
+      - 348.52
+      - 89.901
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 781
+      pdf_page_index_end: 781
+      pdf_page_number_start: 782
+      pdf_page_number_end: 782
+      printed_page_start: '760'
+      printed_page_end: '760'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 781
+        pdf_page_number: 782
+        printed_page_label: '760'
+      content_window:
+        start_at:
+          kind: heading
+          value: 'Appendix B: Bayesian modeling and inference'
+        end_before:
+          kind: heading
+          value: C.3 Slides and lectures
+      queries:
+      - +(Appendix B Bayesian modeling and inference) +(printed page 760) --QDF=0
+      - +(iwr.uni-heidelberg.de opengm contains a more extensive and up-to-date set of algorithms) +(Appendix B Bayesian modeling
+        and inference) +(printed page 760) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '760'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: iwr.uni-heidelberg.de/opengm, contains a more extensive and up-to-date set of algorithms.
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 'Appendix B: Bayesian modeling and inference'
+        verification_mode: visual_required
+      - kind: contains_heading
+        value: C.3 Slides and lectures
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - 'Appendix B: Bayesian modeling and inference'
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+- printed_section_id: C.3
+  parent_printed_section_id: C
+  title: Slides and lectures
+  source_heading: C.3 Slides and lectures
+  source_location:
+    page:
+      pdf_page_index: 781
+      pdf_page_number: 782
+      printed_page_label: '760'
+    bbox:
+    - 114.734
+    - 196.334
+    - 293.16
+    - 211.622
+  page_range:
+    pdf_page_index_start: 781
+    pdf_page_index_end: 781
+    pdf_page_number_start: 782
+    pdf_page_number_end: 782
+    printed_page_start: '760'
+    printed_page_end: '760'
+  outline: []
+  retrieval_plan:
+  - page:
+      pdf_page_index: 781
+      pdf_page_number: 782
+      printed_page_label: '760'
+    content_window:
+      start_at:
+        kind: heading
+        value: C.3 Slides and lectures
+      end_before: null
+    queries:
+    - +(C.3 Slides and lectures) +(printed page 760) --QDF=0
+    - +(While there are no official slide sets to go with this book its content largely parallels) +(Slides and lectures)
+      +(printed page 760) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '760'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: While there are no official slide sets to go with this book, its content largely parallels that of the
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: C.3 Slides and lectures
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - C.3 Slides and lectures
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  learning_units: []

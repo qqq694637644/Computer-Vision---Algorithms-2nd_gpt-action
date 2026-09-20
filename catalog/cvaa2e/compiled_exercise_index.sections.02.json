@@ -1,0 +1,2286 @@
+{
+  "data_version": "3",
+  "chapter_id": "2",
+  "exercises": {
+    "2.1": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "2.1",
+      "chapter_id": "2",
+      "exercise_number": 1,
+      "starred": false,
+      "source_order": 1,
+      "problem_page_range": {
+        "pdf_page_index_start": 102,
+        "pdf_page_index_end": 102,
+        "pdf_page_number_start": 103,
+        "pdf_page_number_end": 103,
+        "printed_page_start": "81",
+        "printed_page_end": "81"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 102,
+            "pdf_page_number": 103,
+            "printed_page_label": "81"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "2.1"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "2.2"
+            }
+          },
+          "queries": [
+            "+(text the intersection of two 2D lines can be expressed as their cross product assuming the lines) +(printed page 81) --QDF=0",
+            "+(exercise 2.1) +(printed page 81) --QDF=0",
+            "+(exercise 2.2) +(printed page 81) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "81",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "the intersection of two 2D lines can be expressed as their cross product, assuming the lines are ex-",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "2.1",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "2.2",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [
+              "2.4",
+              "2.121"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 102,
+            "pdf_page_number": 103,
+            "printed_page_label": "81"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(equation 2.4) +(printed page 81) --QDF=0",
+            "+(2.4) +(equation) +(printed page 81) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "81",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_equation",
+              "value": "2.4",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_targets": [
+        {
+          "kind": "equation",
+          "target_id": "2.4",
+          "reason": "Explicit equation reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "single",
+              "page": {
+                "pdf_page_index": 102,
+                "pdf_page_number": 103,
+                "printed_page_label": "81"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(equation 2.4) +(printed page 81) --QDF=0",
+                "+(2.4) +(equation) +(printed page 81) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "81",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_equation",
+                  "value": "2.4",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "2.2": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "2.2",
+      "chapter_id": "2",
+      "exercise_number": 2,
+      "starred": false,
+      "source_order": 2,
+      "problem_page_range": {
+        "pdf_page_index_start": 102,
+        "pdf_page_index_end": 102,
+        "pdf_page_number_start": 103,
+        "pdf_page_number_end": 103,
+        "printed_page_start": "81",
+        "printed_page_end": "81"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 102,
+            "pdf_page_number": 103,
+            "printed_page_label": "81"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "2.2"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "2.3"
+            }
+          },
+          "queries": [
+            "+(text implemented by yourself or from a software library Persistence of the created representation save) +(printed page 81) --QDF=0",
+            "+(exercise 2.2) +(printed page 81) --QDF=0",
+            "+(exercise 2.3) +(printed page 81) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "81",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "implemented by yourself or from a software library. Persistence of the created representation (save",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "2.2",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "2.3",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    },
+    "2.3": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "2.3",
+      "chapter_id": "2",
+      "exercise_number": 3,
+      "starred": false,
+      "source_order": 3,
+      "problem_page_range": {
+        "pdf_page_index_start": 102,
+        "pdf_page_index_end": 102,
+        "pdf_page_number_start": 103,
+        "pdf_page_number_end": 103,
+        "printed_page_start": "81",
+        "printed_page_end": "81"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 102,
+            "pdf_page_number": 103,
+            "printed_page_label": "81"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "2.3"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "2.4"
+            }
+          },
+          "queries": [
+            "+(text camera transform This viewer can be an extension of the one you created in Exercise 2.2) +(printed page 81) --QDF=0",
+            "+(exercise 2.3) +(printed page 81) --QDF=0",
+            "+(exercise 2.4) +(printed page 81) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "81",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "camera transform. This viewer can be an extension of the one you created in Exercise 2.2. Simply",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "2.3",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "2.4",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 102,
+            "pdf_page_number": 103,
+            "printed_page_label": "81"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "2.2"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "2.3"
+            }
+          },
+          "queries": [
+            "+(text implemented by yourself or from a software library Persistence of the created representation save) +(printed page 81) --QDF=0",
+            "+(exercise 2.2) +(printed page 81) --QDF=0",
+            "+(exercise 2.3) +(printed page 81) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "81",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "implemented by yourself or from a software library. Persistence of the created representation (save",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "2.2",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "2.3",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_targets": [
+        {
+          "kind": "exercise",
+          "target_id": "2.2",
+          "reason": "Explicit exercise reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "single",
+              "page": {
+                "pdf_page_index": 102,
+                "pdf_page_number": 103,
+                "printed_page_label": "81"
+              },
+              "content_window": {
+                "start_at": {
+                  "kind": "exercise",
+                  "value": "2.2"
+                },
+                "end_before": {
+                  "kind": "exercise",
+                  "value": "2.3"
+                }
+              },
+              "queries": [
+                "+(text implemented by yourself or from a software library Persistence of the created representation save) +(printed page 81) --QDF=0",
+                "+(exercise 2.2) +(printed page 81) --QDF=0",
+                "+(exercise 2.3) +(printed page 81) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "81",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "implemented by yourself or from a software library. Persistence of the created representation (save",
+                  "verification_mode": "text_or_visual"
+                },
+                {
+                  "kind": "contains_exercise",
+                  "value": "2.2",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_exercise",
+                  "value": "2.3",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "2.4": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "2.4",
+      "chapter_id": "2",
+      "exercise_number": 4,
+      "starred": false,
+      "source_order": 4,
+      "problem_page_range": {
+        "pdf_page_index_start": 102,
+        "pdf_page_index_end": 103,
+        "pdf_page_number_start": 103,
+        "pdf_page_number_end": 104,
+        "printed_page_start": "81",
+        "printed_page_end": "82"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 102,
+            "pdf_page_number": 103,
+            "printed_page_label": "81"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "2.4"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text 1 Compute and plot the focus distance zo as a function of the distance traveled from) +(printed page 81) --QDF=0",
+            "+(exercise 2.4) +(printed page 81) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "81",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "1. Compute and plot the focus distance zo as a function of the distance traveled from the focal",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "2.4",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "2.20"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 103,
+            "pdf_page_number": 104,
+            "printed_page_label": "82"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "exercise",
+              "value": "2.5"
+            }
+          },
+          "queries": [
+            "+(text this explain the usual depth of field markings on a lens that bracket the in-focus marker) +(printed page 82) --QDF=0",
+            "+(exercise 2.5) +(printed page 82) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "82",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "this explain the usual depth of field markings on a lens that bracket the in-focus marker, as in",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "2.5",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 81,
+            "pdf_page_number": 82,
+            "printed_page_label": "60"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(figure 2.20) +(printed page 60) --QDF=0",
+            "+(2.20) +(figure) +(printed page 60) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "60",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_figure",
+              "value": "2.20",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_targets": [
+        {
+          "kind": "figure",
+          "target_id": "2.20",
+          "reason": "Explicit figure reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "single",
+              "page": {
+                "pdf_page_index": 81,
+                "pdf_page_number": 82,
+                "printed_page_label": "60"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(figure 2.20) +(printed page 60) --QDF=0",
+                "+(2.20) +(figure) +(printed page 60) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "60",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_figure",
+                  "value": "2.20",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "2.5": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "2.5",
+      "chapter_id": "2",
+      "exercise_number": 5,
+      "starred": false,
+      "source_order": 5,
+      "problem_page_range": {
+        "pdf_page_index_start": 103,
+        "pdf_page_index_end": 103,
+        "pdf_page_number_start": 104,
+        "pdf_page_number_end": 104,
+        "printed_page_start": "82",
+        "printed_page_end": "82"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 103,
+            "pdf_page_number": 104,
+            "printed_page_label": "82"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "2.5"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "2.6"
+            }
+          },
+          "queries": [
+            "+(text 2 If your camera has shutter speeds of 1 60 and 125 do you think that) +(printed page 82) --QDF=0",
+            "+(exercise 2.5) +(printed page 82) --QDF=0",
+            "+(exercise 2.6) +(printed page 82) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "82",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "2. If your camera has shutter speeds of 1 60 and 125 , do you think that these two speeds are exactly 1",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "2.5",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "2.6",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    },
+    "2.6": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "2.6",
+      "chapter_id": "2",
+      "exercise_number": 6,
+      "starred": false,
+      "source_order": 6,
+      "problem_page_range": {
+        "pdf_page_index_start": 103,
+        "pdf_page_index_end": 103,
+        "pdf_page_number_start": 104,
+        "pdf_page_number_end": 104,
+        "printed_page_start": "82",
+        "printed_page_end": "82"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 103,
+            "pdf_page_number": 104,
+            "printed_page_label": "82"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "2.6"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "2.7"
+            }
+          },
+          "queries": [
+            "+(text shots of a scene with the camera mounted on a tripod Purchasing a remote shutter release) +(printed page 82) --QDF=0",
+            "+(exercise 2.6) +(printed page 82) --QDF=0",
+            "+(exercise 2.7) +(printed page 82) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "82",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "shots of a scene with the camera mounted on a tripod. (Purchasing a remote shutter release is a good",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "2.6",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "2.7",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    },
+    "2.7": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "2.7",
+      "chapter_id": "2",
+      "exercise_number": 7,
+      "starred": false,
+      "source_order": 7,
+      "problem_page_range": {
+        "pdf_page_index_start": 103,
+        "pdf_page_index_end": 103,
+        "pdf_page_number_start": 104,
+        "pdf_page_number_end": 104,
+        "printed_page_start": "82",
+        "printed_page_end": "82"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 103,
+            "pdf_page_number": 104,
+            "printed_page_label": "82"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "2.7"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "2.8"
+            }
+          },
+          "queries": [
+            "+(text images were taken with different exposures so you want to adjust the RGB values so that) +(printed page 82) --QDF=0",
+            "+(exercise 2.7) +(printed page 82) --QDF=0",
+            "+(exercise 2.8) +(printed page 82) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "82",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "images were taken with different exposures, so you want to adjust the RGB values so that they match",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "2.7",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "2.8",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 427,
+            "pdf_page_number": 428,
+            "printed_page_label": "406"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "8.2 Image stitching"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text used to register aerial photos into large-scale photo-mosaics Slama 1980 One of the key advances) +(printed page 406) --QDF=0",
+            "+(heading 8.2 Image stitching) +(printed page 406) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "406",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "used to register aerial photos into large-scale photo-mosaics (Slama 1980). One of the key advances",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "8.2 Image stitching",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "8.2 Image stitching"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 428,
+            "pdf_page_number": 429,
+            "printed_page_label": "407"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text Section 8.2.6 Deciding which alignment model is most appropriate for a given situation or set of) +(printed page 407) --QDF=0",
+            "+(Section 8.2.6 Deciding which alignment model is most appropriate for a given situation or set of) +(text) +(printed page 407) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "407",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "(Section 8.2.6). Deciding which alignment model is most appropriate for a given situation or set of",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "8.2.1 Parametric motion models"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "2.71",
+              "2.72"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 429,
+            "pdf_page_number": 430,
+            "printed_page_label": "408"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text and also its last row since we do not care about the final z-buffer depth The) +(printed page 408) --QDF=0",
+            "+(and also its last row since we do not care about the final z-buffer depth The) +(text) +(printed page 408) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "408",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "and also its last row, since we do not care about the final z-buffer depth. The resulting homography",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Planar perspective motion"
+            ],
+            "figure_ids": [
+              "8.4"
+            ],
+            "equation_ids": [
+              "2.71",
+              "8.33",
+              "8.34"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 4,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 430,
+            "pdf_page_number": 431,
+            "printed_page_label": "409"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text 13In a more general e.g indoor scene if we want to ensure that there is no) +(printed page 409) --QDF=0",
+            "+(13In a more general e.g indoor scene if we want to ensure that there is no) +(text) +(printed page 409) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "409",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "13In a more general (e.g., indoor) scene, if we want to ensure that there is no parallax (visible relative movement between",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "8.2.2 Application: Whiteboard and document scanning",
+              "8.2.3 Rotational panoramas"
+            ],
+            "figure_ids": [
+              "8.5",
+              "6.7"
+            ],
+            "equation_ids": [
+              "8.35",
+              "8.36",
+              "2.16",
+              "8.37",
+              "8.38"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 5,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 431,
+            "pdf_page_number": 432,
+            "printed_page_label": "410"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text tation matrix and optionally focal length associated with each image is intrinsically more stable) +(printed page 410) --QDF=0",
+            "+(tation matrix and optionally focal length associated with each image is intrinsically more stable) +(text) +(printed page 410) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "410",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "tation matrix (and, optionally, focal length) associated with each image is intrinsically more stable",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "8.5"
+            ],
+            "equation_ids": [
+              "2.59",
+              "8.39",
+              "8.40",
+              "8.38",
+              "8.41",
+              "2.35",
+              "8.42"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 6,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 432,
+            "pdf_page_number": 433,
+            "printed_page_label": "411"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text The techniques presented in this section can be used to estimate a series of rotation matrices) +(printed page 411) --QDF=0",
+            "+(The techniques presented in this section can be used to estimate a series of rotation matrices) +(text) +(printed page 411) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "411",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "The techniques presented in this section can be used to estimate a series of rotation matrices and",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "8.2.4 Gap closing"
+            ],
+            "figure_ids": [
+              "8.6"
+            ],
+            "equation_ids": [
+              "8.19",
+              "8.43",
+              "8.44"
+            ],
+            "example_ids": [],
+            "table_ids": [
+              "8.1"
+            ]
+          }
+        },
+        {
+          "sequence": 7,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 433,
+            "pdf_page_number": 434,
+            "printed_page_label": "412"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text therefore restricted to long focal lengths the techniques were generalized by Lee Chen et al 1997) +(printed page 412) --QDF=0",
+            "+(therefore restricted to long focal lengths the techniques were generalized by Lee Chen et al 1997) +(text) +(printed page 412) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "412",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "therefore restricted to long focal lengths, the techniques were generalized by Lee, Chen et al. (1997)",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "8.2.5 Application: Video summarization and compression"
+            ],
+            "figure_ids": [
+              "8.6",
+              "8.7"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 8,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 434,
+            "pdf_page_number": 435,
+            "printed_page_label": "413"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text 1996 Unfortunately this only works if the images are all taken with a level camera or) +(printed page 413) --QDF=0",
+            "+(1996 Unfortunately this only works if the images are all taken with a level camera or) +(text) +(printed page 413) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "413",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "1996). Unfortunately, this only works if the images are all taken with a level camera or with a known",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "8.2.6 Cylindrical and spherical coordinates"
+            ],
+            "figure_ids": [
+              "8.7"
+            ],
+            "equation_ids": [
+              "8.45"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 9,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 435,
+            "pdf_page_number": 436,
+            "printed_page_label": "414"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text north pole instead of the z-axis since we are used to viewing images taken horizontally i.e) +(printed page 414) --QDF=0",
+            "+(north pole instead of the z-axis since we are used to viewing images taken horizontally i.e) +(text) +(printed page 414) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "414",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "north pole instead of the z-axis, since we are used to viewing images taken horizontally, i.e., with the y-axis pointing in the",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "8.8"
+            ],
+            "equation_ids": [
+              "8.46",
+              "8.47",
+              "8.48",
+              "8.49",
+              "8.50",
+              "8.51",
+              "8.52",
+              "8.53",
+              "8.54",
+              "2.8"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 10,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 436,
+            "pdf_page_number": 437,
+            "printed_page_label": "415"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text different rotations are related by a pure horizontal translation.19 This makes it attractive as an initial) +(printed page 415) --QDF=0",
+            "+(different rotations are related by a pure horizontal translation.19 This makes it attractive as an initial) +(text) +(printed page 415) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "415",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "different rotations are related by a pure horizontal translation.19 This makes it attractive as an initial",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "8.9"
+            ],
+            "equation_ids": [
+              "8.50",
+              "8.55",
+              "8.56",
+              "8.57"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 11,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 437,
+            "pdf_page_number": 438,
+            "printed_page_label": "416"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "8.3 Global alignment"
+            }
+          },
+          "queries": [
+            "+(text angle panoramas and is also a good model for the distortion induced by fisheye lenses as) +(printed page 416) --QDF=0",
+            "+(heading 8.3 Global alignment) +(printed page 416) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "416",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "angle panoramas and is also a good model for the distortion induced by fisheye lenses, as discussed",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "8.3 Global alignment",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_targets": [
+        {
+          "kind": "section",
+          "target_id": "8.2",
+          "reason": "Explicit section reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "start",
+              "page": {
+                "pdf_page_index": 427,
+                "pdf_page_number": 428,
+                "printed_page_label": "406"
+              },
+              "content_window": {
+                "start_at": {
+                  "kind": "heading",
+                  "value": "8.2 Image stitching"
+                },
+                "end_before": null
+              },
+              "queries": [
+                "+(text used to register aerial photos into large-scale photo-mosaics Slama 1980 One of the key advances) +(printed page 406) --QDF=0",
+                "+(heading 8.2 Image stitching) +(printed page 406) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "406",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "used to register aerial photos into large-scale photo-mosaics (Slama 1980). One of the key advances",
+                  "verification_mode": "text_or_visual"
+                },
+                {
+                  "kind": "contains_heading",
+                  "value": "8.2 Image stitching",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "8.2 Image stitching"
+                ],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 2,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 428,
+                "pdf_page_number": 429,
+                "printed_page_label": "407"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text Section 8.2.6 Deciding which alignment model is most appropriate for a given situation or set of) +(printed page 407) --QDF=0",
+                "+(Section 8.2.6 Deciding which alignment model is most appropriate for a given situation or set of) +(text) +(printed page 407) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "407",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "(Section 8.2.6). Deciding which alignment model is most appropriate for a given situation or set of",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "8.2.1 Parametric motion models"
+                ],
+                "figure_ids": [],
+                "equation_ids": [
+                  "2.71",
+                  "2.72"
+                ],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 3,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 429,
+                "pdf_page_number": 430,
+                "printed_page_label": "408"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text and also its last row since we do not care about the final z-buffer depth The) +(printed page 408) --QDF=0",
+                "+(and also its last row since we do not care about the final z-buffer depth The) +(text) +(printed page 408) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "408",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "and also its last row, since we do not care about the final z-buffer depth. The resulting homography",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "Planar perspective motion"
+                ],
+                "figure_ids": [
+                  "8.4"
+                ],
+                "equation_ids": [
+                  "2.71",
+                  "8.33",
+                  "8.34"
+                ],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 4,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 430,
+                "pdf_page_number": 431,
+                "printed_page_label": "409"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text 13In a more general e.g indoor scene if we want to ensure that there is no) +(printed page 409) --QDF=0",
+                "+(13In a more general e.g indoor scene if we want to ensure that there is no) +(text) +(printed page 409) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "409",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "13In a more general (e.g., indoor) scene, if we want to ensure that there is no parallax (visible relative movement between",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "8.2.2 Application: Whiteboard and document scanning",
+                  "8.2.3 Rotational panoramas"
+                ],
+                "figure_ids": [
+                  "8.5",
+                  "6.7"
+                ],
+                "equation_ids": [
+                  "8.35",
+                  "8.36",
+                  "2.16",
+                  "8.37",
+                  "8.38"
+                ],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 5,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 431,
+                "pdf_page_number": 432,
+                "printed_page_label": "410"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text tation matrix and optionally focal length associated with each image is intrinsically more stable) +(printed page 410) --QDF=0",
+                "+(tation matrix and optionally focal length associated with each image is intrinsically more stable) +(text) +(printed page 410) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "410",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "tation matrix (and, optionally, focal length) associated with each image is intrinsically more stable",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [
+                  "8.5"
+                ],
+                "equation_ids": [
+                  "2.59",
+                  "8.39",
+                  "8.40",
+                  "8.38",
+                  "8.41",
+                  "2.35",
+                  "8.42"
+                ],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 6,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 432,
+                "pdf_page_number": 433,
+                "printed_page_label": "411"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text The techniques presented in this section can be used to estimate a series of rotation matrices) +(printed page 411) --QDF=0",
+                "+(The techniques presented in this section can be used to estimate a series of rotation matrices) +(text) +(printed page 411) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "411",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "The techniques presented in this section can be used to estimate a series of rotation matrices and",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "8.2.4 Gap closing"
+                ],
+                "figure_ids": [
+                  "8.6"
+                ],
+                "equation_ids": [
+                  "8.19",
+                  "8.43",
+                  "8.44"
+                ],
+                "example_ids": [],
+                "table_ids": [
+                  "8.1"
+                ]
+              }
+            },
+            {
+              "sequence": 7,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 433,
+                "pdf_page_number": 434,
+                "printed_page_label": "412"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text therefore restricted to long focal lengths the techniques were generalized by Lee Chen et al 1997) +(printed page 412) --QDF=0",
+                "+(therefore restricted to long focal lengths the techniques were generalized by Lee Chen et al 1997) +(text) +(printed page 412) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "412",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "therefore restricted to long focal lengths, the techniques were generalized by Lee, Chen et al. (1997)",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "8.2.5 Application: Video summarization and compression"
+                ],
+                "figure_ids": [
+                  "8.6",
+                  "8.7"
+                ],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 8,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 434,
+                "pdf_page_number": 435,
+                "printed_page_label": "413"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text 1996 Unfortunately this only works if the images are all taken with a level camera or) +(printed page 413) --QDF=0",
+                "+(1996 Unfortunately this only works if the images are all taken with a level camera or) +(text) +(printed page 413) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "413",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "1996). Unfortunately, this only works if the images are all taken with a level camera or with a known",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "8.2.6 Cylindrical and spherical coordinates"
+                ],
+                "figure_ids": [
+                  "8.7"
+                ],
+                "equation_ids": [
+                  "8.45"
+                ],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 9,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 435,
+                "pdf_page_number": 436,
+                "printed_page_label": "414"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text north pole instead of the z-axis since we are used to viewing images taken horizontally i.e) +(printed page 414) --QDF=0",
+                "+(north pole instead of the z-axis since we are used to viewing images taken horizontally i.e) +(text) +(printed page 414) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "414",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "north pole instead of the z-axis, since we are used to viewing images taken horizontally, i.e., with the y-axis pointing in the",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [
+                  "8.8"
+                ],
+                "equation_ids": [
+                  "8.46",
+                  "8.47",
+                  "8.48",
+                  "8.49",
+                  "8.50",
+                  "8.51",
+                  "8.52",
+                  "8.53",
+                  "8.54",
+                  "2.8"
+                ],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 10,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 436,
+                "pdf_page_number": 437,
+                "printed_page_label": "415"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text different rotations are related by a pure horizontal translation.19 This makes it attractive as an initial) +(printed page 415) --QDF=0",
+                "+(different rotations are related by a pure horizontal translation.19 This makes it attractive as an initial) +(text) +(printed page 415) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "415",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "different rotations are related by a pure horizontal translation.19 This makes it attractive as an initial",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [
+                  "8.9"
+                ],
+                "equation_ids": [
+                  "8.50",
+                  "8.55",
+                  "8.56",
+                  "8.57"
+                ],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 11,
+              "page_role": "end",
+              "page": {
+                "pdf_page_index": 437,
+                "pdf_page_number": 438,
+                "printed_page_label": "416"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": {
+                  "kind": "heading",
+                  "value": "8.3 Global alignment"
+                }
+              },
+              "queries": [
+                "+(text angle panoramas and is also a good model for the distortion induced by fisheye lenses as) +(printed page 416) --QDF=0",
+                "+(heading 8.3 Global alignment) +(printed page 416) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "416",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "angle panoramas and is also a good model for the distortion induced by fisheye lenses, as discussed",
+                  "verification_mode": "text_or_visual"
+                },
+                {
+                  "kind": "contains_heading",
+                  "value": "8.3 Global alignment",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "2.8": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "2.8",
+      "chapter_id": "2",
+      "exercise_number": 8,
+      "starred": false,
+      "source_order": 8,
+      "problem_page_range": {
+        "pdf_page_index_start": 103,
+        "pdf_page_index_end": 104,
+        "pdf_page_number_start": 104,
+        "pdf_page_number_end": 105,
+        "printed_page_start": "82",
+        "printed_page_end": "83"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 103,
+            "pdf_page_number": 104,
+            "printed_page_label": "82"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "2.8"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text performing white point adjustment is to take a picture of a white piece of paper and) +(printed page 82) --QDF=0",
+            "+(exercise 2.8) +(printed page 82) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "82",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "performing white point adjustment is to take a picture of a white piece of paper and to adjust the",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "2.8",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 104,
+            "pdf_page_number": 105,
+            "printed_page_label": "83"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "exercise",
+              "value": "2.9"
+            }
+          },
+          "queries": [
+            "+(text 4 If you used pure diagonal scaling in the direct RGB mode but end up with) +(printed page 83) --QDF=0",
+            "+(exercise 2.9) +(printed page 83) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "83",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "4. If you used pure diagonal scaling in the direct RGB mode but end up with a twist if you work",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "2.9",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    },
+    "2.9": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "2.9",
+      "chapter_id": "2",
+      "exercise_number": 9,
+      "starred": false,
+      "source_order": 9,
+      "problem_page_range": {
+        "pdf_page_index_start": 104,
+        "pdf_page_index_end": 104,
+        "pdf_page_number_start": 105,
+        "pdf_page_number_end": 105,
+        "printed_page_start": "83",
+        "printed_page_end": "83"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 104,
+            "pdf_page_number": 105,
+            "printed_page_label": "83"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "2.9"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text Brooks Mildenhall et al 2019 or use the data available in their database of color images) +(printed page 83) --QDF=0",
+            "+(exercise 2.9) +(printed page 83) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "83",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Brooks, Mildenhall et al. (2019) or use the data available in their database of color images.",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "2.9",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 530,
+            "pdf_page_number": 531,
+            "printed_page_label": "509"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "10.3.1 Color image demosaicing"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text A special case of super-resolution which is used daily in most digital still cameras is the) +(printed page 509) --QDF=0",
+            "+(heading 10.3.1 Color image demosaicing) +(printed page 509) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "509",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "A special case of super-resolution, which is used daily in most digital still cameras, is the process",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "10.3.1 Color image demosaicing",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "10.3.1 Color image demosaicing"
+            ],
+            "figure_ids": [
+              "10.35"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 531,
+            "pdf_page_number": 532,
+            "printed_page_label": "510"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text color and illumination variation within a single material whereas Bennett Uyttendaele et al 2006 use the) +(printed page 510) --QDF=0",
+            "+(color and illumination variation within a single material whereas Bennett Uyttendaele et al 2006 use the) +(text) +(printed page 510) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "510",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "color and illumination variation within a single material, whereas Bennett, Uyttendaele et al. (2006) use the two-color model",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "10.36",
+              "10.37"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 532,
+            "pdf_page_number": 533,
+            "printed_page_label": "511"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "10.3.2 Lens blur (bokeh)"
+            }
+          },
+          "queries": [
+            "+(text et al 2006 2006 Springer After two-means clustering and reprojection along the line joining the two) +(printed page 511) --QDF=0",
+            "+(heading 10.3.2 Lens blur bokeh) +(printed page 511) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "511",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "et al. 2006) © 2006 Springer. After two-means clustering and reprojection along the line joining the two dominant",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "10.3.2 Lens blur (bokeh)",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "10.37",
+              "10.38"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_targets": [
+        {
+          "kind": "section",
+          "target_id": "10.3.1",
+          "reason": "Explicit section reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "start",
+              "page": {
+                "pdf_page_index": 530,
+                "pdf_page_number": 531,
+                "printed_page_label": "509"
+              },
+              "content_window": {
+                "start_at": {
+                  "kind": "heading",
+                  "value": "10.3.1 Color image demosaicing"
+                },
+                "end_before": null
+              },
+              "queries": [
+                "+(text A special case of super-resolution which is used daily in most digital still cameras is the) +(printed page 509) --QDF=0",
+                "+(heading 10.3.1 Color image demosaicing) +(printed page 509) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "509",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "A special case of super-resolution, which is used daily in most digital still cameras, is the process",
+                  "verification_mode": "text_or_visual"
+                },
+                {
+                  "kind": "contains_heading",
+                  "value": "10.3.1 Color image demosaicing",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "10.3.1 Color image demosaicing"
+                ],
+                "figure_ids": [
+                  "10.35"
+                ],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 2,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 531,
+                "pdf_page_number": 532,
+                "printed_page_label": "510"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text color and illumination variation within a single material whereas Bennett Uyttendaele et al 2006 use the) +(printed page 510) --QDF=0",
+                "+(color and illumination variation within a single material whereas Bennett Uyttendaele et al 2006 use the) +(text) +(printed page 510) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "510",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "color and illumination variation within a single material, whereas Bennett, Uyttendaele et al. (2006) use the two-color model",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [
+                  "10.36",
+                  "10.37"
+                ],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 3,
+              "page_role": "end",
+              "page": {
+                "pdf_page_index": 532,
+                "pdf_page_number": 533,
+                "printed_page_label": "511"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": {
+                  "kind": "heading",
+                  "value": "10.3.2 Lens blur (bokeh)"
+                }
+              },
+              "queries": [
+                "+(text et al 2006 2006 Springer After two-means clustering and reprojection along the line joining the two) +(printed page 511) --QDF=0",
+                "+(heading 10.3.2 Lens blur bokeh) +(printed page 511) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "511",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "et al. 2006) © 2006 Springer. After two-means clustering and reprojection along the line joining the two dominant",
+                  "verification_mode": "text_or_visual"
+                },
+                {
+                  "kind": "contains_heading",
+                  "value": "10.3.2 Lens blur (bokeh)",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [
+                  "10.37",
+                  "10.38"
+                ],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,589 @@
+data_version: '3'
+chapter_id: '9'
+exercises:
+- exercise_id: '9.1'
+  chapter_id: '9'
+  exercise_number: 1
+  starred: false
+  source_order: 1
+  problem_page_range:
+    pdf_page_index_start: 494
+    pdf_page_index_end: 495
+    pdf_page_number_start: 495
+    pdf_page_number_end: 496
+    printed_page_start: '473'
+    printed_page_end: '474'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 494
+      pdf_page_number: 495
+      printed_page_label: '473'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '9.1'
+      end_before: null
+    queries:
+    - +(9.1) +(printed page 473) --QDF=0
+    - +(Correlation Implement and compare the performance of the following correlation algo) +(printed page 473) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '473'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Correlation. Implement and compare the performance of the following correlation algo-
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '9.1'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids:
+      - '9.1'
+      - '9.2'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 495
+      pdf_page_number: 496
+      printed_page_label: '474'
+    content_window:
+      start_at: null
+      end_before:
+        kind: exercise
+        value: '9.2'
+    queries:
+    - +(illumination variation and ground truth correspondences horizontal motion can be found at https) +(printed page 474)
+      --QDF=0
+    - +(illumination variation and ground truth correspondences horizontal motion can be found at https) +(Exercises) +(printed
+      page 474) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '474'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 'illumination variation and ground truth correspondences (horizontal motion) can be found at https:'
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '9.2'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids:
+      - '9.3'
+      - '9.9'
+      - '9.11'
+      - '9.24'
+      - '9.5'
+      - '9.22'
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '9.2'
+  chapter_id: '9'
+  exercise_number: 2
+  starred: false
+  source_order: 2
+  problem_page_range:
+    pdf_page_index_start: 495
+    pdf_page_index_end: 495
+    pdf_page_number_start: 496
+    pdf_page_number_end: 496
+    printed_page_start: '474'
+    printed_page_end: '474'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 495
+      pdf_page_number: 496
+      printed_page_label: '474'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '9.2'
+      end_before:
+        kind: exercise
+        value: '9.3'
+    queries:
+    - +(9.2) +(printed page 474) --QDF=0
+    - +(1 Does it help to use lower-order simpler models at coarser levels of the pyramid Bergen) +(printed page 474) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '474'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 1. Does it help to use lower-order (simpler) models at coarser levels of the pyramid (Bergen,
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '9.2'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '9.3'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '9.3'
+  chapter_id: '9'
+  exercise_number: 3
+  starred: false
+  source_order: 3
+  problem_page_range:
+    pdf_page_index_start: 495
+    pdf_page_index_end: 496
+    pdf_page_number_start: 496
+    pdf_page_number_end: 497
+    printed_page_start: '474'
+    printed_page_end: '475'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 495
+      pdf_page_number: 496
+      printed_page_label: '474'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '9.3'
+      end_before: null
+    queries:
+    - +(9.3) +(printed page 474) --QDF=0
+    - +(Stabilization Write a program to stabilize an input video sequence You could implement) +(printed page 474) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '474'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Stabilization. Write a program to stabilize an input video sequence. You could implement
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '9.3'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 496
+      pdf_page_number: 497
+      printed_page_label: '475'
+    content_window:
+      start_at: null
+      end_before:
+        kind: exercise
+        value: '9.4'
+    queries:
+    - +(5 Optional Compensate for images that are blurry because of fast motion by stealing higher) +(printed page 475) --QDF=0
+    - +(5 Optional Compensate for images that are blurry because of fast motion by stealing higher) +(Exercises) +(printed
+      page 475) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '475'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 5. (Optional) Compensate for images that are blurry because of fast motion by “stealing” higher
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '9.4'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: 9.2.1
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+- exercise_id: '9.4'
+  chapter_id: '9'
+  exercise_number: 4
+  starred: false
+  source_order: 4
+  problem_page_range:
+    pdf_page_index_start: 496
+    pdf_page_index_end: 496
+    pdf_page_number_start: 497
+    pdf_page_number_end: 497
+    printed_page_start: '475'
+    printed_page_end: '475'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 496
+      pdf_page_number: 497
+      printed_page_label: '475'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '9.4'
+      end_before:
+        kind: exercise
+        value: '9.5'
+    queries:
+    - +(9.4) +(printed page 475) --QDF=0
+    - +(2 Visualize the quality of your results by generating in-between images using frame interpola) +(printed page 475)
+      --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '475'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 2. Visualize the quality of your results by generating in-between images using frame interpola-
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '9.4'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '9.5'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: exercise
+    target_id: '9.5'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+- exercise_id: '9.5'
+  chapter_id: '9'
+  exercise_number: 5
+  starred: false
+  source_order: 5
+  problem_page_range:
+    pdf_page_index_start: 496
+    pdf_page_index_end: 496
+    pdf_page_number_start: 497
+    pdf_page_number_end: 497
+    printed_page_start: '475'
+    printed_page_end: '475'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 496
+      pdf_page_number: 497
+      printed_page_label: '475'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '9.5'
+      end_before:
+        kind: exercise
+        value: '9.6'
+    queries:
+    - +(9.5) +(printed page 475) --QDF=0
+    - +(natively take a video sequence and do a high-quality slow-motion effect Compare your algorithm) +(printed page 475)
+      --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '475'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: natively, take a video sequence and do a high-quality slow-motion effect. Compare your algorithm
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '9.5'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '9.6'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: 9.4.1
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: B
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+- exercise_id: '9.6'
+  chapter_id: '9'
+  exercise_number: 6
+  starred: false
+  source_order: 6
+  problem_page_range:
+    pdf_page_index_start: 496
+    pdf_page_index_end: 496
+    pdf_page_number_start: 497
+    pdf_page_number_end: 497
+    printed_page_start: '475'
+    printed_page_end: '475'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 496
+      pdf_page_number: 497
+      printed_page_label: '475'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '9.6'
+      end_before:
+        kind: exercise
+        value: '9.7'
+    queries:
+    - +(9.6) +(printed page 475) --QDF=0
+    - +(for blur Don t forget to use regular single-frame denoising techniques as part of your solution) +(printed page 475)
+      --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '475'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: for blur. Don’t forget to use regular single-frame denoising techniques as part of your solution,
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '9.6'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '9.7'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: 3.4.2
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: exercise
+    target_id: '3.12'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+- exercise_id: '9.7'
+  chapter_id: '9'
+  exercise_number: 7
+  starred: false
+  source_order: 7
+  problem_page_range:
+    pdf_page_index_start: 496
+    pdf_page_index_end: 497
+    pdf_page_number_start: 497
+    pdf_page_number_end: 498
+    printed_page_start: '475'
+    printed_page_end: '476'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 496
+      pdf_page_number: 497
+      printed_page_label: '475'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '9.7'
+      end_before: null
+    queries:
+    - +(9.7) +(printed page 475) --QDF=0
+    - +(Layered motion estimation Decompose into separate layers Section 9.4 a video se) +(printed page 475) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '475'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Layered motion estimation. Decompose into separate layers (Section 9.4) a video se-
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '9.7'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 497
+      pdf_page_number: 498
+      printed_page_label: '476'
+    content_window:
+      start_at: null
+      end_before:
+        kind: exercise
+        value: '9.8'
+    queries:
+    - +(6 Optional Write an interactive renderer to generate in-between frames or view the scene from) +(printed page 476)
+      --QDF=0
+    - +(6 Optional Write an interactive renderer to generate in-between frames or view the scene from) +(Exercises) +(printed
+      page 476) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '476'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 6. (Optional) Write an interactive renderer to generate in-between frames or view the scene from
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '9.8'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: '9.4'
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+- exercise_id: '9.8'
+  chapter_id: '9'
+  exercise_number: 8
+  starred: false
+  source_order: 8
+  problem_page_range:
+    pdf_page_index_start: 497
+    pdf_page_index_end: 497
+    pdf_page_number_start: 498
+    pdf_page_number_end: 498
+    printed_page_start: '476'
+    printed_page_end: '476'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 497
+      pdf_page_number: 498
+      printed_page_label: '476'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '9.8'
+      end_before:
+        kind: exercise
+        value: '9.9'
+    queries:
+    - +(9.8) +(printed page 476) --QDF=0
+    - +(a window or picture frame and see if you can remove the reflection to better see) +(printed page 476) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '476'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: a window (or picture frame) and see if you can remove the reflection to better see what is inside.
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '9.8'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '9.9'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: 9.4.2
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: B
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+- exercise_id: '9.9'
+  chapter_id: '9'
+  exercise_number: 9
+  starred: false
+  source_order: 9
+  problem_page_range:
+    pdf_page_index_start: 497
+    pdf_page_index_end: 497
+    pdf_page_number_start: 498
+    pdf_page_number_end: 498
+    printed_page_start: '476'
+    printed_page_end: '476'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 497
+      pdf_page_number: 498
+      printed_page_label: '476'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '9.9'
+      end_before:
+        kind: exercise
+        value: '9.10'
+    queries:
+    - +(9.9) +(printed page 476) --QDF=0
+    - +(Use the DAVIS motion segmentation database Pont-Tuset Perazzi et al 2017 as some of your) +(printed page 476) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '476'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Use the DAVIS motion segmentation database (Pont-Tuset, Perazzi et al. 2017) as some of your
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '9.9'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '9.10'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '9.10'
+  chapter_id: '9'
+  exercise_number: 10
+  starred: false
+  source_order: 10
+  problem_page_range:
+    pdf_page_index_start: 497
+    pdf_page_index_end: 497
+    pdf_page_number_start: 498
+    pdf_page_number_end: 498
+    printed_page_start: '476'
+    printed_page_end: '476'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 497
+      pdf_page_number: 498
+      printed_page_label: '476'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '9.10'
+      end_before: null
+    queries:
+    - +(9.10) +(printed page 476) --QDF=0
+    - +(Video object tracking Write an object tracker and test it out on one of the latest) +(printed page 476) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '476'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Video object tracking. Write an object tracker and test it out on one of the latest video
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '9.10'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []

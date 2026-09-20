@@ -1,0 +1,1946 @@
+{
+  "data_version": "3",
+  "chapter_id": "5",
+  "exercises": {
+    "5.1": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "5.1",
+      "chapter_id": "5",
+      "exercise_number": 1,
+      "starred": false,
+      "source_order": 1,
+      "problem_page_range": {
+        "pdf_page_index_start": 287,
+        "pdf_page_index_end": 287,
+        "pdf_page_number_start": 288,
+        "pdf_page_number_end": 288,
+        "printed_page_start": "266",
+        "printed_page_end": "266"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 287,
+            "pdf_page_number": 288,
+            "printed_page_label": "266"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "5.1"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "5.2"
+            }
+          },
+          "queries": [
+            "+(text dient and error propagation and weight update steps in a simple neural network You can find) +(printed page 266) --QDF=0",
+            "+(exercise 5.1) +(printed page 266) --QDF=0",
+            "+(exercise 5.2) +(printed page 266) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "266",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "dient and error propagation, and weight update steps in a simple neural network. You can find ex-",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.1",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.2",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    },
+    "5.2": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "5.2",
+      "chapter_id": "5",
+      "exercise_number": 2,
+      "starred": false,
+      "source_order": 2,
+      "problem_page_range": {
+        "pdf_page_index_start": 287,
+        "pdf_page_index_end": 287,
+        "pdf_page_number_start": 288,
+        "pdf_page_number_end": 288,
+        "printed_page_start": "266",
+        "printed_page_end": "266"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 287,
+            "pdf_page_number": 288,
+            "printed_page_label": "266"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "5.2"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "5.3"
+            }
+          },
+          "queries": [
+            "+(text Vollgraf 2017 datasets You can find such code in numerous places on the web including HW4) +(printed page 266) --QDF=0",
+            "+(exercise 5.2) +(printed page 266) --QDF=0",
+            "+(exercise 5.3) +(printed page 266) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "266",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Vollgraf 2017) datasets. You can find such code in numerous places on the web, including HW4 of",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.2",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.3",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    },
+    "5.3": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "5.3",
+      "chapter_id": "5",
+      "exercise_number": 3,
+      "starred": false,
+      "source_order": 3,
+      "problem_page_range": {
+        "pdf_page_index_start": 287,
+        "pdf_page_index_end": 287,
+        "pdf_page_number_start": 288,
+        "pdf_page_number_end": 288,
+        "printed_page_start": "266",
+        "printed_page_end": "266"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 287,
+            "pdf_page_number": 288,
+            "printed_page_label": "266"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "5.3"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "5.4"
+            }
+          },
+          "queries": [
+            "+(text et al 2021 contain myriad graded exercises with code samples to develop your understanding of) +(printed page 266) --QDF=0",
+            "+(exercise 5.3) +(printed page 266) --QDF=0",
+            "+(exercise 5.4) +(printed page 266) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "266",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "et al. (2021) contain myriad graded exercises with code samples to develop your understanding of",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.3",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.4",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    },
+    "5.4": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "5.4",
+      "chapter_id": "5",
+      "exercise_number": 4,
+      "starred": false,
+      "source_order": 4,
+      "problem_page_range": {
+        "pdf_page_index_start": 287,
+        "pdf_page_index_end": 288,
+        "pdf_page_number_start": 288,
+        "pdf_page_number_end": 289,
+        "printed_page_start": "266",
+        "printed_page_end": "267"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 287,
+            "pdf_page_number": 288,
+            "printed_page_label": "266"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "5.4"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text which uses ReLU activation functions and has no additive bias parameters Your task is to find) +(printed page 266) --QDF=0",
+            "+(exercise 5.4) +(printed page 266) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "266",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "which uses ReLU activation functions and has no additive bias parameters. Your task is to find a set",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.4",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "5.62"
+            ],
+            "equation_ids": [
+              "5.80"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 288,
+            "pdf_page_number": 289,
+            "printed_page_label": "267"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "exercise",
+              "value": "5.5"
+            }
+          },
+          "queries": [
+            "+(text minimized at 0 0 b ideal gradient descent optimization that quickly converges towards the minimum at) +(printed page 267) --QDF=0",
+            "+(exercise 5.5) +(printed page 267) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "267",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "minimized at (0, 0); (b) ideal gradient descent optimization that quickly converges towards the minimum at x = 0,",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.5",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "5.63",
+              "5.62"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 246,
+            "pdf_page_number": 247,
+            "printed_page_label": "225"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(equation 5.65) +(printed page 225) --QDF=0",
+            "+(equation 5.66) +(printed page 225) --QDF=0",
+            "+(equation 5.67) +(printed page 225) --QDF=0",
+            "+(equation 5.68) +(printed page 225) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "225",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_equation",
+              "value": "5.65",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_equation",
+              "value": "5.66",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_equation",
+              "value": "5.67",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_equation",
+              "value": "5.68",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 287,
+            "pdf_page_number": 288,
+            "printed_page_label": "266"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(figure 5.62) +(printed page 266) --QDF=0",
+            "+(5.62) +(figure) +(printed page 266) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "266",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_figure",
+              "value": "5.62",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 288,
+            "pdf_page_number": 289,
+            "printed_page_label": "267"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(figure 5.63) +(printed page 267) --QDF=0",
+            "+(5.63) +(figure) +(printed page 267) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "267",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_figure",
+              "value": "5.63",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_targets": [
+        {
+          "kind": "figure",
+          "target_id": "5.62",
+          "reason": "Explicit figure reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "single",
+              "page": {
+                "pdf_page_index": 287,
+                "pdf_page_number": 288,
+                "printed_page_label": "266"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(figure 5.62) +(printed page 266) --QDF=0",
+                "+(5.62) +(figure) +(printed page 266) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "266",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_figure",
+                  "value": "5.62",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        },
+        {
+          "kind": "figure",
+          "target_id": "5.63",
+          "reason": "Explicit figure reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "single",
+              "page": {
+                "pdf_page_index": 288,
+                "pdf_page_number": 289,
+                "printed_page_label": "267"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(figure 5.63) +(printed page 267) --QDF=0",
+                "+(5.63) +(figure) +(printed page 267) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "267",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_figure",
+                  "value": "5.63",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        },
+        {
+          "kind": "equation",
+          "target_id": "5.65",
+          "reason": "Explicit equation reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "single",
+              "page": {
+                "pdf_page_index": 246,
+                "pdf_page_number": 247,
+                "printed_page_label": "225"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(equation 5.65) +(printed page 225) --QDF=0",
+                "+(5.65) +(equation) +(printed page 225) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "225",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_equation",
+                  "value": "5.65",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        },
+        {
+          "kind": "equation",
+          "target_id": "5.66",
+          "reason": "Explicit equation reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "single",
+              "page": {
+                "pdf_page_index": 246,
+                "pdf_page_number": 247,
+                "printed_page_label": "225"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(equation 5.66) +(printed page 225) --QDF=0",
+                "+(5.66) +(equation) +(printed page 225) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "225",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_equation",
+                  "value": "5.66",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        },
+        {
+          "kind": "equation",
+          "target_id": "5.67",
+          "reason": "Explicit equation reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "single",
+              "page": {
+                "pdf_page_index": 246,
+                "pdf_page_number": 247,
+                "printed_page_label": "225"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(equation 5.67) +(printed page 225) --QDF=0",
+                "+(5.67) +(equation) +(printed page 225) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "225",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_equation",
+                  "value": "5.67",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        },
+        {
+          "kind": "equation",
+          "target_id": "5.68",
+          "reason": "Explicit equation reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "single",
+              "page": {
+                "pdf_page_index": 246,
+                "pdf_page_number": 247,
+                "printed_page_label": "225"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(equation 5.68) +(printed page 225) --QDF=0",
+                "+(5.68) +(equation) +(printed page 225) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "225",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_equation",
+                  "value": "5.68",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "5.5": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "5.5",
+      "chapter_id": "5",
+      "exercise_number": 5,
+      "starred": false,
+      "source_order": 5,
+      "problem_page_range": {
+        "pdf_page_index_start": 288,
+        "pdf_page_index_end": 289,
+        "pdf_page_number_start": 289,
+        "pdf_page_number_end": 290,
+        "printed_page_start": "267",
+        "printed_page_end": "268"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 288,
+            "pdf_page_number": 289,
+            "printed_page_label": "267"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "5.5"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text Implement some of the common gradient descent optimizers which should take you from the start) +(printed page 267) --QDF=0",
+            "+(exercise 5.5) +(printed page 267) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "267",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Implement some of the common gradient descent optimizers, which should take you from the start-",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.5",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 289,
+            "pdf_page_number": 290,
+            "printed_page_label": "268"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "exercise",
+              "value": "5.6"
+            }
+          },
+          "queries": [
+            "+(text Play around with the learning rate For each experiment plot how x and y change over) +(printed page 268) --QDF=0",
+            "+(exercise 5.6) +(printed page 268) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "268",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Play around with the learning rate α. For each experiment, plot how x and y change over time, as",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.6",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 288,
+            "pdf_page_number": 289,
+            "printed_page_label": "267"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(figure 5.63) +(printed page 267) --QDF=0",
+            "+(5.63) +(figure) +(printed page 267) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "267",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_figure",
+              "value": "5.63",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_targets": [
+        {
+          "kind": "figure",
+          "target_id": "5.63",
+          "reason": "Explicit figure reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "single",
+              "page": {
+                "pdf_page_index": 288,
+                "pdf_page_number": 289,
+                "printed_page_label": "267"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(figure 5.63) +(printed page 267) --QDF=0",
+                "+(5.63) +(figure) +(printed page 267) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "267",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_figure",
+                  "value": "5.63",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "5.6": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "5.6",
+      "chapter_id": "5",
+      "exercise_number": 6,
+      "starred": false,
+      "source_order": 6,
+      "problem_page_range": {
+        "pdf_page_index_start": 289,
+        "pdf_page_index_end": 289,
+        "pdf_page_number_start": 290,
+        "pdf_page_number_end": 290,
+        "printed_page_start": "268",
+        "printed_page_end": "268"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 289,
+            "pdf_page_number": 290,
+            "printed_page_label": "268"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "5.6"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "5.7"
+            }
+          },
+          "queries": [
+            "+(text of a neural network such that it will never train on any non-trivial task such as) +(printed page 268) --QDF=0",
+            "+(exercise 5.6) +(printed page 268) --QDF=0",
+            "+(exercise 5.7) +(printed page 268) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "268",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "of a neural network such that it will never train on any non-trivial task, such as image classification",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.6",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.7",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    },
+    "5.7": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "5.7",
+      "chapter_id": "5",
+      "exercise_number": 7,
+      "starred": false,
+      "source_order": 7,
+      "problem_page_range": {
+        "pdf_page_index_start": 289,
+        "pdf_page_index_end": 289,
+        "pdf_page_number_start": 290,
+        "pdf_page_number_end": 290,
+        "printed_page_start": "268",
+        "printed_page_end": "268"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 289,
+            "pdf_page_number": 290,
+            "printed_page_label": "268"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "5.7"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "5.8"
+            }
+          },
+          "queries": [
+            "+(text 2 What is the output size after convolving the image with the kernels) +(printed page 268) --QDF=0",
+            "+(exercise 5.7) +(printed page 268) --QDF=0",
+            "+(exercise 5.8) +(printed page 268) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "268",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "2. What is the output size after convolving the image with the kernels?",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.7",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.8",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    },
+    "5.8": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "5.8",
+      "chapter_id": "5",
+      "exercise_number": 8,
+      "starred": false,
+      "source_order": 8,
+      "problem_page_range": {
+        "pdf_page_index_start": 289,
+        "pdf_page_index_end": 289,
+        "pdf_page_number_start": 290,
+        "pdf_page_number_end": 290,
+        "printed_page_start": "268",
+        "printed_page_end": "268"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 289,
+            "pdf_page_number": 290,
+            "printed_page_label": "268"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "5.8"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "5.9"
+            }
+          },
+          "queries": [
+            "+(text Data augmentation The figure below shows image augmentations that translate and scale) +(printed page 268) --QDF=0",
+            "+(exercise 5.8) +(printed page 268) --QDF=0",
+            "+(exercise 5.9) +(printed page 268) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "268",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Data augmentation. The figure below shows image augmentations that translate and scale",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.8",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.9",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    },
+    "5.9": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "5.9",
+      "chapter_id": "5",
+      "exercise_number": 9,
+      "starred": false,
+      "source_order": 9,
+      "problem_page_range": {
+        "pdf_page_index_start": 289,
+        "pdf_page_index_end": 289,
+        "pdf_page_number_start": 290,
+        "pdf_page_number_end": 290,
+        "printed_page_start": "268",
+        "printed_page_end": "268"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 289,
+            "pdf_page_number": 290,
+            "printed_page_label": "268"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "5.9"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "5.10"
+            }
+          },
+          "queries": [
+            "+(text Training vs validation Suppose your model is performing significantly better on the) +(printed page 268) --QDF=0",
+            "+(exercise 5.9) +(printed page 268) --QDF=0",
+            "+(exercise 5.10) +(printed page 268) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "268",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Training vs. validation. Suppose your model is performing significantly better on the",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.9",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.10",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    },
+    "5.10": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "5.10",
+      "chapter_id": "5",
+      "exercise_number": 10,
+      "starred": false,
+      "source_order": 10,
+      "problem_page_range": {
+        "pdf_page_index_start": 289,
+        "pdf_page_index_end": 289,
+        "pdf_page_number_start": 290,
+        "pdf_page_number_end": 290,
+        "printed_page_start": "268",
+        "printed_page_end": "268"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 289,
+            "pdf_page_number": 290,
+            "printed_page_label": "268"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "5.10"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "5.11"
+            }
+          },
+          "queries": [
+            "+(text volutional kernel s convolve over an entire input image Here let the input image be of) +(printed page 268) --QDF=0",
+            "+(exercise 5.10) +(printed page 268) --QDF=0",
+            "+(exercise 5.11) +(printed page 268) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "268",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "volutional kernel’s convolve over an entire input image? Here, let the input image be of size 256 ×",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.10",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.11",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    },
+    "5.11": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "5.11",
+      "chapter_id": "5",
+      "exercise_number": 11,
+      "starred": false,
+      "source_order": 11,
+      "problem_page_range": {
+        "pdf_page_index_start": 289,
+        "pdf_page_index_end": 289,
+        "pdf_page_number_start": 290,
+        "pdf_page_number_end": 290,
+        "printed_page_start": "268",
+        "printed_page_end": "268"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 289,
+            "pdf_page_number": 290,
+            "printed_page_label": "268"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "5.11"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text 64Hint You will need to reshape the input and each convolution s kernel size) +(printed page 268) --QDF=0",
+            "+(exercise 5.11) +(printed page 268) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "268",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "64Hint: You will need to reshape the input and each convolution’s kernel size.",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.11",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    },
+    "5.12": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "5.12",
+      "chapter_id": "5",
+      "exercise_number": 12,
+      "starred": false,
+      "source_order": 12,
+      "problem_page_range": {
+        "pdf_page_index_start": 290,
+        "pdf_page_index_end": 290,
+        "pdf_page_number_start": 291,
+        "pdf_page_number_end": 291,
+        "printed_page_start": "269",
+        "printed_page_end": "269"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 290,
+            "pdf_page_number": 291,
+            "printed_page_label": "269"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "5.12"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "5.13"
+            }
+          },
+          "queries": [
+            "+(text Inception Why is an inception module more efficient than a residual block What are) +(printed page 269) --QDF=0",
+            "+(exercise 5.12) +(printed page 269) --QDF=0",
+            "+(exercise 5.13) +(printed page 269) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "269",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Inception. Why is an inception module more efficient than a residual block? What are",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.12",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.13",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    },
+    "5.13": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "5.13",
+      "chapter_id": "5",
+      "exercise_number": 13,
+      "starred": false,
+      "source_order": 13,
+      "problem_page_range": {
+        "pdf_page_index_start": 290,
+        "pdf_page_index_end": 290,
+        "pdf_page_number_start": 291,
+        "pdf_page_number_end": 291,
+        "printed_page_start": "269",
+        "printed_page_end": "269"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 290,
+            "pdf_page_number": 291,
+            "printed_page_label": "269"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "5.13"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "5.14"
+            }
+          },
+          "queries": [
+            "+(text ResNets Why is it easier to train a ResNet with 100 layers than a VGG network) +(printed page 269) --QDF=0",
+            "+(exercise 5.13) +(printed page 269) --QDF=0",
+            "+(exercise 5.14) +(printed page 269) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "269",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "ResNets. Why is it easier to train a ResNet with 100 layers than a VGG network with",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.13",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.14",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    },
+    "5.14": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "5.14",
+      "chapter_id": "5",
+      "exercise_number": 14,
+      "starred": false,
+      "source_order": 14,
+      "problem_page_range": {
+        "pdf_page_index_start": 290,
+        "pdf_page_index_end": 290,
+        "pdf_page_number_start": 291,
+        "pdf_page_number_end": 291,
+        "printed_page_start": "269",
+        "printed_page_end": "269"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 290,
+            "pdf_page_number": 291,
+            "printed_page_label": "269"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "5.14"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "5.15"
+            }
+          },
+          "queries": [
+            "+(text output the same transformed pixel-wise representation of the input image What is the disadvantage) +(printed page 269) --QDF=0",
+            "+(exercise 5.14) +(printed page 269) --QDF=0",
+            "+(exercise 5.15) +(printed page 269) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "269",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "output the same transformed pixel-wise representation of the input image. What is the disadvantage",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.14",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.15",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    },
+    "5.15": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "5.15",
+      "chapter_id": "5",
+      "exercise_number": 15,
+      "starred": false,
+      "source_order": 15,
+      "problem_page_range": {
+        "pdf_page_index_start": 290,
+        "pdf_page_index_end": 290,
+        "pdf_page_number_start": 291,
+        "pdf_page_number_end": 291,
+        "printed_page_start": "269",
+        "printed_page_end": "269"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 290,
+            "pdf_page_number": 291,
+            "printed_page_label": "269"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "5.15"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "5.16"
+            }
+          },
+          "queries": [
+            "+(text Early vs late fusion in video processing What are two advantages of early fusion com) +(printed page 269) --QDF=0",
+            "+(exercise 5.15) +(printed page 269) --QDF=0",
+            "+(exercise 5.16) +(printed page 269) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "269",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Early vs. late fusion in video processing. What are two advantages of early fusion com-",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.15",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.16",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    },
+    "5.16": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "5.16",
+      "chapter_id": "5",
+      "exercise_number": 16,
+      "starred": false,
+      "source_order": 16,
+      "problem_page_range": {
+        "pdf_page_index_start": 290,
+        "pdf_page_index_end": 290,
+        "pdf_page_number_start": 291,
+        "pdf_page_number_end": 291,
+        "printed_page_start": "269",
+        "printed_page_end": "269"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 290,
+            "pdf_page_number": 291,
+            "printed_page_label": "269"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "5.16"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "5.17"
+            }
+          },
+          "queries": [
+            "+(text the output frames together to form a video What do you notice Does the video look) +(printed page 269) --QDF=0",
+            "+(exercise 5.16) +(printed page 269) --QDF=0",
+            "+(exercise 5.17) +(printed page 269) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "269",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "the output frames together to form a video. What do you notice? Does the video look plausible?",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.16",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.17",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    },
+    "5.17": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "5.17",
+      "chapter_id": "5",
+      "exercise_number": 17,
+      "starred": false,
+      "source_order": 17,
+      "problem_page_range": {
+        "pdf_page_index_start": 290,
+        "pdf_page_index_end": 290,
+        "pdf_page_number_start": 291,
+        "pdf_page_number_end": 291,
+        "printed_page_start": "269",
+        "printed_page_end": "269"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 290,
+            "pdf_page_number": 291,
+            "printed_page_label": "269"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "5.17"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "5.18"
+            }
+          },
+          "queries": [
+            "+(text it and create a histogram of the activations after each layer normalization operation Do the his) +(printed page 269) --QDF=0",
+            "+(exercise 5.17) +(printed page 269) --QDF=0",
+            "+(exercise 5.18) +(printed page 269) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "269",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "it and create a histogram of the activations after each layer normalization operation. Do the his-",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.17",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.18",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    },
+    "5.18": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "5.18",
+      "chapter_id": "5",
+      "exercise_number": 18,
+      "starred": false,
+      "source_order": 18,
+      "problem_page_range": {
+        "pdf_page_index_start": 290,
+        "pdf_page_index_end": 290,
+        "pdf_page_number_start": 291,
+        "pdf_page_number_end": 291,
+        "printed_page_start": "269",
+        "printed_page_end": "269"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 290,
+            "pdf_page_number": 291,
+            "printed_page_label": "269"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "5.18"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "5.19"
+            }
+          },
+          "queries": [
+            "+(text 3 Can you modify the generator s loss function min log 1 D G zn such) +(printed page 269) --QDF=0",
+            "+(exercise 5.18) +(printed page 269) --QDF=0",
+            "+(exercise 5.19) +(printed page 269) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "269",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "3. Can you modify the generator’s loss function, min log(1 − D(G(zn)), such that it is easier to",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.18",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.19",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [
+              "5.81"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    },
+    "5.19": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "5.19",
+      "chapter_id": "5",
+      "exercise_number": 19,
+      "starred": false,
+      "source_order": 19,
+      "problem_page_range": {
+        "pdf_page_index_start": 290,
+        "pdf_page_index_end": 290,
+        "pdf_page_number_start": 291,
+        "pdf_page_number_end": 291,
+        "printed_page_start": "269",
+        "printed_page_end": "269"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 290,
+            "pdf_page_number": 291,
+            "printed_page_label": "269"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "5.19"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text 65Hint The loss function should suggest a relatively large change to fool a great discriminator and) +(printed page 269) --QDF=0",
+            "+(exercise 5.19) +(printed page 269) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "269",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "65Hint: The loss function should suggest a relatively large change to fool a great discriminator and a relatively small",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "5.19",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    }
+  }
+}

@@ -143,39 +143,40 @@ class ExerciseIndexCompiler:
                 bool(target.selected_context_pages) for target in execution_targets
             )
 
-        closure_memo: dict[str, tuple[list[PageRetrievalStep], set[str], int]] = {}
-
         def dependency_closure(
-            exercise_id: str,
-            visiting: tuple[str, ...] = (),
+            root_exercise_id: str,
         ) -> tuple[list[PageRetrievalStep], set[str], int]:
-            if exercise_id in closure_memo:
-                return closure_memo[exercise_id]
-            if exercise_id in visiting:
-                cycle = " -> ".join((*visiting, exercise_id))
-                raise ValueError(f"exercise dependency cycle detected: {cycle}")
-
-            steps = [
-                step
-                for target in direct_execution_targets[exercise_id]
-                for step in target.retrieval_plan
-            ]
+            steps: list[PageRetrievalStep] = []
             dependency_ids: set[str] = set()
             max_depth = 0
-            for target in direct_targets[exercise_id]:
-                if target.kind != "exercise":
-                    continue
-                dependency_ids.add(target.target_id)
-                child_steps, child_ids, child_depth = dependency_closure(
-                    target.target_id,
-                    (*visiting, exercise_id),
-                )
-                steps.extend(child_steps)
-                dependency_ids.update(child_ids)
-                max_depth = max(max_depth, child_depth + 1)
-            result = (steps, dependency_ids, max_depth)
-            closure_memo[exercise_id] = result
-            return result
+            expanded: set[str] = {root_exercise_id}
+
+            def walk(current_id: str, path: tuple[str, ...], depth: int) -> None:
+                nonlocal max_depth
+                for target in direct_execution_targets[current_id]:
+                    if target.kind != "exercise":
+                        steps.extend(target.retrieval_plan)
+                        continue
+
+                    target_id = target.target_id
+                    # Szeliski contains legitimate mutual exercise references (for example
+                    # 10.9 <-> 13.2). A back-edge is preserved in reference_targets but must
+                    # not recursively re-fetch an ancestor exercise in the aggregate execution
+                    # plan.
+                    if target_id in path:
+                        continue
+
+                    steps.extend(target.retrieval_plan)
+                    if target_id != root_exercise_id:
+                        dependency_ids.add(target_id)
+                    max_depth = max(max_depth, depth + 1)
+                    if target_id in expanded:
+                        continue
+                    expanded.add(target_id)
+                    walk(target_id, (*path, target_id), depth + 1)
+
+            walk(root_exercise_id, (root_exercise_id,), 0)
+            return steps, dependency_ids, max_depth
 
         exercises: dict[str, ExerciseLocator] = {}
         transitive_exercise_dependency_count = 0

@@ -1,0 +1,2550 @@
+{
+  "data_version": "3",
+  "sections": {
+    "A": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "A",
+      "printed_section_id": "A",
+      "parent_section_id": null,
+      "title": "Linear algebra and numerical techniques",
+      "source_heading": "Appendix A Linear algebra and numerical techniques",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 741,
+          "pdf_page_number": 742,
+          "printed_page_label": "720"
+        },
+        "bbox": [
+          140.927,
+          151.586,
+          479.189,
+          229.122
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 1,
+      "page_range": {
+        "pdf_page_index_start": 741,
+        "pdf_page_index_end": 755,
+        "pdf_page_number_start": 742,
+        "pdf_page_number_end": 756,
+        "printed_page_start": "720",
+        "printed_page_end": "734"
+      },
+      "outline": [
+        "A.1",
+        "A.2",
+        "A.3",
+        "A.4",
+        "A.5"
+      ],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 741,
+            "pdf_page_number": 742,
+            "printed_page_label": "720"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "Appendix A Linear algebra and numerical techniques"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(Appendix A Linear algebra and numerical techniques) +(printed page 720) --QDF=0",
+            "+(R Szeliski Computer Vision Texts in Computer Science) +(Linear algebra and numerical techniques) +(printed page 720) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "720",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "R. Szeliski, Computer Vision, Texts in Computer Science,",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "Appendix A Linear algebra and numerical techniques",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Appendix A Linear algebra and numerical techniques"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 742,
+            "pdf_page_number": 743,
+            "printed_page_label": "721"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(using either the QR decomposition or normal equations This is followed by non-linear least squares) +(printed page 721) --QDF=0",
+            "+(using either the QR decomposition or normal equations This is followed by non-linear least squares) +(Linear algebra and numerical techniques) +(printed page 721) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "721",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "using either the QR decomposition or normal equations. This is followed by non-linear least squares,",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.1 Matrix decompositions",
+              "A.1.1 Singular value decomposition"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 743,
+            "pdf_page_number": 744,
+            "printed_page_label": "722"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(orthonormal vectors vj each of which is transformed to a new orthogonal vector uj with a) +(printed page 722) --QDF=0",
+            "+(orthonormal vectors vj each of which is transformed to a new orthogonal vector uj with a) +(Linear algebra and numerical techniques) +(printed page 722) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "722",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "orthonormal vectors vj, each of which is transformed to a new orthogonal vector uj with a length σj. When A",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.1.2 Eigenvalue decomposition"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "3.21"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 4,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 744,
+            "pdf_page_number": 745,
+            "printed_page_label": "723"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(sists of all the ai column vectors stacked side-by-side In this case we are guaranteed that) +(printed page 723) --QDF=0",
+            "+(sists of all the ai column vectors stacked side-by-side In this case we are guaranteed that) +(Linear algebra and numerical techniques) +(printed page 723) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "723",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "sists of all the ai column vectors stacked side-by-side. In this case, we are guaranteed that all of the",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [
+              "5.41"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 5,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 745,
+            "pdf_page_number": 746,
+            "printed_page_label": "724"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(For larger matrices iterative algorithms that first reduce the matrix C to a real symmetric tridi) +(printed page 724) --QDF=0",
+            "+(For larger matrices iterative algorithms that first reduce the matrix C to a real symmetric tridi) +(Linear algebra and numerical techniques) +(printed page 724) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "724",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "For larger matrices, iterative algorithms that first reduce the matrix C to a real symmetric tridi-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.1.3 QR factorization"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "11.13"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 6,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 746,
+            "pdf_page_number": 747,
+            "printed_page_label": "725"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(such as those that arise from normal equations in least squares problems Appendix A.2 Because) +(printed page 725) --QDF=0",
+            "+(such as those that arise from normal equations in least squares problems Appendix A.2 Because) +(Linear algebra and numerical techniques) +(printed page 725) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "725",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "such as those that arise from normal equations in least squares problems (Appendix A.2). Because",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.1.4 Cholesky factorization"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 7,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 747,
+            "pdf_page_number": 748,
+            "printed_page_label": "726"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(whose minimum value for x can be found by solving the associated normal equations Bj orck) +(printed page 726) --QDF=0",
+            "+(whose minimum value for x can be found by solving the associated normal equations Bj orck) +(Linear algebra and numerical techniques) +(printed page 726) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "726",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "whose minimum value for x can be found by solving the associated normal equations (Bj ̈orck 1996;",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.2 Linear least squares"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "8.2"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 8,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 748,
+            "pdf_page_number": 749,
+            "printed_page_label": "727"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(point cloud data instead of having measurement error along one particular axis the measured points) +(printed page 727) --QDF=0",
+            "+(point cloud data instead of having measurement error along one particular axis the measured points) +(Linear algebra and numerical techniques) +(printed page 727) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "727",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "point cloud data, instead of having measurement error along one particular axis, the measured points",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.2.1 Total least squares"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 9,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 749,
+            "pdf_page_number": 750,
+            "printed_page_label": "728"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(which is known as total least squares TLS Van Huffel and Vandewalle 1991 Bj orck 1996) +(printed page 728) --QDF=0",
+            "+(which is known as total least squares TLS Van Huffel and Vandewalle 1991 Bj orck 1996) +(Linear algebra and numerical techniques) +(printed page 728) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "728",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "which is known as total least squares (TLS) (Van Huffel and Vandewalle 1991; Bj ̈orck 1996; Golub",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 10,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 750,
+            "pdf_page_number": 751,
+            "printed_page_label": "729"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(value which is a simple form of line search Al-Baali and Fletcher 1986 Bj orck 1996) +(printed page 729) --QDF=0",
+            "+(value which is a simple form of line search Al-Baali and Fletcher 1986 Bj orck 1996) +(Linear algebra and numerical techniques) +(printed page 729) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "729",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "value, which is a simple form of line search (Al-Baali and Fletcher 1986; Bj ̈orck 1996; Nocedal and",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.3 Non-linear least squares"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 11,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 751,
+            "pdf_page_number": 752,
+            "printed_page_label": "730"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(is sometimes used in finite element analysis Banded systems such as snakes 7.27 can store just) +(printed page 730) --QDF=0",
+            "+(is sometimes used in finite element analysis Banded systems such as snakes 7.27 can store just) +(Linear algebra and numerical techniques) +(printed page 730) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "730",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "is sometimes used in finite element analysis. Banded systems such as snakes (7.27) can store just the non-zero band elements",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.4 Direct sparse matrix techniques",
+              "A.4.1 Variable reordering"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "11.68",
+              "7.27"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 12,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 752,
+            "pdf_page_number": 753,
+            "printed_page_label": "731"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(matrix operations Golub and Van Loan 1996 It is also possible to apply sparse reordering and) +(printed page 731) --QDF=0",
+            "+(matrix operations Golub and Van Loan 1996 It is also possible to apply sparse reordering and) +(Linear algebra and numerical techniques) +(printed page 731) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "731",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "matrix operations (Golub and Van Loan 1996). It is also possible to apply sparse reordering and",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.5 Iterative techniques"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 13,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 753,
+            "pdf_page_number": 754,
+            "printed_page_label": "732"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(of poor conditioning It may also be preferable if due to the sparsity structure of A) +(printed page 732) --QDF=0",
+            "+(of poor conditioning It may also be preferable if due to the sparsity structure of A) +(Linear algebra and numerical techniques) +(printed page 732) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "732",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "of poor conditioning. It may also be preferable if, due to the sparsity structure of A, multiplies with",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.5.1 Conjugate gradient"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 14,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 754,
+            "pdf_page_number": 755,
+            "printed_page_label": "733"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(8 Finally a new search direction is calculated by first computing a factor as the ratio) +(printed page 733) --QDF=0",
+            "+(8 Finally a new search direction is calculated by first computing a factor as the ratio) +(Linear algebra and numerical techniques) +(printed page 733) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "733",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "8.) Finally, a new search direction is calculated by first computing a factor β as the ratio of current",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.5.2 Preconditioning"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 15,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 755,
+            "pdf_page_number": 756,
+            "printed_page_label": "734"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(10If a complete Cholesky factorization C RT R is used we get C R T CR) +(printed page 734) --QDF=0",
+            "+(10If a complete Cholesky factorization C RT R is used we get C R T CR) +(Linear algebra and numerical techniques) +(printed page 734) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "734",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "10If a complete Cholesky factorization C = RT R is used, we get ˆC = R−T CR−1 = I and all iterative algorithms",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.5.3 Multigrid"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "A.1": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "A.1",
+      "printed_section_id": "A.1",
+      "parent_section_id": "A",
+      "title": "Matrix decompositions",
+      "source_heading": "A.1 Matrix decompositions",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 742,
+          "pdf_page_number": 743,
+          "printed_page_label": "721"
+        },
+        "bbox": [
+          114.734,
+          355.233,
+          320.312,
+          370.521
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 2,
+      "page_range": {
+        "pdf_page_index_start": 742,
+        "pdf_page_index_end": 746,
+        "pdf_page_number_start": 743,
+        "pdf_page_number_end": 747,
+        "printed_page_start": "721",
+        "printed_page_end": "725"
+      },
+      "outline": [
+        "A.1.1",
+        "A.1.2",
+        "A.1.3",
+        "A.1.4"
+      ],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 742,
+            "pdf_page_number": 743,
+            "printed_page_label": "721"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "A.1 Matrix decompositions"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(A.1 Matrix decompositions) +(printed page 721) --QDF=0",
+            "+(To better understand the structure of matrices and more stably perform operations such as inversion) +(Matrix decompositions) +(printed page 721) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "721",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "To better understand the structure of matrices and more stably perform operations such as inversion",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "A.1 Matrix decompositions",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.1 Matrix decompositions",
+              "A.1.1 Singular value decomposition"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 743,
+            "pdf_page_number": 744,
+            "printed_page_label": "722"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(orthonormal vectors vj each of which is transformed to a new orthogonal vector uj with a) +(printed page 722) --QDF=0",
+            "+(orthonormal vectors vj each of which is transformed to a new orthogonal vector uj with a) +(Matrix decompositions) +(printed page 722) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "722",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "orthonormal vectors vj, each of which is transformed to a new orthogonal vector uj with a length σj. When A",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.1.2 Eigenvalue decomposition"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "3.21"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 744,
+            "pdf_page_number": 745,
+            "printed_page_label": "723"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(sists of all the ai column vectors stacked side-by-side In this case we are guaranteed that) +(printed page 723) --QDF=0",
+            "+(sists of all the ai column vectors stacked side-by-side In this case we are guaranteed that) +(Matrix decompositions) +(printed page 723) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "723",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "sists of all the ai column vectors stacked side-by-side. In this case, we are guaranteed that all of the",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [
+              "5.41"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 4,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 745,
+            "pdf_page_number": 746,
+            "printed_page_label": "724"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(For larger matrices iterative algorithms that first reduce the matrix C to a real symmetric tridi) +(printed page 724) --QDF=0",
+            "+(For larger matrices iterative algorithms that first reduce the matrix C to a real symmetric tridi) +(Matrix decompositions) +(printed page 724) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "724",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "For larger matrices, iterative algorithms that first reduce the matrix C to a real symmetric tridi-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.1.3 QR factorization"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "11.13"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 5,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 746,
+            "pdf_page_number": 747,
+            "printed_page_label": "725"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(such as those that arise from normal equations in least squares problems Appendix A.2 Because) +(printed page 725) --QDF=0",
+            "+(such as those that arise from normal equations in least squares problems Appendix A.2 Because) +(Matrix decompositions) +(printed page 725) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "725",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "such as those that arise from normal equations in least squares problems (Appendix A.2). Because",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.1.4 Cholesky factorization"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "A.1.1": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "A.1.1",
+      "printed_section_id": "A.1.1",
+      "parent_section_id": "A.1",
+      "title": "Singular value decomposition",
+      "source_heading": "A.1.1 Singular value decomposition",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 742,
+          "pdf_page_number": 743,
+          "printed_page_label": "721"
+        },
+        "bbox": [
+          114.734,
+          452.748,
+          338.91,
+          465.488
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 742,
+        "pdf_page_index_end": 743,
+        "pdf_page_number_start": 743,
+        "pdf_page_number_end": 744,
+        "printed_page_start": "721",
+        "printed_page_end": "722"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 742,
+            "pdf_page_number": 743,
+            "printed_page_label": "721"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "A.1.1 Singular value decomposition"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(A.1.1 Singular value decomposition) +(printed page 721) --QDF=0",
+            "+(A geometric intuition for the SVD of a matrix A can be obtained by re-writing A) +(Singular value decomposition) +(printed page 721) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "721",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "A geometric intuition for the SVD of a matrix A can be obtained by re-writing A = UΣVT in",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "A.1.1 Singular value decomposition",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.1.1 Singular value decomposition"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 743,
+            "pdf_page_number": 744,
+            "printed_page_label": "722"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "A.1.2 Eigenvalue decomposition"
+            }
+          },
+          "queries": [
+            "+(orthonormal vectors vj each of which is transformed to a new orthogonal vector uj with a) +(printed page 722) --QDF=0",
+            "+(orthonormal vectors vj each of which is transformed to a new orthogonal vector uj with a) +(Singular value decomposition) +(printed page 722) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "722",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "orthonormal vectors vj, each of which is transformed to a new orthogonal vector uj with a length σj. When A",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "A.1.2 Eigenvalue decomposition",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [
+              "3.21"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "A.1.2": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "A.1.2",
+      "printed_section_id": "A.1.2",
+      "parent_section_id": "A.1",
+      "title": "Eigenvalue decomposition",
+      "source_heading": "A.1.2 Eigenvalue decomposition",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 743,
+          "pdf_page_number": 744,
+          "printed_page_label": "722"
+        },
+        "bbox": [
+          57.188,
+          473.785,
+          261.157,
+          486.525
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 743,
+        "pdf_page_index_end": 745,
+        "pdf_page_number_start": 744,
+        "pdf_page_number_end": 746,
+        "printed_page_start": "722",
+        "printed_page_end": "724"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 743,
+            "pdf_page_number": 744,
+            "printed_page_label": "722"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "A.1.2 Eigenvalue decomposition"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(A.1.2 Eigenvalue decomposition) +(printed page 722) --QDF=0",
+            "+(2Eigenvalue decompositions can be computed for non-symmetric matrices but the eigenvalues and eigenvectors can have) +(Eigenvalue decomposition) +(printed page 722) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "722",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "2Eigenvalue decompositions can be computed for non-symmetric matrices, but the eigenvalues and eigenvectors can have",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "A.1.2 Eigenvalue decomposition",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.1.2 Eigenvalue decomposition"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 744,
+            "pdf_page_number": 745,
+            "printed_page_label": "723"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(sists of all the ai column vectors stacked side-by-side In this case we are guaranteed that) +(printed page 723) --QDF=0",
+            "+(sists of all the ai column vectors stacked side-by-side In this case we are guaranteed that) +(Eigenvalue decomposition) +(printed page 723) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "723",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "sists of all the ai column vectors stacked side-by-side. In this case, we are guaranteed that all of the",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [
+              "5.41"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 745,
+            "pdf_page_number": 746,
+            "printed_page_label": "724"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "A.1.3 QR factorization"
+            }
+          },
+          "queries": [
+            "+(For larger matrices iterative algorithms that first reduce the matrix C to a real symmetric tridi) +(printed page 724) --QDF=0",
+            "+(For larger matrices iterative algorithms that first reduce the matrix C to a real symmetric tridi) +(Eigenvalue decomposition) +(printed page 724) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "724",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "For larger matrices, iterative algorithms that first reduce the matrix C to a real symmetric tridi-",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "A.1.3 QR factorization",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "A.1.3": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "A.1.3",
+      "printed_section_id": "A.1.3",
+      "parent_section_id": "A.1",
+      "title": "QR factorization",
+      "source_heading": "A.1.3 QR factorization",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 745,
+          "pdf_page_number": 746,
+          "printed_page_label": "724"
+        },
+        "bbox": [
+          57.188,
+          476.158,
+          198.769,
+          488.898
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 745,
+        "pdf_page_index_end": 746,
+        "pdf_page_number_start": 746,
+        "pdf_page_number_end": 747,
+        "printed_page_start": "724",
+        "printed_page_end": "725"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 745,
+            "pdf_page_number": 746,
+            "printed_page_label": "724"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "A.1.3 QR factorization"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(A.1.3 QR factorization) +(printed page 724) --QDF=0",
+            "+(A widely used technique for stably solving poorly conditioned least squares problems Bj orck 1996) +(QR factorization) +(printed page 724) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "724",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "A widely used technique for stably solving poorly conditioned least squares problems (Bj ̈orck 1996),",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "A.1.3 QR factorization",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.1.3 QR factorization"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "11.13"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 746,
+            "pdf_page_number": 747,
+            "printed_page_label": "725"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "A.1.4 Cholesky factorization"
+            }
+          },
+          "queries": [
+            "+(Cholesky decomposition of the matrix C into its upper triangular form R) +(printed page 725) --QDF=0",
+            "+(Cholesky decomposition of the matrix C into its upper triangular form R) +(QR factorization) +(printed page 725) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "725",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Cholesky decomposition of the matrix C into its upper triangular form R.",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "A.1.4 Cholesky factorization",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "A.1.4": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "A.1.4",
+      "printed_section_id": "A.1.4",
+      "parent_section_id": "A.1",
+      "title": "Cholesky factorization",
+      "source_heading": "A.1.4 Cholesky factorization",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 746,
+          "pdf_page_number": 747,
+          "printed_page_label": "725"
+        },
+        "bbox": [
+          114.734,
+          259.902,
+          293.847,
+          272.642
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 746,
+        "pdf_page_index_end": 746,
+        "pdf_page_number_start": 747,
+        "pdf_page_number_end": 747,
+        "printed_page_start": "725",
+        "printed_page_end": "725"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 746,
+            "pdf_page_number": 747,
+            "printed_page_label": "725"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "A.1.4 Cholesky factorization"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(A.1.4 Cholesky factorization) +(printed page 725) --QDF=0",
+            "+(such as those that arise from normal equations in least squares problems Appendix A.2 Because) +(Cholesky factorization) +(printed page 725) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "725",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "such as those that arise from normal equations in least squares problems (Appendix A.2). Because",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "A.1.4 Cholesky factorization",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.1.4 Cholesky factorization"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "A.2": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "A.2",
+      "printed_section_id": "A.2",
+      "parent_section_id": "A",
+      "title": "Linear least squares",
+      "source_heading": "A.2 Linear least squares",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 747,
+          "pdf_page_number": 748,
+          "printed_page_label": "726"
+        },
+        "bbox": [
+          57.188,
+          76.211,
+          244.114,
+          91.499
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 2,
+      "page_range": {
+        "pdf_page_index_start": 747,
+        "pdf_page_index_end": 749,
+        "pdf_page_number_start": 748,
+        "pdf_page_number_end": 750,
+        "printed_page_start": "726",
+        "printed_page_end": "728"
+      },
+      "outline": [
+        "A.2.1"
+      ],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 747,
+            "pdf_page_number": 748,
+            "printed_page_label": "726"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "A.2 Linear least squares"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(A.2 Linear least squares) +(printed page 726) --QDF=0",
+            "+(whose minimum value for x can be found by solving the associated normal equations Bj orck) +(Linear least squares) +(printed page 726) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "726",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "whose minimum value for x can be found by solving the associated normal equations (Bj ̈orck 1996;",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "A.2 Linear least squares",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.2 Linear least squares"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "8.2"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 748,
+            "pdf_page_number": 749,
+            "printed_page_label": "727"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(point cloud data instead of having measurement error along one particular axis the measured points) +(printed page 727) --QDF=0",
+            "+(point cloud data instead of having measurement error along one particular axis the measured points) +(Linear least squares) +(printed page 727) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "727",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "point cloud data, instead of having measurement error along one particular axis, the measured points",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.2.1 Total least squares"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 749,
+            "pdf_page_number": 750,
+            "printed_page_label": "728"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(which is known as total least squares TLS Van Huffel and Vandewalle 1991 Bj orck 1996) +(printed page 728) --QDF=0",
+            "+(which is known as total least squares TLS Van Huffel and Vandewalle 1991 Bj orck 1996) +(Linear least squares) +(printed page 728) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "728",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "which is known as total least squares (TLS) (Van Huffel and Vandewalle 1991; Bj ̈orck 1996; Golub",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "A.2.1": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "A.2.1",
+      "printed_section_id": "A.2.1",
+      "parent_section_id": "A.2",
+      "title": "Total least squares",
+      "source_heading": "A.2.1 Total least squares",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 748,
+          "pdf_page_number": 749,
+          "printed_page_label": "727"
+        },
+        "bbox": [
+          114.734,
+          599.224,
+          272.317,
+          611.964
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 748,
+        "pdf_page_index_end": 749,
+        "pdf_page_number_start": 749,
+        "pdf_page_number_end": 750,
+        "printed_page_start": "727",
+        "printed_page_end": "728"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 748,
+            "pdf_page_number": 749,
+            "printed_page_label": "727"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "A.2.1 Total least squares"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(A.2.1 Total least squares) +(printed page 727) --QDF=0",
+            "+(point cloud data instead of having measurement error along one particular axis the measured points) +(Total least squares) +(printed page 727) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "727",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "point cloud data, instead of having measurement error along one particular axis, the measured points",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "A.2.1 Total least squares",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.2.1 Total least squares"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 749,
+            "pdf_page_number": 750,
+            "printed_page_label": "728"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(which is known as total least squares TLS Van Huffel and Vandewalle 1991 Bj orck 1996) +(printed page 728) --QDF=0",
+            "+(which is known as total least squares TLS Van Huffel and Vandewalle 1991 Bj orck 1996) +(Total least squares) +(printed page 728) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "728",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "which is known as total least squares (TLS) (Van Huffel and Vandewalle 1991; Bj ̈orck 1996; Golub",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "A.3": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "A.3",
+      "printed_section_id": "A.3",
+      "parent_section_id": "A",
+      "title": "Non-linear least squares",
+      "source_heading": "A.3 Non-linear least squares",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 750,
+          "pdf_page_number": 751,
+          "printed_page_label": "729"
+        },
+        "bbox": [
+          114.734,
+          76.211,
+          331.381,
+          91.499
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 2,
+      "page_range": {
+        "pdf_page_index_start": 750,
+        "pdf_page_index_end": 750,
+        "pdf_page_number_start": 751,
+        "pdf_page_number_end": 751,
+        "printed_page_start": "729",
+        "printed_page_end": "729"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 750,
+            "pdf_page_number": 751,
+            "printed_page_label": "729"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "A.3 Non-linear least squares"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(A.3 Non-linear least squares) +(printed page 729) --QDF=0",
+            "+(value which is a simple form of line search Al-Baali and Fletcher 1986 Bj orck 1996) +(Non-linear least squares) +(printed page 729) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "729",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "value, which is a simple form of line search (Al-Baali and Fletcher 1986; Bj ̈orck 1996; Nocedal and",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "A.3 Non-linear least squares",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.3 Non-linear least squares"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "A.4": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "A.4",
+      "printed_section_id": "A.4",
+      "parent_section_id": "A",
+      "title": "Direct sparse matrix techniques",
+      "source_heading": "A.4 Direct sparse matrix techniques",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 751,
+          "pdf_page_number": 752,
+          "printed_page_label": "730"
+        },
+        "bbox": [
+          57.188,
+          76.211,
+          327.829,
+          91.499
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 2,
+      "page_range": {
+        "pdf_page_index_start": 751,
+        "pdf_page_index_end": 752,
+        "pdf_page_number_start": 752,
+        "pdf_page_number_end": 753,
+        "printed_page_start": "730",
+        "printed_page_end": "731"
+      },
+      "outline": [
+        "A.4.1"
+      ],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 751,
+            "pdf_page_number": 752,
+            "printed_page_label": "730"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "A.4 Direct sparse matrix techniques"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(A.4 Direct sparse matrix techniques) +(printed page 730) --QDF=0",
+            "+(is sometimes used in finite element analysis Banded systems such as snakes 7.27 can store just) +(Direct sparse matrix techniques) +(printed page 730) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "730",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "is sometimes used in finite element analysis. Banded systems such as snakes (7.27) can store just the non-zero band elements",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "A.4 Direct sparse matrix techniques",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.4 Direct sparse matrix techniques",
+              "A.4.1 Variable reordering"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "11.68",
+              "7.27"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 752,
+            "pdf_page_number": 753,
+            "printed_page_label": "731"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "A.5 Iterative techniques"
+            }
+          },
+          "queries": [
+            "+(matrix operations Golub and Van Loan 1996 It is also possible to apply sparse reordering and) +(printed page 731) --QDF=0",
+            "+(matrix operations Golub and Van Loan 1996 It is also possible to apply sparse reordering and) +(Direct sparse matrix techniques) +(printed page 731) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "731",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "matrix operations (Golub and Van Loan 1996). It is also possible to apply sparse reordering and",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "A.5 Iterative techniques",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "A.4.1": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "A.4.1",
+      "printed_section_id": "A.4.1",
+      "parent_section_id": "A.4",
+      "title": "Variable reordering",
+      "source_heading": "A.4.1 Variable reordering",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 751,
+          "pdf_page_number": 752,
+          "printed_page_label": "730"
+        },
+        "bbox": [
+          57.188,
+          338.566,
+          216.057,
+          351.306
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 751,
+        "pdf_page_index_end": 752,
+        "pdf_page_number_start": 752,
+        "pdf_page_number_end": 753,
+        "printed_page_start": "730",
+        "printed_page_end": "731"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 751,
+            "pdf_page_number": 752,
+            "printed_page_label": "730"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "A.4.1 Variable reordering"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(A.4.1 Variable reordering) +(printed page 730) --QDF=0",
+            "+(is sometimes used in finite element analysis Banded systems such as snakes 7.27 can store just) +(Variable reordering) +(printed page 730) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "730",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "is sometimes used in finite element analysis. Banded systems such as snakes (7.27) can store just the non-zero band elements",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "A.4.1 Variable reordering",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.4.1 Variable reordering"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "11.68",
+              "7.27"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 752,
+            "pdf_page_number": 753,
+            "printed_page_label": "731"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "A.5 Iterative techniques"
+            }
+          },
+          "queries": [
+            "+(matrix operations Golub and Van Loan 1996 It is also possible to apply sparse reordering and) +(printed page 731) --QDF=0",
+            "+(matrix operations Golub and Van Loan 1996 It is also possible to apply sparse reordering and) +(Variable reordering) +(printed page 731) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "731",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "matrix operations (Golub and Van Loan 1996). It is also possible to apply sparse reordering and",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "A.5 Iterative techniques",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "A.5": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "A.5",
+      "printed_section_id": "A.5",
+      "parent_section_id": "A",
+      "title": "Iterative techniques",
+      "source_heading": "A.5 Iterative techniques",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 752,
+          "pdf_page_number": 753,
+          "printed_page_label": "731"
+        },
+        "bbox": [
+          114.734,
+          485.233,
+          297.24,
+          500.521
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 2,
+      "page_range": {
+        "pdf_page_index_start": 752,
+        "pdf_page_index_end": 755,
+        "pdf_page_number_start": 753,
+        "pdf_page_number_end": 756,
+        "printed_page_start": "731",
+        "printed_page_end": "734"
+      },
+      "outline": [
+        "A.5.1",
+        "A.5.2",
+        "A.5.3"
+      ],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 752,
+            "pdf_page_number": 753,
+            "printed_page_label": "731"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "A.5 Iterative techniques"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(A.5 Iterative techniques) +(printed page 731) --QDF=0",
+            "+(A large number of iterative techniques have been developed over the years including such well) +(Iterative techniques) +(printed page 731) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "731",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "A large number of iterative techniques have been developed over the years, including such well-",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "A.5 Iterative techniques",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.5 Iterative techniques"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 753,
+            "pdf_page_number": 754,
+            "printed_page_label": "732"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(of poor conditioning It may also be preferable if due to the sparsity structure of A) +(printed page 732) --QDF=0",
+            "+(of poor conditioning It may also be preferable if due to the sparsity structure of A) +(Iterative techniques) +(printed page 732) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "732",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "of poor conditioning. It may also be preferable if, due to the sparsity structure of A, multiplies with",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.5.1 Conjugate gradient"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 754,
+            "pdf_page_number": 755,
+            "printed_page_label": "733"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(8 Finally a new search direction is calculated by first computing a factor as the ratio) +(printed page 733) --QDF=0",
+            "+(8 Finally a new search direction is calculated by first computing a factor as the ratio) +(Iterative techniques) +(printed page 733) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "733",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "8.) Finally, a new search direction is calculated by first computing a factor β as the ratio of current",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.5.2 Preconditioning"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 4,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 755,
+            "pdf_page_number": 756,
+            "printed_page_label": "734"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(10If a complete Cholesky factorization C RT R is used we get C R T CR) +(printed page 734) --QDF=0",
+            "+(10If a complete Cholesky factorization C RT R is used we get C R T CR) +(Iterative techniques) +(printed page 734) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "734",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "10If a complete Cholesky factorization C = RT R is used, we get ˆC = R−T CR−1 = I and all iterative algorithms",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.5.3 Multigrid"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "A.5.1": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "A.5.1",
+      "printed_section_id": "A.5.1",
+      "parent_section_id": "A.5",
+      "title": "Conjugate gradient",
+      "source_heading": "A.5.1 Conjugate gradient",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 753,
+          "pdf_page_number": 754,
+          "printed_page_label": "732"
+        },
+        "bbox": [
+          57.188,
+          409.543,
+          216.465,
+          422.283
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 753,
+        "pdf_page_index_end": 754,
+        "pdf_page_number_start": 754,
+        "pdf_page_number_end": 755,
+        "printed_page_start": "732",
+        "printed_page_end": "733"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 753,
+            "pdf_page_number": 754,
+            "printed_page_label": "732"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "A.5.1 Conjugate gradient"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(A.5.1 Conjugate gradient) +(printed page 732) --QDF=0",
+            "+(of poor conditioning It may also be preferable if due to the sparsity structure of A) +(Conjugate gradient) +(printed page 732) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "732",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "of poor conditioning. It may also be preferable if, due to the sparsity structure of A, multiplies with",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "A.5.1 Conjugate gradient",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.5.1 Conjugate gradient"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 754,
+            "pdf_page_number": 755,
+            "printed_page_label": "733"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "A.5.2 Preconditioning"
+            }
+          },
+          "queries": [
+            "+(8 Finally a new search direction is calculated by first computing a factor as the ratio) +(printed page 733) --QDF=0",
+            "+(8 Finally a new search direction is calculated by first computing a factor as the ratio) +(Conjugate gradient) +(printed page 733) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "733",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "8.) Finally, a new search direction is calculated by first computing a factor β as the ratio of current",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "A.5.2 Preconditioning",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "A.5.2": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "A.5.2",
+      "printed_section_id": "A.5.2",
+      "parent_section_id": "A.5",
+      "title": "Preconditioning",
+      "source_heading": "A.5.2 Preconditioning",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 754,
+          "pdf_page_number": 755,
+          "printed_page_label": "733"
+        },
+        "bbox": [
+          114.734,
+          301.023,
+          254.901,
+          313.763
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 754,
+        "pdf_page_index_end": 755,
+        "pdf_page_number_start": 755,
+        "pdf_page_number_end": 756,
+        "printed_page_start": "733",
+        "printed_page_end": "734"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 754,
+            "pdf_page_number": 755,
+            "printed_page_label": "733"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "A.5.2 Preconditioning"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(A.5.2 Preconditioning) +(printed page 733) --QDF=0",
+            "+(in large part by the condition number C Its effectiveness can therefore be increased dramatically) +(Preconditioning) +(printed page 733) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "733",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "in large part by the condition number κ(C). Its effectiveness can therefore be increased dramatically",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "A.5.2 Preconditioning",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.5.2 Preconditioning"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 755,
+            "pdf_page_number": 756,
+            "printed_page_label": "734"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "A.5.3 Multigrid"
+            }
+          },
+          "queries": [
+            "+(to just the original non-zero elements in C.10 Other preconditioners are based on a sparsified e.g) +(printed page 734) --QDF=0",
+            "+(to just the original non-zero elements in C.10 Other preconditioners are based on a sparsified e.g) +(Preconditioning) +(printed page 734) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "734",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "to just the original non-zero elements in C.10 Other preconditioners are based on a sparsified, e.g.,",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "A.5.3 Multigrid",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "A.5.3": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "A.5.3",
+      "printed_section_id": "A.5.3",
+      "parent_section_id": "A.5",
+      "title": "Multigrid",
+      "source_heading": "A.5.3 Multigrid",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 755,
+          "pdf_page_number": 756,
+          "printed_page_label": "734"
+        },
+        "bbox": [
+          57.188,
+          269.302,
+          154.166,
+          282.042
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 755,
+        "pdf_page_index_end": 755,
+        "pdf_page_number_start": 756,
+        "pdf_page_number_end": 756,
+        "printed_page_start": "734",
+        "printed_page_end": "734"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 755,
+            "pdf_page_number": 756,
+            "printed_page_label": "734"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "A.5.3 Multigrid"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(A.5.3 Multigrid) +(printed page 734) --QDF=0",
+            "+(10If a complete Cholesky factorization C RT R is used we get C R T CR) +(Multigrid) +(printed page 734) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "734",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "10If a complete Cholesky factorization C = RT R is used, we get ˆC = R−T CR−1 = I and all iterative algorithms",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "A.5.3 Multigrid",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "A.5.3 Multigrid"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    }
+  }
+}

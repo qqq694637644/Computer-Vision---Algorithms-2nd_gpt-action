@@ -1,0 +1,700 @@
+data_version: '3'
+chapter_id: '10'
+exercises:
+- exercise_id: '10.1'
+  chapter_id: '10'
+  exercise_number: 1
+  starred: false
+  source_order: 1
+  problem_page_range:
+    pdf_page_index_start: 553
+    pdf_page_index_end: 554
+    pdf_page_number_start: 554
+    pdf_page_number_end: 555
+    printed_page_start: '532'
+    printed_page_end: '533'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 553
+      pdf_page_number: 554
+      printed_page_label: '532'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '10.1'
+      end_before: null
+    queries:
+    - +(10.1) +(printed page 532) --QDF=0
+    - +(hard Heidrich et al 2010 This calibration will be useful in a number of different applications) +(printed page 532)
+      --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '532'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: hard, Heidrich et al. 2010). This calibration will be useful in a number of different applications,
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '10.1'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 554
+      pdf_page_number: 555
+      printed_page_label: '533'
+    content_window:
+      start_at: null
+      end_before:
+        kind: exercise
+        value: '10.2'
+    queries:
+    - +(8 Implement a tone mapping operator Exercise 10.5 and use this to map your radiance image) +(printed page 533) --QDF=0
+    - +(8 Implement a tone mapping operator Exercise 10.5 and use this to map your radiance image) +(Exercises) +(printed
+      page 533) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '533'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 8. Implement a tone mapping operator (Exercise 10.5) and use this to map your radiance image
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '10.2'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: '10.2'
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: exercise
+    target_id: '10.5'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+- exercise_id: '10.2'
+  chapter_id: '10'
+  exercise_number: 2
+  starred: false
+  source_order: 2
+  problem_page_range:
+    pdf_page_index_start: 554
+    pdf_page_index_end: 554
+    pdf_page_number_start: 555
+    pdf_page_number_end: 555
+    printed_page_start: '533'
+    printed_page_end: '533'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 554
+      pdf_page_number: 555
+      printed_page_label: '533'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '10.2'
+      end_before:
+        kind: exercise
+        value: '10.3'
+    queries:
+    - +(10.2) +(printed page 533) --QDF=0
+    - +(1 Set up your camera on a tripod looking at a calibration target or a static) +(printed page 533) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '533'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 1. Set up your camera on a tripod looking at a calibration target or a static scene with a good
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '10.2'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '10.3'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '10.3'
+  chapter_id: '10'
+  exercise_number: 3
+  starred: false
+  source_order: 3
+  problem_page_range:
+    pdf_page_index_start: 554
+    pdf_page_index_end: 554
+    pdf_page_number_start: 555
+    pdf_page_number_end: 555
+    printed_page_start: '533'
+    printed_page_end: '533'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 554
+      pdf_page_number: 555
+      printed_page_label: '533'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '10.3'
+      end_before: null
+    queries:
+    - +(10.3) +(printed page 533) --QDF=0
+    - +(For the parametric form of your vignetting function you can either use a simple radial function) +(printed page 533)
+      --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '533'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: For the parametric form of your vignetting function, you can either use a simple radial function, e.g.,
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '10.3'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids:
+      - '10.41'
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '10.4'
+  chapter_id: '10'
+  exercise_number: 4
+  starred: false
+  source_order: 4
+  problem_page_range:
+    pdf_page_index_start: 555
+    pdf_page_index_end: 555
+    pdf_page_number_start: 556
+    pdf_page_number_end: 556
+    printed_page_start: '534'
+    printed_page_end: '534'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 555
+      pdf_page_number: 556
+      printed_page_label: '534'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '10.4'
+      end_before:
+        kind: exercise
+        value: '10.5'
+    queries:
+    - +(10.4) +(printed page 534) --QDF=0
+    - +(2 Fit a local profile to each oriented edge and fill these pixels into an ideal) +(printed page 534) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '534'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 2. Fit a local profile to each oriented edge and fill these pixels into an ideal target image, either
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '10.4'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '10.5'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '10.7'
+      equation_ids:
+      - '10.1'
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: figure
+    target_id: '10.7'
+    reason: Explicit figure reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: 10.1.4
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: figure
+    target_id: '10.9'
+    reason: Explicit figure reference in exercise text
+    selected_context_pages: []
+- exercise_id: '10.5'
+  chapter_id: '10'
+  exercise_number: 5
+  starred: false
+  source_order: 5
+  problem_page_range:
+    pdf_page_index_start: 555
+    pdf_page_index_end: 555
+    pdf_page_number_start: 556
+    pdf_page_number_end: 556
+    printed_page_start: '534'
+    printed_page_end: '534'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 555
+      pdf_page_number: 556
+      printed_page_label: '534'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '10.5'
+      end_before:
+        kind: exercise
+        value: '10.6'
+    queries:
+    - +(10.5) +(printed page 534) --QDF=0
+    - +(Lischinski Farbman et al 2006 or any of the numerous additional algorithms discussed by Rein) +(printed page 534)
+      --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '534'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Lischinski, Farbman et al. 2006) or any of the numerous additional algorithms discussed by Rein-
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '10.5'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '10.6'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: 10.2.1
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: 3.1.4
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+- exercise_id: '10.6'
+  chapter_id: '10'
+  exercise_number: 6
+  starred: false
+  source_order: 6
+  problem_page_range:
+    pdf_page_index_start: 555
+    pdf_page_index_end: 555
+    pdf_page_number_start: 556
+    pdf_page_number_end: 556
+    printed_page_start: '534'
+    printed_page_end: '534'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 555
+      pdf_page_number: 556
+      printed_page_label: '534'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '10.6'
+      end_before:
+        kind: exercise
+        value: '10.7'
+    queries:
+    - +(10.6) +(printed page 534) --QDF=0
+    - +(to best effect You can use ideas from Eisemann and Durand 2004 and Petschnigg Agrawala et) +(printed page 534) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '534'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: to best effect. You can use ideas from Eisemann and Durand (2004) and Petschnigg, Agrawala et al.
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '10.6'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '10.7'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '10.7'
+  chapter_id: '10'
+  exercise_number: 7
+  starred: false
+  source_order: 7
+  problem_page_range:
+    pdf_page_index_start: 555
+    pdf_page_index_end: 555
+    pdf_page_number_start: 556
+    pdf_page_number_end: 556
+    printed_page_start: '534'
+    printed_page_end: '534'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 555
+      pdf_page_number: 556
+      printed_page_label: '534'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '10.7'
+      end_before: null
+    queries:
+    - +(10.7) +(printed page 534) --QDF=0
+    - +(6 Add in a gradient image prior either as another least squares term or as a) +(printed page 534) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '534'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 6. Add in a gradient image prior, either as another least squares term or as a robust term that can
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '10.7'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: exercise
+    target_id: '10.4'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: 8.1.3
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: '9.2'
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: A.3
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+- exercise_id: '10.8'
+  chapter_id: '10'
+  exercise_number: 8
+  starred: false
+  source_order: 8
+  problem_page_range:
+    pdf_page_index_start: 556
+    pdf_page_index_end: 556
+    pdf_page_number_start: 557
+    pdf_page_number_end: 557
+    printed_page_start: '535'
+    printed_page_end: '535'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 556
+      pdf_page_number: 557
+      printed_page_label: '535'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '10.8'
+      end_before:
+        kind: exercise
+        value: '10.9'
+    queries:
+    - +(10.8) +(printed page 535) --QDF=0
+    - +(4 Use triangulation matting Smith and Blinn 1996 to estimate the ground truth opacities and) +(printed page 535) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '535'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 4. Use triangulation matting (Smith and Blinn 1996) to estimate the ground truth opacities α and
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '10.8'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '10.9'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: '10.4'
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: exercise
+    target_id: '10.1'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: '10.1'
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: C
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+- exercise_id: '10.9'
+  chapter_id: '10'
+  exercise_number: 9
+  starred: false
+  source_order: 9
+  problem_page_range:
+    pdf_page_index_start: 556
+    pdf_page_index_end: 557
+    pdf_page_number_start: 557
+    pdf_page_number_end: 558
+    printed_page_start: '535'
+    printed_page_end: '536'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 556
+      pdf_page_number: 557
+      printed_page_label: '535'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '10.9'
+      end_before: null
+    queries:
+    - +(10.9) +(printed page 535) --QDF=0
+    - +(7 Optional Using a series of cast stick shadows estimate the deformation field for the destina) +(printed page 535)
+      --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '535'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 7. (Optional) Using a series of cast stick shadows, estimate the deformation field for the destina-
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '10.9'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 557
+      pdf_page_number: 558
+      printed_page_label: '536'
+    content_window:
+      start_at: null
+      end_before:
+        kind: exercise
+        value: '10.10'
+    queries:
+    - +(10 Optional Re-implement the facial shadow removal algorithm of Zhang Barron et al 2020) +(printed page 536) --QDF=0
+    - +(10 Optional Re-implement the facial shadow removal algorithm of Zhang Barron et al 2020) +(Exercises) +(printed page
+      536) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '536'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 10. (Optional) Re-implement the facial shadow removal algorithm of Zhang, Barron et al. (2020)
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '10.10'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: exercise
+    target_id: '13.2'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+- exercise_id: '10.10'
+  chapter_id: '10'
+  exercise_number: 10
+  starred: false
+  source_order: 10
+  problem_page_range:
+    pdf_page_index_start: 557
+    pdf_page_index_end: 557
+    pdf_page_number_start: 558
+    pdf_page_number_end: 558
+    printed_page_start: '536'
+    printed_page_end: '536'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 557
+      pdf_page_number: 558
+      printed_page_label: '536'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '10.10'
+      end_before:
+        kind: exercise
+        value: '10.11'
+    queries:
+    - +(10.10) +(printed page 536) --QDF=0
+    - +(3 Add in the Criminisi P erez and Toyama 2004 idea of prioritizing pixels to be) +(printed page 536) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '536'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 3. Add in the Criminisi, P ́erez, and Toyama (2004) idea of prioritizing pixels to be filled by some
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '10.10'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '10.11'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: '10.5'
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: 10.5.2
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: 10.5.1
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+- exercise_id: '10.11'
+  chapter_id: '10'
+  exercise_number: 11
+  starred: false
+  source_order: 11
+  problem_page_range:
+    pdf_page_index_start: 557
+    pdf_page_index_end: 557
+    pdf_page_number_start: 558
+    pdf_page_number_end: 558
+    printed_page_start: '536'
+    printed_page_end: '536'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 557
+      pdf_page_number: 558
+      printed_page_label: '536'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '10.11'
+      end_before:
+        kind: exercise
+        value: '10.12'
+    queries:
+    - +(10.11) +(printed page 536) --QDF=0
+    - +(rithm that is sketched out in Section 4.2.4 and Figure 4.10 If you prefer you can) +(printed page 536) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '536'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: rithm that is sketched out in Section 4.2.4 and Figure 4.10. If you prefer, you can implement this as
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '10.11'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '10.12'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '4.10'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: 4.2.4
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: figure
+    target_id: '4.10'
+    reason: Explicit figure reference in exercise text
+    selected_context_pages: []
+- exercise_id: '10.12'
+  chapter_id: '10'
+  exercise_number: 12
+  starred: false
+  source_order: 12
+  problem_page_range:
+    pdf_page_index_start: 557
+    pdf_page_index_end: 557
+    pdf_page_number_start: 558
+    pdf_page_number_end: 558
+    printed_page_start: '536'
+    printed_page_end: '536'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 557
+      pdf_page_number: 558
+      printed_page_label: '536'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '10.12'
+      end_before: null
+    queries:
+    - +(10.12) +(printed page 536) --QDF=0
+    - +(from Sections 10.5.2 10.5.3 on your own images Can you come up with surprising results How) +(printed page 536) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '536'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: from Sections 10.5.2–10.5.3 on your own images. Can you come up with surprising results? How
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '10.12'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: 10.5.2
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: 10.5.3
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []

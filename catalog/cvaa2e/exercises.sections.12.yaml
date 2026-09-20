@@ -1,0 +1,639 @@
+data_version: '3'
+chapter_id: '12'
+exercises:
+- exercise_id: '12.1'
+  chapter_id: '12'
+  exercise_number: 1
+  starred: false
+  source_order: 1
+  problem_page_range:
+    pdf_page_index_start: 650
+    pdf_page_index_end: 650
+    pdf_page_number_start: 651
+    pdf_page_number_end: 651
+    printed_page_start: '629'
+    printed_page_end: '629'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 650
+      pdf_page_number: 651
+      printed_page_label: '629'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '12.1'
+      end_before:
+        kind: exercise
+        value: '12.2'
+    queries:
+    - +(12.1) +(printed page 629) --QDF=0
+    - +(3 If needed scale up the smaller less detailed image so that it has the same) +(printed page 629) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '629'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 3. If needed, scale up the smaller (less detailed) image so that it has the same resolution (and
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '12.1'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '12.2'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: 12.1.1
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+- exercise_id: '12.2'
+  chapter_id: '12'
+  exercise_number: 2
+  starred: false
+  source_order: 2
+  problem_page_range:
+    pdf_page_index_start: 650
+    pdf_page_index_end: 650
+    pdf_page_number_start: 651
+    pdf_page_number_end: 651
+    printed_page_start: '629'
+    printed_page_end: '629'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 650
+      pdf_page_number: 651
+      printed_page_label: '629'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '12.2'
+      end_before: null
+    queries:
+    - +(12.2) +(printed page 629) --QDF=0
+    - +(Rigid direct alignment Modify your spline-based or optical flow motion estimator from) +(printed page 629) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '629'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Rigid direct alignment. Modify your spline-based or optical flow motion estimator from
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '12.2'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: exercise
+    target_id: '9.4'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+- exercise_id: '12.3'
+  chapter_id: '12'
+  exercise_number: 3
+  starred: false
+  source_order: 3
+  problem_page_range:
+    pdf_page_index_start: 651
+    pdf_page_index_end: 651
+    pdf_page_number_start: 652
+    pdf_page_number_end: 652
+    printed_page_start: '630'
+    printed_page_end: '630'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 651
+      pdf_page_number: 652
+      printed_page_label: '630'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '12.3'
+      end_before:
+        kind: exercise
+        value: '12.4'
+    queries:
+    - +(12.3) +(printed page 630) --QDF=0
+    - +(2 Based on previously computed epipolar geometry match up edges in triplets or longer sets) +(printed page 630) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '630'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 2. Based on previously computed epipolar geometry, match up edges in triplets (or longer sets)
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '12.3'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '12.4'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: 12.2.1
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: exercise
+    target_id: '7.7'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+  - kind: exercise
+    target_id: '7.8'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+- exercise_id: '12.4'
+  chapter_id: '12'
+  exercise_number: 4
+  starred: false
+  source_order: 4
+  problem_page_range:
+    pdf_page_index_start: 651
+    pdf_page_index_end: 651
+    pdf_page_number_start: 652
+    pdf_page_number_end: 652
+    printed_page_start: '630'
+    printed_page_end: '630'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 651
+      pdf_page_number: 652
+      printed_page_label: '630'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '12.4'
+      end_before:
+        kind: exercise
+        value: '12.5'
+    queries:
+    - +(12.4) +(printed page 630) --QDF=0
+    - +(formance by visualizing the disparity space image DSI which should be dark for pixels at correct) +(printed page 630)
+      --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '630'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: formance by visualizing the disparity space image (DSI), which should be dark for pixels at correct
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '12.4'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '12.5'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: 12.1.2
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: 12.3.1
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: C
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+- exercise_id: '12.5'
+  chapter_id: '12'
+  exercise_number: 5
+  starred: false
+  source_order: 5
+  problem_page_range:
+    pdf_page_index_start: 651
+    pdf_page_index_end: 652
+    pdf_page_number_start: 652
+    pdf_page_number_end: 653
+    printed_page_start: '630'
+    printed_page_end: '631'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 651
+      pdf_page_number: 652
+      printed_page_label: '630'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '12.5'
+      end_before: null
+    queries:
+    - +(12.5) +(printed page 630) --QDF=0
+    - +(weighting pixels by their similarity to the central pixel Yoon and Kweon 2006) +(printed page 630) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '630'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: • weighting pixels by their similarity to the central pixel (Yoon and Kweon 2006).
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '12.5'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 652
+      pdf_page_number: 653
+      printed_page_label: '631'
+    content_window:
+      start_at: null
+      end_before:
+        kind: exercise
+        value: '12.6'
+    queries:
+    - +(4 refine your matches to sub-pixel disparity by either fitting a parabola to the DSI values) +(printed page 631) --QDF=0
+    - +(4 refine your matches to sub-pixel disparity by either fitting a parabola to the DSI values) +(Exercises) +(printed
+      page 631) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '631'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 4. refine your matches to sub-pixel disparity by either fitting a parabola to the DSI values around
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '12.6'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: '12.4'
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+- exercise_id: '12.6'
+  chapter_id: '12'
+  exercise_number: 6
+  starred: false
+  source_order: 6
+  problem_page_range:
+    pdf_page_index_start: 652
+    pdf_page_index_end: 652
+    pdf_page_number_start: 653
+    pdf_page_number_end: 653
+    printed_page_start: '631'
+    printed_page_end: '631'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 652
+      pdf_page_number: 653
+      printed_page_label: '631'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '12.6'
+      end_before:
+        kind: exercise
+        value: '12.7'
+    queries:
+    - +(12.6) +(printed page 631) --QDF=0
+    - +(of the techniques you implemented in Exercise 12.4 and then implement one or more of the) +(printed page 631) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '631'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: of the techniques you implemented in Exercise 12.4 and then implement one (or more) of the global
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '12.6'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '12.7'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: exercise
+    target_id: '12.4'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: '12.5'
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: C
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: '12.6'
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+- exercise_id: '12.7'
+  chapter_id: '12'
+  exercise_number: 7
+  starred: false
+  source_order: 7
+  problem_page_range:
+    pdf_page_index_start: 652
+    pdf_page_index_end: 652
+    pdf_page_number_start: 653
+    pdf_page_number_end: 653
+    printed_page_start: '631'
+    printed_page_end: '631'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 652
+      pdf_page_number: 653
+      printed_page_label: '631'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '12.7'
+      end_before:
+        kind: exercise
+        value: '12.8'
+    queries:
+    - +(12.7) +(printed page 631) --QDF=0
+    - +(you developed above and use it or better yet a depth map for each source image) +(printed page 631) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '631'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: you developed above and use it (or, better yet, a depth map for each source image) to generate
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '12.7'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '12.8'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: '14.1'
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: exercise
+    target_id: '14.1'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+  - kind: exercise
+    target_id: '14.2'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+  - kind: exercise
+    target_id: '14.3'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+  - kind: exercise
+    target_id: '14.4'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+- exercise_id: '12.8'
+  chapter_id: '12'
+  exercise_number: 8
+  starred: false
+  source_order: 8
+  problem_page_range:
+    pdf_page_index_start: 652
+    pdf_page_index_end: 652
+    pdf_page_number_start: 653
+    pdf_page_number_end: 653
+    printed_page_start: '631'
+    printed_page_end: '631'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 652
+      pdf_page_number: 653
+      printed_page_label: '631'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '12.8'
+      end_before:
+        kind: exercise
+        value: '12.9'
+    queries:
+    - +(12.8) +(printed page 631) --QDF=0
+    - +(If helpful try using temporal selection Kang and Szeliski 2004 to deal with the increased) +(printed page 631) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '631'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: If helpful, try using temporal selection (Kang and Szeliski 2004) to deal with the increased
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '12.8'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '12.9'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: '12.7'
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+- exercise_id: '12.9'
+  chapter_id: '12'
+  exercise_number: 9
+  starred: false
+  source_order: 9
+  problem_page_range:
+    pdf_page_index_start: 652
+    pdf_page_index_end: 653
+    pdf_page_number_start: 653
+    pdf_page_number_end: 654
+    printed_page_start: '631'
+    printed_page_end: '632'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 652
+      pdf_page_number: 653
+      printed_page_label: '631'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '12.9'
+      end_before: null
+    queries:
+    - +(12.9) +(printed page 631) --QDF=0
+    - +(1 Instead of computing the complete DSI all at once evaluate each plane one at a) +(printed page 631) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '631'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 1. Instead of computing the complete DSI all at once, evaluate each plane one at a time from
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '12.9'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 653
+      pdf_page_number: 654
+      printed_page_label: '632'
+    content_window:
+      start_at: null
+      end_before:
+        kind: exercise
+        value: '12.10'
+    queries:
+    - +(and Seitz 2000 to cycle through different subsets of source images while carving away the) +(printed page 632) --QDF=0
+    - +(and Seitz 2000 to cycle through different subsets of source images while carving away the) +(Exercises) +(printed
+      page 632) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '632'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: and Seitz 2000) to cycle through different subsets of source images while carving away the
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '12.10'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: exercise
+    target_id: '12.4'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+- exercise_id: '12.10'
+  chapter_id: '12'
+  exercise_number: 10
+  starred: false
+  source_order: 10
+  problem_page_range:
+    pdf_page_index_start: 653
+    pdf_page_index_end: 653
+    pdf_page_number_start: 654
+    pdf_page_number_end: 654
+    printed_page_start: '632'
+    printed_page_end: '632'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 653
+      pdf_page_number: 654
+      printed_page_label: '632'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '12.10'
+      end_before:
+        kind: exercise
+        value: '12.11'
+    queries:
+    - +(12.10) +(printed page 632) --QDF=0
+    - +(cise 12.8 or a different technique such as the one described by Goesele Snavely et al) +(printed page 632) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '632'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: cise 12.8 or a different technique, such as the one described by Goesele, Snavely et al. (2007), to
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '12.10'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '12.11'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '12.11'
+  chapter_id: '12'
+  exercise_number: 11
+  starred: false
+  source_order: 11
+  problem_page_range:
+    pdf_page_index_start: 653
+    pdf_page_index_end: 653
+    pdf_page_number_start: 654
+    pdf_page_number_end: 654
+    printed_page_start: '632'
+    printed_page_end: '632'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 653
+      pdf_page_number: 654
+      printed_page_label: '632'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '12.11'
+      end_before: null
+    queries:
+    - +(12.11) +(printed page 632) --QDF=0
+    - +(rithms on your own images Can you create a 3D photo effect where wiggling your camera) +(printed page 632) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '632'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: rithms on your own images. Can you create a “3D photo” effect where wiggling your camera or
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '12.11'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []

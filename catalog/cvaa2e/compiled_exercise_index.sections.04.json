@@ -1,0 +1,1642 @@
+{
+  "data_version": "3",
+  "chapter_id": "4",
+  "exercises": {
+    "4.1": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "4.1",
+      "chapter_id": "4",
+      "exercise_number": 1,
+      "starred": false,
+      "source_order": 1,
+      "problem_page_range": {
+        "pdf_page_index_start": 204,
+        "pdf_page_index_end": 204,
+        "pdf_page_number_start": 205,
+        "pdf_page_number_end": 205,
+        "printed_page_start": "183",
+        "printed_page_end": "183"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 204,
+            "pdf_page_number": 205,
+            "printed_page_label": "183"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "4.1"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "4.2"
+            }
+          },
+          "queries": [
+            "+(text to become more familiar with data-parallel programming and the linear algebra operators built into) +(printed page 183) --QDF=0",
+            "+(exercise 4.1) +(printed page 183) --QDF=0",
+            "+(exercise 4.2) +(printed page 183) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "183",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "to become more familiar with data-parallel programming and the linear algebra operators built into",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "4.1",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "4.2",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 174,
+            "pdf_page_number": 175,
+            "printed_page_label": "153"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "4.1 Scattered data interpolation"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text tion Section 4.1.3 In statistics and machine learning the problem of predicting an output function) +(printed page 153) --QDF=0",
+            "+(heading 4.1 Scattered data interpolation) +(printed page 153) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "153",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "tion (Section 4.1.3). In statistics and machine learning, the problem of predicting an output function",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.1 Scattered data interpolation",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.1 Scattered data interpolation"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.1",
+              "4.2"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 175,
+            "pdf_page_number": 176,
+            "printed_page_label": "154"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text widely used planar triangulation technique due to its attractive computational properties such as the) +(printed page 154) --QDF=0",
+            "+(widely used planar triangulation technique due to its attractive computational properties such as the) +(text) +(printed page 154) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "154",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "widely used planar triangulation technique due to its attractive computational properties, such as the",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.2"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 176,
+            "pdf_page_number": 177,
+            "printed_page_label": "155"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text phase values and weights are computed at a hierarchical set of lower resolution grids by combining) +(printed page 155) --QDF=0",
+            "+(phase values and weights are computed at a hierarchical set of lower resolution grids by combining) +(text) +(printed page 155) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "155",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "phase, values and weights are computed at a hierarchical set of lower resolution grids by combining",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.1.1 Radial basis functions"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "3.64",
+              "4.3",
+              "4.4",
+              "4.5",
+              "4.6",
+              "4.7",
+              "4.19"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 4,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 177,
+            "pdf_page_number": 178,
+            "printed_page_label": "156"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text technique is called lasso least absolute shrinkage and selection operator since for sufficiently large) +(printed page 156) --QDF=0",
+            "+(technique is called lasso least absolute shrinkage and selection operator since for sufficiently large) +(text) +(printed page 156) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "156",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "technique is called lasso (least absolute shrinkage and selection operator), since for sufficiently large",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.1",
+              "4.8",
+              "4.2",
+              "4.9",
+              "4.10",
+              "4.11",
+              "4.12"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 5,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 178,
+            "pdf_page_number": 179,
+            "printed_page_label": "157"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text curves we see that choosing a good intermediate value of will produce the best result In) +(printed page 157) --QDF=0",
+            "+(figure 4.3) +(printed page 157) --QDF=0",
+            "+(figure 4.4) +(printed page 157) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "157",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "curves, we see that choosing a good intermediate value of λ will produce the best result. In practice,",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_figure",
+              "value": "4.3",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_figure",
+              "value": "4.4",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.1.2 Overfitting and underfitting"
+            ],
+            "figure_ids": [
+              "4.3",
+              "4.4"
+            ],
+            "equation_ids": [
+              "4.13",
+              "4.14",
+              "4.12",
+              "4.9",
+              "4.11"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 6,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 179,
+            "pdf_page_number": 180,
+            "printed_page_label": "158"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text The left plot shows a reasonable amount of regularization resulting in a plausible fit while the) +(printed page 158) --QDF=0",
+            "+(The left plot shows a reasonable amount of regularization resulting in a plausible fit while the) +(text) +(printed page 158) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "158",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "The left plot shows a reasonable amount of regularization, resulting in a plausible fit, while the larger value of λ",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.3",
+              "4.4"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 7,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 180,
+            "pdf_page_number": 181,
+            "printed_page_label": "159"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text curve than the less heavily regularized version log 2.4 which has much higher variance Bishop 2006) +(printed page 159) --QDF=0",
+            "+(figure 4.5) +(printed page 159) --QDF=0",
+            "+(figure 4.6) +(printed page 159) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "159",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "curve) than the less heavily regularized version (log λ = −2.4), which has much higher variance (Bishop 2006)",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_figure",
+              "value": "4.5",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_figure",
+              "value": "4.6",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.5",
+              "4.6"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 8,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 181,
+            "pdf_page_number": 182,
+            "printed_page_label": "160"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text Zhang Lipton et al 2021 Section 4.4.2 splits the training data into K folds equal sized) +(printed page 160) --QDF=0",
+            "+(Zhang Lipton et al 2021 Section 4.4.2 splits the training data into K folds equal sized) +(text) +(printed page 160) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "160",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Zhang, Lipton et al. 2021, Section 4.4.2), splits the training data into K folds (equal sized pieces).",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.1.3 Robust data fitting"
+            ],
+            "figure_ids": [
+              "4.5",
+              "4.6",
+              "4.7"
+            ],
+            "equation_ids": [
+              "4.9",
+              "4.2",
+              "4.15"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 9,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 182,
+            "pdf_page_number": 183,
+            "printed_page_label": "161"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "4.2 Variational methods and regularization"
+            }
+          },
+          "queries": [
+            "+(text residuals making such an algorithm self-tuning to a wide variety of noise levels and outlier distri) +(printed page 161) --QDF=0",
+            "+(heading 4.2 Variational methods and regularization) +(printed page 161) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "161",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "residuals, making such an algorithm self-tuning to a wide variety of noise levels and outlier distri-",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.2 Variational methods and regularization",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.7"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_targets": [
+        {
+          "kind": "section",
+          "target_id": "4.1",
+          "reason": "Explicit section reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "start",
+              "page": {
+                "pdf_page_index": 174,
+                "pdf_page_number": 175,
+                "printed_page_label": "153"
+              },
+              "content_window": {
+                "start_at": {
+                  "kind": "heading",
+                  "value": "4.1 Scattered data interpolation"
+                },
+                "end_before": null
+              },
+              "queries": [
+                "+(text tion Section 4.1.3 In statistics and machine learning the problem of predicting an output function) +(printed page 153) --QDF=0",
+                "+(heading 4.1 Scattered data interpolation) +(printed page 153) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "153",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "tion (Section 4.1.3). In statistics and machine learning, the problem of predicting an output function",
+                  "verification_mode": "text_or_visual"
+                },
+                {
+                  "kind": "contains_heading",
+                  "value": "4.1 Scattered data interpolation",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "4.1 Scattered data interpolation"
+                ],
+                "figure_ids": [],
+                "equation_ids": [
+                  "4.1",
+                  "4.2"
+                ],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 2,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 175,
+                "pdf_page_number": 176,
+                "printed_page_label": "154"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text widely used planar triangulation technique due to its attractive computational properties such as the) +(printed page 154) --QDF=0",
+                "+(widely used planar triangulation technique due to its attractive computational properties such as the) +(text) +(printed page 154) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "154",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "widely used planar triangulation technique due to its attractive computational properties, such as the",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [
+                  "4.2"
+                ],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 3,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 176,
+                "pdf_page_number": 177,
+                "printed_page_label": "155"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text phase values and weights are computed at a hierarchical set of lower resolution grids by combining) +(printed page 155) --QDF=0",
+                "+(phase values and weights are computed at a hierarchical set of lower resolution grids by combining) +(text) +(printed page 155) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "155",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "phase, values and weights are computed at a hierarchical set of lower resolution grids by combining",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "4.1.1 Radial basis functions"
+                ],
+                "figure_ids": [],
+                "equation_ids": [
+                  "3.64",
+                  "4.3",
+                  "4.4",
+                  "4.5",
+                  "4.6",
+                  "4.7",
+                  "4.19"
+                ],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 4,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 177,
+                "pdf_page_number": 178,
+                "printed_page_label": "156"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text technique is called lasso least absolute shrinkage and selection operator since for sufficiently large) +(printed page 156) --QDF=0",
+                "+(technique is called lasso least absolute shrinkage and selection operator since for sufficiently large) +(text) +(printed page 156) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "156",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "technique is called lasso (least absolute shrinkage and selection operator), since for sufficiently large",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [
+                  "4.1",
+                  "4.8",
+                  "4.2",
+                  "4.9",
+                  "4.10",
+                  "4.11",
+                  "4.12"
+                ],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 5,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 178,
+                "pdf_page_number": 179,
+                "printed_page_label": "157"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text curves we see that choosing a good intermediate value of will produce the best result In) +(printed page 157) --QDF=0",
+                "+(curves we see that choosing a good intermediate value of will produce the best result In) +(text) +(printed page 157) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "157",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "curves, we see that choosing a good intermediate value of λ will produce the best result. In practice,",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "4.1.2 Overfitting and underfitting"
+                ],
+                "figure_ids": [
+                  "4.3",
+                  "4.4"
+                ],
+                "equation_ids": [
+                  "4.13",
+                  "4.14",
+                  "4.12",
+                  "4.9",
+                  "4.11"
+                ],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 6,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 179,
+                "pdf_page_number": 180,
+                "printed_page_label": "158"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text The left plot shows a reasonable amount of regularization resulting in a plausible fit while the) +(printed page 158) --QDF=0",
+                "+(The left plot shows a reasonable amount of regularization resulting in a plausible fit while the) +(text) +(printed page 158) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "158",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "The left plot shows a reasonable amount of regularization, resulting in a plausible fit, while the larger value of λ",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [
+                  "4.3",
+                  "4.4"
+                ],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 7,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 180,
+                "pdf_page_number": 181,
+                "printed_page_label": "159"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text curve than the less heavily regularized version log 2.4 which has much higher variance Bishop 2006) +(printed page 159) --QDF=0",
+                "+(curve than the less heavily regularized version log 2.4 which has much higher variance Bishop 2006) +(text) +(printed page 159) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "159",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "curve) than the less heavily regularized version (log λ = −2.4), which has much higher variance (Bishop 2006)",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [
+                  "4.5",
+                  "4.6"
+                ],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 8,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 181,
+                "pdf_page_number": 182,
+                "printed_page_label": "160"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text Zhang Lipton et al 2021 Section 4.4.2 splits the training data into K folds equal sized) +(printed page 160) --QDF=0",
+                "+(Zhang Lipton et al 2021 Section 4.4.2 splits the training data into K folds equal sized) +(text) +(printed page 160) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "160",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "Zhang, Lipton et al. 2021, Section 4.4.2), splits the training data into K folds (equal sized pieces).",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "4.1.3 Robust data fitting"
+                ],
+                "figure_ids": [
+                  "4.5",
+                  "4.6",
+                  "4.7"
+                ],
+                "equation_ids": [
+                  "4.9",
+                  "4.2",
+                  "4.15"
+                ],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 9,
+              "page_role": "end",
+              "page": {
+                "pdf_page_index": 182,
+                "pdf_page_number": 183,
+                "printed_page_label": "161"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": {
+                  "kind": "heading",
+                  "value": "4.2 Variational methods and regularization"
+                }
+              },
+              "queries": [
+                "+(text residuals making such an algorithm self-tuning to a wide variety of noise levels and outlier distri) +(printed page 161) --QDF=0",
+                "+(heading 4.2 Variational methods and regularization) +(printed page 161) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "161",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "residuals, making such an algorithm self-tuning to a wide variety of noise levels and outlier distri-",
+                  "verification_mode": "text_or_visual"
+                },
+                {
+                  "kind": "contains_heading",
+                  "value": "4.2 Variational methods and regularization",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [
+                  "4.7"
+                ],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        },
+        {
+          "kind": "figure",
+          "target_id": "4.3",
+          "reason": "Explicit figure reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "single",
+              "page": {
+                "pdf_page_index": 178,
+                "pdf_page_number": 179,
+                "printed_page_label": "157"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(figure 4.3) +(printed page 157) --QDF=0",
+                "+(4.3) +(figure) +(printed page 157) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "157",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_figure",
+                  "value": "4.3",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        },
+        {
+          "kind": "figure",
+          "target_id": "4.4",
+          "reason": "Explicit figure reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "single",
+              "page": {
+                "pdf_page_index": 178,
+                "pdf_page_number": 179,
+                "printed_page_label": "157"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(figure 4.4) +(printed page 157) --QDF=0",
+                "+(4.4) +(figure) +(printed page 157) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "157",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_figure",
+                  "value": "4.4",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        },
+        {
+          "kind": "figure",
+          "target_id": "4.5",
+          "reason": "Explicit figure reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "single",
+              "page": {
+                "pdf_page_index": 180,
+                "pdf_page_number": 181,
+                "printed_page_label": "159"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(figure 4.5) +(printed page 159) --QDF=0",
+                "+(4.5) +(figure) +(printed page 159) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "159",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_figure",
+                  "value": "4.5",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        },
+        {
+          "kind": "figure",
+          "target_id": "4.6",
+          "reason": "Explicit figure reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "single",
+              "page": {
+                "pdf_page_index": 180,
+                "pdf_page_number": 181,
+                "printed_page_label": "159"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(figure 4.6) +(printed page 159) --QDF=0",
+                "+(4.6) +(figure) +(printed page 159) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "159",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_figure",
+                  "value": "4.6",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "4.2": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "4.2",
+      "chapter_id": "4",
+      "exercise_number": 2,
+      "starred": false,
+      "source_order": 2,
+      "problem_page_range": {
+        "pdf_page_index_start": 204,
+        "pdf_page_index_end": 204,
+        "pdf_page_number_start": 205,
+        "pdf_page_number_end": 205,
+        "printed_page_start": "183",
+        "printed_page_end": "183"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 204,
+            "pdf_page_number": 205,
+            "printed_page_label": "183"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "4.2"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text al 2015 Try applying these algorithms to your own problems of interest segmentation de-noising) +(printed page 183) --QDF=0",
+            "+(exercise 4.2) +(printed page 183) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "183",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "al. 2015). Try applying these algorithms to your own problems of interest (segmentation, de-noising,",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "4.2",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [],
+      "reference_targets": []
+    },
+    "4.3": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "4.3",
+      "chapter_id": "4",
+      "exercise_number": 3,
+      "starred": false,
+      "source_order": 3,
+      "problem_page_range": {
+        "pdf_page_index_start": 205,
+        "pdf_page_index_end": 205,
+        "pdf_page_number_start": 206,
+        "pdf_page_number_end": 206,
+        "printed_page_start": "184",
+        "printed_page_end": "184"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 205,
+            "pdf_page_number": 206,
+            "printed_page_label": "184"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "4.3"
+            },
+            "end_before": {
+              "kind": "exercise",
+              "value": "4.4"
+            }
+          },
+          "queries": [
+            "+(text pected edges along block boundaries or looking at the quantization step as a projection of a) +(printed page 184) --QDF=0",
+            "+(exercise 4.3) +(printed page 184) --QDF=0",
+            "+(exercise 4.4) +(printed page 184) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "184",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "pected edges along block boundaries, or looking at the quantization step as a projection of a convex",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "4.3",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "4.4",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [
+              "2.116"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 99,
+            "pdf_page_number": 100,
+            "printed_page_label": "78"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "2.3.3 Compression"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text some closely related variant so that they can compress the luminance signal with higher fidelity) +(printed page 78) --QDF=0",
+            "+(heading 2.3.3 Compression) +(printed page 78) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "78",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "some closely related variant), so that they can compress the luminance signal with higher fidelity",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "2.3.3 Compression",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "2.3.3 Compression"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 100,
+            "pdf_page_number": 101,
+            "printed_page_label": "79"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(text that can be coded using a variable bit length scheme such as a Huffman code or) +(printed page 79) --QDF=0",
+            "+(that can be coded using a variable bit length scheme such as a Huffman code or) +(text) +(printed page 79) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "79",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "that can be coded using a variable bit length scheme such as a Huffman code or an arithmetic code",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "2.34"
+            ],
+            "equation_ids": [
+              "2.118"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 101,
+            "pdf_page_number": 102,
+            "printed_page_label": "80"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "2.4 Additional reading"
+            }
+          },
+          "queries": [
+            "+(text so that the artifacts introduced by such techniques can be compensated for in various computer vision) +(printed page 80) --QDF=0",
+            "+(heading 2.4 Additional reading) +(printed page 80) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "80",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "so that the artifacts introduced by such techniques can be compensated for in various computer vision",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "2.4 Additional reading",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [
+              "2.119",
+              "2.120"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_targets": [
+        {
+          "kind": "section",
+          "target_id": "2.3.3",
+          "reason": "Explicit section reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "start",
+              "page": {
+                "pdf_page_index": 99,
+                "pdf_page_number": 100,
+                "printed_page_label": "78"
+              },
+              "content_window": {
+                "start_at": {
+                  "kind": "heading",
+                  "value": "2.3.3 Compression"
+                },
+                "end_before": null
+              },
+              "queries": [
+                "+(text some closely related variant so that they can compress the luminance signal with higher fidelity) +(printed page 78) --QDF=0",
+                "+(heading 2.3.3 Compression) +(printed page 78) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "78",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "some closely related variant), so that they can compress the luminance signal with higher fidelity",
+                  "verification_mode": "text_or_visual"
+                },
+                {
+                  "kind": "contains_heading",
+                  "value": "2.3.3 Compression",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [
+                  "2.3.3 Compression"
+                ],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 2,
+              "page_role": "body",
+              "page": {
+                "pdf_page_index": 100,
+                "pdf_page_number": 101,
+                "printed_page_label": "79"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(text that can be coded using a variable bit length scheme such as a Huffman code or) +(printed page 79) --QDF=0",
+                "+(that can be coded using a variable bit length scheme such as a Huffman code or) +(text) +(printed page 79) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "79",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "that can be coded using a variable bit length scheme such as a Huffman code or an arithmetic code",
+                  "verification_mode": "text_or_visual"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [
+                  "2.34"
+                ],
+                "equation_ids": [
+                  "2.118"
+                ],
+                "example_ids": [],
+                "table_ids": []
+              }
+            },
+            {
+              "sequence": 3,
+              "page_role": "end",
+              "page": {
+                "pdf_page_index": 101,
+                "pdf_page_number": 102,
+                "printed_page_label": "80"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": {
+                  "kind": "heading",
+                  "value": "2.4 Additional reading"
+                }
+              },
+              "queries": [
+                "+(text so that the artifacts introduced by such techniques can be compensated for in various computer vision) +(printed page 80) --QDF=0",
+                "+(heading 2.4 Additional reading) +(printed page 80) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "80",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_text",
+                  "value": "so that the artifacts introduced by such techniques can be compensated for in various computer vision",
+                  "verification_mode": "text_or_visual"
+                },
+                {
+                  "kind": "contains_heading",
+                  "value": "2.4 Additional reading",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [
+                  "2.119",
+                  "2.120"
+                ],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "4.4": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "exercise_id": "4.4",
+      "chapter_id": "4",
+      "exercise_number": 4,
+      "starred": false,
+      "source_order": 4,
+      "problem_page_range": {
+        "pdf_page_index_start": 205,
+        "pdf_page_index_end": 205,
+        "pdf_page_number_start": 206,
+        "pdf_page_number_end": 206,
+        "printed_page_start": "184",
+        "printed_page_end": "184"
+      },
+      "problem_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 205,
+            "pdf_page_number": 206,
+            "printed_page_label": "184"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "exercise",
+              "value": "4.4"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(text to Figure 4.15 for a non-blind image deblurring problem i.e one where the blur kernel is) +(printed page 184) --QDF=0",
+            "+(exercise 4.4) +(printed page 184) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "184",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "to Figure 4.15 for a non-blind image deblurring problem, i.e., one where the blur kernel is known",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_exercise",
+              "value": "4.4",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.15"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 194,
+            "pdf_page_number": 195,
+            "printed_page_label": "173"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(figure 4.15) +(printed page 173) --QDF=0",
+            "+(4.15) +(figure) +(printed page 173) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "173",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_figure",
+              "value": "4.15",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ],
+      "reference_targets": [
+        {
+          "kind": "figure",
+          "target_id": "4.15",
+          "reason": "Explicit figure reference in exercise text",
+          "selected_context_pages": [],
+          "retrieval_plan": [
+            {
+              "sequence": 1,
+              "page_role": "single",
+              "page": {
+                "pdf_page_index": 194,
+                "pdf_page_number": 195,
+                "printed_page_label": "173"
+              },
+              "content_window": {
+                "start_at": null,
+                "end_before": null
+              },
+              "queries": [
+                "+(figure 4.15) +(printed page 173) --QDF=0",
+                "+(4.15) +(figure) +(printed page 173) --QDF=0"
+              ],
+              "required_evidence": [
+                {
+                  "kind": "printed_page_equals",
+                  "value": "173",
+                  "verification_mode": "visual_required"
+                },
+                {
+                  "kind": "contains_figure",
+                  "value": "4.15",
+                  "verification_mode": "visual_required"
+                }
+              ],
+              "coverage": {
+                "subheadings": [],
+                "figure_ids": [],
+                "equation_ids": [],
+                "example_ids": [],
+                "table_ids": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

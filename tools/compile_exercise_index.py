@@ -46,6 +46,7 @@ from tools.extract_pdf_candidates import (
     extract_exercise_candidates,
     extract_page_anchors,
     extract_problem_headings,
+    normalize_page_label,
     sha256_file,
 )
 
@@ -61,24 +62,8 @@ ANCHOR_EVIDENCE_KINDS = {
     "example": "contains_example",
     "table": "contains_table",
 }
-REFERENCE_PAGE_OVERRIDES = {
-    ("table", "3.6"): "169",
-    ("figure", "4.11"): "224",
-}
-EXAMPLE_PAGE_RANGE_OVERRIDES = {
-    "2.5": ("86", "87"),
-    "4.1": ("211", "212"),
-    "4.2": ("212", "213"),
-    "4.10": ("244", "245"),
-    "4.21": ("290", "291"),
-    "5.15": ("376", "377"),
-    "7.6": ("475", "477"),
-    "7.18": ("510", "511"),
-    "7.19": ("512", "513"),
-    "10.29": ("801", "803"),
-    "11.16": ("863", "865"),
-    "12.7": ("937", "938"),
-}
+REFERENCE_PAGE_OVERRIDES: dict[tuple[str, str], str] = {}
+EXAMPLE_PAGE_RANGE_OVERRIDES: dict[str, tuple[str, str]] = {}
 BOUNDARY_EVIDENCE_KINDS = {
     "heading": "contains_heading",
     "example": "contains_example",
@@ -689,7 +674,7 @@ def verify_source_pdf(
         if document.page_count != manifest.book.page_count:
             raise ValueError("source PDF page count does not match exercise manifest")
         for page in manifest.pages:
-            label = clean_text(document[page.pdf_page_index].get_label())
+            label = normalize_page_label(document[page.pdf_page_index].get_label())
             if label != page.printed_page_label:
                 raise ValueError(
                     f"source PDF page label mismatch at index {page.pdf_page_index}: "

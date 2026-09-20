@@ -13,7 +13,7 @@ class Settings(BaseSettings):
         extra="ignore",
     )
 
-    locator_index_path: Path = Field(default=Path("./catalog/dip4e/compiled_locator_index.json"))
+    locator_index_path: Path = Field(default=Path("./catalog/cvaa2e/compiled_locator_index.json"))
     exercise_index_path: Path | None = Field(default=None)
     api_key: str = Field(default="change-me")
     require_api_key: bool = Field(default=True)

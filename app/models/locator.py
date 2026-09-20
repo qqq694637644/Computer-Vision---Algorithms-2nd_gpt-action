@@ -9,7 +9,7 @@ from typing import Annotated, Literal
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 DATA_VERSION = "3"
-SECTION_ID_PATTERN = r"^\d+(?:\.\d+)*$"
+SECTION_ID_PATTERN = r"^(?:\d+|[A-Z])(?:\.\d+)*$"
 
 
 class StrictModel(BaseModel):
@@ -449,7 +449,9 @@ class CompiledLocatorIndexPackage(StrictModel):
         if len(self.section_shards) != len(set(self.section_shards)):
             raise ValueError("section_shards must be unique")
         for name in self.section_shards:
-            if re.fullmatch(r"compiled_locator_index\.sections\.\d{2}\.json", name) is None:
+            if re.fullmatch(
+                r"compiled_locator_index\.sections\.(?:\d{2}|[A-Z])\.json", name
+            ) is None:
                 raise ValueError(f"invalid section shard filename: {name}")
         return self
 
