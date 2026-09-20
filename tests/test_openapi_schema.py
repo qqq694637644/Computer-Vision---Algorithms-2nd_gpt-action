@@ -1,0 +1,153 @@
+import json
+from pathlib import Path
+
+import yaml
+from fastapi.testclient import TestClient
+from jsonschema import Draft202012Validator
+
+from app.core.config import Settings
+from app.main import create_app
+from app.services.index_compiler import LocatorIndexCompiler
+from tests.helpers import complete_exercise_index, complete_manifest
+
+
+def test_live_openapi_contains_teacher_and_tool_action_paths(tmp_path) -> None:
+    app = create_app(Settings(locator_index_path=tmp_path / "unused.json", require_api_key=False))
+    schema = app.openapi()
+
+    assert set(schema["paths"]) == {
+        "/health",
+        "/gpt/section-locators/{section_id}",
+        "/gpt/exercise-locators/{exercise_id}",
+        "/gpt/chapters/{chapter_id}/exercises",
+        "/v1/skills/load",
+        "/v1/skills/read",
+        "/v1/workspace/prepare",
+        "/v1/workspace/command",
+        "/v1/workspace/inspect",
+        "/v1/workspace/search",
+        "/v1/workspace/read-files",
+        "/v1/workspace/write-file",
+        "/v1/workspace/apply-patch",
+    }
+    operations = {
+        operation["operationId"] for path in schema["paths"].values() for operation in path.values()
+    }
+    assert operations == {
+        "healthCheck",
+        "gptGetSectionLocator",
+        "gptGetExerciseLocator",
+        "gptListChapterExercises",
+        "loadSkills",
+        "readSkillContent",
+        "prepareWorkspace",
+        "workspaceCommand",
+        "workspaceInspect",
+        "workspaceSearch",
+        "workspaceReadFiles",
+        "workspaceWriteFile",
+        "workspaceApplyPatch",
+    }
+
+
+def test_curated_action_schema_matches_public_operations() -> None:
+    path = Path("examples/openai_action_schema_one_book.yaml")
+    schema = yaml.safe_load(path.read_text(encoding="utf-8"))
+
+    assert schema["openapi"] == "3.1.0"
+    assert set(schema["paths"]) == {
+        "/gpt/section-locators/{section_id}",
+        "/gpt/exercise-locators/{exercise_id}",
+        "/gpt/chapters/{chapter_id}/exercises",
+        "/v1/skills/load",
+        "/v1/skills/read",
+        "/v1/workspace/prepare",
+        "/v1/workspace/command",
+        "/v1/workspace/inspect",
+        "/v1/workspace/search",
+        "/v1/workspace/read-files",
+        "/v1/workspace/write-file",
+        "/v1/workspace/apply-patch",
+    }
+    operations = {
+        operation["operationId"]
+        for route in schema["paths"].values()
+        for operation in route.values()
+    }
+    assert operations == {
+        "gptGetSectionLocator",
+        "gptGetExerciseLocator",
+        "gptListChapterExercises",
+        "loadSkills",
+        "readSkillContent",
+        "prepareWorkspace",
+        "workspaceCommand",
+        "workspaceInspect",
+        "workspaceSearch",
+        "workspaceReadFiles",
+        "workspaceWriteFile",
+        "workspaceApplyPatch",
+    }
+    serialized = path.read_text(encoding="utf-8")
+    for forbidden in (
+        "SectionPack",
+        "next_offset",
+        "gptGetFigure",
+        "gptSearchBook",
+        "/gpt/sections/",
+    ):
+        assert forbidden not in serialized
+    section = schema["components"]["schemas"]["SectionLocator"]
+    assert "source_location" in section["required"]
+    assert "source_level" in section["required"]
+    exercise = schema["components"]["schemas"]["ExerciseLocator"]
+    assert "problem_retrieval_plan" in exercise["required"]
+    assert "reference_targets" in exercise["properties"]
+
+
+def _response_validator(curated: dict, schema_name: str) -> Draft202012Validator:
+    return Draft202012Validator(
+        {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "$ref": f"#/components/schemas/{schema_name}",
+            "components": curated["components"],
+        }
+    )
+
+
+def test_real_api_responses_validate_against_curated_action_schema(tmp_path) -> None:
+    compiled = LocatorIndexCompiler().compile(complete_manifest())
+    index_path = tmp_path / "compiled_locator_index.json"
+    index_path.write_text(
+        json.dumps(compiled.model_dump(mode="json"), ensure_ascii=False),
+        encoding="utf-8",
+    )
+    exercise_index = complete_exercise_index()
+    exercise_index_path = tmp_path / "compiled_exercise_index.json"
+    exercise_index_path.write_text(
+        json.dumps(exercise_index.model_dump(mode="json"), ensure_ascii=False),
+        encoding="utf-8",
+    )
+    curated = yaml.safe_load(
+        Path("examples/openai_action_schema_one_book.yaml").read_text(encoding="utf-8")
+    )
+
+    with TestClient(
+        create_app(
+            Settings(
+                locator_index_path=index_path,
+                exercise_index_path=exercise_index_path,
+                require_api_key=False,
+            )
+        )
+    ) as client:
+        locator = client.get("/gpt/section-locators/2.6.5")
+        exercise = client.get("/gpt/exercise-locators/2.14")
+        chapter = client.get("/gpt/chapters/2/exercises")
+
+    locator.raise_for_status()
+    exercise.raise_for_status()
+    chapter.raise_for_status()
+    _response_validator(curated, "SectionLocator").validate(locator.json())
+    _response_validator(curated, "ExerciseLocator").validate(exercise.json())
+    _response_validator(curated, "ChapterExerciseSummary").validate(chapter.json())

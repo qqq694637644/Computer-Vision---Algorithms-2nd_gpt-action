@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "teaching-gpt-backend"
+version = "3.1.0"
+description = "A strict page-by-page PDF locator API for one textbook GPT."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Teaching GPT Backend" }]
+dependencies = [
+  "fastapi>=0.110,<1.0",
+  "uvicorn[standard]>=0.27,<1.0",
+  "pydantic>=2.6,<3.0",
+  "pydantic-settings>=2.2,<3.0",
+  "PyMuPDF>=1.23,<2.0",
+  "PyYAML>=6.0,<7.0"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0,<9.0",
+  "httpx>=0.27,<1.0",
+  "jsonschema>=4.22,<5.0",
+  "ruff>=0.4,<1.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*", "skill_temple*"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint.per-file-ignores]
+"scripts/*.py" = ["E402"]
+"skill_temple/app.py" = ["SIM102"]
+"skill_temple/workspace_files.py" = ["BLE001"]
+"skill_temple/workspace_operations.py" = ["BLE001", "S110"]
