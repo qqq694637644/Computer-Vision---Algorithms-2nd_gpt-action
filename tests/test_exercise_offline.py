@@ -21,7 +21,7 @@ from tools.build_dip4e_exercise_manifest import (
     _reference_specs,
     write_exercise_manifest_package,
 )
-from tools.build_dip4e_manifest import SourceNode, _assign_ranges, _terminal_boundaries
+from tools.build_cvaa2e_manifest import SourceBoundary, _range_end_before_next
 from tools.compile_exercise_index import (
     _exercise_evidence_exists,
     load_exercise_manifest,
@@ -374,25 +374,23 @@ def test_query_safe_anchor_normalizes_pdf_ligatures() -> None:
     assert query_safe_anchor("ﬁeld ﬁrst deﬁned ﬁgure ﬂat") == ("field first defined figure flat")
 
 
-def test_terminal_boundary_is_inherited_by_last_learning_unit() -> None:
+def test_same_page_next_heading_clips_learning_unit_range() -> None:
     document = fitz.open()
     page = document.new_page()
-    page.insert_text((72, 120), "Summary")
+    page.insert_text((72, 90), "Body content before next heading")
+    page.insert_text((72, 120), "3.2 Next heading")
     try:
-        boundaries = _terminal_boundaries(document, 0, 0)
-        assert len(boundaries) == 1
-        assert boundaries[0].kind == "text"
-        assert boundaries[0].text == "Summary"
-
-        node = SourceNode(
-            title="Last unit",
-            source_heading="LAST UNIT",
-            source_location=complete_manifest().printed_sections[1].source_location,
-            source_level=1,
-            start_index=0,
+        boundary = SourceBoundary(
+            kind="heading",
+            text="3.2 Next heading",
+            pdf_page_index=0,
+            pdf_page_number=1,
+            printed_page_label="1",
+            bbox=(72.0, 108.0, 180.0, 124.0),
         )
-        _assign_ranges(document, [node], 0, boundaries[0])
-        assert node.end_before == boundaries[0]
+        end_index, end_before = _range_end_before_next(document, 0, boundary)
+        assert end_index == 0
+        assert end_before == boundary
     finally:
         document.close()
 
@@ -408,36 +406,34 @@ def test_full_book_guard_accepts_exact_problems_chapters() -> None:
 
 def test_exercise_layout_filter_distinguishes_reference_from_problem_number() -> None:
     reference = TextLine(
-        text="12.32 is 1. Is this vector augmented? Explain.",
+        text="See Exercise 12.32 for a related construction.",
         pdf_page_index=0,
         pdf_page_number=1,
         printed_page_label="1",
         bbox=(79.0, 400.0, 250.0, 410.0),
-        font_names=("TimesTen-Roman",),
-        max_font_size=9.0,
-        colors=(2301728,),
+        font_names=("NimbusRomNo9L-Regu",),
+        max_font_size=10.0,
+        colors=(0,),
     )
     problem = TextLine(
-        text="12.32 * Show the validity of Eq. (12-106).",
+        text="Ex 12.32: Show the validity of Eq. (12.106).",
         pdf_page_index=0,
         pdf_page_number=1,
         printed_page_label="1",
         bbox=(50.0, 287.0, 207.0, 296.0),
-        font_names=("TimesTen-Bold", "TimesTen-Roman"),
-        max_font_size=9.0,
-        colors=(HEADING_COLOR, 2301728),
+        font_names=("NimbusRomNo9L-Medi", "NimbusRomNo9L-Regu"),
+        max_font_size=10.0,
+        colors=(0,),
     )
 
-    assert EXERCISE_RE.match(reference.text) is not None
-    assert "TimesTen-Bold" not in reference.font_names
+    assert EXERCISE_RE.match(reference.text) is None
     assert EXERCISE_RE.match(problem.text) is not None
-    assert "TimesTen-Bold" in problem.font_names
-    assert HEADING_COLOR in problem.colors
+    assert "NimbusRomNo9L-Medi" in problem.font_names
     problem_match = EXERCISE_RE.match(problem.text)
     assert problem_match is not None
-    assert problem_match.group("trailing_star") is not None
+    assert problem_match.group("id") == "12.32"
 
 
-def test_exercise_column_split_handles_narrow_book_gutter() -> None:
-    assert _column_for_x(533.0, 253.0) == 0
-    assert _column_for_x(533.0, 263.0) == 1
+def test_exercise_column_split_reserves_right_margin_for_number_fragments() -> None:
+    assert _column_for_x(533.0, 470.0) == 0
+    assert _column_for_x(533.0, 500.0) == 1

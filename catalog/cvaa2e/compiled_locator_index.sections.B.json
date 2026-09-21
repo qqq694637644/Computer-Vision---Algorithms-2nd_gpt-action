@@ -1,0 +1,1475 @@
+{
+  "data_version": "3",
+  "sections": {
+    "B": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "B",
+      "printed_section_id": "B",
+      "parent_section_id": null,
+      "title": "Bayesian modeling and inference",
+      "source_heading": "Appendix B Bayesian modeling and inference",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 756,
+          "pdf_page_number": 757,
+          "printed_page_label": "735"
+        },
+        "bbox": [
+          107.91,
+          151.586,
+          479.193,
+          229.122
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 1,
+      "page_range": {
+        "pdf_page_index_start": 756,
+        "pdf_page_index_end": 767,
+        "pdf_page_number_start": 757,
+        "pdf_page_number_end": 768,
+        "printed_page_start": "735",
+        "printed_page_end": "746"
+      },
+      "outline": [
+        "B.1",
+        "B.2",
+        "B.3",
+        "B.4",
+        "B.5",
+        "B.6"
+      ],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 756,
+            "pdf_page_number": 757,
+            "printed_page_label": "735"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "Appendix B Bayesian modeling and inference"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(Appendix B Bayesian modeling and inference) +(printed page 735) --QDF=0",
+            "+(Maximum likelihood estimation and least squares) +(Bayesian modeling and inference) +(printed page 735) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "735",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Maximum likelihood estimation and least squares . . . . . . . . . . . . . . . . . .",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "Appendix B Bayesian modeling and inference",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Appendix B Bayesian modeling and inference"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 757,
+            "pdf_page_number": 758,
+            "printed_page_label": "736"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(ments are totally noise-free or we do not care about getting the best possible answer then) +(printed page 736) --QDF=0",
+            "+(ments are totally noise-free or we do not care about getting the best possible answer then) +(Bayesian modeling and inference) +(printed page 736) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "736",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "ments are totally noise-free or we do not care about getting the best possible answer, then the answer",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 758,
+            "pdf_page_number": 759,
+            "printed_page_label": "737"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(2In the Kalman filtering literature Gelb 1974 it is more common to use z instead of) +(printed page 737) --QDF=0",
+            "+(2In the Kalman filtering literature Gelb 1974 it is more common to use z instead of) +(Bayesian modeling and inference) +(printed page 737) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "737",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "2In the Kalman filtering literature (Gelb 1974), it is more common to use z instead of y to denote measurements.",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "B.1 Estimation theory",
+              "Likelihood for multivariate Gaussian noise"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 4,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 759,
+            "pdf_page_number": 760,
+            "printed_page_label": "738"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(In this formulation it is quite acceptable for some information matrices to be singular of degen) +(printed page 738) --QDF=0",
+            "+(In this formulation it is quite acceptable for some information matrices to be singular of degen) +(Bayesian modeling and inference) +(printed page 738) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "738",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "In this formulation, it is quite acceptable for some information matrices to be singular (of degen-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "5.9",
+              "5.19"
+            ],
+            "equation_ids": [
+              "5.32"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 5,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 760,
+            "pdf_page_number": 761,
+            "printed_page_label": "739"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(the least possible variance In many other cases e.g if a single estimate is all that) +(printed page 739) --QDF=0",
+            "+(the least possible variance In many other cases e.g if a single estimate is all that) +(Bayesian modeling and inference) +(printed page 739) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "739",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "the least possible variance. In many other cases, e.g., if a single estimate is all that is required, it is",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "B.2 Maximum likelihood estimation and least squares"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "5.1"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 6,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 761,
+            "pdf_page_number": 762,
+            "printed_page_label": "740"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(inated noise model such as a Laplacian The negative log likelihood in this case rather than) +(printed page 740) --QDF=0",
+            "+(inated noise model such as a Laplacian The negative log likelihood in this case rather than) +(Bayesian modeling and inference) +(printed page 740) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "740",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "inated noise model, such as a Laplacian. The negative log likelihood in this case, rather than being",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "B.3 Robust statistics"
+            ],
+            "figure_ids": [
+              "4.7"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 7,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 762,
+            "pdf_page_number": 763,
+            "printed_page_label": "741"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(niques such as IRLS in the vicinity of a good solution by first randomly selecting small) +(printed page 741) --QDF=0",
+            "+(niques such as IRLS in the vicinity of a good solution by first randomly selecting small) +(Bayesian modeling and inference) +(printed page 741) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "741",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "niques, such as IRLS, in the vicinity of a good solution by first randomly selecting small subsets of",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 8,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 763,
+            "pdf_page_number": 764,
+            "printed_page_label": "742"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(its noisy version we cannot make any progress as there are a large number of values) +(printed page 742) --QDF=0",
+            "+(its noisy version we cannot make any progress as there are a large number of values) +(Bayesian modeling and inference) +(printed page 742) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "742",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "its noisy version, we cannot make any progress, as there are a large number of values that could lead",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "B.4 Prior models and Bayesian inference"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.33"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 9,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 764,
+            "pdf_page_number": 765,
+            "printed_page_label": "743"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(Many people would argue that deep neural networks provide learned priors over the output distributions although) +(printed page 743) --QDF=0",
+            "+(Many people would argue that deep neural networks provide learned priors over the output distributions although) +(Bayesian modeling and inference) +(printed page 743) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "743",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Many people would argue that deep neural networks provide learned priors over the output distributions, although these are",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "B.5 Markov random fields"
+            ],
+            "figure_ids": [
+              "4.12"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 10,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 765,
+            "pdf_page_number": 766,
+            "printed_page_label": "744"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(quadratic In this case the posterior distribution is a multi-variate Gaussian and its covariance can) +(printed page 744) --QDF=0",
+            "+(quadratic In this case the posterior distribution is a multi-variate Gaussian and its covariance can) +(Bayesian modeling and inference) +(printed page 744) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "744",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "quadratic. In this case, the posterior distribution is a multi-variate Gaussian and its covariance Σ can",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "B.6 Uncertainty estimation (error analysis)"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 11,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 766,
+            "pdf_page_number": 767,
+            "printed_page_label": "745"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(Schematic taxonomy of the inference methods evaluated in the benchmark study by Kappes Andres) +(printed page 745) --QDF=0",
+            "+(Schematic taxonomy of the inference methods evaluated in the benchmark study by Kappes Andres) +(Bayesian modeling and inference) +(printed page 745) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "745",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Schematic taxonomy of the inference methods evaluated in the benchmark study by Kappes, Andres",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 12,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 767,
+            "pdf_page_number": 768,
+            "printed_page_label": "746"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(plications such as Kalman filtering require the computation of this uncertainty either explicitly as) +(printed page 746) --QDF=0",
+            "+(plications such as Kalman filtering require the computation of this uncertainty either explicitly as) +(Bayesian modeling and inference) +(printed page 746) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "746",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "plications, such as Kalman filtering, require the computation of this uncertainty (either explicitly as",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "B.1": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "B.1",
+      "printed_section_id": "B.1",
+      "parent_section_id": "B",
+      "title": "Estimation theory",
+      "source_heading": "B.1 Estimation theory",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 758,
+          "pdf_page_number": 759,
+          "printed_page_label": "737"
+        },
+        "bbox": [
+          57.188,
+          76.211,
+          225.539,
+          91.499
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 2,
+      "page_range": {
+        "pdf_page_index_start": 758,
+        "pdf_page_index_end": 759,
+        "pdf_page_number_start": 759,
+        "pdf_page_number_end": 760,
+        "printed_page_start": "737",
+        "printed_page_end": "738"
+      },
+      "outline": [
+        "Likelihood for multivariate Gaussian noise"
+      ],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 758,
+            "pdf_page_number": 759,
+            "printed_page_label": "737"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "B.1 Estimation theory"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(B.1 Estimation theory) +(printed page 737) --QDF=0",
+            "+(2In the Kalman filtering literature Gelb 1974 it is more common to use z instead of) +(Estimation theory) +(printed page 737) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "737",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "2In the Kalman filtering literature (Gelb 1974), it is more common to use z instead of y to denote measurements.",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "B.1 Estimation theory",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "B.1 Estimation theory",
+              "Likelihood for multivariate Gaussian noise"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 759,
+            "pdf_page_number": 760,
+            "printed_page_label": "738"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(In this formulation it is quite acceptable for some information matrices to be singular of degen) +(printed page 738) --QDF=0",
+            "+(In this formulation it is quite acceptable for some information matrices to be singular of degen) +(Estimation theory) +(printed page 738) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "738",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "In this formulation, it is quite acceptable for some information matrices to be singular (of degen-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "5.9",
+              "5.19"
+            ],
+            "equation_ids": [
+              "5.32"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "B.2": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "B.2",
+      "printed_section_id": "B.2",
+      "parent_section_id": "B",
+      "title": "Maximum likelihood estimation and least squares",
+      "source_heading": "B.2 Maximum likelihood estimation and least squares",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 760,
+          "pdf_page_number": 761,
+          "printed_page_label": "739"
+        },
+        "bbox": [
+          57.188,
+          76.211,
+          456.189,
+          91.499
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 2,
+      "page_range": {
+        "pdf_page_index_start": 760,
+        "pdf_page_index_end": 761,
+        "pdf_page_number_start": 761,
+        "pdf_page_number_end": 762,
+        "printed_page_start": "739",
+        "printed_page_end": "740"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 760,
+            "pdf_page_number": 761,
+            "printed_page_label": "739"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "B.2 Maximum likelihood estimation and least squares"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(B.2 Maximum likelihood estimation and least squares) +(printed page 739) --QDF=0",
+            "+(the least possible variance In many other cases e.g if a single estimate is all that) +(Maximum likelihood estimation and least squares) +(printed page 739) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "739",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "the least possible variance. In many other cases, e.g., if a single estimate is all that is required, it is",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "B.2 Maximum likelihood estimation and least squares",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "B.2 Maximum likelihood estimation and least squares"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "5.1"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 761,
+            "pdf_page_number": 762,
+            "printed_page_label": "740"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "B.3 Robust statistics"
+            }
+          },
+          "queries": [
+            "+(least squares Appendix A.3 In this case we can compute a Cramer Rao lower bound CRLB) +(printed page 740) --QDF=0",
+            "+(least squares Appendix A.3 In this case we can compute a Cramer Rao lower bound CRLB) +(Maximum likelihood estimation and least squares) +(printed page 740) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "740",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "least squares (Appendix A.3). In this case, we can compute a Cramer–Rao lower bound (CRLB) on",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "B.3 Robust statistics",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "B.3": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "B.3",
+      "printed_section_id": "B.3",
+      "parent_section_id": "B",
+      "title": "Robust statistics",
+      "source_heading": "B.3 Robust statistics",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 761,
+          "pdf_page_number": 762,
+          "printed_page_label": "740"
+        },
+        "bbox": [
+          114.734,
+          376.469,
+          276.679,
+          391.757
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 2,
+      "page_range": {
+        "pdf_page_index_start": 761,
+        "pdf_page_index_end": 763,
+        "pdf_page_number_start": 762,
+        "pdf_page_number_end": 764,
+        "printed_page_start": "740",
+        "printed_page_end": "742"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 761,
+            "pdf_page_number": 762,
+            "printed_page_label": "740"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "B.3 Robust statistics"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(B.3 Robust statistics) +(printed page 740) --QDF=0",
+            "+(inated noise model such as a Laplacian The negative log likelihood in this case rather than) +(Robust statistics) +(printed page 740) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "740",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "inated noise model, such as a Laplacian. The negative log likelihood in this case, rather than being",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "B.3 Robust statistics",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "B.3 Robust statistics"
+            ],
+            "figure_ids": [
+              "4.7"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 762,
+            "pdf_page_number": 763,
+            "printed_page_label": "741"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(niques such as IRLS in the vicinity of a good solution by first randomly selecting small) +(printed page 741) --QDF=0",
+            "+(niques such as IRLS in the vicinity of a good solution by first randomly selecting small) +(Robust statistics) +(printed page 741) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "741",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "niques, such as IRLS, in the vicinity of a good solution by first randomly selecting small subsets of",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 763,
+            "pdf_page_number": 764,
+            "printed_page_label": "742"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "B.4 Prior models and Bayesian inference"
+            }
+          },
+          "queries": [
+            "+(Noskova et al 2020 compares many of these variants Yang Antonante et al 2020 claim that) +(printed page 742) --QDF=0",
+            "+(Noskova et al 2020 compares many of these variants Yang Antonante et al 2020 claim that) +(Robust statistics) +(printed page 742) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "742",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Noskova et al. (2020) compares many of these variants. Yang, Antonante et al. (2020) claim that",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "B.4 Prior models and Bayesian inference",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "B.4": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "B.4",
+      "printed_section_id": "B.4",
+      "parent_section_id": "B",
+      "title": "Prior models and Bayesian inference",
+      "source_heading": "B.4 Prior models and Bayesian inference",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 763,
+          "pdf_page_number": 764,
+          "printed_page_label": "742"
+        },
+        "bbox": [
+          114.734,
+          165.119,
+          421.686,
+          180.407
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 2,
+      "page_range": {
+        "pdf_page_index_start": 763,
+        "pdf_page_index_end": 764,
+        "pdf_page_number_start": 764,
+        "pdf_page_number_end": 765,
+        "printed_page_start": "742",
+        "printed_page_end": "743"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 763,
+            "pdf_page_number": 764,
+            "printed_page_label": "742"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "B.4 Prior models and Bayesian inference"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(B.4 Prior models and Bayesian inference) +(printed page 742) --QDF=0",
+            "+(its noisy version we cannot make any progress as there are a large number of values) +(Prior models and Bayesian inference) +(printed page 742) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "742",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "its noisy version, we cannot make any progress, as there are a large number of values that could lead",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "B.4 Prior models and Bayesian inference",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "B.4 Prior models and Bayesian inference"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.33"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 764,
+            "pdf_page_number": 765,
+            "printed_page_label": "743"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "B.5 Markov random fields"
+            }
+          },
+          "queries": [
+            "+(rather than some more stable statistic such as MSE see the discussion in Appendix B.2 about) +(printed page 743) --QDF=0",
+            "+(rather than some more stable statistic such as MSE see the discussion in Appendix B.2 about) +(Prior models and Bayesian inference) +(printed page 743) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "743",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "rather than some more stable statistic such as MSE—see the discussion in Appendix B.2 about loss",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "B.5 Markov random fields",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "B.5": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "B.5",
+      "printed_section_id": "B.5",
+      "parent_section_id": "B",
+      "title": "Markov random fields",
+      "source_heading": "B.5 Markov random fields",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 764,
+          "pdf_page_number": 765,
+          "printed_page_label": "743"
+        },
+        "bbox": [
+          57.188,
+          182.623,
+          253.744,
+          197.911
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 2,
+      "page_range": {
+        "pdf_page_index_start": 764,
+        "pdf_page_index_end": 765,
+        "pdf_page_number_start": 765,
+        "pdf_page_number_end": 766,
+        "printed_page_start": "743",
+        "printed_page_end": "744"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 764,
+            "pdf_page_number": 765,
+            "printed_page_label": "743"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "B.5 Markov random fields"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(B.5 Markov random fields) +(printed page 743) --QDF=0",
+            "+(Many people would argue that deep neural networks provide learned priors over the output distributions although) +(Markov random fields) +(printed page 743) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "743",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Many people would argue that deep neural networks provide learned priors over the output distributions, although these are",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "B.5 Markov random fields",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "B.5 Markov random fields"
+            ],
+            "figure_ids": [
+              "4.12"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 765,
+            "pdf_page_number": 766,
+            "printed_page_label": "744"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "B.6 Uncertainty estimation (error analysis)"
+            }
+          },
+          "queries": [
+            "+(Kumar 2008 Over the years a large variety of such algorithms have been developed including sim) +(printed page 744) --QDF=0",
+            "+(Kumar 2008 Over the years a large variety of such algorithms have been developed including sim) +(Markov random fields) +(printed page 744) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "744",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Kumar 2008). Over the years, a large variety of such algorithms have been developed, including sim-",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "B.6 Uncertainty estimation (error analysis)",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "B.6": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "B.6",
+      "printed_section_id": "B.6",
+      "parent_section_id": "B",
+      "title": "Uncertainty estimation (error analysis)",
+      "source_heading": "B.6 Uncertainty estimation (error analysis)",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 765,
+          "pdf_page_number": 766,
+          "printed_page_label": "744"
+        },
+        "bbox": [
+          114.734,
+          302.926,
+          433.092,
+          318.214
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 2,
+      "page_range": {
+        "pdf_page_index_start": 765,
+        "pdf_page_index_end": 767,
+        "pdf_page_number_start": 766,
+        "pdf_page_number_end": 768,
+        "printed_page_start": "744",
+        "printed_page_end": "746"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 765,
+            "pdf_page_number": 766,
+            "printed_page_label": "744"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "B.6 Uncertainty estimation (error analysis)"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(B.6 Uncertainty estimation error analysis) +(printed page 744) --QDF=0",
+            "+(quadratic In this case the posterior distribution is a multi-variate Gaussian and its covariance can) +(Uncertainty estimation error analysis) +(printed page 744) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "744",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "quadratic. In this case, the posterior distribution is a multi-variate Gaussian and its covariance Σ can",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "B.6 Uncertainty estimation (error analysis)",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "B.6 Uncertainty estimation (error analysis)"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 766,
+            "pdf_page_number": 767,
+            "printed_page_label": "745"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(Schematic taxonomy of the inference methods evaluated in the benchmark study by Kappes Andres) +(printed page 745) --QDF=0",
+            "+(Schematic taxonomy of the inference methods evaluated in the benchmark study by Kappes Andres) +(Uncertainty estimation error analysis) +(printed page 745) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "745",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Schematic taxonomy of the inference methods evaluated in the benchmark study by Kappes, Andres",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 767,
+            "pdf_page_number": 768,
+            "printed_page_label": "746"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(plications such as Kalman filtering require the computation of this uncertainty either explicitly as) +(printed page 746) --QDF=0",
+            "+(plications such as Kalman filtering require the computation of this uncertainty either explicitly as) +(Uncertainty estimation error analysis) +(printed page 746) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "746",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "plications, such as Kalman filtering, require the computation of this uncertainty (either explicitly as",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "B.1.1": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "learning_unit",
+      "section_id": "B.1.1",
+      "printed_section_id": "B.1",
+      "parent_section_id": "B.1",
+      "title": "Likelihood for multivariate Gaussian noise",
+      "source_heading": "Likelihood for multivariate Gaussian noise",
+      "source_heading_numbered": false,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 758,
+          "pdf_page_number": 759,
+          "printed_page_label": "737"
+        },
+        "bbox": [
+          57.188,
+          497.357,
+          313.428,
+          510.097
+        ]
+      },
+      "source_level": 1,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 758,
+        "pdf_page_index_end": 759,
+        "pdf_page_number_start": 759,
+        "pdf_page_number_end": 760,
+        "printed_page_start": "737",
+        "printed_page_end": "738"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 758,
+            "pdf_page_number": 759,
+            "printed_page_label": "737"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "Likelihood for multivariate Gaussian noise"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(Likelihood for multivariate Gaussian noise) +(printed page 737) --QDF=0",
+            "+(2In the Kalman filtering literature Gelb 1974 it is more common to use z instead of) +(Likelihood for multivariate Gaussian noise) +(printed page 737) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "737",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "2In the Kalman filtering literature (Gelb 1974), it is more common to use z instead of y to denote measurements.",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "Likelihood for multivariate Gaussian noise",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Likelihood for multivariate Gaussian noise"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 759,
+            "pdf_page_number": 760,
+            "printed_page_label": "738"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(In this formulation it is quite acceptable for some information matrices to be singular of degen) +(printed page 738) --QDF=0",
+            "+(In this formulation it is quite acceptable for some information matrices to be singular of degen) +(Likelihood for multivariate Gaussian noise) +(printed page 738) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "738",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "In this formulation, it is quite acceptable for some information matrices to be singular (of degen-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "5.9",
+              "5.19"
+            ],
+            "equation_ids": [
+              "5.32"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    }
+  }
+}

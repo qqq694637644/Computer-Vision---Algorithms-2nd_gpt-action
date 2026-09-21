@@ -7,6 +7,7 @@ from pydantic import Field, model_validator
 
 from app.models.locator import (
     DATA_VERSION,
+    SECTION_ID_PATTERN,
     BookMetadata,
     ContentWindow,
     EvidenceRequirement,
@@ -50,8 +51,8 @@ class LearningUnitManifest(StrictModel):
 
 
 class PrintedSectionManifest(StrictModel):
-    printed_section_id: str = Field(pattern=r"^\d+(?:\.\d+)*$")
-    parent_printed_section_id: str | None = Field(default=None, pattern=r"^\d+(?:\.\d+)*$")
+    printed_section_id: str = Field(pattern=SECTION_ID_PATTERN)
+    parent_printed_section_id: str | None = Field(default=None, pattern=SECTION_ID_PATTERN)
     title: str = Field(min_length=1)
     source_heading: str = Field(min_length=1)
     source_location: HeadingLocation
@@ -127,6 +128,6 @@ class BookManifestPackage(StrictModel):
         if len(self.printed_section_shards) != len(set(self.printed_section_shards)):
             raise ValueError("printed_section_shards must be unique")
         for name in self.printed_section_shards:
-            if re.fullmatch(r"manifest\.sections\.\d{2}\.yaml", name) is None:
+            if re.fullmatch(r"manifest\.sections\.(?:\d{2}|[A-Z])\.yaml", name) is None:
                 raise ValueError(f"invalid manifest shard filename: {name}")
         return self

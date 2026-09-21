@@ -19,6 +19,7 @@ from app.models.locator import (
     EvidenceRequirement,
     LocatorSectionShard,
     PageCoverage,
+    query_safe_anchor,
 )
 from app.models.manifest import (
     BookManifest,
@@ -31,6 +32,7 @@ from tools.extract_pdf_candidates import (
     clean_text,
     extract_heading_candidates,
     extract_page_anchors,
+    normalize_page_label,
 )
 
 
@@ -297,12 +299,12 @@ def verify_manifest_anchors(
                     )
 
             query_anchors = [
-                clean_text(item.value)
+                query_safe_anchor(clean_text(item.value))
                 for item in step.required_evidence
                 if item.kind != "printed_page_equals"
             ]
             if step_index == 0:
-                query_anchors.append(clean_text(source_heading))
+                query_anchors.append(query_safe_anchor(clean_text(source_heading)))
             query_anchors = [value for value in query_anchors if value]
             for query in step.queries:
                 query_count += 1
@@ -337,7 +339,7 @@ def verify_source_pdf(manifest: BookManifest, pdf_path: Path) -> dict[str, int |
         if document.page_count != manifest.book.page_count:
             raise ValueError("source PDF page count does not match manifest")
         for page_ref in manifest.pages:
-            actual_label = document[page_ref.pdf_page_index].get_label().strip()
+            actual_label = normalize_page_label(document[page_ref.pdf_page_index].get_label())
             if actual_label != page_ref.printed_page_label:
                 raise ValueError(
                     "source PDF page label mismatch at index "
@@ -391,8 +393,14 @@ def write_compiled_package(compiled, output: Path) -> dict[str, object]:
 
     shard_names: list[str] = []
     shard_hashes: dict[str, str] = {}
-    for chapter in sorted(groups, key=int):
-        shard_name = f"compiled_locator_index.sections.{int(chapter):02d}.json"
+    def root_sort_key(value: str) -> tuple[int, int | str]:
+        return (0, int(value)) if value.isdigit() else (1, value)
+
+    def shard_token(value: str) -> str:
+        return f"{int(value):02d}" if value.isdigit() else value
+
+    for chapter in sorted(groups, key=root_sort_key):
+        shard_name = f"compiled_locator_index.sections.{shard_token(chapter)}.json"
         shard_path = output.parent / shard_name
         shard = LocatorSectionShard(data_version="3", sections=groups[chapter])
         shard_path.write_text(

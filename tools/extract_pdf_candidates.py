@@ -5,28 +5,33 @@ import argparse
 import hashlib
 import json
 import re
+import unicodedata
 from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any
 
 import fitz
 
-NUMBERED_HEADING_RE = re.compile(r"^(?P<id>\d+(?:\.\d+)*)\s+(?P<title>.+)$")
-FIGURE_RE = re.compile(r"\bFIGURE\s+(\d+(?:\.\d+)+)\b", re.IGNORECASE)
-EQUATION_RE = re.compile(r"\((\d+-\d+)\)")
-EXAMPLE_RE = re.compile(r"\bEXAMPLE\s+(\d+(?:\.\d+)*)\b", re.IGNORECASE)
-TABLE_RE = re.compile(r"\bTABLE\s+(\d+(?:\.\d+)*)\b", re.IGNORECASE)
-EXERCISE_RE = re.compile(
-    r"^(?P<leading_star>\*)?\s*(?P<id>\d+\.\d+)(?P<trailing_star>\s+\*)?(?=\s|$)"
+BOOK_ID = "cvaa2e"
+BODY_START_INDEX = 22
+BODY_END_INDEX = 781
+HEADING_FONT = "NimbusSanL-Bold"
+HEADING_COLOR = 10598
+ANCHOR_LABEL_FONT = "NimbusRomNo9L-Medi"
+COLUMN_SPLIT_RATIO = 0.90
+
+NUMBERED_HEADING_RE = re.compile(
+    r"^(?P<id>(?:\d+|[A-Z])(?:\.\d+)*)\s+(?P<title>.+)$"
 )
-PROBLEMS_RE = re.compile(r"^Problems$", re.IGNORECASE)
-TERMINAL_BOUNDARY_RE = re.compile(
-    r"^(?:Summary(?:,\s*References,\s*and\s*Further\s*Reading)?|Problems)$",
-    re.IGNORECASE,
-)
-HEADING_FONT = "Futura-Heavy"
-HEADING_COLOR = 28319
-COLUMN_SPLIT_RATIO = 0.49
+CHAPTER_TOC_RE = re.compile(r"^Chapter\s+(?P<id>\d+)\s+(?P<title>.+)$", re.IGNORECASE)
+APPENDIX_TOC_RE = re.compile(r"^Appendix\s+(?P<id>[A-Z])\s+(?P<title>.+)$", re.IGNORECASE)
+FIGURE_RE = re.compile(r"\b(?:Figure|Fig\.)\s+(\d+(?:\.\d+)+)\b", re.IGNORECASE)
+EQUATION_RE = re.compile(r"\((\d+(?:\.\d+)+)\)")
+EXAMPLE_RE = re.compile(r"\bExample\s+(\d+(?:\.\d+)+)\b", re.IGNORECASE)
+TABLE_RE = re.compile(r"\bTable\s+(\d+(?:\.\d+)+)\b", re.IGNORECASE)
+EXERCISE_RE = re.compile(r"^Ex\s+(?P<id>\d+\.\d+):", re.IGNORECASE)
+PROBLEMS_RE = re.compile(r"^Exercises$", re.IGNORECASE)
+TERMINAL_BOUNDARY_RE = re.compile(r"^(?:References|Index)$", re.IGNORECASE)
 
 
 @dataclass(frozen=True)
@@ -68,9 +73,19 @@ class ExerciseCandidate:
 
 
 def clean_text(value: str) -> str:
-    safe = value.encode("utf-8", errors="ignore").decode("utf-8")
+    normalized = unicodedata.normalize("NFKC", value)
+    safe = normalized.encode("utf-8", errors="ignore").decode("utf-8")
     safe = "".join(character for character in safe if character >= " " or character in "\t\n")
     return re.sub(r"\s+", " ", safe).strip()
+
+
+def normalize_page_label(value: str) -> str:
+    label = clean_text(value)
+    if label == "<FEFF00430031>":
+        return "Cover"
+    if label.startswith("<FEFF>"):
+        label = label[len("<FEFF>") :]
+    return label
 
 
 def sha256_file(path: Path) -> str:
@@ -84,9 +99,9 @@ def sha256_file(path: Path) -> str:
 def page_references(doc: fitz.Document) -> list[dict[str, Any]]:
     pages: list[dict[str, Any]] = []
     for index in range(doc.page_count):
-        label = clean_text(doc[index].get_label())
+        label = normalize_page_label(doc[index].get_label())
         if not label:
-            raise ValueError(f"PDF page {index} has no page label")
+            raise ValueError(f"PDF page {index} has no normalized page label")
         pages.append(
             {
                 "pdf_page_index": index,
@@ -96,20 +111,30 @@ def page_references(doc: fitz.Document) -> list[dict[str, Any]]:
         )
     labels = [page["printed_page_label"] for page in pages]
     if len(labels) != len(set(labels)):
-        raise ValueError("PDF page labels are not unique")
+        duplicates = sorted({label for label in labels if labels.count(label) > 1})
+        raise ValueError(f"normalized PDF page labels are not unique: {duplicates[:10]}")
     return pages
 
 
 def extract_lines(page: fitz.Page) -> list[TextLine]:
     lines: list[TextLine] = []
     page_index = page.number
-    page_label = clean_text(page.get_label())
+    page_label = normalize_page_label(page.get_label())
     for block in page.get_text("dict").get("blocks", []):
         for raw_line in block.get("lines", []):
             spans = [span for span in raw_line.get("spans", []) if span.get("text", "").strip()]
             if not spans:
                 continue
-            text = clean_text("".join(span["text"] for span in spans))
+            pieces: list[str] = []
+            previous_x1: float | None = None
+            for span in spans:
+                span_text = str(span["text"])
+                x0 = float(span["bbox"][0])
+                if previous_x1 is not None and x0 - previous_x1 > 1.0:
+                    pieces.append(" ")
+                pieces.append(span_text)
+                previous_x1 = float(span["bbox"][2])
+            text = clean_text("".join(pieces))
             if not text:
                 continue
             lines.append(
@@ -125,155 +150,6 @@ def extract_lines(page: fitz.Page) -> list[TextLine]:
                 )
             )
     return lines
-
-
-def is_heading_line(line: TextLine) -> bool:
-    return (
-        HEADING_FONT in line.font_names
-        and HEADING_COLOR in line.colors
-        and 10.5 <= line.max_font_size <= 11.5
-        and not line.text.startswith("FIGURE ")
-        and not line.text.startswith("TABLE ")
-        and not line.text.startswith("EXAMPLE ")
-    )
-
-
-def merge_wrapped_heading_lines(lines: list[TextLine]) -> list[TextLine]:
-    merged: list[TextLine] = []
-    index = 0
-    while index < len(lines):
-        current = lines[index]
-        if not is_heading_line(current):
-            index += 1
-            continue
-        text = current.text
-        bbox = list(current.bbox)
-        next_index = index + 1
-        while next_index < len(lines):
-            following = lines[next_index]
-            vertical_gap = following.bbox[1] - bbox[3]
-            same_style = (
-                is_heading_line(following)
-                and following.font_names == current.font_names
-                and abs(following.max_font_size - current.max_font_size) < 0.1
-                and following.colors == current.colors
-            )
-            aligned = abs(following.bbox[0] - current.bbox[0]) <= 35
-            if not same_style or not aligned or not (-2 <= vertical_gap <= 8):
-                break
-            text = f"{text} {following.text}"
-            bbox[2] = max(bbox[2], following.bbox[2])
-            bbox[3] = following.bbox[3]
-            next_index += 1
-        merged.append(
-            TextLine(
-                text=clean_text(text),
-                pdf_page_index=current.pdf_page_index,
-                pdf_page_number=current.pdf_page_number,
-                printed_page_label=current.printed_page_label,
-                bbox=tuple(bbox),
-                font_names=current.font_names,
-                max_font_size=current.max_font_size,
-                colors=current.colors,
-            )
-        )
-        index = next_index
-    return merged
-
-
-def extract_chapter_candidates(doc: fitz.Document) -> list[HeadingCandidate]:
-    candidates: list[HeadingCandidate] = []
-    for level, raw_title, pdf_page_number, _destination in doc.get_toc(simple=False):
-        title = clean_text(raw_title)
-        match = re.match(r"^(?P<id>\d+)\s+(?P<title>.+)$", title)
-        if level != 1 or match is None:
-            continue
-        chapter_id = match.group("id")
-        if not 1 <= int(chapter_id) <= 12:
-            continue
-
-        page_index = int(pdf_page_number) - 1
-        page = doc[page_index]
-        lines = extract_lines(page)
-        title_lines = [
-            line
-            for line in lines
-            if "Palatino-MediumItalic" in line.font_names and 23.5 <= line.max_font_size <= 24.5
-        ]
-        number_lines = [
-            line for line in lines if line.text == chapter_id and line.max_font_size >= 100
-        ]
-        if not title_lines or not number_lines:
-            raise ValueError(f"cannot locate chapter heading layout for chapter {chapter_id}")
-
-        bbox = (
-            min(number_lines[0].bbox[0], *(line.bbox[0] for line in title_lines)),
-            min(number_lines[0].bbox[1], *(line.bbox[1] for line in title_lines)),
-            max(number_lines[0].bbox[2], *(line.bbox[2] for line in title_lines)),
-            max(number_lines[0].bbox[3], *(line.bbox[3] for line in title_lines)),
-        )
-        candidates.append(
-            HeadingCandidate(
-                text=f"{chapter_id} {match.group('title')}",
-                printed_section_id=chapter_id,
-                pdf_page_index=page_index,
-                pdf_page_number=page_index + 1,
-                printed_page_label=clean_text(page.get_label()),
-                bbox=tuple(round(value, 3) for value in bbox),
-                numbered=True,
-                style_signature="chapter-number+Palatino-MediumItalic-24",
-            )
-        )
-    return candidates
-
-
-def chapter_end_indices(
-    doc: fitz.Document,
-    chapters: list[HeadingCandidate],
-) -> dict[str, int]:
-    top_level_pages = sorted(
-        {
-            int(pdf_page_number) - 1
-            for level, _title, pdf_page_number, _destination in doc.get_toc(simple=False)
-            if level == 1 and int(pdf_page_number) >= 1
-        }
-    )
-    result: dict[str, int] = {}
-    for chapter in chapters:
-        chapter_id = chapter.text.split()[0]
-        next_pages = [page for page in top_level_pages if page > chapter.pdf_page_index]
-        result[chapter_id] = min(next_pages) - 1 if next_pages else doc.page_count - 1
-    return result
-
-
-def extract_heading_candidates(doc: fitz.Document) -> list[HeadingCandidate]:
-    candidates: list[HeadingCandidate] = extract_chapter_candidates(doc)
-    current_printed_section_id: str | None = None
-    for page_index in range(doc.page_count):
-        page = doc[page_index]
-        heading_lines = merge_wrapped_heading_lines(extract_lines(page))
-        for line in heading_lines:
-            if TERMINAL_BOUNDARY_RE.fullmatch(line.text) is not None:
-                continue
-            numbered_match = NUMBERED_HEADING_RE.match(line.text)
-            if numbered_match:
-                current_printed_section_id = numbered_match.group("id")
-            candidates.append(
-                HeadingCandidate(
-                    text=line.text,
-                    printed_section_id=current_printed_section_id,
-                    pdf_page_index=line.pdf_page_index,
-                    pdf_page_number=line.pdf_page_number,
-                    printed_page_label=line.printed_page_label,
-                    bbox=line.bbox,
-                    numbered=numbered_match is not None,
-                    style_signature=(
-                        f"fonts={','.join(line.font_names)};size={line.max_font_size};"
-                        f"colors={','.join(str(color) for color in line.colors)}"
-                    ),
-                )
-            )
-    return sorted(candidates, key=lambda item: (item.pdf_page_index, item.bbox[1], item.bbox[0]))
 
 
 def _column_for_x(page_width: float, x0: float) -> int:
@@ -330,174 +206,333 @@ def merge_visual_lines(page_width: float, lines: list[TextLine]) -> list[TextLin
                     pdf_page_index=first.pdf_page_index,
                     pdf_page_number=first.pdf_page_number,
                     printed_page_label=first.printed_page_label,
-                    bbox=bbox,
-                    font_names=tuple(
-                        sorted({font for item in ordered for font in item.font_names})
-                    ),
+                    bbox=tuple(round(float(value), 3) for value in bbox),
+                    font_names=tuple(sorted({font for item in ordered for font in item.font_names})),
                     max_font_size=max(item.max_font_size for item in ordered),
                     colors=tuple(sorted({color for item in ordered for color in item.colors})),
                 )
             )
     return sorted(
         merged,
-        key=lambda item: (
-            _column_for_x(page_width, item.bbox[0]),
-            item.bbox[1],
-            item.bbox[0],
-        ),
+        key=lambda item: (_column_for_x(page_width, item.bbox[0]), item.bbox[1], item.bbox[0]),
     )
+
+
+def _is_blue_bold(line: TextLine, size: float, tolerance: float = 0.08) -> bool:
+    return (
+        HEADING_FONT in line.font_names
+        and HEADING_COLOR in line.colors
+        and abs(line.max_font_size - size) <= tolerance
+    )
+
+
+def is_heading_line(line: TextLine) -> bool:
+    """Return whether a raw line is an unnumbered learning-unit heading."""
+    if not (_is_blue_bold(line, 10.617, 0.08) or _is_blue_bold(line, 12.740, 0.08)):
+        return False
+    if NUMBERED_HEADING_RE.match(line.text):
+        return False
+    if re.match(r"^(?:Figure|Fig\.|Table|Example|Ex\s+\d+\.\d+:)", line.text, re.IGNORECASE):
+        return False
+    return True
+
+
+def merge_wrapped_heading_lines(lines: list[TextLine]) -> list[TextLine]:
+    # Szeliski's unnumbered subheads are short, single raw lines. Keeping their exact
+    # bbox avoids merging the following body sentence into the heading.
+    return [line for line in lines if is_heading_line(line)]
+
+
+def _chapter_candidates(doc: fitz.Document) -> list[HeadingCandidate]:
+    candidates: list[HeadingCandidate] = []
+    for level, raw_title, pdf_page_number in doc.get_toc(simple=True):
+        if level != 1:
+            continue
+        title = clean_text(raw_title)
+        match = CHAPTER_TOC_RE.match(title) or APPENDIX_TOC_RE.match(title)
+        if match is None:
+            continue
+        section_id = match.group("id")
+        page_index = int(pdf_page_number) - 1
+        page = doc[page_index]
+        raw_lines = extract_lines(page)
+        prefix_pattern = re.compile(
+            rf"^(?:Chapter\s+{re.escape(section_id)}|Appendix\s+{re.escape(section_id)})$",
+            re.IGNORECASE,
+        )
+        prefix_lines = [line for line in raw_lines if prefix_pattern.match(line.text)]
+        title_lines = [
+            line
+            for line in raw_lines
+            if "NimbusRomNo9L-Medi" in line.font_names
+            and 25.5 <= line.max_font_size <= 27.5
+            and line.bbox[1] < 220
+        ]
+        if not prefix_lines or not title_lines:
+            raise ValueError(f"cannot locate root heading layout for {title!r}")
+        relevant = [prefix_lines[0], *title_lines]
+        bbox = (
+            min(line.bbox[0] for line in relevant),
+            min(line.bbox[1] for line in relevant),
+            max(line.bbox[2] for line in relevant),
+            max(line.bbox[3] for line in relevant),
+        )
+        candidates.append(
+            HeadingCandidate(
+                text=title,
+                printed_section_id=section_id,
+                pdf_page_index=page_index,
+                pdf_page_number=page_index + 1,
+                printed_page_label=normalize_page_label(page.get_label()),
+                bbox=tuple(round(float(value), 3) for value in bbox),
+                numbered=True,
+                style_signature="root-outline+NimbusRomNo9L-Medi-26.4",
+            )
+        )
+    return sorted(candidates, key=lambda item: (item.pdf_page_index, item.bbox[1], item.bbox[0]))
+
+
+def extract_chapter_candidates(doc: fitz.Document) -> list[HeadingCandidate]:
+    return _chapter_candidates(doc)
+
+
+def _numbered_subsection_candidates(doc: fitz.Document) -> list[HeadingCandidate]:
+    candidates: list[HeadingCandidate] = []
+    for page_index in range(BODY_START_INDEX, min(BODY_END_INDEX, doc.page_count - 1) + 1):
+        page = doc[page_index]
+        for line in merge_visual_lines(float(page.rect.width), extract_lines(page)):
+            if not (
+                _is_blue_bold(line, 15.290, 0.08)
+                or _is_blue_bold(line, 12.740, 0.08)
+            ):
+                continue
+            match = NUMBERED_HEADING_RE.match(line.text)
+            if match is None or "." not in match.group("id"):
+                continue
+            section_id = match.group("id")
+            candidates.append(
+                HeadingCandidate(
+                    text=line.text,
+                    printed_section_id=section_id,
+                    pdf_page_index=page_index,
+                    pdf_page_number=page_index + 1,
+                    printed_page_label=normalize_page_label(page.get_label()),
+                    bbox=line.bbox,
+                    numbered=True,
+                    style_signature=(
+                        f"fonts={','.join(line.font_names)};size={line.max_font_size};"
+                        f"colors={','.join(str(color) for color in line.colors)}"
+                    ),
+                )
+            )
+    ids = [item.printed_section_id for item in candidates]
+    if len(ids) != len(set(ids)):
+        duplicates = sorted({item for item in ids if ids.count(item) > 1})
+        raise ValueError(f"duplicate visible printed section headings: {duplicates}")
+    return candidates
+
+
+def _candidate_order(candidate: HeadingCandidate) -> tuple[int, float, float]:
+    return (candidate.pdf_page_index, candidate.bbox[1], candidate.bbox[0])
+
+
+def _learning_candidates(
+    doc: fitz.Document,
+    printed: list[HeadingCandidate],
+) -> list[HeadingCandidate]:
+    printed_sorted = sorted(printed, key=_candidate_order)
+    candidates: list[HeadingCandidate] = []
+    for page_index in range(BODY_START_INDEX, min(BODY_END_INDEX, doc.page_count - 1) + 1):
+        page = doc[page_index]
+        for line in extract_lines(page):
+            if not is_heading_line(line):
+                continue
+            overlaps_printed_heading = any(
+                item.pdf_page_index == page_index
+                and min(item.bbox[3], line.bbox[3]) - max(item.bbox[1], line.bbox[1]) > 0
+                and min(item.bbox[2], line.bbox[2]) - max(item.bbox[0], line.bbox[0]) > -2
+                for item in printed_sorted
+            )
+            if overlaps_printed_heading:
+                continue
+            order = (page_index, line.bbox[1], line.bbox[0])
+            active = [item for item in printed_sorted if _candidate_order(item) < order]
+            if not active:
+                continue
+            printed_section_id = active[-1].printed_section_id
+            if printed_section_id is None:
+                continue
+            candidates.append(
+                HeadingCandidate(
+                    text=line.text,
+                    printed_section_id=printed_section_id,
+                    pdf_page_index=page_index,
+                    pdf_page_number=page_index + 1,
+                    printed_page_label=normalize_page_label(page.get_label()),
+                    bbox=line.bbox,
+                    numbered=False,
+                    style_signature=(
+                        f"fonts={','.join(line.font_names)};size={line.max_font_size};"
+                        f"colors={','.join(str(color) for color in line.colors)}"
+                    ),
+                )
+            )
+    return candidates
+
+
+def extract_heading_candidates(doc: fitz.Document) -> list[HeadingCandidate]:
+    printed = [*_chapter_candidates(doc), *_numbered_subsection_candidates(doc)]
+    printed = sorted(printed, key=_candidate_order)
+    learning = _learning_candidates(doc, printed)
+    return sorted([*printed, *learning], key=_candidate_order)
+
+
+def chapter_end_indices(
+    doc: fitz.Document,
+    chapters: list[HeadingCandidate],
+) -> dict[str, int]:
+    ordered = sorted(chapters, key=_candidate_order)
+    result: dict[str, int] = {}
+    for index, chapter in enumerate(ordered):
+        section_id = chapter.printed_section_id
+        if section_id is None:
+            continue
+        if index + 1 < len(ordered):
+            result[section_id] = ordered[index + 1].pdf_page_index - 1
+        else:
+            result[section_id] = BODY_END_INDEX
+    return result
+
+
+def _as_text_line(candidate: HeadingCandidate) -> TextLine:
+    return TextLine(
+        text=candidate.text,
+        pdf_page_index=candidate.pdf_page_index,
+        pdf_page_number=candidate.pdf_page_number,
+        printed_page_label=candidate.printed_page_label,
+        bbox=candidate.bbox,
+        font_names=(HEADING_FONT,),
+        max_font_size=15.29,
+        colors=(HEADING_COLOR,),
+    )
+
+
+def extract_problem_headings(doc: fitz.Document) -> dict[str, TextLine]:
+    headings: dict[str, TextLine] = {}
+    for candidate in _numbered_subsection_candidates(doc):
+        match = NUMBERED_HEADING_RE.match(candidate.text)
+        if match is None or match.group("title").casefold() != "exercises":
+            continue
+        chapter_id = match.group("id").split(".", 1)[0]
+        if not chapter_id.isdigit():
+            continue
+        headings[chapter_id] = _as_text_line(candidate)
+    return headings
 
 
 def _reading_key(line: TextLine, page_width: float) -> tuple[int, float, float]:
     return (_column_for_x(page_width, line.bbox[0]), line.bbox[1], line.bbox[0])
 
 
-def extract_problem_headings(doc: fitz.Document) -> dict[str, TextLine]:
-    chapters = extract_chapter_candidates(doc)
-    chapter_ends = chapter_end_indices(doc, chapters)
-    headings: dict[str, TextLine] = {}
-    for chapter in chapters:
-        chapter_id = chapter.text.split()[0]
-        for page_index in range(chapter.pdf_page_index, chapter_ends[chapter_id] + 1):
-            match = next(
-                (
-                    line
-                    for line in extract_lines(doc[page_index])
-                    if PROBLEMS_RE.fullmatch(line.text)
-                ),
-                None,
-            )
-            if match is not None:
-                headings[chapter_id] = match
-                break
-    return headings
-
-
 def extract_exercise_candidates(doc: fitz.Document) -> list[ExerciseCandidate]:
-    chapters = extract_chapter_candidates(doc)
-    chapter_ends = chapter_end_indices(doc, chapters)
-    problem_headings = extract_problem_headings(doc)
+    chapters = [item for item in extract_chapter_candidates(doc) if item.printed_section_id and item.printed_section_id.isdigit()]
+    chapter_ends = chapter_end_indices(doc, extract_chapter_candidates(doc))
+    exercise_headings = extract_problem_headings(doc)
     candidates: list[ExerciseCandidate] = []
     for chapter in chapters:
-        chapter_id = chapter.text.split()[0]
-        chapter_end = chapter_ends[chapter_id]
-        problems_line = problem_headings.get(chapter_id)
-        if problems_line is None:
+        chapter_id = chapter.printed_section_id
+        assert chapter_id is not None
+        exercises_heading = exercise_headings.get(chapter_id)
+        if exercises_heading is None:
             continue
-
-        chapter_candidates: list[tuple[TextLine, bool, int]] = []
-        for page_index in range(problems_line.pdf_page_index, chapter_end + 1):
+        chapter_candidates: list[tuple[TextLine, int]] = []
+        for page_index in range(exercises_heading.pdf_page_index, chapter_ends[chapter_id] + 1):
             page = doc[page_index]
-            ordered_lines = sorted(
-                extract_lines(page),
-                key=lambda item: _reading_key(item, page.rect.width),
-            )
-            for position, line in enumerate(ordered_lines):
-                if page_index == problems_line.pdf_page_index and _reading_key(
+            for line in sorted(extract_lines(page), key=lambda item: _reading_key(item, page.rect.width)):
+                if page_index == exercises_heading.pdf_page_index and _reading_key(
                     line, page.rect.width
-                ) <= _reading_key(problems_line, page.rect.width):
+                ) <= _reading_key(exercises_heading, page.rect.width):
                     continue
                 match = EXERCISE_RE.match(line.text)
                 if match is None:
-                    continue
-                if "TimesTen-Bold" not in line.font_names or HEADING_COLOR not in line.colors:
                     continue
                 exercise_id = match.group("id")
                 prefix, number = exercise_id.split(".", 1)
                 if prefix != chapter_id or not number.isdigit():
                     continue
-                column = _column_for_x(page.rect.width, line.bbox[0])
-                near_column_margin = (
-                    line.bbox[0] <= page.rect.width * 0.24
-                    if column == 0
-                    else line.bbox[0] <= page.rect.width * 0.74
-                )
-                if not near_column_margin:
+                if "NimbusRomNo9L-Medi" not in line.font_names:
                     continue
-                starred = (
-                    match.group("leading_star") is not None
-                    or match.group("trailing_star") is not None
-                )
-                if not starred and position > 0:
-                    previous = ordered_lines[position - 1]
-                    same_column = _column_for_x(page.rect.width, previous.bbox[0]) == column
-                    close = -2 <= line.bbox[1] - previous.bbox[3] <= 8
-                    starred = same_column and close and previous.text.strip() == "*"
-                chapter_candidates.append((line, starred, int(number)))
+                chapter_candidates.append((line, int(number)))
 
         seen: set[str] = set()
-        for source_order, (line, starred, number) in enumerate(chapter_candidates, start=1):
+        for source_order, (line, number) in enumerate(chapter_candidates, start=1):
             exercise_id = f"{chapter_id}.{number}"
             if exercise_id in seen:
                 raise ValueError(f"duplicate exercise candidate: {exercise_id}")
             seen.add(exercise_id)
-            page_width = doc[line.pdf_page_index].rect.width
             candidates.append(
                 ExerciseCandidate(
                     exercise_id=exercise_id,
                     chapter_id=chapter_id,
                     exercise_number=number,
-                    starred=starred,
+                    starred=False,
                     source_order=source_order,
                     pdf_page_index=line.pdf_page_index,
                     pdf_page_number=line.pdf_page_number,
                     printed_page_label=line.printed_page_label,
                     bbox=line.bbox,
-                    column=_column_for_x(page_width, line.bbox[0]),
+                    column=_column_for_x(float(doc[line.pdf_page_index].rect.width), line.bbox[0]),
                 )
             )
     return candidates
 
 
+def _records(
+    pattern: re.Pattern[str],
+    source_lines: list[TextLine],
+) -> list[dict[str, Any]]:
+    found: list[dict[str, Any]] = []
+    seen: set[tuple[str, tuple[float, float, float, float]]] = set()
+    for line in source_lines:
+        for match in pattern.finditer(line.text):
+            key = (match.group(1), line.bbox)
+            if key in seen:
+                continue
+            seen.add(key)
+            found.append(
+                {
+                    "id": match.group(1),
+                    "bbox": list(line.bbox),
+                    "font_names": list(line.font_names),
+                    "max_font_size": line.max_font_size,
+                    "colors": list(line.colors),
+                }
+            )
+    return found
+
+
 def extract_page_anchors(doc: fitz.Document) -> list[dict[str, Any]]:
     anchors: list[dict[str, Any]] = []
-    chapter_headings: dict[int, list[HeadingCandidate]] = {}
-    for candidate in extract_chapter_candidates(doc):
-        chapter_headings.setdefault(candidate.pdf_page_index, []).append(candidate)
+    headings_by_page: dict[int, list[HeadingCandidate]] = {}
+    for candidate in extract_heading_candidates(doc):
+        headings_by_page.setdefault(candidate.pdf_page_index, []).append(candidate)
     exercises_by_page: dict[int, list[ExerciseCandidate]] = {}
     for candidate in extract_exercise_candidates(doc):
         exercises_by_page.setdefault(candidate.pdf_page_index, []).append(candidate)
+
     for page_index in range(doc.page_count):
         page = doc[page_index]
         lines = extract_lines(page)
         visual_lines = merge_visual_lines(float(page.rect.width), lines)
         text = clean_text("\n".join(line.text for line in visual_lines))
-
-        def records(
-            pattern: re.Pattern[str],
-            source_lines: tuple[TextLine, ...] = tuple(lines),
-        ) -> list[dict[str, Any]]:
-            found: list[dict[str, Any]] = []
-            seen: set[tuple[str, tuple[float, float, float, float]]] = set()
-            for line in source_lines:
-                for match in pattern.finditer(line.text):
-                    key = (match.group(1), line.bbox)
-                    if key in seen:
-                        continue
-                    seen.add(key)
-                    found.append(
-                        {
-                            "id": match.group(1),
-                            "bbox": list(line.bbox),
-                            "font_names": list(line.font_names),
-                            "max_font_size": line.max_font_size,
-                            "colors": list(line.colors),
-                        }
-                    )
-            return found
-
-        figure_records = records(FIGURE_RE)
-        equation_records = records(EQUATION_RE)
-        example_records = records(EXAMPLE_RE)
-        table_records = records(TABLE_RE)
+        figure_records = _records(FIGURE_RE, lines)
+        equation_records = _records(EQUATION_RE, lines)
+        example_records = _records(EXAMPLE_RE, lines)
+        table_records = _records(TABLE_RE, lines)
         heading_records = [
-            {"text": heading.text, "bbox": list(heading.bbox)}
-            for heading in merge_wrapped_heading_lines(lines)
+            {"text": candidate.text, "bbox": list(candidate.bbox)}
+            for candidate in headings_by_page.get(page_index, [])
         ]
-        heading_records.extend(
-            {"text": heading.text, "bbox": list(heading.bbox)}
-            for heading in chapter_headings.get(page_index, [])
-        )
         text_records = [{"text": line.text, "bbox": list(line.bbox)} for line in visual_lines]
         exercise_records = [
             {
@@ -509,12 +544,12 @@ def extract_page_anchors(doc: fitz.Document) -> list[dict[str, Any]]:
             for item in exercises_by_page.get(page_index, [])
         ]
         running_header = clean_text(
-            page.get_textbox(fitz.Rect(0, 0, page.rect.width, min(85, page.rect.height)))
+            page.get_textbox(fitz.Rect(0, 0, page.rect.width, min(70, page.rect.height)))
         )
         anchors.append(
             {
                 "pdf_page_index": page_index,
-                "printed_page_label": clean_text(page.get_label()),
+                "printed_page_label": normalize_page_label(page.get_label()),
                 "page_width": float(page.rect.width),
                 "heading_records": heading_records,
                 "text_records": text_records,
@@ -536,17 +571,18 @@ def extract_page_anchors(doc: fitz.Document) -> list[dict[str, Any]]:
 
 def extract_outline(doc: fitz.Document) -> list[dict[str, Any]]:
     outline: list[dict[str, Any]] = []
-    for level, title, pdf_page_number, _destination in doc.get_toc(simple=False):
+    for level, title, pdf_page_number in doc.get_toc(simple=True):
         cleaned = clean_text(title)
         if not cleaned:
             continue
+        page_index = int(pdf_page_number) - 1
         outline.append(
             {
                 "level": int(level),
                 "title": cleaned,
                 "pdf_page_number": int(pdf_page_number),
-                "pdf_page_index": int(pdf_page_number) - 1,
-                "printed_page_label": clean_text(doc[int(pdf_page_number) - 1].get_label()),
+                "pdf_page_index": page_index,
+                "printed_page_label": normalize_page_label(doc[page_index].get_label()),
             }
         )
     return outline
@@ -564,12 +600,8 @@ def extract_candidates(pdf_path: Path) -> dict[str, Any]:
             },
             "pages": page_references(document),
             "outline": extract_outline(document),
-            "heading_candidates": [
-                asdict(candidate) for candidate in extract_heading_candidates(document)
-            ],
-            "exercise_candidates": [
-                asdict(candidate) for candidate in extract_exercise_candidates(document)
-            ],
+            "heading_candidates": [asdict(candidate) for candidate in extract_heading_candidates(document)],
+            "exercise_candidates": [asdict(candidate) for candidate in extract_exercise_candidates(document)],
             "page_anchors": extract_page_anchors(document),
         }
     finally:
@@ -577,7 +609,9 @@ def extract_candidates(pdf_path: Path) -> dict[str, Any]:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Extract reviewed-manifest candidates from DIP4E")
+    parser = argparse.ArgumentParser(
+        description="Extract catalog candidates from Computer Vision: Algorithms and Applications, 2nd Edition"
+    )
     parser.add_argument("pdf", type=Path)
     parser.add_argument("output", type=Path)
     args = parser.parse_args()

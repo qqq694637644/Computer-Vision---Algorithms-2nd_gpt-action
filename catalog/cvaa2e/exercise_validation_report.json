@@ -1,0 +1,163 @@
+{
+  "data_version": "3",
+  "index_status": "complete",
+  "book_id": "cvaa2e",
+  "pdf_sha256": "f3887dd48aa497ada733d730f69e884fe2fda3d988c4bb17fc47c4a492b7c4cf",
+  "page_count": 938,
+  "exercise_count": 172,
+  "exercise_page_count": 198,
+  "visual_required_exercise_count": 172,
+  "cross_exercise_reference_count": 54,
+  "raw_reference_retrieval_step_count": 709,
+  "selected_context_reference_count": 0,
+  "execution_reference_retrieval_step_count_before_merge": 1053,
+  "coalesced_reference_step_count": 59,
+  "same_page_distinct_window_step_count": 43,
+  "deduplicated_reference_retrieval_step_count": 994,
+  "transitive_exercise_dependency_count": 22,
+  "max_exercise_dependency_depth": 3,
+  "compiled_query_count": 4031,
+  "unbalanced_compiled_query_count": 0,
+  "steps_without_balanced_query_count": 0,
+  "non_nfkc_compiled_query_count": 0,
+  "steps_with_non_nfkc_query_count": 0,
+  "chapter_reports": {
+    "2": {
+      "first_exercise": "2.1",
+      "last_exercise": "2.9",
+      "exercise_count": 9,
+      "missing_numbers": [],
+      "duplicate_numbers": []
+    },
+    "3": {
+      "first_exercise": "3.1",
+      "last_exercise": "3.29",
+      "exercise_count": 29,
+      "missing_numbers": [],
+      "duplicate_numbers": []
+    },
+    "4": {
+      "first_exercise": "4.1",
+      "last_exercise": "4.4",
+      "exercise_count": 4,
+      "missing_numbers": [],
+      "duplicate_numbers": []
+    },
+    "5": {
+      "first_exercise": "5.1",
+      "last_exercise": "5.19",
+      "exercise_count": 19,
+      "missing_numbers": [],
+      "duplicate_numbers": []
+    },
+    "6": {
+      "first_exercise": "6.1",
+      "last_exercise": "6.13",
+      "exercise_count": 13,
+      "missing_numbers": [],
+      "duplicate_numbers": []
+    },
+    "7": {
+      "first_exercise": "7.1",
+      "last_exercise": "7.15",
+      "exercise_count": 15,
+      "missing_numbers": [],
+      "duplicate_numbers": []
+    },
+    "8": {
+      "first_exercise": "8.1",
+      "last_exercise": "8.14",
+      "exercise_count": 14,
+      "missing_numbers": [],
+      "duplicate_numbers": []
+    },
+    "9": {
+      "first_exercise": "9.1",
+      "last_exercise": "9.10",
+      "exercise_count": 10,
+      "missing_numbers": [],
+      "duplicate_numbers": []
+    },
+    "10": {
+      "first_exercise": "10.1",
+      "last_exercise": "10.12",
+      "exercise_count": 12,
+      "missing_numbers": [],
+      "duplicate_numbers": []
+    },
+    "11": {
+      "first_exercise": "11.1",
+      "last_exercise": "11.16",
+      "exercise_count": 16,
+      "missing_numbers": [],
+      "duplicate_numbers": []
+    },
+    "12": {
+      "first_exercise": "12.1",
+      "last_exercise": "12.11",
+      "exercise_count": 11,
+      "missing_numbers": [],
+      "duplicate_numbers": []
+    },
+    "13": {
+      "first_exercise": "13.1",
+      "last_exercise": "13.8",
+      "exercise_count": 8,
+      "missing_numbers": [],
+      "duplicate_numbers": []
+    },
+    "14": {
+      "first_exercise": "14.1",
+      "last_exercise": "14.12",
+      "exercise_count": 12,
+      "missing_numbers": [],
+      "duplicate_numbers": []
+    }
+  },
+  "structural_validation_status": "passed",
+  "exercise_chapter_count": 13,
+  "exercise_candidate_count": 172,
+  "starred_exercise_count": 0,
+  "exercise_retrieval_step_count": 198,
+  "source_evidence_check_count": 713,
+  "query_text_anchor_check_count": 396,
+  "exercise_reference_count": 217,
+  "cross_page_exercise_count": 26,
+  "source_pdf_verification_status": "passed",
+  "file_search_retrieval_status": "not_tested",
+  "manifest_package_sha256": {
+    "exercises.yaml": "1905df348f620764e8893a6410c745fcee79e4d40ab9af22ad87fc16185e9fa8",
+    "exercises.sections.02.yaml": "c2ba1e43f3bdb7f9305a46c3cf11c270fa584d57d5222d236a2b6a68379247f6",
+    "exercises.sections.03.yaml": "f78f766ad5566751e9f6db114e9135590f387ddd19e0155e3af4b6f1196add37",
+    "exercises.sections.04.yaml": "8e1eb86655241ecc11eae60413c2260d8e1d8f2fa190e0284e274efad1254670",
+    "exercises.sections.05.yaml": "39ec54a44ab43b7700207eb3ee2f86bbc7a0d3db89c048c6490ed4b6f6659bc5",
+    "exercises.sections.06.yaml": "e5f887d547d7c354f48076200e427b45fe635af6f3d7b80a8bfdf42d522d567e",
+    "exercises.sections.07.yaml": "c461131d561794e2c6211023fb9d968fbfcf51648580c6dbb617f7da13edfe51",
+    "exercises.sections.08.yaml": "7e215a892c0840214503ff61dc1eddcfc72e58448dcf4db8c767d41e76123054",
+    "exercises.sections.09.yaml": "2d7c35746dd066cddadf475ca4c68fdc9b0a91338f1460154767b779e83dc789",
+    "exercises.sections.10.yaml": "48bc781b3a125dac228603aaea89fbada55f78ac8f978389ce0d5f62fd8e8786",
+    "exercises.sections.11.yaml": "38454d382c12c8efd3185bcc4da32ed2261866de7e07fcc5a1f3a602c1f82ec4",
+    "exercises.sections.12.yaml": "359e266334b72cb31e92c4f2c7cfda4090e97e9be6d990c7e40aedf137d221ef",
+    "exercises.sections.13.yaml": "dbe1e3be00ff7d56c8547b36b0d61e5697d40cfda333165eb9ca5cde64c8494e",
+    "exercises.sections.14.yaml": "beac78827f587758811e4ba4f419347ed49a86c9bb6c10b6b4bbc7080e1b56ae"
+  },
+  "assembled_manifest_sha256": "a1cfcb66e04fe86e4451d9b5cabaacd5265acd255050ad90669eb6d8bd67e514",
+  "output_sha256": "a59f1e4d1aca65d8c54ab841645a970beb8f821cf9794924cf62794180d1f998",
+  "assembled_index_sha256": "21d375a250e4266cb10f17caea96bf9c744aff02af946a5a0e7453dd37158d53",
+  "exercise_shard_count": 13,
+  "exercise_shard_sha256": {
+    "compiled_exercise_index.sections.02.json": "b73dd61291053f9c06158ec57a984c009e85c8093280ca20d324231dde399054",
+    "compiled_exercise_index.sections.03.json": "438769847f6de2fe40d2dbddfb67a9c9bc52b78232617e92e5783d99a7ad5a7e",
+    "compiled_exercise_index.sections.04.json": "ecc18f6bfbd5798b9950c9275c5c61f4506ae2a770ad3e51f54572457f084aca",
+    "compiled_exercise_index.sections.05.json": "51138ffcc8bcb509f32660bb4f615dcd21916d39b1beb4833be31d4b54070b81",
+    "compiled_exercise_index.sections.06.json": "845eb3a49111f8f0c7a4dfc283dec04cb110850116e1cf39764c9ceb5767ac3b",
+    "compiled_exercise_index.sections.07.json": "5ed951aea8bfd7a85410641b899d7adfedb44a5d42d7b0b0154ec3a5b8e45adb",
+    "compiled_exercise_index.sections.08.json": "9531a3d4cea863a7b35bb822ce12b606a1a291864b51e42625b0c23b65a1fb39",
+    "compiled_exercise_index.sections.09.json": "a67f7cd01c297b3615f3dbd12b648e34e92b97e83ae0cfcc3e5a1ab954405419",
+    "compiled_exercise_index.sections.10.json": "538417936cdccbe71afc7e0ee33fcd50ed256d3c64a704bc77534da138eb0b78",
+    "compiled_exercise_index.sections.11.json": "41eea42a2e0eb9bde91b07285643bb064730fdbf430d2e57f319d4532cbab2cf",
+    "compiled_exercise_index.sections.12.json": "e369b4ab6ced0df87728813d5907d01f21044d2018add500f44bd74e8b297c12",
+    "compiled_exercise_index.sections.13.json": "da4ec85d14e186252df52d47c6e296ff5ffd25e2aff9af3ec91706c7428132c4",
+    "compiled_exercise_index.sections.14.json": "46ac38a8166cd2fb3e4d44c188f4ea3cadb420987bcd4b3a475444905a56d40a"
+  }
+}

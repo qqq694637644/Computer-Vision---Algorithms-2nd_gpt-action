@@ -28,9 +28,9 @@ ExerciseReferenceKind = Literal[
     "exercise",
 ]
 REFERENCE_ID_PATTERNS = {
-    "section": r"^\d+(?:\.\d+)*$",
+    "section": r"^(?:\d+|[A-Z])(?:\.\d+)*$",
     "figure": r"^\d+(?:\.\d+)+$",
-    "equation": r"^\d+-\d+$",
+    "equation": r"^\d+(?:[.-]\d+)+$",
     "example": r"^\d+(?:\.\d+)+$",
     "table": r"^\d+(?:\.\d+)+$",
     "exercise": EXERCISE_ID_PATTERN,
@@ -240,30 +240,6 @@ class CompiledExerciseIndex(StrictModel):
                     f"chapter summary exercise order does not match locators: {chapter_id}"
                 )
 
-        graph = {
-            exercise_id: [
-                target.target_id
-                for target in locator.reference_targets
-                if target.kind == "exercise"
-            ]
-            for exercise_id, locator in self.exercises.items()
-        }
-        visiting: set[str] = set()
-        visited: set[str] = set()
-
-        def visit(exercise_id: str) -> None:
-            if exercise_id in visiting:
-                raise ValueError(f"exercise reference cycle detected at {exercise_id}")
-            if exercise_id in visited:
-                return
-            visiting.add(exercise_id)
-            for target_id in graph[exercise_id]:
-                visit(target_id)
-            visiting.remove(exercise_id)
-            visited.add(exercise_id)
-
-        for exercise_id in graph:
-            visit(exercise_id)
         return self
 
 

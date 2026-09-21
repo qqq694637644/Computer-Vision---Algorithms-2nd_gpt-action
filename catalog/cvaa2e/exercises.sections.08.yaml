@@ -1,0 +1,817 @@
+data_version: '3'
+chapter_id: '8'
+exercises:
+- exercise_id: '8.1'
+  chapter_id: '8'
+  exercise_number: 1
+  starred: false
+  source_order: 1
+  problem_page_range:
+    pdf_page_index_start: 454
+    pdf_page_index_end: 454
+    pdf_page_number_start: 455
+    pdf_page_number_end: 455
+    printed_page_start: '433'
+    printed_page_end: '433'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 454
+      pdf_page_number: 455
+      printed_page_label: '433'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '8.1'
+      end_before: null
+    queries:
+    - +(8.1) +(printed page 433) --QDF=0
+    - +(1 Extract features and feature descriptors using some of the techniques described in Sections 7.1.1) +(printed page
+      433) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '433'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 1. Extract features and feature descriptors using some of the techniques described in Sections 7.1.1–
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '8.1'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids:
+      - '7.18'
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: 7.1.1
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: 7.1.2
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: 8.1.1
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: 8.1.4
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: 3.6.1
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+- exercise_id: '8.2'
+  chapter_id: '8'
+  exercise_number: 2
+  starred: false
+  source_order: 2
+  problem_page_range:
+    pdf_page_index_start: 455
+    pdf_page_index_end: 455
+    pdf_page_number_start: 456
+    pdf_page_number_end: 456
+    printed_page_start: '434'
+    printed_page_end: '434'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 455
+      pdf_page_number: 456
+      printed_page_label: '434'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '8.2'
+      end_before:
+        kind: exercise
+        value: '8.3'
+    queries:
+    - +(8.2) +(printed page 434) --QDF=0
+    - +(8 Optional Extend your parametric motion model to include rotations and scale i.e the simi) +(printed page 434) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '434'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 8. (Optional) Extend your parametric motion model to include rotations and scale, i.e., the simi-
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '8.2'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '8.3'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids:
+      - '8.12'
+      - '8.25'
+      - '3.8'
+      example_ids: []
+      table_ids:
+      - '8.1'
+  reference_specs:
+  - kind: section
+    target_id: 8.1.2
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: C
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: exercise
+    target_id: '7.1'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+  - kind: exercise
+    target_id: '7.2'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+  - kind: exercise
+    target_id: '7.3'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+  - kind: exercise
+    target_id: '7.4'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+  - kind: equation
+    target_id: '8.12'
+    reason: Explicit equation reference in exercise text
+    selected_context_pages: []
+  - kind: table
+    target_id: '8.1'
+    reason: Explicit table reference in exercise text
+    selected_context_pages: []
+- exercise_id: '8.3'
+  chapter_id: '8'
+  exercise_number: 3
+  starred: false
+  source_order: 3
+  problem_page_range:
+    pdf_page_index_start: 455
+    pdf_page_index_end: 455
+    pdf_page_number_start: 456
+    pdf_page_number_end: 456
+    printed_page_start: '434'
+    printed_page_end: '434'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 455
+      pdf_page_number: 456
+      printed_page_label: '434'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '8.3'
+      end_before:
+        kind: exercise
+        value: '8.4'
+    queries:
+    - +(8.3) +(printed page 434) --QDF=0
+    - +(1 Implement the various alternatives and compare their accuracy on synthetic data i.e random) +(printed page 434)
+      --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '434'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 1. Implement the various alternatives and compare their accuracy on synthetic data, i.e., random
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '8.3'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '8.4'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids:
+      - '8.10'
+      - '8.11'
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: 8.1.3
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+- exercise_id: '8.4'
+  chapter_id: '8'
+  exercise_number: 4
+  starred: false
+  source_order: 4
+  problem_page_range:
+    pdf_page_index_start: 455
+    pdf_page_index_end: 456
+    pdf_page_number_start: 456
+    pdf_page_number_end: 457
+    printed_page_start: '434'
+    printed_page_end: '435'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 455
+      pdf_page_number: 456
+      printed_page_label: '434'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '8.4'
+      end_before: null
+    queries:
+    - +(8.4) +(printed page 434) --QDF=0
+    - +(2D match move augmented reality Replace a picture in a magazine or a book with a) +(printed page 434) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '434'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 2D match move/augmented reality. Replace a picture in a magazine or a book with a
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '8.4'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 456
+      pdf_page_number: 457
+      printed_page_label: '435'
+    content_window:
+      start_at: null
+      end_before:
+        kind: exercise
+        value: '8.5'
+    queries:
+    - +(5 Try your approach on a clip from a sporting event e.g indoor or outdoor soccer) +(printed page 435) --QDF=0
+    - +(5 Try your approach on a clip from a sporting event e.g indoor or outdoor soccer) +(Exercises) +(printed page 435)
+      --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '435'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 5. Try your approach on a clip from a sporting event (e.g., indoor or outdoor soccer) to implement
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '8.5'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '8.5'
+  chapter_id: '8'
+  exercise_number: 5
+  starred: false
+  source_order: 5
+  problem_page_range:
+    pdf_page_index_start: 456
+    pdf_page_index_end: 456
+    pdf_page_number_start: 457
+    pdf_page_number_end: 457
+    printed_page_start: '435'
+    printed_page_end: '435'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 456
+      pdf_page_number: 457
+      printed_page_label: '435'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '8.5'
+      end_before:
+        kind: exercise
+        value: '8.6'
+    queries:
+    - +(8.5) +(printed page 435) --QDF=0
+    - +(cian pyramid Exercise 3.18 Extend your motion model from affine to perspective homography) +(printed page 435) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '435'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: cian pyramid (Exercise 3.18). Extend your motion model from affine to perspective (homography)
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '8.5'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '8.6'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: exercise
+    target_id: '9.2'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+  - kind: exercise
+    target_id: '8.2'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+  - kind: exercise
+    target_id: '3.18'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+- exercise_id: '8.6'
+  chapter_id: '8'
+  exercise_number: 6
+  starred: false
+  source_order: 6
+  problem_page_range:
+    pdf_page_index_start: 456
+    pdf_page_index_end: 456
+    pdf_page_number_start: 457
+    pdf_page_number_end: 457
+    printed_page_start: '435'
+    printed_page_end: '435'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 456
+      pdf_page_number: 457
+      printed_page_label: '435'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '8.6'
+      end_before:
+        kind: exercise
+        value: '8.7'
+    queries:
+    - +(8.6) +(printed page 435) --QDF=0
+    - +(cise 8.2 to use a full perspective model and then blend the resulting mosaic using either) +(printed page 435) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '435'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: cise 8.2 to use a full perspective model and then blend the resulting mosaic using either averaging
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '8.6'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '8.7'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: exercise
+    target_id: '8.13'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+- exercise_id: '8.7'
+  chapter_id: '8'
+  exercise_number: 7
+  starred: false
+  source_order: 7
+  problem_page_range:
+    pdf_page_index_start: 456
+    pdf_page_index_end: 456
+    pdf_page_number_start: 457
+    pdf_page_number_end: 457
+    printed_page_start: '435'
+    printed_page_end: '435'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 456
+      pdf_page_number: 457
+      printed_page_label: '435'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '8.7'
+      end_before:
+        kind: exercise
+        value: '8.8'
+    queries:
+    - +(8.7) +(printed page 435) --QDF=0
+    - +(izontally panning rotating camera it is best to use a tripod Set your camera up to) +(printed page 435) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '435'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: izontally panning (rotating) camera, it is best to use a tripod. Set your camera up to take a series of
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '8.7'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '8.8'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: exercise
+    target_id: '11.5'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+- exercise_id: '8.8'
+  chapter_id: '8'
+  exercise_number: 8
+  starred: false
+  source_order: 8
+  problem_page_range:
+    pdf_page_index_start: 456
+    pdf_page_index_end: 456
+    pdf_page_number_start: 457
+    pdf_page_number_end: 457
+    printed_page_start: '435'
+    printed_page_end: '435'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 456
+      pdf_page_number: 457
+      printed_page_label: '435'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '8.8'
+      end_before:
+        kind: exercise
+        value: '8.9'
+    queries:
+    - +(8.8) +(printed page 435) --QDF=0
+    - +(alignment between successive images How well does this work Over what range of overlaps If it) +(printed page 435)
+      --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '435'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: alignment between successive images. How well does this work? Over what range of overlaps? If it
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '8.8'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '8.9'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: 9.1.2
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+- exercise_id: '8.9'
+  chapter_id: '8'
+  exercise_number: 9
+  starred: false
+  source_order: 9
+  problem_page_range:
+    pdf_page_index_start: 456
+    pdf_page_index_end: 456
+    pdf_page_number_start: 457
+    pdf_page_number_end: 457
+    printed_page_start: '435'
+    printed_page_end: '435'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 456
+      pdf_page_number: 457
+      printed_page_label: '435'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '8.9'
+      end_before: null
+    queries:
+    - +(8.9) +(printed page 435) --QDF=0
+    - +(alize the resulting global alignment e.g by displaying a blend of each image with all other) +(printed page 435) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '435'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: alize the resulting global alignment, e.g., by displaying a blend of each image with all other images
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '8.9'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: 8.1.3
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: equation
+    target_id: '8.19'
+    reason: Explicit equation reference in exercise text
+    selected_context_pages: []
+  - kind: equation
+    target_id: '8.20'
+    reason: Explicit equation reference in exercise text
+    selected_context_pages: []
+  - kind: equation
+    target_id: '8.21'
+    reason: Explicit equation reference in exercise text
+    selected_context_pages: []
+  - kind: equation
+    target_id: '8.22'
+    reason: Explicit equation reference in exercise text
+    selected_context_pages: []
+  - kind: equation
+    target_id: '8.23'
+    reason: Explicit equation reference in exercise text
+    selected_context_pages: []
+- exercise_id: '8.10'
+  chapter_id: '8'
+  exercise_number: 10
+  starred: false
+  source_order: 10
+  problem_page_range:
+    pdf_page_index_start: 457
+    pdf_page_index_end: 457
+    pdf_page_number_start: 458
+    pdf_page_number_end: 458
+    printed_page_start: '436'
+    printed_page_end: '436'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 457
+      pdf_page_number: 458
+      printed_page_label: '436'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '8.10'
+      end_before:
+        kind: exercise
+        value: '8.11'
+    queries:
+    - +(8.10) +(printed page 436) --QDF=0
+    - +(bundle adjustment over all of the camera rotations and focal lengths as described in Section 11.4.2) +(printed page
+      436) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '436'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: bundle adjustment over all of the camera rotations and focal lengths, as described in Section 11.4.2
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '8.10'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '8.11'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: 11.4.2
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: B
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: 2.1.5
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+- exercise_id: '8.11'
+  chapter_id: '8'
+  exercise_number: 11
+  starred: false
+  source_order: 11
+  problem_page_range:
+    pdf_page_index_start: 457
+    pdf_page_index_end: 457
+    pdf_page_number_start: 458
+    pdf_page_number_end: 458
+    printed_page_start: '436'
+    printed_page_end: '436'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 457
+      pdf_page_number: 458
+      printed_page_label: '436'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '8.11'
+      end_before:
+        kind: exercise
+        value: '8.12'
+    queries:
+    - +(8.11) +(printed page 436) --QDF=0
+    - +(locations to correct for small misregistrations as described in Section 8.3.2 Shum and Szeliski) +(printed page 436)
+      --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '436'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: locations to correct for small misregistrations, as described in Section 8.3.2 (Shum and Szeliski
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '8.11'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '8.12'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: 8.3.2
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+- exercise_id: '8.12'
+  chapter_id: '8'
+  exercise_number: 12
+  starred: false
+  source_order: 12
+  problem_page_range:
+    pdf_page_index_start: 457
+    pdf_page_index_end: 457
+    pdf_page_number_start: 458
+    pdf_page_number_end: 458
+    printed_page_start: '436'
+    printed_page_end: '436'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 457
+      pdf_page_number: 458
+      printed_page_label: '436'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '8.12'
+      end_before:
+        kind: exercise
+        value: '8.13'
+    queries:
+    - +(8.12) +(printed page 436) --QDF=0
+    - +(erence image extended to a larger plane a sphere represented using cylindrical or spherical coordi) +(printed page
+      436) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '436'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: erence image extended to a larger plane, a sphere represented using cylindrical or spherical coordi-
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '8.12'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '8.13'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: 8.4.1
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+- exercise_id: '8.13'
+  chapter_id: '8'
+  exercise_number: 13
+  starred: false
+  source_order: 13
+  problem_page_range:
+    pdf_page_index_start: 457
+    pdf_page_index_end: 457
+    pdf_page_number_start: 458
+    pdf_page_number_end: 458
+    printed_page_start: '436'
+    printed_page_end: '436'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 457
+      pdf_page_number: 458
+      printed_page_label: '436'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '8.13'
+      end_before:
+        kind: exercise
+        value: '8.14'
+    queries:
+    - +(8.13) +(printed page 436) --QDF=0
+    - +(Feathering and blending Compute a feather distance map for each warped source) +(printed page 436) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '436'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Feathering and blending. Compute a feather (distance) map for each warped source
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '8.13'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '8.14'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: exercise
+    target_id: '3.18'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+- exercise_id: '8.14'
+  chapter_id: '8'
+  exercise_number: 14
+  starred: false
+  source_order: 14
+  problem_page_range:
+    pdf_page_index_start: 457
+    pdf_page_index_end: 457
+    pdf_page_number_start: 458
+    pdf_page_number_end: 458
+    printed_page_start: '436'
+    printed_page_end: '436'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 457
+      pdf_page_number: 458
+      printed_page_label: '436'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '8.14'
+      end_before: null
+    queries:
+    - +(8.14) +(printed page 436) --QDF=0
+    - +(sistent regions are more or less typical given some consensus e.g median filtering of the aligned) +(printed page
+      436) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '436'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: sistent regions are more or less typical given some consensus (e.g., median filtering) of the aligned
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '8.14'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '8.17'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: figure
+    target_id: '8.17'
+    reason: Explicit figure reference in exercise text
+    selected_context_pages: []

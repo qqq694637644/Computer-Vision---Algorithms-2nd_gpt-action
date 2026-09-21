@@ -1,0 +1,627 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import argparse
+import re
+import sys
+from pathlib import Path
+from typing import Any
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+import fitz
+import yaml
+
+from app.models.exercise_manifest import (
+    ExerciseManifest,
+    ExerciseManifestNode,
+    ExerciseManifestPackage,
+    ExerciseManifestShard,
+    ExerciseReferenceSpec,
+)
+from app.models.locator import (
+    BookMetadata,
+    BoundaryAnchor,
+    ContentWindow,
+    EvidenceRequirement,
+    PageCoverage,
+    PageRange,
+    PageReference,
+    query_safe_anchor,
+)
+from app.models.manifest import ManifestRetrievalStep
+from tools.extract_pdf_candidates import (
+    COLUMN_SPLIT_RATIO,
+    ExerciseCandidate,
+    TextLine,
+    chapter_end_indices,
+    clean_text,
+    extract_chapter_candidates,
+    extract_exercise_candidates,
+    extract_lines,
+    extract_page_anchors,
+    extract_problem_headings,
+    merge_visual_lines,
+    page_references,
+    sha256_file,
+)
+
+REFERENCE_PREFIXES = {
+    "section": re.compile(r"\b(?:Sections?|Secs?\.?|Appendix)\s+", re.IGNORECASE),
+    "equation": re.compile(r"\b(?:Equations?|Eqs?\.?)\s*", re.IGNORECASE),
+    "figure": re.compile(r"\b(?:Figs?\.?|Figures?)\s+", re.IGNORECASE),
+    "table": re.compile(r"\bTables?\s+", re.IGNORECASE),
+    "example": re.compile(r"\bExamples?\s+", re.IGNORECASE),
+    "exercise": re.compile(r"\b(?:Problems?|Exercises?|Exs?\.?)\s+", re.IGNORECASE),
+}
+REFERENCE_ID_PATTERNS = {
+    "section": r"(?:\d+|[A-C])(?:\.\d+)*",
+    "equation": r"\d+(?:\.\d+)+",
+    "figure": r"\d+(?:\.\d+)+",
+    "table": r"\d+(?:\.\d+)+",
+    "example": r"\d+(?:\.\d+)+",
+    "exercise": r"\d+\.\d+",
+}
+REFERENCE_CONNECTOR_RE = re.compile(
+    r"\s*(?:(?P<range>through|to|[-–—])|(?P<list>,\s*(?:and|or)?|and|or))\s*",
+    re.IGNORECASE,
+)
+SUBFIGURE_ONLY_RE = re.compile(r"\s*\([a-z](?:\s*,\s*[a-z])*\)", re.IGNORECASE)
+REFERENCE_KEYWORD_DEHYPHENATIONS = (
+    (
+        re.compile(
+            r"\bSec-\s*(?:\S+\s+){0,4}?tion(s?)(?=\s+\d+(?:\.\d+)+)",
+            re.IGNORECASE,
+        ),
+        r"Section\1",
+    ),
+    (
+        re.compile(
+            r"\bProb-\s*(?:\S+\s+){0,4}?lem(s?)(?=\s+\d+\.\d+)",
+            re.IGNORECASE,
+        ),
+        r"Problem\1",
+    ),
+    (
+        re.compile(
+            r"\bExam-\s*(?:\S+\s+){0,4}?ple(s?)(?=\s+\d+(?:\.\d+)+)",
+            re.IGNORECASE,
+        ),
+        r"Example\1",
+    ),
+    (
+        re.compile(
+            r"\bEqua-\s*(?:\S+\s+){0,4}?tion(s?)(?=\s*\(?\d+(?:\.\d+)+)",
+            re.IGNORECASE,
+        ),
+        r"Equation\1",
+    ),
+    (
+        re.compile(
+            r"\bFig-\s*(?:\S+\s+){0,4}?ure(s?)(?=\s+\d+(?:\.\d+)+)",
+            re.IGNORECASE,
+        ),
+        r"Figure\1",
+    ),
+    (
+        re.compile(
+            r"\bTa-\s*(?:\S+\s+){0,4}?ble(s?)(?=\s+\d+(?:\.\d+)+)",
+            re.IGNORECASE,
+        ),
+        r"Table\1",
+    ),
+)
+REFERENCE_OVERRIDES: dict[tuple[str, str], tuple[str, str]] = {}
+SELECTED_CONTEXT_PAGE_OVERRIDES: dict[tuple[str, str, str], list[str]] = {}
+
+
+def _page_reference(raw: dict[str, Any]) -> PageReference:
+    return PageReference.model_validate(raw)
+
+
+def _page_range(start: int, end: int, pages: list[PageReference]) -> PageRange:
+    return PageRange(
+        pdf_page_index_start=start,
+        pdf_page_index_end=end,
+        pdf_page_number_start=start + 1,
+        pdf_page_number_end=end + 1,
+        printed_page_start=pages[start].printed_page_label,
+        printed_page_end=pages[end].printed_page_label,
+    )
+
+
+def _column(page_width: float, x0: float) -> int:
+    return 0 if x0 < page_width * COLUMN_SPLIT_RATIO else 1
+
+
+def _bbox_key(page_width: float, bbox: tuple[float, float, float, float] | list[float]):
+    return (_column(page_width, float(bbox[0])), float(bbox[1]), float(bbox[0]))
+
+
+def _at_or_after_boundary(
+    page_width: float,
+    bbox: tuple[float, float, float, float] | list[float],
+    boundary_bbox: tuple[float, float, float, float] | list[float],
+) -> bool:
+    column = _column(page_width, float(bbox[0]))
+    boundary_column = _column(page_width, float(boundary_bbox[0]))
+    if column != boundary_column:
+        return column > boundary_column
+    return float(bbox[1]) >= float(boundary_bbox[1]) - 0.5
+
+
+def _before_boundary(
+    page_width: float,
+    bbox: tuple[float, float, float, float] | list[float],
+    boundary_bbox: tuple[float, float, float, float] | list[float],
+) -> bool:
+    return not _at_or_after_boundary(page_width, bbox, boundary_bbox)
+
+
+def _meaningful_lines_before(document: fitz.Document, candidate: ExerciseCandidate) -> bool:
+    page = document[candidate.pdf_page_index]
+    for line in extract_lines(page):
+        if not _before_boundary(page.rect.width, line.bbox, candidate.bbox):
+            continue
+        if line.bbox[1] < 80:
+            continue
+        text = clean_text(line.text)
+        if not text or re.fullmatch(r"\d+", text):
+            continue
+        if text.casefold() == "exercises" or text == candidate.exercise_id:
+            continue
+        if len(text) >= 12:
+            return True
+    return False
+
+
+def _exercise_end(
+    document: fitz.Document,
+    current: ExerciseCandidate,
+    following: ExerciseCandidate | None,
+    chapter_end: int,
+) -> tuple[int, ExerciseCandidate | None]:
+    if following is None:
+        return chapter_end, None
+    if following.pdf_page_index == current.pdf_page_index:
+        return following.pdf_page_index, following
+    if _meaningful_lines_before(document, following):
+        return following.pdf_page_index, following
+    return following.pdf_page_index - 1, None
+
+
+def _window_lines(
+    document: fitz.Document,
+    page_index: int,
+    *,
+    start: ExerciseCandidate | None,
+    end: ExerciseCandidate | None,
+) -> list[TextLine]:
+    page = document[page_index]
+    lines = []
+    for line in extract_lines(page):
+        if start is not None and not _at_or_after_boundary(
+            page.rect.width,
+            line.bbox,
+            start.bbox,
+        ):
+            continue
+        if end is not None and not _before_boundary(
+            page.rect.width,
+            line.bbox,
+            end.bbox,
+        ):
+            continue
+        lines.append(line)
+    return merge_visual_lines(float(page.rect.width), lines)
+
+
+def _distinctive_text(lines: list[TextLine], exercise_id: str) -> str | None:
+    candidates: list[tuple[int, int, str]] = []
+    for line in lines:
+        text = clean_text(line.text)
+        text = re.sub(
+            rf"^Ex\s+{re.escape(exercise_id)}:\s*",
+            "",
+            text,
+            flags=re.IGNORECASE,
+        )
+        if not text or text == "*":
+            continue
+        if text.startswith(("FIGURE ", "TABLE ", "EXAMPLE ")):
+            continue
+        words = re.findall(r"[A-Za-z][A-Za-z'-]+", text)
+        if len(words) >= 4:
+            candidates.append((len({word.casefold() for word in words[:12]}), len(text), text))
+    if not candidates:
+        for line in lines:
+            text = clean_text(line.text)
+            if len(text) >= 12 and exercise_id not in text:
+                candidates.append((1, len(text), text))
+    return max(candidates)[2] if candidates else None
+
+
+def _content_evidence(
+    text_anchor: str | None,
+    coverage: PageCoverage,
+    start_anchor: BoundaryAnchor | None,
+) -> tuple[str, str]:
+    if text_anchor is not None:
+        return "contains_text", text_anchor
+    for evidence_kind, values in (
+        ("contains_figure", coverage.figure_ids),
+        ("contains_equation", coverage.equation_ids),
+        ("contains_table", coverage.table_ids),
+        ("contains_example", coverage.example_ids),
+    ):
+        if values:
+            return evidence_kind, values[0]
+    if start_anchor is not None:
+        return "contains_exercise", start_anchor.value
+    raise ValueError("exercise continuation page has no reliable content anchor")
+
+
+def _coverage(
+    page_anchor: dict[str, Any],
+    page_width: float,
+    *,
+    start: ExerciseCandidate | None,
+    end: ExerciseCandidate | None,
+) -> PageCoverage:
+    def ids(key: str) -> list[str]:
+        values = []
+        for record in page_anchor[key]:
+            if start is not None and not _at_or_after_boundary(
+                page_width,
+                record["bbox"],
+                start.bbox,
+            ):
+                continue
+            if end is not None and not _before_boundary(
+                page_width,
+                record["bbox"],
+                end.bbox,
+            ):
+                continue
+            values.append(record["id"])
+        return list(dict.fromkeys(values))
+
+    return PageCoverage(
+        figure_ids=ids("figure_records"),
+        equation_ids=ids("equation_records"),
+        example_ids=ids("example_records"),
+        table_ids=ids("table_records"),
+    )
+
+
+def _build_problem_plan(
+    document: fitz.Document,
+    pages: list[PageReference],
+    page_anchors: list[dict[str, Any]],
+    current: ExerciseCandidate,
+    following: ExerciseCandidate | None,
+    end_index: int,
+) -> tuple[list[ManifestRetrievalStep], str]:
+    steps: list[ManifestRetrievalStep] = []
+    collected_text: list[str] = []
+    for page_index in range(current.pdf_page_index, end_index + 1):
+        first = page_index == current.pdf_page_index
+        last = page_index == end_index
+        start_candidate = current if first else None
+        end_candidate = following if last and following is not None else None
+        lines = _window_lines(
+            document,
+            page_index,
+            start=start_candidate,
+            end=end_candidate,
+        )
+        collected_text.extend(line.text for line in lines)
+        page = pages[page_index]
+        start_anchor = BoundaryAnchor(kind="exercise", value=current.exercise_id) if first else None
+        end_anchor = (
+            BoundaryAnchor(kind="exercise", value=following.exercise_id)
+            if end_candidate is not None
+            else None
+        )
+        coverage = _coverage(
+            page_anchors[page_index],
+            document[page_index].rect.width,
+            start=start_candidate,
+            end=end_candidate,
+        )
+        text_anchor = _distinctive_text(lines, current.exercise_id)
+        content_kind, content_value = _content_evidence(
+            text_anchor,
+            coverage,
+            start_anchor,
+        )
+        evidence = [
+            EvidenceRequirement(
+                kind="printed_page_equals",
+                value=page.printed_page_label,
+                verification_mode="visual_required",
+            ),
+        ]
+        if content_kind != "contains_exercise":
+            evidence.append(
+                EvidenceRequirement(
+                    kind=content_kind,
+                    value=content_value,
+                    verification_mode=(
+                        "text_or_visual" if content_kind == "contains_text" else "visual_required"
+                    ),
+                )
+            )
+        if start_anchor is not None:
+            evidence.append(
+                EvidenceRequirement(
+                    kind="contains_exercise",
+                    value=start_anchor.value,
+                    verification_mode="visual_required",
+                )
+            )
+        if end_anchor is not None:
+            evidence.append(
+                EvidenceRequirement(
+                    kind="contains_exercise",
+                    value=end_anchor.value,
+                    verification_mode="visual_required",
+                )
+            )
+        primary_anchor = query_safe_anchor(current.exercise_id if first else content_value)
+        safe_content_value = query_safe_anchor(content_value)
+        if safe_content_value != primary_anchor:
+            secondary_query = (
+                f"+({safe_content_value}) +(printed page {page.printed_page_label}) --QDF=0"
+            )
+        else:
+            secondary_query = (
+                f"+({primary_anchor}) +(Exercises) +(printed page {page.printed_page_label}) --QDF=0"
+            )
+        queries = [
+            f"+({primary_anchor}) +(printed page {page.printed_page_label}) --QDF=0",
+            secondary_query,
+        ]
+        steps.append(
+            ManifestRetrievalStep(
+                page=page,
+                content_window=ContentWindow(start_at=start_anchor, end_before=end_anchor),
+                queries=queries,
+                required_evidence=evidence,
+                coverage=coverage,
+            )
+        )
+    return steps, clean_text(" ".join(collected_text))
+
+
+def _reference_specs(text: str, exercise_id: str) -> list[ExerciseReferenceSpec]:
+    text = _normalize_reference_keywords(text)
+    references: list[tuple[int, str, str]] = []
+    for kind, prefix_pattern in REFERENCE_PREFIXES.items():
+        for prefix_match in prefix_pattern.finditer(text):
+            for target_id in _parse_reference_clause(text, prefix_match.end(), kind):
+                references.append((prefix_match.start(), kind, target_id))
+
+    specs: list[ExerciseReferenceSpec] = []
+    seen: set[tuple[str, str]] = set()
+    for _position, kind, parsed_target_id in sorted(references, key=lambda item: item[0]):
+        target_id = parsed_target_id
+        if kind == "section" and target_id and target_id[0].isalpha():
+            target_id = f"{target_id[0].upper()}{target_id[1:]}"
+        override = REFERENCE_OVERRIDES.get((kind, target_id))
+        reason = f"Explicit {kind} reference in exercise text"
+        if override is not None:
+            target_id, reason = override
+        key = (kind, target_id)
+        if key in seen or (kind == "exercise" and target_id == exercise_id):
+            continue
+        seen.add(key)
+        specs.append(
+            ExerciseReferenceSpec(
+                kind=kind,
+                target_id=target_id,
+                reason=reason,
+                selected_context_pages=SELECTED_CONTEXT_PAGE_OVERRIDES.get(
+                    (exercise_id, kind, target_id),
+                    [],
+                ),
+            )
+        )
+    return specs
+
+
+def _normalize_reference_keywords(text: str) -> str:
+    normalized = text
+    for pattern, replacement in REFERENCE_KEYWORD_DEHYPHENATIONS:
+        normalized = pattern.sub(replacement, normalized)
+    return normalized
+
+
+def _parse_reference_clause(text: str, start: int, kind: str) -> list[str]:
+    item_pattern = re.compile(
+        rf"\s*\(?\s*(?P<id>{REFERENCE_ID_PATTERNS[kind]})\s*\)?"
+        r"(?:\s*\([a-z](?:\s*,\s*[a-z])*\))?",
+        re.IGNORECASE,
+    )
+    first = item_pattern.match(text, start)
+    if first is None:
+        return []
+
+    result = [first.group("id")]
+    previous_id = result[0]
+    position = first.end()
+    while True:
+        connector = REFERENCE_CONNECTOR_RE.match(text, position)
+        if connector is None:
+            break
+        next_item = item_pattern.match(text, connector.end())
+        if next_item is None:
+            subfigure = SUBFIGURE_ONLY_RE.match(text, connector.end())
+            if subfigure is None:
+                break
+            position = subfigure.end()
+            continue
+
+        next_id = next_item.group("id")
+        if connector.group("range") is not None:
+            expanded = _expand_reference_range(kind, previous_id, next_id)
+            result.extend(expanded[1:])
+        else:
+            result.append(next_id)
+        previous_id = next_id
+        position = next_item.end()
+    return list(dict.fromkeys(result))
+
+
+def _expand_reference_range(kind: str, start_id: str, end_id: str) -> list[str]:
+    separator = "."
+    start_parts = start_id.split(separator)
+    end_parts = end_id.split(separator)
+    if len(start_parts) != len(end_parts) or start_parts[:-1] != end_parts[:-1]:
+        if kind == "section":
+            return [start_id, end_id]
+        raise ValueError(f"unsupported {kind} reference range: {start_id} to {end_id}")
+    start_number = int(start_parts[-1])
+    end_number = int(end_parts[-1])
+    if end_number < start_number:
+        raise ValueError(f"descending {kind} reference range: {start_id} to {end_id}")
+    if end_number - start_number > 100:
+        raise ValueError(f"oversized {kind} reference range: {start_id} to {end_id}")
+    prefix = separator.join(start_parts[:-1])
+    return [f"{prefix}{separator}{number}" for number in range(start_number, end_number + 1)]
+
+
+def build_exercise_manifest(pdf_path: Path) -> ExerciseManifest:
+    document = fitz.open(pdf_path)
+    try:
+        pages = [_page_reference(item) for item in page_references(document)]
+        page_anchors = extract_page_anchors(document)
+        candidates = extract_exercise_candidates(document)
+        chapters = extract_chapter_candidates(document)
+        chapter_end = chapter_end_indices(document, chapters)
+        expected_chapter_ids = set(extract_problem_headings(document))
+        grouped: dict[str, list[ExerciseCandidate]] = {}
+        for candidate in candidates:
+            grouped.setdefault(candidate.chapter_id, []).append(candidate)
+        if set(grouped) != expected_chapter_ids:
+            missing = sorted(expected_chapter_ids - set(grouped), key=int)
+            extra = sorted(set(grouped) - expected_chapter_ids, key=int)
+            raise ValueError(
+                "exercise candidates do not cover all Exercises chapters; "
+                f"missing={missing}; extra={extra}"
+            )
+
+        exercises: list[ExerciseManifestNode] = []
+        for chapter_id in sorted(grouped, key=int):
+            chapter_candidates = sorted(grouped[chapter_id], key=lambda item: item.source_order)
+            for index, current in enumerate(chapter_candidates):
+                following = (
+                    chapter_candidates[index + 1] if index + 1 < len(chapter_candidates) else None
+                )
+                end_index, end_before = _exercise_end(
+                    document,
+                    current,
+                    following,
+                    chapter_end[chapter_id],
+                )
+                plan, problem_text = _build_problem_plan(
+                    document,
+                    pages,
+                    page_anchors,
+                    current,
+                    end_before,
+                    end_index,
+                )
+                exercises.append(
+                    ExerciseManifestNode(
+                        exercise_id=current.exercise_id,
+                        chapter_id=chapter_id,
+                        exercise_number=current.exercise_number,
+                        starred=current.starred,
+                        source_order=current.source_order,
+                        problem_page_range=_page_range(
+                            current.pdf_page_index,
+                            end_index,
+                            pages,
+                        ),
+                        problem_retrieval_plan=plan,
+                        reference_specs=_reference_specs(problem_text, current.exercise_id),
+                    )
+                )
+
+        return ExerciseManifest(
+            index_status="complete",
+            book=BookMetadata(
+                book_id="cvaa2e",
+                title="Computer Vision: Algorithms and Applications, 2nd Edition",
+                author="Richard Szeliski",
+                pdf_filename=pdf_path.name,
+                pdf_sha256=sha256_file(pdf_path),
+                page_count=document.page_count,
+            ),
+            pages=pages,
+            exercises=exercises,
+        )
+    finally:
+        document.close()
+
+
+def write_exercise_manifest_package(manifest: ExerciseManifest, output: Path) -> None:
+    groups: dict[str, list[ExerciseManifestNode]] = {}
+    for exercise in manifest.exercises:
+        groups.setdefault(exercise.chapter_id, []).append(exercise)
+
+    output.parent.mkdir(parents=True, exist_ok=True)
+    for stale in output.parent.glob("exercises.sections.*.yaml"):
+        stale.unlink()
+
+    shard_names: list[str] = []
+    for chapter_id in sorted(groups, key=int):
+        shard_name = f"exercises.sections.{int(chapter_id):02d}.yaml"
+        shard_path = output.parent / shard_name
+        shard = ExerciseManifestShard(
+            chapter_id=chapter_id,
+            exercises=groups[chapter_id],
+        )
+        shard_path.write_text(
+            yaml.safe_dump(
+                shard.model_dump(mode="json"),
+                allow_unicode=True,
+                sort_keys=False,
+                width=120,
+            ),
+            encoding="utf-8",
+        )
+        shard_names.append(shard_name)
+
+    package = ExerciseManifestPackage(
+        index_status=manifest.index_status,
+        book=manifest.book,
+        pages=manifest.pages,
+        chapter_ids=sorted(groups, key=int),
+        exercise_shards=shard_names,
+    )
+    output.write_text(
+        yaml.safe_dump(
+            package.model_dump(mode="json"),
+            allow_unicode=True,
+            sort_keys=False,
+            width=120,
+        ),
+        encoding="utf-8",
+    )
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Build the complete CVAA2E exercise manifest")
+    parser.add_argument("pdf", type=Path)
+    parser.add_argument("output", type=Path)
+    args = parser.parse_args()
+
+    manifest = build_exercise_manifest(args.pdf)
+    write_exercise_manifest_package(manifest, args.output)
+    print(f"wrote {args.output}: pages={len(manifest.pages)}, exercises={len(manifest.exercises)}")
+
+
+if __name__ == "__main__":
+    main()

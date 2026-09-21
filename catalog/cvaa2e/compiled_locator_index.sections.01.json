@@ -1,0 +1,3214 @@
+{
+  "data_version": "3",
+  "sections": {
+    "1": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "1",
+      "printed_section_id": "1",
+      "parent_section_id": null,
+      "title": "Introduction",
+      "source_heading": "Chapter 1 Introduction",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 22,
+          "pdf_page_number": 23,
+          "printed_page_label": "1"
+        },
+        "bbox": [
+          335.836,
+          151.586,
+          479.187,
+          229.122
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 1,
+      "page_range": {
+        "pdf_page_index_start": 22,
+        "pdf_page_index_end": 47,
+        "pdf_page_number_start": 23,
+        "pdf_page_number_end": 48,
+        "printed_page_start": "1",
+        "printed_page_end": "26"
+      },
+      "outline": [
+        "1.1",
+        "1.2",
+        "1.3",
+        "1.4",
+        "1.5",
+        "1.6"
+      ],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 22,
+            "pdf_page_number": 23,
+            "printed_page_label": "1"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "Chapter 1 Introduction"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(Chapter 1 Introduction) +(printed page 1) --QDF=0",
+            "+(The human visual system has no problem interpreting the subtle variations in translucency and) +(Introduction) +(printed page 1) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "1",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "The human visual system has no problem interpreting the subtle variations in translucency and",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "Chapter 1 Introduction",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Chapter 1 Introduction"
+            ],
+            "figure_ids": [
+              "1.1"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 23,
+            "pdf_page_number": 24,
+            "printed_page_label": "2"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(person and object in a complex scene He Gkioxari et al 2017 2017 IEEE c Structure) +(printed page 2) --QDF=0",
+            "+(person and object in a complex scene He Gkioxari et al 2017 2017 IEEE c Structure) +(Introduction) +(printed page 2) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "2",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "person and object in a complex scene (He, Gkioxari et al. 2017) © 2017 IEEE. (c) Structure from motion algo-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "1.2"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 24,
+            "pdf_page_number": 25,
+            "printed_page_label": "3"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(artificial intelligence see Section 1.2 when it was initially believed that the cognitive logic proving) +(printed page 3) --QDF=0",
+            "+(artificial intelligence see Section 1.2 when it was initially believed that the cognitive logic proving) +(Introduction) +(printed page 3) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "3",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "artificial intelligence (see Section 1.2), when it was initially believed that the cognitive (logic proving",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "1.1 What is computer vision?"
+            ],
+            "figure_ids": [
+              "1.1",
+              "1.3"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 4,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 25,
+            "pdf_page_number": 26,
+            "printed_page_label": "4"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(discount illumination when interpreting colors Image courtesy of Ted Adelson http persci.mit.edu gallery) +(printed page 4) --QDF=0",
+            "+(discount illumination when interpreting colors Image courtesy of Ted Adelson http persci.mit.edu gallery) +(Introduction) +(printed page 4) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "4",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "discount illumination when interpreting colors. Image courtesy of Ted Adelson, http://persci.mit.edu/gallery/",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "1.3"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 5,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 26,
+            "pdf_page_number": 27,
+            "printed_page_label": "5"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(http yann.lecun.com exdb lenet b mechanical inspection http www.cognitens.com c warehouse pick) +(printed page 5) --QDF=0",
+            "+(http yann.lecun.com exdb lenet b mechanical inspection http www.cognitens.com c warehouse pick) +(Introduction) +(printed page 5) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "5",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "http://yann.lecun.com/exdb/lenet; (b) mechanical inspection, http://www.cognitens.com; (c) warehouse pick-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "1.4"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 6,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 27,
+            "pdf_page_number": 28,
+            "printed_page_label": "6"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(html lists many other interesting industrial applications of computer vision While the above appli) +(printed page 6) --QDF=0",
+            "+(html lists many other interesting industrial applications of computer vision While the above appli) +(Introduction) +(printed page 6) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "6",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "html) lists many other interesting industrial applications of computer vision. While the above appli-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 7,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 28,
+            "pdf_page_number": 29,
+            "printed_page_label": "7"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(overestimate With statistical techniques it often helps to gather lots of training data from which to) +(printed page 7) --QDF=0",
+            "+(overestimate With statistical techniques it often helps to gather lots of training data from which to) +(Introduction) +(printed page 7) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "7",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "overestimate.) With statistical techniques, it often helps to gather lots of training data from which to",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 8,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 29,
+            "pdf_page_number": 30,
+            "printed_page_label": "8"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(ing blending between two photographs Gomes Darsa et al 1999 1999 Morgan Kaufmann d smartphone) +(printed page 8) --QDF=0",
+            "+(ing blending between two photographs Gomes Darsa et al 1999 1999 Morgan Kaufmann d smartphone) +(Introduction) +(printed page 8) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "8",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "ing: blending between two photographs (Gomes, Darsa et al. 1999) © 1999 Morgan Kaufmann; (d) smartphone",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "1.5"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 9,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 30,
+            "pdf_page_number": 31,
+            "printed_page_label": "9"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(6To see how far robotic vision has come in the last six decades have a look) +(printed page 9) --QDF=0",
+            "+(6To see how far robotic vision has come in the last six decades have a look) +(Introduction) +(printed page 9) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "9",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "6To see how far robotic vision has come in the last six decades, have a look at some of the videos on the Boston Dynamics",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "1.2 A brief history",
+              "1970s."
+            ],
+            "figure_ids": [
+              "1.6"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 10,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 31,
+            "pdf_page_number": 32,
+            "printed_page_label": "10"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(structure of the world from images and to use this as a stepping stone towards full) +(printed page 10) --QDF=0",
+            "+(structure of the world from images and to use this as a stepping stone towards full) +(Introduction) +(printed page 10) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "10",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "structure of the world from images and to use this as a stepping stone towards full scene understand-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "1.6"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 11,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 32,
+            "pdf_page_number": 33,
+            "printed_page_label": "11"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(As I mentioned earlier in this introduction it is my conviction that a careful analysis of) +(printed page 11) --QDF=0",
+            "+(As I mentioned earlier in this introduction it is my conviction that a careful analysis of) +(Introduction) +(printed page 11) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "11",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "As I mentioned earlier in this introduction, it is my conviction that a careful analysis of the problem",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "1.7"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 12,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 33,
+            "pdf_page_number": 34,
+            "printed_page_label": "12"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(could be unified or at least described using the same mathematical framework if they were posed) +(printed page 12) --QDF=0",
+            "+(could be unified or at least described using the same mathematical framework if they were posed) +(Introduction) +(printed page 12) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "12",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "could be unified, or at least described, using the same mathematical framework if they were posed",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "1980s."
+            ],
+            "figure_ids": [
+              "1.8"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 13,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 34,
+            "pdf_page_number": 35,
+            "printed_page_label": "13"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(The book by Fischler and Firschein 1987 contains a nice collection of articles focusing on all) +(printed page 13) --QDF=0",
+            "+(The book by Fischler and Firschein 1987 contains a nice collection of articles focusing on all) +(Introduction) +(printed page 13) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "13",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "The book by Fischler and Firschein (1987) contains a nice collection of articles focusing on all of",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "1990s."
+            ],
+            "figure_ids": [
+              "1.9"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 14,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 35,
+            "pdf_page_number": 36,
+            "printed_page_label": "14"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(of the initial activity was directed at projective reconstructions which did not require knowledge) +(printed page 14) --QDF=0",
+            "+(of the initial activity was directed at projective reconstructions which did not require knowledge) +(Introduction) +(printed page 14) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "14",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "of the initial activity was directed at projective reconstructions, which did not require knowledge",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 15,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 36,
+            "pdf_page_number": 37,
+            "printed_page_label": "15"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(imagery directly to create new animations first came to prominence with image morphing techniques) +(printed page 15) --QDF=0",
+            "+(imagery directly to create new animations first came to prominence with image morphing techniques) +(Introduction) +(printed page 15) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "15",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "imagery directly to create new animations first came to prominence with image morphing techniques",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "2000s."
+            ],
+            "figure_ids": [
+              "1.10"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 16,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 37,
+            "pdf_page_number": 38,
+            "printed_page_label": "16"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(Vese et al 2003 Criminisi P erez and Toyama 2004 are additional topics that can be) +(printed page 16) --QDF=0",
+            "+(Vese et al 2003 Criminisi P erez and Toyama 2004 are additional topics that can be) +(Introduction) +(printed page 16) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "16",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Vese et al. 2003; Criminisi, P ́erez, and Toyama 2004) are additional topics that can be classified as",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "2010s."
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 17,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 38,
+            "pdf_page_number": 39,
+            "printed_page_label": "17"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(IEEE c whole body expression and gesture fitting from a single image Pavlakos Choutas et al) +(printed page 17) --QDF=0",
+            "+(IEEE c whole body expression and gesture fitting from a single image Pavlakos Choutas et al) +(Introduction) +(printed page 17) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "17",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "IEEE; (c) whole body, expression, and gesture fitting from a single image (Pavlakos, Choutas et al. 2019) © 2019",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "1.11"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 18,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 39,
+            "pdf_page_number": 40,
+            "printed_page_label": "18"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(chapters in this book are only loosely coupled with others and it is not strictly necessary) +(printed page 18) --QDF=0",
+            "+(chapters in this book are only loosely coupled with others and it is not strictly necessary) +(Introduction) +(printed page 18) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "18",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "chapters in this book are only loosely coupled with others, and it is not strictly necessary to read all",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "1.3 Book overview"
+            ],
+            "figure_ids": [
+              "1.12"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 19,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 40,
+            "pdf_page_number": 41,
+            "printed_page_label": "19"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(ent chapters which are roughly positioned along the left right axis depending on whether they are) +(printed page 19) --QDF=0",
+            "+(ent chapters which are roughly positioned along the left right axis depending on whether they are) +(Introduction) +(printed page 19) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "19",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "ent chapters, which are roughly positioned along the left–right axis depending on whether they are more closely",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "1.12"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 20,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 41,
+            "pdf_page_number": 42,
+            "printed_page_label": "20"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(This includes topics such as linear and non-linear filtering Section 3.3 the Fourier transform Sec) +(printed page 20) --QDF=0",
+            "+(This includes topics such as linear and non-linear filtering Section 3.3 the Fourier transform Sec) +(Introduction) +(printed page 20) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "20",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "This includes topics such as linear and non-linear filtering (Section 3.3), the Fourier transform (Sec-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.3"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 21,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 42,
+            "pdf_page_number": 43,
+            "printed_page_label": "21"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(al 2014 Curless and Levoy 1996 Gortler Grzeszczuk et al 1996 see the figures in the) +(printed page 21) --QDF=0",
+            "+(al 2014 Curless and Levoy 1996 Gortler Grzeszczuk et al 1996 see the figures in the) +(Introduction) +(printed page 21) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "21",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "al. (2014); Curless and Levoy (1996); Gortler, Grzeszczuk et al. (1996)—see the figures in the respective chapters",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "1.13"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 22,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 43,
+            "pdf_page_number": 44,
+            "printed_page_label": "22"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(lier parts of this book It also makes for a good mid-term course project that can) +(printed page 22) --QDF=0",
+            "+(lier parts of this book It also makes for a good mid-term course project that can) +(Introduction) +(printed page 22) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "22",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "lier parts of this book. It also makes for a good mid-term course project that can build on previously",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 23,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 44,
+            "pdf_page_number": 45,
+            "printed_page_label": "23"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(that build a true 3D surface representation instead of just a single depth map Section 12.7) +(printed page 23) --QDF=0",
+            "+(that build a true 3D surface representation instead of just a single depth map Section 12.7) +(Introduction) +(printed page 23) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "23",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "that build a true 3D surface representation instead of just a single depth map (Section 12.7), as well",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 24,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 45,
+            "pdf_page_number": 46,
+            "printed_page_label": "24"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(developed in the last three decades including simpler techniques such as view interpolation Sec) +(printed page 24) --QDF=0",
+            "+(developed in the last three decades including simpler techniques such as view interpolation Sec) +(Introduction) +(printed page 24) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "24",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "developed in the last three decades, including simpler techniques such as view interpolation (Sec-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "1.4 Sample syllabus"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 25,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 46,
+            "pdf_page_number": 47,
+            "printed_page_label": "25"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(how they fail Better yet pick topics that are fun and can be used on your) +(printed page 25) --QDF=0",
+            "+(how they fail Better yet pick topics that are fun and can be used on your) +(Introduction) +(printed page 25) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "25",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "how they fail. Better yet, pick topics that are fun and can be used on your own photographs, and try",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "1.5 A note on notation"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": [
+              "1.1"
+            ]
+          }
+        },
+        {
+          "sequence": 26,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 47,
+            "pdf_page_number": 48,
+            "printed_page_label": "26"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(with a wealth of exercises while Murphy 2012 provides a more recent take on the field) +(printed page 26) --QDF=0",
+            "+(with a wealth of exercises while Murphy 2012 provides a more recent take on the field) +(Introduction) +(printed page 26) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "26",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "with a wealth of exercises, while Murphy (2012) provides a more recent take on the field and Hastie,",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "1.6 Additional reading"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "1.1": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "1.1",
+      "printed_section_id": "1.1",
+      "parent_section_id": "1",
+      "title": "What is computer vision?",
+      "source_heading": "1.1 What is computer vision?",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 24,
+          "pdf_page_number": 25,
+          "printed_page_label": "3"
+        },
+        "bbox": [
+          57.188,
+          76.211,
+          279.765,
+          91.499
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 2,
+      "page_range": {
+        "pdf_page_index_start": 24,
+        "pdf_page_index_end": 30,
+        "pdf_page_number_start": 25,
+        "pdf_page_number_end": 31,
+        "printed_page_start": "3",
+        "printed_page_end": "9"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 24,
+            "pdf_page_number": 25,
+            "printed_page_label": "3"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "1.1 What is computer vision?"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(1.1 What is computer vision) +(printed page 3) --QDF=0",
+            "+(artificial intelligence see Section 1.2 when it was initially believed that the cognitive logic proving) +(What is computer vision) +(printed page 3) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "3",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "artificial intelligence (see Section 1.2), when it was initially believed that the cognitive (logic proving",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "1.1 What is computer vision?",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "1.1 What is computer vision?"
+            ],
+            "figure_ids": [
+              "1.1",
+              "1.3"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 25,
+            "pdf_page_number": 26,
+            "printed_page_label": "4"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(discount illumination when interpreting colors Image courtesy of Ted Adelson http persci.mit.edu gallery) +(printed page 4) --QDF=0",
+            "+(discount illumination when interpreting colors Image courtesy of Ted Adelson http persci.mit.edu gallery) +(What is computer vision) +(printed page 4) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "4",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "discount illumination when interpreting colors. Image courtesy of Ted Adelson, http://persci.mit.edu/gallery/",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "1.3"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 26,
+            "pdf_page_number": 27,
+            "printed_page_label": "5"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(http yann.lecun.com exdb lenet b mechanical inspection http www.cognitens.com c warehouse pick) +(printed page 5) --QDF=0",
+            "+(http yann.lecun.com exdb lenet b mechanical inspection http www.cognitens.com c warehouse pick) +(What is computer vision) +(printed page 5) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "5",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "http://yann.lecun.com/exdb/lenet; (b) mechanical inspection, http://www.cognitens.com; (c) warehouse pick-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "1.4"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 4,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 27,
+            "pdf_page_number": 28,
+            "printed_page_label": "6"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(html lists many other interesting industrial applications of computer vision While the above appli) +(printed page 6) --QDF=0",
+            "+(html lists many other interesting industrial applications of computer vision While the above appli) +(What is computer vision) +(printed page 6) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "6",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "html) lists many other interesting industrial applications of computer vision. While the above appli-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 5,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 28,
+            "pdf_page_number": 29,
+            "printed_page_label": "7"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(overestimate With statistical techniques it often helps to gather lots of training data from which to) +(printed page 7) --QDF=0",
+            "+(overestimate With statistical techniques it often helps to gather lots of training data from which to) +(What is computer vision) +(printed page 7) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "7",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "overestimate.) With statistical techniques, it often helps to gather lots of training data from which to",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 6,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 29,
+            "pdf_page_number": 30,
+            "printed_page_label": "8"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(ing blending between two photographs Gomes Darsa et al 1999 1999 Morgan Kaufmann d smartphone) +(printed page 8) --QDF=0",
+            "+(ing blending between two photographs Gomes Darsa et al 1999 1999 Morgan Kaufmann d smartphone) +(What is computer vision) +(printed page 8) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "8",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "ing: blending between two photographs (Gomes, Darsa et al. 1999) © 1999 Morgan Kaufmann; (d) smartphone",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "1.5"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 7,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 30,
+            "pdf_page_number": 31,
+            "printed_page_label": "9"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "1.2 A brief history"
+            }
+          },
+          "queries": [
+            "+(terdependencies This outline is also useful for instructors looking to structure one or more courses) +(printed page 9) --QDF=0",
+            "+(terdependencies This outline is also useful for instructors looking to structure one or more courses) +(What is computer vision) +(printed page 9) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "9",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "terdependencies). This outline is also useful for instructors looking to structure one or more courses",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "1.2 A brief history",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "1.2": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "1.2",
+      "printed_section_id": "1.2",
+      "parent_section_id": "1",
+      "title": "A brief history",
+      "source_heading": "1.2 A brief history",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 30,
+          "pdf_page_number": 31,
+          "printed_page_label": "9"
+        },
+        "bbox": [
+          57.188,
+          397.975,
+          197.515,
+          413.263
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 2,
+      "page_range": {
+        "pdf_page_index_start": 30,
+        "pdf_page_index_end": 39,
+        "pdf_page_number_start": 31,
+        "pdf_page_number_end": 40,
+        "printed_page_start": "9",
+        "printed_page_end": "18"
+      },
+      "outline": [
+        "1970s.",
+        "1980s.",
+        "1990s.",
+        "2000s.",
+        "2010s."
+      ],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 30,
+            "pdf_page_number": 31,
+            "printed_page_label": "9"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "1.2 A brief history"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(1.2 A brief history) +(printed page 9) --QDF=0",
+            "+(6To see how far robotic vision has come in the last six decades have a look) +(A brief history) +(printed page 9) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "9",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "6To see how far robotic vision has come in the last six decades, have a look at some of the videos on the Boston Dynamics",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "1.2 A brief history",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "1.2 A brief history",
+              "1970s."
+            ],
+            "figure_ids": [
+              "1.6"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 31,
+            "pdf_page_number": 32,
+            "printed_page_label": "10"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(structure of the world from images and to use this as a stepping stone towards full) +(printed page 10) --QDF=0",
+            "+(structure of the world from images and to use this as a stepping stone towards full) +(A brief history) +(printed page 10) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "10",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "structure of the world from images and to use this as a stepping stone towards full scene understand-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "1.6"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 32,
+            "pdf_page_number": 33,
+            "printed_page_label": "11"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(As I mentioned earlier in this introduction it is my conviction that a careful analysis of) +(printed page 11) --QDF=0",
+            "+(As I mentioned earlier in this introduction it is my conviction that a careful analysis of) +(A brief history) +(printed page 11) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "11",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "As I mentioned earlier in this introduction, it is my conviction that a careful analysis of the problem",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "1.7"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 4,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 33,
+            "pdf_page_number": 34,
+            "printed_page_label": "12"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(could be unified or at least described using the same mathematical framework if they were posed) +(printed page 12) --QDF=0",
+            "+(could be unified or at least described using the same mathematical framework if they were posed) +(A brief history) +(printed page 12) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "12",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "could be unified, or at least described, using the same mathematical framework if they were posed",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "1980s."
+            ],
+            "figure_ids": [
+              "1.8"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 5,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 34,
+            "pdf_page_number": 35,
+            "printed_page_label": "13"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(The book by Fischler and Firschein 1987 contains a nice collection of articles focusing on all) +(printed page 13) --QDF=0",
+            "+(The book by Fischler and Firschein 1987 contains a nice collection of articles focusing on all) +(A brief history) +(printed page 13) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "13",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "The book by Fischler and Firschein (1987) contains a nice collection of articles focusing on all of",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "1990s."
+            ],
+            "figure_ids": [
+              "1.9"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 6,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 35,
+            "pdf_page_number": 36,
+            "printed_page_label": "14"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(of the initial activity was directed at projective reconstructions which did not require knowledge) +(printed page 14) --QDF=0",
+            "+(of the initial activity was directed at projective reconstructions which did not require knowledge) +(A brief history) +(printed page 14) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "14",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "of the initial activity was directed at projective reconstructions, which did not require knowledge",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 7,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 36,
+            "pdf_page_number": 37,
+            "printed_page_label": "15"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(imagery directly to create new animations first came to prominence with image morphing techniques) +(printed page 15) --QDF=0",
+            "+(imagery directly to create new animations first came to prominence with image morphing techniques) +(A brief history) +(printed page 15) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "15",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "imagery directly to create new animations first came to prominence with image morphing techniques",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "2000s."
+            ],
+            "figure_ids": [
+              "1.10"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 8,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 37,
+            "pdf_page_number": 38,
+            "printed_page_label": "16"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(Vese et al 2003 Criminisi P erez and Toyama 2004 are additional topics that can be) +(printed page 16) --QDF=0",
+            "+(Vese et al 2003 Criminisi P erez and Toyama 2004 are additional topics that can be) +(A brief history) +(printed page 16) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "16",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Vese et al. 2003; Criminisi, P ́erez, and Toyama 2004) are additional topics that can be classified as",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "2010s."
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 9,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 38,
+            "pdf_page_number": 39,
+            "printed_page_label": "17"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(IEEE c whole body expression and gesture fitting from a single image Pavlakos Choutas et al) +(printed page 17) --QDF=0",
+            "+(IEEE c whole body expression and gesture fitting from a single image Pavlakos Choutas et al) +(A brief history) +(printed page 17) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "17",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "IEEE; (c) whole body, expression, and gesture fitting from a single image (Pavlakos, Choutas et al. 2019) © 2019",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "1.11"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 10,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 39,
+            "pdf_page_number": 40,
+            "printed_page_label": "18"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "1.3 Book overview"
+            }
+          },
+          "queries": [
+            "+(ing algorithms which allow the creation of soft depth-of-field effects are now also becoming more) +(printed page 18) --QDF=0",
+            "+(ing algorithms which allow the creation of soft depth-of-field effects are now also becoming more) +(A brief history) +(printed page 18) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "18",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "ing algorithms, which allow the creation of soft depth-of-field effects, are now also becoming more",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "1.3 Book overview",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "1.3": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "1.3",
+      "printed_section_id": "1.3",
+      "parent_section_id": "1",
+      "title": "Book overview",
+      "source_heading": "1.3 Book overview",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 39,
+          "pdf_page_number": 40,
+          "printed_page_label": "18"
+        },
+        "bbox": [
+          114.734,
+          435.723,
+          258.794,
+          451.011
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 2,
+      "page_range": {
+        "pdf_page_index_start": 39,
+        "pdf_page_index_end": 45,
+        "pdf_page_number_start": 40,
+        "pdf_page_number_end": 46,
+        "printed_page_start": "18",
+        "printed_page_end": "24"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 39,
+            "pdf_page_number": 40,
+            "printed_page_label": "18"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "1.3 Book overview"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(1.3 Book overview) +(printed page 18) --QDF=0",
+            "+(chapters in this book are only loosely coupled with others and it is not strictly necessary) +(Book overview) +(printed page 18) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "18",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "chapters in this book are only loosely coupled with others, and it is not strictly necessary to read all",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "1.3 Book overview",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "1.3 Book overview"
+            ],
+            "figure_ids": [
+              "1.12"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 40,
+            "pdf_page_number": 41,
+            "printed_page_label": "19"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(ent chapters which are roughly positioned along the left right axis depending on whether they are) +(printed page 19) --QDF=0",
+            "+(ent chapters which are roughly positioned along the left right axis depending on whether they are) +(Book overview) +(printed page 19) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "19",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "ent chapters, which are roughly positioned along the left–right axis depending on whether they are more closely",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "1.12"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 41,
+            "pdf_page_number": 42,
+            "printed_page_label": "20"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(This includes topics such as linear and non-linear filtering Section 3.3 the Fourier transform Sec) +(printed page 20) --QDF=0",
+            "+(This includes topics such as linear and non-linear filtering Section 3.3 the Fourier transform Sec) +(Book overview) +(printed page 20) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "20",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "This includes topics such as linear and non-linear filtering (Section 3.3), the Fourier transform (Sec-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.3"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 4,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 42,
+            "pdf_page_number": 43,
+            "printed_page_label": "21"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(al 2014 Curless and Levoy 1996 Gortler Grzeszczuk et al 1996 see the figures in the) +(printed page 21) --QDF=0",
+            "+(al 2014 Curless and Levoy 1996 Gortler Grzeszczuk et al 1996 see the figures in the) +(Book overview) +(printed page 21) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "21",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "al. (2014); Curless and Levoy (1996); Gortler, Grzeszczuk et al. (1996)—see the figures in the respective chapters",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "1.13"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 5,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 43,
+            "pdf_page_number": 44,
+            "printed_page_label": "22"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(lier parts of this book It also makes for a good mid-term course project that can) +(printed page 22) --QDF=0",
+            "+(lier parts of this book It also makes for a good mid-term course project that can) +(Book overview) +(printed page 22) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "22",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "lier parts of this book. It also makes for a good mid-term course project that can build on previously",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 6,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 44,
+            "pdf_page_number": 45,
+            "printed_page_label": "23"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(that build a true 3D surface representation instead of just a single depth map Section 12.7) +(printed page 23) --QDF=0",
+            "+(that build a true 3D surface representation instead of just a single depth map Section 12.7) +(Book overview) +(printed page 23) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "23",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "that build a true 3D surface representation instead of just a single depth map (Section 12.7), as well",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 7,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 45,
+            "pdf_page_number": 46,
+            "printed_page_label": "24"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "1.4 Sample syllabus"
+            }
+          },
+          "queries": [
+            "+(developed in the last three decades including simpler techniques such as view interpolation Sec) +(printed page 24) --QDF=0",
+            "+(developed in the last three decades including simpler techniques such as view interpolation Sec) +(Book overview) +(printed page 24) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "24",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "developed in the last three decades, including simpler techniques such as view interpolation (Sec-",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "1.4 Sample syllabus",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "1.4": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "1.4",
+      "printed_section_id": "1.4",
+      "parent_section_id": "1",
+      "title": "Sample syllabus",
+      "source_heading": "1.4 Sample syllabus",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 45,
+          "pdf_page_number": 46,
+          "printed_page_label": "24"
+        },
+        "bbox": [
+          114.734,
+          500.334,
+          270.778,
+          515.622
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 2,
+      "page_range": {
+        "pdf_page_index_start": 45,
+        "pdf_page_index_end": 46,
+        "pdf_page_number_start": 46,
+        "pdf_page_number_end": 47,
+        "printed_page_start": "24",
+        "printed_page_end": "25"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 45,
+            "pdf_page_number": 46,
+            "printed_page_label": "24"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "1.4 Sample syllabus"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(1.4 Sample syllabus) +(printed page 24) --QDF=0",
+            "+(course12 tends to go lighter on the mathematics and takes more time reviewing basics while the) +(Sample syllabus) +(printed page 24) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "24",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "course12 tends to go lighter on the mathematics and takes more time reviewing basics, while the",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "1.4 Sample syllabus",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "1.4 Sample syllabus"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 46,
+            "pdf_page_number": 47,
+            "printed_page_label": "25"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "1.5 A note on notation"
+            }
+          },
+          "queries": [
+            "+(how they fail Better yet pick topics that are fun and can be used on your) +(printed page 25) --QDF=0",
+            "+(how they fail Better yet pick topics that are fun and can be used on your) +(Sample syllabus) +(printed page 25) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "25",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "how they fail. Better yet, pick topics that are fun and can be used on your own photographs, and try",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "1.5 A note on notation",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": [
+              "1.1"
+            ]
+          }
+        }
+      ]
+    },
+    "1.5": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "1.5",
+      "printed_section_id": "1.5",
+      "parent_section_id": "1",
+      "title": "A note on notation",
+      "source_heading": "1.5 A note on notation",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 46,
+          "pdf_page_number": 47,
+          "printed_page_label": "25"
+        },
+        "bbox": [
+          57.188,
+          545.299,
+          228.764,
+          560.587
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 2,
+      "page_range": {
+        "pdf_page_index_start": 46,
+        "pdf_page_index_end": 46,
+        "pdf_page_number_start": 47,
+        "pdf_page_number_end": 47,
+        "printed_page_start": "25",
+        "printed_page_end": "25"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 46,
+            "pdf_page_number": 47,
+            "printed_page_label": "25"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "1.5 A note on notation"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(1.5 A note on notation) +(printed page 25) --QDF=0",
+            "+(For better or worse the notation found in computer vision and multi-view geometry textbooks tends) +(A note on notation) +(printed page 25) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "25",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "For better or worse, the notation found in computer vision and multi-view geometry textbooks tends",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "1.5 A note on notation",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "1.5 A note on notation"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "1.6": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "1.6",
+      "printed_section_id": "1.6",
+      "parent_section_id": "1",
+      "title": "Additional reading",
+      "source_heading": "1.6 Additional reading",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 47,
+          "pdf_page_number": 48,
+          "printed_page_label": "26"
+        },
+        "bbox": [
+          114.734,
+          76.211,
+          285.335,
+          91.499
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 2,
+      "page_range": {
+        "pdf_page_index_start": 47,
+        "pdf_page_index_end": 47,
+        "pdf_page_number_start": 48,
+        "pdf_page_number_end": 48,
+        "printed_page_start": "26",
+        "printed_page_end": "26"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 47,
+            "pdf_page_number": 48,
+            "printed_page_label": "26"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "1.6 Additional reading"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(1.6 Additional reading) +(printed page 26) --QDF=0",
+            "+(with a wealth of exercises while Murphy 2012 provides a more recent take on the field) +(Additional reading) +(printed page 26) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "26",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "with a wealth of exercises, while Murphy (2012) provides a more recent take on the field and Hastie,",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "1.6 Additional reading",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "1.6 Additional reading"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "1.2.1": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "learning_unit",
+      "section_id": "1.2.1",
+      "printed_section_id": "1.2",
+      "parent_section_id": "1.2",
+      "title": "1970s.",
+      "source_heading": "1970s.",
+      "source_heading_numbered": false,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 30,
+          "pdf_page_number": 31,
+          "printed_page_label": "9"
+        },
+        "bbox": [
+          57.188,
+          498.982,
+          89.653,
+          509.598
+        ]
+      },
+      "source_level": 1,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 30,
+        "pdf_page_index_end": 33,
+        "pdf_page_number_start": 31,
+        "pdf_page_number_end": 34,
+        "printed_page_start": "9",
+        "printed_page_end": "12"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 30,
+            "pdf_page_number": 31,
+            "printed_page_label": "9"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "1970s."
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(1970s) +(printed page 9) --QDF=0",
+            "+(6To see how far robotic vision has come in the last six decades have a look) +(1970s) +(printed page 9) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "9",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "6To see how far robotic vision has come in the last six decades, have a look at some of the videos on the Boston Dynamics",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "1970s.",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "1970s."
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 31,
+            "pdf_page_number": 32,
+            "printed_page_label": "10"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(structure of the world from images and to use this as a stepping stone towards full) +(printed page 10) --QDF=0",
+            "+(structure of the world from images and to use this as a stepping stone towards full) +(1970s) +(printed page 10) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "10",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "structure of the world from images and to use this as a stepping stone towards full scene understand-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "1.6"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 32,
+            "pdf_page_number": 33,
+            "printed_page_label": "11"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(As I mentioned earlier in this introduction it is my conviction that a careful analysis of) +(printed page 11) --QDF=0",
+            "+(As I mentioned earlier in this introduction it is my conviction that a careful analysis of) +(1970s) +(printed page 11) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "11",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "As I mentioned earlier in this introduction, it is my conviction that a careful analysis of the problem",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "1.7"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 4,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 33,
+            "pdf_page_number": 34,
+            "printed_page_label": "12"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "1980s."
+            }
+          },
+          "queries": [
+            "+(1983b 1983 ACM b shape from shading Freeman and Adelson 1991 1991 IEEE c edge detection) +(printed page 12) --QDF=0",
+            "+(1983b 1983 ACM b shape from shading Freeman and Adelson 1991 1991 IEEE c edge detection) +(1970s) +(printed page 12) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "12",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "1983b) © 1983 ACM, (b) shape from shading (Freeman and Adelson 1991) © 1991 IEEE, (c) edge detection",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "1980s.",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "1.8"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "1.2.2": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "learning_unit",
+      "section_id": "1.2.2",
+      "printed_section_id": "1.2",
+      "parent_section_id": "1.2",
+      "title": "1980s.",
+      "source_heading": "1980s.",
+      "source_heading_numbered": false,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 33,
+          "pdf_page_number": 34,
+          "printed_page_label": "12"
+        },
+        "bbox": [
+          114.734,
+          412.601,
+          147.2,
+          423.217
+        ]
+      },
+      "source_level": 1,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 33,
+        "pdf_page_index_end": 34,
+        "pdf_page_number_start": 34,
+        "pdf_page_number_end": 35,
+        "printed_page_start": "12",
+        "printed_page_end": "13"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 33,
+            "pdf_page_number": 34,
+            "printed_page_label": "12"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "1980s."
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(1980s) +(printed page 12) --QDF=0",
+            "+(could be unified or at least described using the same mathematical framework if they were posed) +(1980s) +(printed page 12) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "12",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "could be unified, or at least described, using the same mathematical framework if they were posed",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "1980s.",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "1980s."
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 34,
+            "pdf_page_number": 35,
+            "printed_page_label": "13"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "1990s."
+            }
+          },
+          "queries": [
+            "+(The book by Fischler and Firschein 1987 contains a nice collection of articles focusing on all) +(printed page 13) --QDF=0",
+            "+(The book by Fischler and Firschein 1987 contains a nice collection of articles focusing on all) +(1980s) +(printed page 13) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "13",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "The book by Fischler and Firschein (1987) contains a nice collection of articles focusing on all of",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "1990s.",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "1.9"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "1.2.3": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "learning_unit",
+      "section_id": "1.2.3",
+      "printed_section_id": "1.2",
+      "parent_section_id": "1.2",
+      "title": "1990s.",
+      "source_heading": "1990s.",
+      "source_heading_numbered": false,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 34,
+          "pdf_page_number": 35,
+          "printed_page_label": "13"
+        },
+        "bbox": [
+          57.188,
+          666.891,
+          89.653,
+          677.507
+        ]
+      },
+      "source_level": 1,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 34,
+        "pdf_page_index_end": 36,
+        "pdf_page_number_start": 35,
+        "pdf_page_number_end": 37,
+        "printed_page_start": "13",
+        "printed_page_end": "15"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 34,
+            "pdf_page_number": 35,
+            "printed_page_label": "13"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "1990s."
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(1990s) +(printed page 13) --QDF=0",
+            "+(evolved into a concerted effort to solve the structure from motion problem see Chapter 11 A) +(1990s) +(printed page 13) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "13",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "evolved into a concerted effort to solve the structure from motion problem (see Chapter 11). A lot",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "1990s.",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "1990s."
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 35,
+            "pdf_page_number": 36,
+            "printed_page_label": "14"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(of the initial activity was directed at projective reconstructions which did not require knowledge) +(printed page 14) --QDF=0",
+            "+(of the initial activity was directed at projective reconstructions which did not require knowledge) +(1990s) +(printed page 14) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "14",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "of the initial activity was directed at projective reconstructions, which did not require knowledge",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 36,
+            "pdf_page_number": 37,
+            "printed_page_label": "15"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "2000s."
+            }
+          },
+          "queries": [
+            "+(imagery directly to create new animations first came to prominence with image morphing techniques) +(printed page 15) --QDF=0",
+            "+(imagery directly to create new animations first came to prominence with image morphing techniques) +(1990s) +(printed page 15) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "15",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "imagery directly to create new animations first came to prominence with image morphing techniques",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "2000s.",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "1.10"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "1.2.4": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "learning_unit",
+      "section_id": "1.2.4",
+      "printed_section_id": "1.2",
+      "parent_section_id": "1.2",
+      "title": "2000s.",
+      "source_heading": "2000s.",
+      "source_heading_numbered": false,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 36,
+          "pdf_page_number": 37,
+          "printed_page_label": "15"
+        },
+        "bbox": [
+          57.188,
+          666.914,
+          89.653,
+          677.53
+        ]
+      },
+      "source_level": 1,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 36,
+        "pdf_page_index_end": 37,
+        "pdf_page_number_start": 37,
+        "pdf_page_number_end": 38,
+        "printed_page_start": "15",
+        "printed_page_end": "16"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 36,
+            "pdf_page_number": 37,
+            "printed_page_label": "15"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "2000s."
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(2000s) +(printed page 15) --QDF=0",
+            "+(but more importantly embraced data-driven and learning approaches as core components of vision) +(2000s) +(printed page 15) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "15",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "but more importantly embraced data-driven and learning approaches as core components of vision.",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "2000s.",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "2000s."
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 37,
+            "pdf_page_number": 38,
+            "printed_page_label": "16"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "2010s."
+            }
+          },
+          "queries": [
+            "+(Vese et al 2003 Criminisi P erez and Toyama 2004 are additional topics that can be) +(printed page 16) --QDF=0",
+            "+(Vese et al 2003 Criminisi P erez and Toyama 2004 are additional topics that can be) +(2000s) +(printed page 16) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "16",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Vese et al. 2003; Criminisi, P ́erez, and Toyama 2004) are additional topics that can be classified as",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "2010s.",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "1.2.5": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "learning_unit",
+      "section_id": "1.2.5",
+      "printed_section_id": "1.2",
+      "parent_section_id": "1.2",
+      "title": "2010s.",
+      "source_heading": "2010s.",
+      "source_heading_numbered": false,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 37,
+          "pdf_page_number": 38,
+          "printed_page_label": "16"
+        },
+        "bbox": [
+          114.734,
+          585.674,
+          147.2,
+          596.29
+        ]
+      },
+      "source_level": 1,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 37,
+        "pdf_page_index_end": 39,
+        "pdf_page_number_start": 38,
+        "pdf_page_number_end": 40,
+        "printed_page_start": "16",
+        "printed_page_end": "18"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 37,
+            "pdf_page_number": 38,
+            "printed_page_label": "16"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "2010s."
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(2010s) +(printed page 16) --QDF=0",
+            "+(datasets provided not only reliable metrics for tracking the progress of recognition and semantic) +(2010s) +(printed page 16) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "16",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "datasets provided not only reliable metrics for tracking the progress of recognition and semantic",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "2010s.",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "2010s."
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 38,
+            "pdf_page_number": 39,
+            "printed_page_label": "17"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(IEEE c whole body expression and gesture fitting from a single image Pavlakos Choutas et al) +(printed page 17) --QDF=0",
+            "+(IEEE c whole body expression and gesture fitting from a single image Pavlakos Choutas et al) +(2010s) +(printed page 17) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "17",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "IEEE; (c) whole body, expression, and gesture fitting from a single image (Pavlakos, Choutas et al. 2019) © 2019",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "1.11"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 39,
+            "pdf_page_number": 40,
+            "printed_page_label": "18"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "1.3 Book overview"
+            }
+          },
+          "queries": [
+            "+(ing algorithms which allow the creation of soft depth-of-field effects are now also becoming more) +(printed page 18) --QDF=0",
+            "+(ing algorithms which allow the creation of soft depth-of-field effects are now also becoming more) +(2010s) +(printed page 18) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "18",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "ing algorithms, which allow the creation of soft depth-of-field effects, are now also becoming more",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "1.3 Book overview",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    }
+  }
+}

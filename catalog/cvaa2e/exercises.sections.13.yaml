@@ -1,0 +1,411 @@
+data_version: '3'
+chapter_id: '13'
+exercises:
+- exercise_id: '13.1'
+  chapter_id: '13'
+  exercise_number: 1
+  starred: false
+  source_order: 1
+  problem_page_range:
+    pdf_page_index_start: 694
+    pdf_page_index_end: 694
+    pdf_page_number_start: 695
+    pdf_page_number_end: 695
+    printed_page_start: '673'
+    printed_page_end: '673'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 694
+      pdf_page_number: 695
+      printed_page_label: '673'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '13.1'
+      end_before:
+        kind: exercise
+        value: '13.2'
+    queries:
+    - +(13.1) +(printed page 673) --QDF=0
+    - +(2 Try both a fronto-parallel planar target and one which is slanted so that it covers) +(printed page 673) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '673'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 2. Try both a fronto-parallel planar target and one which is slanted so that it covers the working
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '13.1'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '13.2'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '13.2'
+  chapter_id: '13'
+  exercise_number: 2
+  starred: false
+  source_order: 2
+  problem_page_range:
+    pdf_page_index_start: 694
+    pdf_page_index_end: 694
+    pdf_page_number_start: 695
+    pdf_page_number_end: 695
+    printed_page_start: '673'
+    printed_page_end: '673'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 694
+      pdf_page_number: 695
+      printed_page_label: '673'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '13.2'
+      end_before:
+        kind: exercise
+        value: '13.3'
+    queries:
+    - +(13.2) +(printed page 673) --QDF=0
+    - +(5 Optional remove the requirement for a known second vertical plane and infer its location) +(printed page 673) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '673'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 5. (Optional) remove the requirement for a known second (vertical) plane and infer its location
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '13.2'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '13.3'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: exercise
+    target_id: '10.9'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+- exercise_id: '13.3'
+  chapter_id: '13'
+  exercise_number: 3
+  starred: false
+  source_order: 3
+  problem_page_range:
+    pdf_page_index_start: 694
+    pdf_page_index_end: 694
+    pdf_page_number_start: 695
+    pdf_page_number_end: 695
+    printed_page_start: '673'
+    printed_page_end: '673'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 694
+      pdf_page_number: 695
+      printed_page_label: '673'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '13.3'
+      end_before: null
+    queries:
+    - +(13.3) +(printed page 673) --QDF=0
+    - +(an object using structure from motion to recover the camera poses and using a standard stereo) +(printed page 673)
+      --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '673'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: an object, using structure from motion to recover the camera poses, and using a standard stereo
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '13.3'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: 13.2.1
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+- exercise_id: '13.4'
+  chapter_id: '13'
+  exercise_number: 4
+  starred: false
+  source_order: 4
+  problem_page_range:
+    pdf_page_index_start: 695
+    pdf_page_index_end: 695
+    pdf_page_number_start: 696
+    pdf_page_number_end: 696
+    printed_page_start: '674'
+    printed_page_end: '674'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 695
+      pdf_page_number: 696
+      printed_page_label: '674'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '13.4'
+      end_before:
+        kind: exercise
+        value: '13.5'
+    queries:
+    - +(13.4) +(printed page 674) --QDF=0
+    - +(using signed distance fields Curless and Levoy 1996 Hilton Stoddart et al 1996 or one of) +(printed page 674) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '674'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: using signed distance fields (Curless and Levoy 1996; Hilton, Stoddart et al. 1996) or one of their
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '13.4'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '13.5'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '13.5'
+  chapter_id: '13'
+  exercise_number: 5
+  starred: false
+  source_order: 5
+  problem_page_range:
+    pdf_page_index_start: 695
+    pdf_page_index_end: 695
+    pdf_page_number_start: 696
+    pdf_page_number_end: 696
+    printed_page_start: '674'
+    printed_page_end: '674'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 695
+      pdf_page_number: 696
+      printed_page_label: '674'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '13.5'
+      end_before:
+        kind: exercise
+        value: '13.6'
+    queries:
+    - +(13.5) +(printed page 674) --QDF=0
+    - +(Surface simplification Use progressive meshes Hoppe 1996 or some other technique) +(printed page 674) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '674'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Surface simplification. Use progressive meshes (Hoppe 1996) or some other technique
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '13.5'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '13.6'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: 13.3.2
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+  - kind: section
+    target_id: C
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+- exercise_id: '13.6'
+  chapter_id: '13'
+  exercise_number: 6
+  starred: false
+  source_order: 6
+  problem_page_range:
+    pdf_page_index_start: 695
+    pdf_page_index_end: 695
+    pdf_page_number_start: 696
+    pdf_page_number_end: 696
+    printed_page_start: '674'
+    printed_page_end: '674'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 695
+      pdf_page_number: 696
+      printed_page_label: '674'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '13.6'
+      end_before:
+        kind: exercise
+        value: '13.7'
+    queries:
+    - +(13.6) +(printed page 674) --QDF=0
+    - +(2 Use structure from motion to recover all of the camera poses and match up the) +(printed page 674) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '674'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 2. Use structure from motion to recover all of the camera poses and match up the vanishing
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '13.6'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '13.7'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: exercise
+    target_id: '7.11'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+  - kind: exercise
+    target_id: '7.12'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+  - kind: exercise
+    target_id: '7.13'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+  - kind: exercise
+    target_id: '7.14'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+  - kind: exercise
+    target_id: '11.4'
+    reason: Explicit exercise reference in exercise text
+    selected_context_pages: []
+- exercise_id: '13.7'
+  chapter_id: '13'
+  exercise_number: 7
+  starred: false
+  source_order: 7
+  problem_page_range:
+    pdf_page_index_start: 695
+    pdf_page_index_end: 695
+    pdf_page_number_start: 696
+    pdf_page_number_end: 696
+    printed_page_start: '674'
+    printed_page_end: '674'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 695
+      pdf_page_number: 696
+      printed_page_label: '674'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '13.7'
+      end_before:
+        kind: exercise
+        value: '13.8'
+    queries:
+    - +(13.7) +(printed page 674) --QDF=0
+    - +(such as HumanEva MPI FAUST or AMASS discussed in Section 13.6.4 Either implement a human) +(printed page 674) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '674'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: such as HumanEva, MPI FAUST, or AMASS discussed in Section 13.6.4. Either implement a human
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '13.7'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '13.8'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: section
+    target_id: 13.6.4
+    reason: Explicit section reference in exercise text
+    selected_context_pages: []
+- exercise_id: '13.8'
+  chapter_id: '13'
+  exercise_number: 8
+  starred: false
+  source_order: 8
+  problem_page_range:
+    pdf_page_index_start: 695
+    pdf_page_index_end: 695
+    pdf_page_number_start: 696
+    pdf_page_number_end: 696
+    printed_page_start: '674'
+    printed_page_end: '674'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 695
+      pdf_page_number: 696
+      printed_page_label: '674'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '13.8'
+      end_before: null
+    queries:
+    - +(13.8) +(printed page 674) --QDF=0
+    - +(system that takes a series of photographs or a video and constructs a photorealistic texture-mapped) +(printed page
+      674) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '674'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: system that takes a series of photographs or a video and constructs a photorealistic texture-mapped
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '13.8'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []

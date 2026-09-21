@@ -20,25 +20,25 @@ from tools.extract_pdf_candidates import (
 )
 
 
-def test_heading_candidate_requires_verified_dip4e_style() -> None:
+def test_heading_candidate_requires_verified_cvaa2e_style() -> None:
     heading = TextLine(
-        text="SPATIAL OPERATIONS",
+        text="Translation.",
         pdf_page_index=99,
         pdf_page_number=100,
         printed_page_label="98",
         bbox=(120.0, 543.0, 233.0, 555.0),
         font_names=(HEADING_FONT,),
-        max_font_size=10.954,
+        max_font_size=10.617,
         colors=(HEADING_COLOR,),
     )
     figure_label = TextLine(
-        text="FIGURE 2.41",
+        text="Figure 2.41",
         pdf_page_index=106,
         pdf_page_number=107,
         printed_page_label="105",
         bbox=(51.0, 77.0, 91.0, 87.0),
         font_names=(HEADING_FONT,),
-        max_font_size=10.954,
+        max_font_size=10.617,
         colors=(HEADING_COLOR,),
     )
 

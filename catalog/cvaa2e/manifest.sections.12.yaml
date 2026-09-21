@@ -1,0 +1,5196 @@
+data_version: '3'
+printed_sections:
+- printed_section_id: '12'
+  parent_printed_section_id: null
+  title: Depth estimation
+  source_heading: Chapter 12 Depth estimation
+  source_location:
+    page:
+      pdf_page_index: 610
+      pdf_page_number: 611
+      printed_page_label: '589'
+    bbox:
+    - 286.232
+    - 98.504
+    - 479.19
+    - 165.421
+  page_range:
+    pdf_page_index_start: 610
+    pdf_page_index_end: 653
+    pdf_page_number_start: 611
+    pdf_page_number_end: 654
+    printed_page_start: '589'
+    printed_page_end: '632'
+  outline:
+  - '12.1'
+  - '12.2'
+  - '12.3'
+  - '12.4'
+  - '12.5'
+  - '12.6'
+  - '12.7'
+  - '12.8'
+  - '12.9'
+  - '12.10'
+  retrieval_plan:
+  - page:
+      pdf_page_index: 610
+      pdf_page_number: 611
+      printed_page_label: '589'
+    content_window:
+      start_at:
+        kind: heading
+        value: Chapter 12 Depth estimation
+      end_before: null
+    queries:
+    - +(Chapter 12 Depth estimation) +(printed page 589) --QDF=0
+    - +(R Szeliski Computer Vision Texts in Computer Science) +(Depth estimation) +(printed page 589) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '589'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: R. Szeliski, Computer Vision, Texts in Computer Science,
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: Chapter 12 Depth estimation
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - Chapter 12 Depth estimation
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 611
+      pdf_page_number: 612
+      printed_page_label: '590'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(Scharstein Hirschm uller et al 2014 2014 Springer a sequence of images d into a 3D) +(printed page 590) --QDF=0
+    - +(Scharstein Hirschm uller et al 2014 2014 Springer a sequence of images d into a 3D) +(Depth estimation) +(printed
+      page 590) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '590'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: (Scharstein, Hirschm ̈uller et al. 2014) © 2014 Springer, a sequence of images (d) into a 3D model (e) (Knapitsch,
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.1'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 612
+      pdf_page_number: 613
+      printed_page_label: '591'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(eyes and close each eye alternately You will notice that the finger jumps left and right) +(printed page 591) --QDF=0
+    - +(eyes and close each eye alternately You will notice that the finger jumps left and right) +(Depth estimation) +(printed
+      page 591) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '591'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: eyes and close each eye alternately. You will notice that the finger jumps left and right relative to the
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 613
+      pdf_page_number: 614
+      printed_page_label: '592'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(two images Seitz and Dyer 1996 1996 ACM e f 3D face modeling images courtesy of) +(printed page 592) --QDF=0
+    - +(two images Seitz and Dyer 1996 1996 ACM e f 3D face modeling images courtesy of) +(Depth estimation) +(printed page
+      592) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '592'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: two images (Seitz and Dyer 1996) © 1996 ACM; (e–f) 3D face modeling (images courtesy of Fr ́ed ́eric Devernay);
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.2'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 614
+      pdf_page_number: 615
+      printed_page_label: '593'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(Pointers to additional datasets can be found in Mayer Ilg et al 2018 Janai G uney) +(printed page 593) --QDF=0
+    - +(Pointers to additional datasets can be found in Mayer Ilg et al 2018 Janai G uney) +(Depth estimation) +(printed page
+      593) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '593'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Pointers to additional datasets can be found in Mayer, Ilg et al. (2018), Janai, G ̈uney et al. (2020),
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 12.1 Epipolar geometry
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids:
+      - '12.1'
+  - page:
+      pdf_page_index: 615
+      pdf_page_number: 616
+      printed_page_label: '594'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(2This makes most sense if the cameras are next to each other although by rotating the) +(printed page 594) --QDF=0
+    - +(2This makes most sense if the cameras are next to each other although by rotating the) +(Depth estimation) +(printed
+      page 594) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '594'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 2This makes most sense if the cameras are next to each other, although by rotating the cameras, rectification
+        can be
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 12.1.1 Rectification
+      figure_ids:
+      - '12.3'
+      - '12.4'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 616
+      pdf_page_number: 617
+      printed_page_label: '595'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(images rectified so that epipolar lines are horizontal and in vertical correspondence d final rectification that)
+      +(printed page 595) --QDF=0
+    - +(images rectified so that epipolar lines are horizontal and in vertical correspondence d final rectification that)
+      +(Depth estimation) +(printed page 595) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '595'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: images rectified so that epipolar lines are horizontal and in vertical correspondence; (d) final rectification
+        that
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.4'
+      equation_ids:
+      - '12.1'
+      - '12.2'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 617
+      pdf_page_number: 618
+      printed_page_label: '596'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(scene and to measure the photoconsistency of different images as they are re-projected onto these) +(printed page
+      596) --QDF=0
+    - +(scene and to measure the photoconsistency of different images as they are re-projected onto these) +(Depth estimation)
+      +(printed page 596) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '596'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: scene and to measure the photoconsistency of different images as they are re-projected onto these
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 12.1.2 Plane sweep
+      figure_ids:
+      - '12.5'
+      - '12.6'
+      - '2.11'
+      equation_ids:
+      - '2.68'
+      - '2.66'
+      - '12.3'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 618
+      pdf_page_number: 619
+      printed_page_label: '597'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(However it is also possible to compute alternative statistics such as robust variance focus or entropy) +(printed
+      page 597) --QDF=0
+    - +(However it is also possible to compute alternative statistics such as robust variance focus or entropy) +(Depth estimation)
+      +(printed page 597) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '597'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: However, it is also possible to compute alternative statistics such as robust variance, focus, or entropy
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.6'
+      equation_ids:
+      - '12.4'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 619
+      pdf_page_number: 620
+      printed_page_label: '598'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(more closely spaced frames are available it is possible to fit a local circular arc to) +(printed page 598) --QDF=0
+    - +(more closely spaced frames are available it is possible to fit a local circular arc to) +(Depth estimation) +(printed
+      page 598) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '598'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: more closely spaced frames are available, it is possible to fit a local circular arc to the locations of
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 12.2 Sparse correspondence
+      - 12.2.1 3D curves and profiles
+      figure_ids:
+      - '12.5'
+      - '12.7'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 620
+      pdf_page_number: 621
+      printed_page_label: '599'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(circular arc fitting in the epipolar plane b synthetic example of an ellipsoid with a truncated) +(printed page 599)
+      --QDF=0
+    - +(circular arc fitting in the epipolar plane b synthetic example of an ellipsoid with a truncated) +(Depth estimation)
+      +(printed page 599) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '599'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: circular arc fitting in the epipolar plane; (b) synthetic example of an ellipsoid with a truncated side and elliptic
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.7'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 621
+      pdf_page_number: 622
+      printed_page_label: '600'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(algorithmic building blocks from which a large set of algorithms can be constructed It is based) +(printed page 600)
+      --QDF=0
+    - +(algorithmic building blocks from which a large set of algorithms can be constructed It is based) +(Depth estimation)
+      +(printed page 600) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '600'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: algorithmic “building blocks” from which a large set of algorithms can be constructed. It is based
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 12.3 Dense correspondence
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 622
+      pdf_page_number: 623
+      printed_page_label: '601'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(briefly review the similarity measures introduced in Section 9.1 and mention a few others that have) +(printed page
+      601) --QDF=0
+    - +(briefly review the similarity measures introduced in Section 9.1 and mention a few others that have) +(Depth estimation)
+      +(printed page 601) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '601'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: briefly review the similarity measures introduced in Section 9.1 and mention a few others that have
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 12.3.1 Similarity measures
+      figure_ids: []
+      equation_ids:
+      - '9.2'
+      - '9.11'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 623
+      pdf_page_number: 624
+      printed_page_label: '602'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(areas Birchfield and Tomasi 1998 proposed a matching cost that is less sensitive to shifts in) +(printed page 602)
+      --QDF=0
+    - +(areas Birchfield and Tomasi 1998 proposed a matching cost that is less sensitive to shifts in) +(Depth estimation)
+      +(printed page 602) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '602'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: areas, Birchfield and Tomasi (1998) proposed a matching cost that is less sensitive to shifts in image
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.8'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 624
+      pdf_page_number: 625
+      printed_page_label: '603'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(native method for aggregation is iterative diffusion i.e repeatedly adding to each pixel s cost the) +(printed page
+      603) --QDF=0
+    - +(native method for aggregation is iterative diffusion i.e repeatedly adding to each pixel s cost the) +(Depth estimation)
+      +(printed page 603) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '603'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: native method for aggregation is iterative diffusion, i.e., repeatedly adding to each pixel’s cost the
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 12.4 Local methods
+      figure_ids:
+      - '12.9'
+      - '12.10'
+      equation_ids:
+      - '12.5'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 625
+      pdf_page_number: 626
+      printed_page_label: '604'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(5Extensive results from Tombari Mattoccia et al 2008 can be found at http www.vision.deis.unibo.it spe) +(printed
+      page 604) --QDF=0
+    - +(5Extensive results from Tombari Mattoccia et al 2008 can be found at http www.vision.deis.unibo.it spe) +(Depth estimation)
+      +(printed page 604) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '604'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 5Extensive results from Tombari, Mattoccia et al. (2008) can be found at http://www.vision.deis.unibo.it/spe.
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 12.4.1 Sub-pixel estimation and uncertainty
+      figure_ids:
+      - '12.10'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 626
+      pdf_page_number: 627
+      printed_page_label: '605'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(to-left disparity maps Fua 1993 A median filter can be applied to clean up spurious mismatches) +(printed page 605)
+      --QDF=0
+    - +(to-left disparity maps Fua 1993 A median filter can be applied to clean up spurious mismatches) +(Depth estimation)
+      +(printed page 605) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '605'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: to-left disparity maps (Fua 1993). A median filter can be applied to clean up spurious mismatches,
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - '12.4.2 Application: Stereo-based head tracking'
+      figure_ids:
+      - '12.11'
+      equation_ids:
+      - '12.6'
+      - '9.37'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 627
+      pdf_page_number: 628
+      printed_page_label: '606'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(view to be constructed right at the position where they are looking resulting in virtual eye) +(printed page 606)
+      --QDF=0
+    - +(view to be constructed right at the position where they are looking resulting in virtual eye) +(Depth estimation)
+      +(printed page 606) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '606'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: view to be constructed right at the position where they are looking, resulting in virtual eye contact.
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 12.5 Global optimization
+      figure_ids: []
+      equation_ids:
+      - '12.7'
+      - '12.8'
+      - '12.9'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 628
+      pdf_page_number: 629
+      printed_page_label: '607'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(Below we describe some related techniques that are of historical interest run faster or are tailored) +(printed page
+      607) --QDF=0
+    - +(Below we describe some related techniques that are of historical interest run faster or are tailored) +(Depth estimation)
+      +(printed page 607) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '607'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Below, we describe some related techniques that are of historical interest, run faster, or are tailored
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - Cooperative algorithms.
+      figure_ids: []
+      equation_ids:
+      - '12.10'
+      - '4.47'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 629
+      pdf_page_number: 630
+      printed_page_label: '608'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(also possible to model the scene using a collection of slanted planes which is beneficial if) +(printed page 608)
+      --QDF=0
+    - +(also possible to model the scene using a collection of slanted planes which is beneficial if) +(Depth estimation)
+      +(printed page 608) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '608'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: also possible to model the scene using a collection of slanted planes, which is beneficial if the scene
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - Coarse-to-fine and incremental warping.
+      - Local plane sweeps.
+      - 12.5.1 Dynamic programming
+      figure_ids:
+      - '12.12'
+      equation_ids:
+      - '12.7'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 630
+      pdf_page_number: 631
+      printed_page_label: '609'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(the matrix Matches are indicated by M while partially occluded points which have a fixed cost) +(printed page 609)
+      --QDF=0
+    - +(the matrix Matches are indicated by M while partially occluded points which have a fixed cost) +(Depth estimation)
+      +(printed page 609) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '609'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: the matrix. Matches are indicated by M, while partially occluded points (which have a fixed cost) are indicated
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.13'
+      equation_ids:
+      - '12.9'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 631
+      pdf_page_number: 632
+      printed_page_label: '610'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(relaxation or loopy belief propagation in the more recent work of Zitnick and Kang 2007 is) +(printed page 610) --QDF=0
+    - +(relaxation or loopy belief propagation in the more recent work of Zitnick and Kang 2007 is) +(Depth estimation) +(printed
+      page 610) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '610'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: relaxation (or loopy belief propagation, in the more recent work of Zitnick and Kang (2007)) is used
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 12.5.2 Segmentation-based techniques
+      figure_ids:
+      - '12.14'
+      - '12.15'
+      equation_ids:
+      - '12.7'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 632
+      pdf_page_number: 633
+      printed_page_label: '611'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(or boundary extraction Hasinoff Kang and Szeliski 2006 is the ability to extract fractional pixel) +(printed page
+      611) --QDF=0
+    - +(or boundary extraction Hasinoff Kang and Szeliski 2006 is the ability to extract fractional pixel) +(Depth estimation)
+      +(printed page 611) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '611'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: or boundary extraction (Hasinoff, Kang, and Szeliski 2006), is the ability to extract fractional pixel
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - '12.5.3 Application: Z-keying and background replacement'
+      figure_ids:
+      - '12.15'
+      - '12.16'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 633
+      pdf_page_number: 634
+      printed_page_label: '612'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(depth maps in real time and were therefore restricted to broadcast studio applications Kanade) +(printed page 612)
+      --QDF=0
+    - +(depth maps in real time and were therefore restricted to broadcast studio applications Kanade) +(Depth estimation)
+      +(printed page 612) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '612'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: depth maps in real time and were, therefore, restricted to broadcast studio applications (Kanade,
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 12.6 Deep neural networks
+      - Learning in the stereo pipeline
+      figure_ids:
+      - '12.17'
+      - '11.28'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 634
+      pdf_page_number: 635
+      printed_page_label: '613'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(residual corrections to the original disparities Pang Sun et al 2017 which can also be done) +(printed page 613) --QDF=0
+    - +(residual corrections to the original disparities Pang Sun et al 2017 which can also be done) +(Depth estimation) +(printed
+      page 613) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '613'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: residual corrections to the original disparities (Pang, Sun et al. 2017), which can also be done in an
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - End-to-end learning with 2D architectures
+      - End-to-end learning with 3D architectures
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 635
+      pdf_page_number: 636
+      printed_page_label: '614'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(provides very limited training data deep learning methods are still notably absent Poggi Tosi et) +(printed page 614)
+      --QDF=0
+    - +(provides very limited training data deep learning methods are still notably absent Poggi Tosi et) +(Depth estimation)
+      +(printed page 614) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '614'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: provides very limited training data, deep learning methods are still notably absent. Poggi, Tosi et
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 12.7 Multi-view stereo
+      figure_ids:
+      - '12.18'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 636
+      pdf_page_number: 637
+      printed_page_label: '615'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(with velocities slopes proportional to their inverse depth Occlusion and translucency effects can easily be) +(printed
+      page 615) --QDF=0
+    - +(with velocities slopes proportional to their inverse depth Occlusion and translucency effects can easily be) +(Depth
+      estimation) +(printed page 615) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '615'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: with velocities (slopes) proportional to their inverse depth. Occlusion (and translucency) effects can easily
+        be
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.19'
+      - '12.20'
+      equation_ids:
+      - '12.4'
+      - '12.11'
+      - '12.1'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 637
+      pdf_page_number: 638
+      printed_page_label: '616'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(Shiftable windows help mitigate the problems in partially occluded regions and near depth discontinuities The) +(printed
+      page 616) --QDF=0
+    - +(Shiftable windows help mitigate the problems in partially occluded regions and near depth discontinuities The) +(Depth
+      estimation) +(printed page 616) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '616'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Shiftable windows help mitigate the problems in partially occluded regions and near depth discontinuities. The
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.20'
+      - '12.21'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 638
+      pdf_page_number: 639
+      printed_page_label: '617'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(clouds Yao Luo et al 2018 2018 Springer The red boxes indicate problem areas where MVSNet) +(printed page 617) --QDF=0
+    - +(clouds Yao Luo et al 2018 2018 Springer The red boxes indicate problem areas where MVSNet) +(Depth estimation) +(printed
+      page 617) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '617'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: clouds (Yao, Luo et al. 2018) © 2018 Springer. The red boxes indicate problem areas where MVSNet does better.
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.21'
+      - '12.22'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 639
+      pdf_page_number: 640
+      printed_page_label: '618'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(struction of globally consistent 3D models Seitz Curless et al 2006 This topic has a long) +(printed page 618) --QDF=0
+    - +(struction of globally consistent 3D models Seitz Curless et al 2006 This topic has a long) +(Depth estimation) +(printed
+      page 618) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '618'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: struction of globally consistent 3D models (Seitz, Curless et al. 2006). This topic has a long history
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 12.7.1 Scene flow
+      - 12.7.2 Volumetric and 3D surface reconstruction
+      figure_ids:
+      - '12.23'
+      - '12.24'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 640
+      pdf_page_number: 641
+      printed_page_label: '619'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(more details please consult the full survey paper Seitz Curless et al 2006 as well as) +(printed page 619) --QDF=0
+    - +(more details please consult the full survey paper Seitz Curless et al 2006 as well as) +(Depth estimation) +(printed
+      page 619) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '619'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: more details, please consult the full survey paper (Seitz, Curless et al. 2006) as well as more recent
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - Scene representation.
+      figure_ids:
+      - '12.24'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 641
+      pdf_page_number: 642
+      printed_page_label: '620'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(8For outdoor scenes that go to infinity an inverted gridding of space may be preferable Slabaugh) +(printed page 620)
+      --QDF=0
+    - +(8For outdoor scenes that go to infinity an inverted gridding of space may be preferable Slabaugh) +(Depth estimation)
+      +(printed page 620) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '620'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 8For outdoor scenes that go to infinity, an inverted gridding of space may be preferable (Slabaugh, Culbertson
+        et al. 2004;
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.25'
+      - '12.24'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 642
+      pdf_page_number: 643
+      printed_page_label: '621'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(stereo pipeline Sch onberger Zheng et al 2016 2016 Springer c thin structures recovered from gradients) +(printed
+      page 621) --QDF=0
+    - +(stereo pipeline Sch onberger Zheng et al 2016 2016 Springer c thin structures recovered from gradients) +(Depth estimation)
+      +(printed page 621) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '621'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: stereo pipeline (Sch ̈onberger, Zheng et al. 2016) © 2016 Springer; (c) thin structures recovered from gradients
+        in
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.26'
+      - '14.7'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 643
+      pdf_page_number: 644
+      printed_page_label: '622'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(resolution followed by filtering of conflicting points based on visibility constraints and finally tri) +(printed
+      page 622) --QDF=0
+    - +(resolution followed by filtering of conflicting points based on visibility constraints and finally tri) +(Depth estimation)
+      +(printed page 622) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '622'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: resolution, followed by filtering of conflicting points based on visibility constraints, and finally tri-
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - Photoconsistency measure.
+      - Visibility model.
+      figure_ids:
+      - '12.27'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 644
+      pdf_page_number: 645
+      printed_page_label: '623'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(most surfaces of interest are axis-aligned Furukawa Curless et al 2009a b or at related orientations) +(printed page
+      623) --QDF=0
+    - +(most surfaces of interest are axis-aligned Furukawa Curless et al 2009a b or at related orientations) +(Depth estimation)
+      +(printed page 623) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '623'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: most surfaces of interest are axis-aligned (Furukawa, Curless et al. 2009a,b) or at related orientations
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - Shape priors.
+      - Reconstruction algorithm.
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 645
+      pdf_page_number: 646
+      printed_page_label: '624'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(et al 2008 or to impose a convex set of constraints on multi-view stereo Kolev and) +(printed page 624) --QDF=0
+    - +(et al 2008 or to impose a convex set of constraints on multi-view stereo Kolev and) +(Depth estimation) +(printed
+      page 624) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '624'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: et al. 2008) or to impose a convex set of constraints on multi-view stereo (Kolev and Cremers 2008).
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - Initialization requirements.
+      - Empirical evaluation.
+      - 12.7.3 Shape from silhouettes
+      figure_ids:
+      - '12.28'
+      equation_ids: []
+      example_ids: []
+      table_ids:
+      - '12.1'
+  - page:
+      pdf_page_index: 646
+      pdf_page_number: 647
+      printed_page_label: '625'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(octree representation and its corresponding b tree structure c input image of an object on a) +(printed page 625)
+      --QDF=0
+    - +(octree representation and its corresponding b tree structure c input image of an object on a) +(Depth estimation)
+      +(printed page 625) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '625'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: octree representation and its corresponding (b) tree structure; (c) input image of an object on a turntable;
+        (d)
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.29'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 647
+      pdf_page_number: 648
+      printed_page_label: '626'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(neural networks These are described in two recent surveys Poggi Tosi et al 2021 Section 7) +(printed page 626) --QDF=0
+    - +(neural networks These are described in two recent surveys Poggi Tosi et al 2021 Section 7) +(Depth estimation) +(printed
+      page 626) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '626'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: neural networks. These are described in two recent surveys (Poggi, Tosi et al. 2021, Section 7; Zhao,
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 12.8 Monocular depth estimation
+      figure_ids:
+      - '12.30'
+      - '6.41'
+      - '12.31'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 648
+      pdf_page_number: 649
+      printed_page_label: '627'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(and testing on such closed world datasets is that the network can learn shortcuts such as) +(printed page 627) --QDF=0
+    - +(and testing on such closed world datasets is that the network can learn shortcuts such as) +(Depth estimation) +(printed
+      page 627) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '627'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: and testing on such “closed world” datasets is that the network can learn shortcuts, such as inferring
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.31'
+      - '12.32'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 649
+      pdf_page_number: 650
+      printed_page_label: '628'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(The plane sweep algorithm was first popularized by Collins 1996 and then generalized to a full) +(printed page 628)
+      --QDF=0
+    - +(The plane sweep algorithm was first popularized by Collins 1996 and then generalized to a full) +(Depth estimation)
+      +(printed page 628) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '628'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: The plane sweep algorithm was first popularized by Collins (1996) and then generalized to a full
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 12.9 Additional reading
+      figure_ids:
+      - '12.32'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 650
+      pdf_page_number: 651
+      printed_page_label: '629'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(The topic of monocular depth inference is currently very active Good places to start in addition) +(printed page 629)
+      --QDF=0
+    - +(The topic of monocular depth inference is currently very active Good places to start in addition) +(Depth estimation)
+      +(printed page 629) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '629'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: The topic of monocular depth inference is currently very active. Good places to start, in addition
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 12.10 Exercises
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids:
+      - '12.1'
+  - page:
+      pdf_page_index: 651
+      pdf_page_number: 652
+      printed_page_label: '630'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(formance by visualizing the disparity space image DSI which should be dark for pixels at correct) +(printed page 630)
+      --QDF=0
+    - +(formance by visualizing the disparity space image DSI which should be dark for pixels at correct) +(Depth estimation)
+      +(printed page 630) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '630'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: formance by visualizing the disparity space image (DSI), which should be dark for pixels at correct
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 652
+      pdf_page_number: 653
+      printed_page_label: '631'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(you developed above and use it or better yet a depth map for each source image) +(printed page 631) --QDF=0
+    - +(you developed above and use it or better yet a depth map for each source image) +(Depth estimation) +(printed page
+      631) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '631'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: you developed above and use it (or, better yet, a depth map for each source image) to generate
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 653
+      pdf_page_number: 654
+      printed_page_label: '632'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(cise 12.8 or a different technique such as the one described by Goesele Snavely et al) +(printed page 632) --QDF=0
+    - +(cise 12.8 or a different technique such as the one described by Goesele Snavely et al) +(Depth estimation) +(printed
+      page 632) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '632'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: cise 12.8 or a different technique, such as the one described by Goesele, Snavely et al. (2007), to
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  learning_units: []
+- printed_section_id: '12.1'
+  parent_printed_section_id: '12'
+  title: Epipolar geometry
+  source_heading: 12.1 Epipolar geometry
+  source_location:
+    page:
+      pdf_page_index: 614
+      pdf_page_number: 615
+      printed_page_label: '593'
+    bbox:
+    - 57.188
+    - 598.68
+    - 236.761
+    - 613.968
+  page_range:
+    pdf_page_index_start: 614
+    pdf_page_index_end: 619
+    pdf_page_number_start: 615
+    pdf_page_number_end: 620
+    printed_page_start: '593'
+    printed_page_end: '598'
+  outline:
+  - 12.1.1
+  - 12.1.2
+  retrieval_plan:
+  - page:
+      pdf_page_index: 614
+      pdf_page_number: 615
+      printed_page_label: '593'
+    content_window:
+      start_at:
+        kind: heading
+        value: 12.1 Epipolar geometry
+      end_before: null
+    queries:
+    - +(12.1 Epipolar geometry) +(printed page 593) --QDF=0
+    - +(ter 9 we saw that a variety of search techniques can be used to match pixels) +(Epipolar geometry) +(printed page
+      593) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '593'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: ter 9, we saw that a variety of search techniques can be used to match pixels based on their local
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.1 Epipolar geometry
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - 12.1 Epipolar geometry
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 615
+      pdf_page_number: 616
+      printed_page_label: '594'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(2This makes most sense if the cameras are next to each other although by rotating the) +(printed page 594) --QDF=0
+    - +(2This makes most sense if the cameras are next to each other although by rotating the) +(Epipolar geometry) +(printed
+      page 594) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '594'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 2This makes most sense if the cameras are next to each other, although by rotating the cameras, rectification
+        can be
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 12.1.1 Rectification
+      figure_ids:
+      - '12.3'
+      - '12.4'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 616
+      pdf_page_number: 617
+      printed_page_label: '595'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(images rectified so that epipolar lines are horizontal and in vertical correspondence d final rectification that)
+      +(printed page 595) --QDF=0
+    - +(images rectified so that epipolar lines are horizontal and in vertical correspondence d final rectification that)
+      +(Epipolar geometry) +(printed page 595) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '595'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: images rectified so that epipolar lines are horizontal and in vertical correspondence; (d) final rectification
+        that
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.4'
+      equation_ids:
+      - '12.1'
+      - '12.2'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 617
+      pdf_page_number: 618
+      printed_page_label: '596'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(scene and to measure the photoconsistency of different images as they are re-projected onto these) +(printed page
+      596) --QDF=0
+    - +(scene and to measure the photoconsistency of different images as they are re-projected onto these) +(Epipolar geometry)
+      +(printed page 596) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '596'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: scene and to measure the photoconsistency of different images as they are re-projected onto these
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 12.1.2 Plane sweep
+      figure_ids:
+      - '12.5'
+      - '12.6'
+      - '2.11'
+      equation_ids:
+      - '2.68'
+      - '2.66'
+      - '12.3'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 618
+      pdf_page_number: 619
+      printed_page_label: '597'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(However it is also possible to compute alternative statistics such as robust variance focus or entropy) +(printed
+      page 597) --QDF=0
+    - +(However it is also possible to compute alternative statistics such as robust variance focus or entropy) +(Epipolar
+      geometry) +(printed page 597) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '597'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: However, it is also possible to compute alternative statistics such as robust variance, focus, or entropy
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.6'
+      equation_ids:
+      - '12.4'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 619
+      pdf_page_number: 620
+      printed_page_label: '598'
+    content_window:
+      start_at: null
+      end_before:
+        kind: heading
+        value: 12.2 Sparse correspondence
+    queries:
+    - +(produce a univalued function in disparity space d x y that best describes the shape of) +(printed page 598) --QDF=0
+    - +(produce a univalued function in disparity space d x y that best describes the shape of) +(Epipolar geometry) +(printed
+      page 598) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '598'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: produce a univalued function in disparity space d(x, y) that best describes the shape of the surfaces
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.2 Sparse correspondence
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.5'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  learning_units: []
+- printed_section_id: 12.1.1
+  parent_printed_section_id: '12.1'
+  title: Rectification
+  source_heading: 12.1.1 Rectification
+  source_location:
+    page:
+      pdf_page_index: 615
+      pdf_page_number: 616
+      printed_page_label: '594'
+    bbox:
+    - 114.734
+    - 426.902
+    - 239.346
+    - 439.642
+  page_range:
+    pdf_page_index_start: 615
+    pdf_page_index_end: 617
+    pdf_page_number_start: 616
+    pdf_page_number_end: 618
+    printed_page_start: '594'
+    printed_page_end: '596'
+  outline: []
+  retrieval_plan:
+  - page:
+      pdf_page_index: 615
+      pdf_page_number: 616
+      printed_page_label: '594'
+    content_window:
+      start_at:
+        kind: heading
+        value: 12.1.1 Rectification
+      end_before: null
+    queries:
+    - +(12.1.1 Rectification) +(printed page 594) --QDF=0
+    - +(2This makes most sense if the cameras are next to each other although by rotating the) +(Rectification) +(printed
+      page 594) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '594'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 2This makes most sense if the cameras are next to each other, although by rotating the cameras, rectification
+        can be
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.1.1 Rectification
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - 12.1.1 Rectification
+      figure_ids:
+      - '12.4'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 616
+      pdf_page_number: 617
+      printed_page_label: '595'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(images rectified so that epipolar lines are horizontal and in vertical correspondence d final rectification that)
+      +(printed page 595) --QDF=0
+    - +(images rectified so that epipolar lines are horizontal and in vertical correspondence d final rectification that)
+      +(Rectification) +(printed page 595) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '595'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: images rectified so that epipolar lines are horizontal and in vertical correspondence; (d) final rectification
+        that
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.4'
+      equation_ids:
+      - '12.1'
+      - '12.2'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 617
+      pdf_page_number: 618
+      printed_page_label: '596'
+    content_window:
+      start_at: null
+      end_before:
+        kind: heading
+        value: 12.1.2 Plane sweep
+    queries:
+    - +(work in stereo matching Marr and Poggio 1976 while the concept of a disparity space image) +(printed page 596) --QDF=0
+    - +(work in stereo matching Marr and Poggio 1976 while the concept of a disparity space image) +(Rectification) +(printed
+      page 596) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '596'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: work in stereo matching (Marr and Poggio 1976), while the concept of a disparity space image
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.1.2 Plane sweep
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.5'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  learning_units: []
+- printed_section_id: 12.1.2
+  parent_printed_section_id: '12.1'
+  title: Plane sweep
+  source_heading: 12.1.2 Plane sweep
+  source_location:
+    page:
+      pdf_page_index: 617
+      pdf_page_number: 618
+      printed_page_label: '596'
+    bbox:
+    - 114.734
+    - 392.246
+    - 239.179
+    - 404.986
+  page_range:
+    pdf_page_index_start: 617
+    pdf_page_index_end: 619
+    pdf_page_number_start: 618
+    pdf_page_number_end: 620
+    printed_page_start: '596'
+    printed_page_end: '598'
+  outline: []
+  retrieval_plan:
+  - page:
+      pdf_page_index: 617
+      pdf_page_number: 618
+      printed_page_label: '596'
+    content_window:
+      start_at:
+        kind: heading
+        value: 12.1.2 Plane sweep
+      end_before: null
+    queries:
+    - +(12.1.2 Plane sweep) +(printed page 596) --QDF=0
+    - +(scene and to measure the photoconsistency of different images as they are re-projected onto these) +(Plane sweep)
+      +(printed page 596) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '596'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: scene and to measure the photoconsistency of different images as they are re-projected onto these
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.1.2 Plane sweep
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - 12.1.2 Plane sweep
+      figure_ids:
+      - '12.6'
+      - '2.11'
+      equation_ids:
+      - '2.68'
+      - '2.66'
+      - '12.3'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 618
+      pdf_page_number: 619
+      printed_page_label: '597'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(However it is also possible to compute alternative statistics such as robust variance focus or entropy) +(printed
+      page 597) --QDF=0
+    - +(However it is also possible to compute alternative statistics such as robust variance focus or entropy) +(Plane sweep)
+      +(printed page 597) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '597'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: However, it is also possible to compute alternative statistics such as robust variance, focus, or entropy
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.6'
+      equation_ids:
+      - '12.4'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 619
+      pdf_page_number: 620
+      printed_page_label: '598'
+    content_window:
+      start_at: null
+      end_before:
+        kind: heading
+        value: 12.2 Sparse correspondence
+    queries:
+    - +(produce a univalued function in disparity space d x y that best describes the shape of) +(printed page 598) --QDF=0
+    - +(produce a univalued function in disparity space d x y that best describes the shape of) +(Plane sweep) +(printed page
+      598) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '598'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: produce a univalued function in disparity space d(x, y) that best describes the shape of the surfaces
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.2 Sparse correspondence
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.5'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  learning_units: []
+- printed_section_id: '12.2'
+  parent_printed_section_id: '12'
+  title: Sparse correspondence
+  source_heading: 12.2 Sparse correspondence
+  source_location:
+    page:
+      pdf_page_index: 619
+      pdf_page_number: 620
+      printed_page_label: '598'
+    bbox:
+    - 114.734
+    - 185.522
+    - 333.719
+    - 200.81
+  page_range:
+    pdf_page_index_start: 619
+    pdf_page_index_end: 621
+    pdf_page_number_start: 620
+    pdf_page_number_end: 622
+    printed_page_start: '598'
+    printed_page_end: '600'
+  outline:
+  - 12.2.1
+  retrieval_plan:
+  - page:
+      pdf_page_index: 619
+      pdf_page_number: 620
+      printed_page_label: '598'
+    content_window:
+      start_at:
+        kind: heading
+        value: 12.2 Sparse correspondence
+      end_before: null
+    queries:
+    - +(12.2 Sparse correspondence) +(printed page 598) --QDF=0
+    - +(more closely spaced frames are available it is possible to fit a local circular arc to) +(Sparse correspondence) +(printed
+      page 598) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '598'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: more closely spaced frames are available, it is possible to fit a local circular arc to the locations of
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.2 Sparse correspondence
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - 12.2 Sparse correspondence
+      - 12.2.1 3D curves and profiles
+      figure_ids:
+      - '12.7'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 620
+      pdf_page_number: 621
+      printed_page_label: '599'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(circular arc fitting in the epipolar plane b synthetic example of an ellipsoid with a truncated) +(printed page 599)
+      --QDF=0
+    - +(circular arc fitting in the epipolar plane b synthetic example of an ellipsoid with a truncated) +(Sparse correspondence)
+      +(printed page 599) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '599'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: circular arc fitting in the epipolar plane; (b) synthetic example of an ellipsoid with a truncated side and elliptic
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.7'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 621
+      pdf_page_number: 622
+      printed_page_label: '600'
+    content_window:
+      start_at: null
+      end_before:
+        kind: heading
+        value: 12.3 Dense correspondence
+    queries:
+    - +(even recover camera pose with untextured backgrounds When the thin structures being modeled) +(printed page 600) --QDF=0
+    - +(even recover camera pose with untextured backgrounds When the thin structures being modeled) +(Sparse correspondence)
+      +(printed page 600) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '600'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: even recover camera pose with untextured backgrounds. When the thin structures being modeled
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.3 Dense correspondence
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  learning_units: []
+- printed_section_id: 12.2.1
+  parent_printed_section_id: '12.2'
+  title: 3D curves and profiles
+  source_heading: 12.2.1 3D curves and profiles
+  source_location:
+    page:
+      pdf_page_index: 619
+      pdf_page_number: 620
+      printed_page_label: '598'
+    bbox:
+    - 114.734
+    - 479.826
+    - 299.416
+    - 492.566
+  page_range:
+    pdf_page_index_start: 619
+    pdf_page_index_end: 621
+    pdf_page_number_start: 620
+    pdf_page_number_end: 622
+    printed_page_start: '598'
+    printed_page_end: '600'
+  outline: []
+  retrieval_plan:
+  - page:
+      pdf_page_index: 619
+      pdf_page_number: 620
+      printed_page_label: '598'
+    content_window:
+      start_at:
+        kind: heading
+        value: 12.2.1 3D curves and profiles
+      end_before: null
+    queries:
+    - +(12.2.1 3D curves and profiles) +(printed page 598) --QDF=0
+    - +(more closely spaced frames are available it is possible to fit a local circular arc to) +(3D curves and profiles)
+      +(printed page 598) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '598'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: more closely spaced frames are available, it is possible to fit a local circular arc to the locations of
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.2.1 3D curves and profiles
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - 12.2.1 3D curves and profiles
+      figure_ids:
+      - '12.7'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 620
+      pdf_page_number: 621
+      printed_page_label: '599'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(circular arc fitting in the epipolar plane b synthetic example of an ellipsoid with a truncated) +(printed page 599)
+      --QDF=0
+    - +(circular arc fitting in the epipolar plane b synthetic example of an ellipsoid with a truncated) +(3D curves and profiles)
+      +(printed page 599) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '599'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: circular arc fitting in the epipolar plane; (b) synthetic example of an ellipsoid with a truncated side and elliptic
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.7'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 621
+      pdf_page_number: 622
+      printed_page_label: '600'
+    content_window:
+      start_at: null
+      end_before:
+        kind: heading
+        value: 12.3 Dense correspondence
+    queries:
+    - +(even recover camera pose with untextured backgrounds When the thin structures being modeled) +(printed page 600) --QDF=0
+    - +(even recover camera pose with untextured backgrounds When the thin structures being modeled) +(3D curves and profiles)
+      +(printed page 600) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '600'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: even recover camera pose with untextured backgrounds. When the thin structures being modeled
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.3 Dense correspondence
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  learning_units: []
+- printed_section_id: '12.3'
+  parent_printed_section_id: '12'
+  title: Dense correspondence
+  source_heading: 12.3 Dense correspondence
+  source_location:
+    page:
+      pdf_page_index: 621
+      pdf_page_number: 622
+      printed_page_label: '600'
+    bbox:
+    - 114.734
+    - 165.811
+    - 328.842
+    - 181.099
+  page_range:
+    pdf_page_index_start: 621
+    pdf_page_index_end: 624
+    pdf_page_number_start: 622
+    pdf_page_number_end: 625
+    printed_page_start: '600'
+    printed_page_end: '603'
+  outline:
+  - 12.3.1
+  retrieval_plan:
+  - page:
+      pdf_page_index: 621
+      pdf_page_number: 622
+      printed_page_label: '600'
+    content_window:
+      start_at:
+        kind: heading
+        value: 12.3 Dense correspondence
+      end_before: null
+    queries:
+    - +(12.3 Dense correspondence) +(printed page 600) --QDF=0
+    - +(algorithmic building blocks from which a large set of algorithms can be constructed It is based) +(Dense correspondence)
+      +(printed page 600) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '600'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: algorithmic “building blocks” from which a large set of algorithms can be constructed. It is based
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.3 Dense correspondence
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - 12.3 Dense correspondence
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 622
+      pdf_page_number: 623
+      printed_page_label: '601'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(briefly review the similarity measures introduced in Section 9.1 and mention a few others that have) +(printed page
+      601) --QDF=0
+    - +(briefly review the similarity measures introduced in Section 9.1 and mention a few others that have) +(Dense correspondence)
+      +(printed page 601) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '601'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: briefly review the similarity measures introduced in Section 9.1 and mention a few others that have
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 12.3.1 Similarity measures
+      figure_ids: []
+      equation_ids:
+      - '9.2'
+      - '9.11'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 623
+      pdf_page_number: 624
+      printed_page_label: '602'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(areas Birchfield and Tomasi 1998 proposed a matching cost that is less sensitive to shifts in) +(printed page 602)
+      --QDF=0
+    - +(areas Birchfield and Tomasi 1998 proposed a matching cost that is less sensitive to shifts in) +(Dense correspondence)
+      +(printed page 602) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '602'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: areas, Birchfield and Tomasi (1998) proposed a matching cost that is less sensitive to shifts in image
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.8'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 624
+      pdf_page_number: 625
+      printed_page_label: '603'
+    content_window:
+      start_at: null
+      end_before:
+        kind: heading
+        value: 12.4 Local methods
+    queries:
+    - +(non-shifted windows in the same neighborhood For clarity only three of the neighboring shifted windows are) +(printed
+      page 603) --QDF=0
+    - +(non-shifted windows in the same neighborhood For clarity only three of the neighboring shifted windows are) +(Dense
+      correspondence) +(printed page 603) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '603'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: (non-shifted) windows in the same neighborhood. (For clarity, only three of the neighboring shifted windows are
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.4 Local methods
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.9'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  learning_units: []
+- printed_section_id: 12.3.1
+  parent_printed_section_id: '12.3'
+  title: Similarity measures
+  source_heading: 12.3.1 Similarity measures
+  source_location:
+    page:
+      pdf_page_index: 622
+      pdf_page_number: 623
+      printed_page_label: '601'
+    bbox:
+    - 57.188
+    - 323.265
+    - 225.728
+    - 336.005
+  page_range:
+    pdf_page_index_start: 622
+    pdf_page_index_end: 624
+    pdf_page_number_start: 623
+    pdf_page_number_end: 625
+    printed_page_start: '601'
+    printed_page_end: '603'
+  outline: []
+  retrieval_plan:
+  - page:
+      pdf_page_index: 622
+      pdf_page_number: 623
+      printed_page_label: '601'
+    content_window:
+      start_at:
+        kind: heading
+        value: 12.3.1 Similarity measures
+      end_before: null
+    queries:
+    - +(12.3.1 Similarity measures) +(printed page 601) --QDF=0
+    - +(briefly review the similarity measures introduced in Section 9.1 and mention a few others that have) +(Similarity
+      measures) +(printed page 601) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '601'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: briefly review the similarity measures introduced in Section 9.1 and mention a few others that have
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.3.1 Similarity measures
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - 12.3.1 Similarity measures
+      figure_ids: []
+      equation_ids:
+      - '9.2'
+      - '9.11'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 623
+      pdf_page_number: 624
+      printed_page_label: '602'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(areas Birchfield and Tomasi 1998 proposed a matching cost that is less sensitive to shifts in) +(printed page 602)
+      --QDF=0
+    - +(areas Birchfield and Tomasi 1998 proposed a matching cost that is less sensitive to shifts in) +(Similarity measures)
+      +(printed page 602) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '602'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: areas, Birchfield and Tomasi (1998) proposed a matching cost that is less sensitive to shifts in image
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.8'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 624
+      pdf_page_number: 625
+      printed_page_label: '603'
+    content_window:
+      start_at: null
+      end_before:
+        kind: heading
+        value: 12.4 Local methods
+    queries:
+    - +(non-shifted windows in the same neighborhood For clarity only three of the neighboring shifted windows are) +(printed
+      page 603) --QDF=0
+    - +(non-shifted windows in the same neighborhood For clarity only three of the neighboring shifted windows are) +(Similarity
+      measures) +(printed page 603) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '603'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: (non-shifted) windows in the same neighborhood. (For clarity, only three of the neighboring shifted windows are
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.4 Local methods
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.9'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  learning_units: []
+- printed_section_id: '12.4'
+  parent_printed_section_id: '12'
+  title: Local methods
+  source_heading: 12.4 Local methods
+  source_location:
+    page:
+      pdf_page_index: 624
+      pdf_page_number: 625
+      printed_page_label: '603'
+    bbox:
+    - 57.188
+    - 242.461
+    - 210.113
+    - 257.749
+  page_range:
+    pdf_page_index_start: 624
+    pdf_page_index_end: 627
+    pdf_page_number_start: 625
+    pdf_page_number_end: 628
+    printed_page_start: '603'
+    printed_page_end: '606'
+  outline:
+  - 12.4.1
+  - 12.4.2
+  retrieval_plan:
+  - page:
+      pdf_page_index: 624
+      pdf_page_number: 625
+      printed_page_label: '603'
+    content_window:
+      start_at:
+        kind: heading
+        value: 12.4 Local methods
+      end_before: null
+    queries:
+    - +(12.4 Local methods) +(printed page 603) --QDF=0
+    - +(native method for aggregation is iterative diffusion i.e repeatedly adding to each pixel s cost the) +(Local methods)
+      +(printed page 603) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '603'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: native method for aggregation is iterative diffusion, i.e., repeatedly adding to each pixel’s cost the
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.4 Local methods
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - 12.4 Local methods
+      figure_ids:
+      - '12.9'
+      - '12.10'
+      equation_ids:
+      - '12.5'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 625
+      pdf_page_number: 626
+      printed_page_label: '604'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(5Extensive results from Tombari Mattoccia et al 2008 can be found at http www.vision.deis.unibo.it spe) +(printed
+      page 604) --QDF=0
+    - +(5Extensive results from Tombari Mattoccia et al 2008 can be found at http www.vision.deis.unibo.it spe) +(Local methods)
+      +(printed page 604) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '604'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 5Extensive results from Tombari, Mattoccia et al. (2008) can be found at http://www.vision.deis.unibo.it/spe.
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 12.4.1 Sub-pixel estimation and uncertainty
+      figure_ids:
+      - '12.10'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 626
+      pdf_page_number: 627
+      printed_page_label: '605'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(to-left disparity maps Fua 1993 A median filter can be applied to clean up spurious mismatches) +(printed page 605)
+      --QDF=0
+    - +(to-left disparity maps Fua 1993 A median filter can be applied to clean up spurious mismatches) +(Local methods) +(printed
+      page 605) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '605'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: to-left disparity maps (Fua 1993). A median filter can be applied to clean up spurious mismatches,
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - '12.4.2 Application: Stereo-based head tracking'
+      figure_ids:
+      - '12.11'
+      equation_ids:
+      - '12.6'
+      - '9.37'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 627
+      pdf_page_number: 628
+      printed_page_label: '606'
+    content_window:
+      start_at: null
+      end_before:
+        kind: heading
+        value: 12.5 Global optimization
+    queries:
+    - +(view to be constructed right at the position where they are looking resulting in virtual eye) +(printed page 606)
+      --QDF=0
+    - +(view to be constructed right at the position where they are looking resulting in virtual eye) +(Local methods) +(printed
+      page 606) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '606'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: view to be constructed right at the position where they are looking, resulting in virtual eye contact.
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.5 Global optimization
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  learning_units: []
+- printed_section_id: 12.4.1
+  parent_printed_section_id: '12.4'
+  title: Sub-pixel estimation and uncertainty
+  source_heading: 12.4.1 Sub-pixel estimation and uncertainty
+  source_location:
+    page:
+      pdf_page_index: 625
+      pdf_page_number: 626
+      printed_page_label: '604'
+    bbox:
+    - 114.734
+    - 502.173
+    - 386.019
+    - 514.913
+  page_range:
+    pdf_page_index_start: 625
+    pdf_page_index_end: 626
+    pdf_page_number_start: 626
+    pdf_page_number_end: 627
+    printed_page_start: '604'
+    printed_page_end: '605'
+  outline: []
+  retrieval_plan:
+  - page:
+      pdf_page_index: 625
+      pdf_page_number: 626
+      printed_page_label: '604'
+    content_window:
+      start_at:
+        kind: heading
+        value: 12.4.1 Sub-pixel estimation and uncertainty
+      end_before: null
+    queries:
+    - +(12.4.1 Sub-pixel estimation and uncertainty) +(printed page 604) --QDF=0
+    - +(5Extensive results from Tombari Mattoccia et al 2008 can be found at http www.vision.deis.unibo.it spe) +(Sub-pixel
+      estimation and uncertainty) +(printed page 604) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '604'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 5Extensive results from Tombari, Mattoccia et al. (2008) can be found at http://www.vision.deis.unibo.it/spe.
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.4.1 Sub-pixel estimation and uncertainty
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - 12.4.1 Sub-pixel estimation and uncertainty
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 626
+      pdf_page_number: 627
+      printed_page_label: '605'
+    content_window:
+      start_at: null
+      end_before:
+        kind: heading
+        value: '12.4.2 Application: Stereo-based head tracking'
+    queries:
+    - +(to-left disparity maps Fua 1993 A median filter can be applied to clean up spurious mismatches) +(printed page 605)
+      --QDF=0
+    - +(to-left disparity maps Fua 1993 A median filter can be applied to clean up spurious mismatches) +(Sub-pixel estimation
+      and uncertainty) +(printed page 605) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '605'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: to-left disparity maps (Fua 1993). A median filter can be applied to clean up spurious mismatches,
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: '12.4.2 Application: Stereo-based head tracking'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.11'
+      equation_ids:
+      - '12.6'
+      - '9.37'
+      example_ids: []
+      table_ids: []
+  learning_units: []
+- printed_section_id: 12.4.2
+  parent_printed_section_id: '12.4'
+  title: 'Application: Stereo-based head tracking'
+  source_heading: '12.4.2 Application: Stereo-based head tracking'
+  source_location:
+    page:
+      pdf_page_index: 626
+      pdf_page_number: 627
+      printed_page_label: '605'
+    bbox:
+    - 57.188
+    - 643.81
+    - 350.401
+    - 656.586
+  page_range:
+    pdf_page_index_start: 626
+    pdf_page_index_end: 627
+    pdf_page_number_start: 627
+    pdf_page_number_end: 628
+    printed_page_start: '605'
+    printed_page_end: '606'
+  outline: []
+  retrieval_plan:
+  - page:
+      pdf_page_index: 626
+      pdf_page_number: 627
+      printed_page_label: '605'
+    content_window:
+      start_at:
+        kind: heading
+        value: '12.4.2 Application: Stereo-based head tracking'
+      end_before: null
+    queries:
+    - +(12.4.2 Application Stereo-based head tracking) +(printed page 605) --QDF=0
+    - +(et al 2000 Once recovered this information can be used in a variety of applications including) +(Application Stereo-based
+      head tracking) +(printed page 605) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '605'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: et al. 2000). Once recovered, this information can be used in a variety of applications, including
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: '12.4.2 Application: Stereo-based head tracking'
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - '12.4.2 Application: Stereo-based head tracking'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 627
+      pdf_page_number: 628
+      printed_page_label: '606'
+    content_window:
+      start_at: null
+      end_before:
+        kind: heading
+        value: 12.5 Global optimization
+    queries:
+    - +(view to be constructed right at the position where they are looking resulting in virtual eye) +(printed page 606)
+      --QDF=0
+    - +(view to be constructed right at the position where they are looking resulting in virtual eye) +(Application Stereo-based
+      head tracking) +(printed page 606) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '606'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: view to be constructed right at the position where they are looking, resulting in virtual eye contact.
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.5 Global optimization
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  learning_units: []
+- printed_section_id: '12.5'
+  parent_printed_section_id: '12'
+  title: Global optimization
+  source_heading: 12.5 Global optimization
+  source_location:
+    page:
+      pdf_page_index: 627
+      pdf_page_number: 628
+      printed_page_label: '606'
+    bbox:
+    - 114.734
+    - 397.193
+    - 301.63
+    - 412.481
+  page_range:
+    pdf_page_index_start: 627
+    pdf_page_index_end: 633
+    pdf_page_number_start: 628
+    pdf_page_number_end: 634
+    printed_page_start: '606'
+    printed_page_end: '612'
+  outline:
+  - 12.5.1
+  - 12.5.2
+  - 12.5.3
+  - Cooperative algorithms.
+  - Coarse-to-fine and incremental warping.
+  - Local plane sweeps.
+  retrieval_plan:
+  - page:
+      pdf_page_index: 627
+      pdf_page_number: 628
+      printed_page_label: '606'
+    content_window:
+      start_at:
+        kind: heading
+        value: 12.5 Global optimization
+      end_before: null
+    queries:
+    - +(12.5 Global optimization) +(printed page 606) --QDF=0
+    - +(minimization framework where as we saw in Chapters 4 4.24 4.27 and 9 the objective is) +(Global optimization) +(printed
+      page 606) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '606'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: minimization framework, where, as we saw in Chapters 4 (4.24–4.27) and 9, the objective is to find
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.5 Global optimization
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - 12.5 Global optimization
+      figure_ids: []
+      equation_ids:
+      - '12.7'
+      - '12.8'
+      - '12.9'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 628
+      pdf_page_number: 629
+      printed_page_label: '607'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(Below we describe some related techniques that are of historical interest run faster or are tailored) +(printed page
+      607) --QDF=0
+    - +(Below we describe some related techniques that are of historical interest run faster or are tailored) +(Global optimization)
+      +(printed page 607) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '607'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Below, we describe some related techniques that are of historical interest, run faster, or are tailored
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - Cooperative algorithms.
+      figure_ids: []
+      equation_ids:
+      - '12.10'
+      - '4.47'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 629
+      pdf_page_number: 630
+      printed_page_label: '608'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(also possible to model the scene using a collection of slanted planes which is beneficial if) +(printed page 608)
+      --QDF=0
+    - +(also possible to model the scene using a collection of slanted planes which is beneficial if) +(Global optimization)
+      +(printed page 608) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '608'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: also possible to model the scene using a collection of slanted planes, which is beneficial if the scene
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - Coarse-to-fine and incremental warping.
+      - Local plane sweeps.
+      - 12.5.1 Dynamic programming
+      figure_ids:
+      - '12.12'
+      equation_ids:
+      - '12.7'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 630
+      pdf_page_number: 631
+      printed_page_label: '609'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(the matrix Matches are indicated by M while partially occluded points which have a fixed cost) +(printed page 609)
+      --QDF=0
+    - +(the matrix Matches are indicated by M while partially occluded points which have a fixed cost) +(Global optimization)
+      +(printed page 609) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '609'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: the matrix. Matches are indicated by M, while partially occluded points (which have a fixed cost) are indicated
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.13'
+      equation_ids:
+      - '12.9'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 631
+      pdf_page_number: 632
+      printed_page_label: '610'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(relaxation or loopy belief propagation in the more recent work of Zitnick and Kang 2007 is) +(printed page 610) --QDF=0
+    - +(relaxation or loopy belief propagation in the more recent work of Zitnick and Kang 2007 is) +(Global optimization)
+      +(printed page 610) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '610'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: relaxation (or loopy belief propagation, in the more recent work of Zitnick and Kang (2007)) is used
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 12.5.2 Segmentation-based techniques
+      figure_ids:
+      - '12.14'
+      - '12.15'
+      equation_ids:
+      - '12.7'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 632
+      pdf_page_number: 633
+      printed_page_label: '611'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(or boundary extraction Hasinoff Kang and Szeliski 2006 is the ability to extract fractional pixel) +(printed page
+      611) --QDF=0
+    - +(or boundary extraction Hasinoff Kang and Szeliski 2006 is the ability to extract fractional pixel) +(Global optimization)
+      +(printed page 611) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '611'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: or boundary extraction (Hasinoff, Kang, and Szeliski 2006), is the ability to extract fractional pixel
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - '12.5.3 Application: Z-keying and background replacement'
+      figure_ids:
+      - '12.15'
+      - '12.16'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 633
+      pdf_page_number: 634
+      printed_page_label: '612'
+    content_window:
+      start_at: null
+      end_before:
+        kind: heading
+        value: 12.6 Deep neural networks
+    queries:
+    - +(depth maps in real time and were therefore restricted to broadcast studio applications Kanade) +(printed page 612)
+      --QDF=0
+    - +(depth maps in real time and were therefore restricted to broadcast studio applications Kanade) +(Global optimization)
+      +(printed page 612) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '612'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: depth maps in real time and were, therefore, restricted to broadcast studio applications (Kanade,
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.6 Deep neural networks
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.17'
+      - '11.28'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  learning_units:
+  - title: Cooperative algorithms.
+    source_heading: Cooperative algorithms.
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 628
+        pdf_page_number: 629
+        printed_page_label: '607'
+      bbox:
+      - 57.188
+      - 666.914
+      - 178.397
+      - 677.53
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 628
+      pdf_page_index_end: 629
+      pdf_page_number_start: 629
+      pdf_page_number_end: 630
+      printed_page_start: '607'
+      printed_page_end: '608'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 628
+        pdf_page_number: 629
+        printed_page_label: '607'
+      content_window:
+        start_at:
+          kind: heading
+          value: Cooperative algorithms.
+        end_before: null
+      queries:
+      - +(Cooperative algorithms) +(printed page 607) --QDF=0
+      - +(stereo vision were among the earliest methods proposed for disparity computation Dev 1974 Marr) +(Cooperative algorithms)
+        +(printed page 607) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '607'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: stereo vision, were among the earliest methods proposed for disparity computation (Dev 1974; Marr
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: Cooperative algorithms.
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - Cooperative algorithms.
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    - page:
+        pdf_page_index: 629
+        pdf_page_number: 630
+        printed_page_label: '608'
+      content_window:
+        start_at: null
+        end_before:
+          kind: heading
+          value: Coarse-to-fine and incremental warping.
+      queries:
+      - +(gorithms In fact for some of these algorithms it is possible to explicitly state a global) +(printed page 608) --QDF=0
+      - +(gorithms In fact for some of these algorithms it is possible to explicitly state a global) +(Cooperative algorithms)
+        +(printed page 608) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '608'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: gorithms. In fact, for some of these algorithms, it is possible to explicitly state a global function
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: Coarse-to-fine and incremental warping.
+        verification_mode: visual_required
+      coverage:
+        subheadings: []
+        figure_ids:
+        - '12.12'
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: Coarse-to-fine and incremental warping.
+    source_heading: Coarse-to-fine and incremental warping.
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 629
+        pdf_page_number: 630
+        printed_page_label: '608'
+      bbox:
+      - 114.734
+      - 372.701
+      - 320.387
+      - 383.317
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 629
+      pdf_page_index_end: 629
+      pdf_page_number_start: 630
+      pdf_page_number_end: 630
+      printed_page_start: '608'
+      printed_page_end: '608'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 629
+        pdf_page_number: 630
+        printed_page_label: '608'
+      content_window:
+        start_at:
+          kind: heading
+          value: Coarse-to-fine and incremental warping.
+        end_before:
+          kind: heading
+          value: Local plane sweeps.
+      queries:
+      - +(Coarse-to-fine and incremental warping) +(printed page 608) --QDF=0
+      - +(or pyramid approaches have been having a renaissance in modern deep networks applied both to) +(Coarse-to-fine and
+        incremental warping) +(printed page 608) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '608'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: or pyramid approaches have been having a renaissance in modern deep networks, applied both to
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: Coarse-to-fine and incremental warping.
+        verification_mode: visual_required
+      - kind: contains_heading
+        value: Local plane sweeps.
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - Coarse-to-fine and incremental warping.
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: Local plane sweeps.
+    source_heading: Local plane sweeps.
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 629
+        pdf_page_number: 630
+        printed_page_label: '608'
+      bbox:
+      - 114.734
+      - 508.422
+      - 218.789
+      - 519.038
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 629
+      pdf_page_index_end: 629
+      pdf_page_number_start: 630
+      pdf_page_number_end: 630
+      printed_page_start: '608'
+      printed_page_end: '608'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 629
+        pdf_page_number: 630
+        printed_page_label: '608'
+      content_window:
+        start_at:
+          kind: heading
+          value: Local plane sweeps.
+        end_before:
+          kind: heading
+          value: 12.5.1 Dynamic programming
+      queries:
+      - +(Local plane sweeps) +(printed page 608) --QDF=0
+      - +(also possible to model the scene using a collection of slanted planes which is beneficial if) +(Local plane sweeps)
+        +(printed page 608) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '608'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: also possible to model the scene using a collection of slanted planes, which is beneficial if the scene
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: Local plane sweeps.
+        verification_mode: visual_required
+      - kind: contains_heading
+        value: 12.5.1 Dynamic programming
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - Local plane sweeps.
+        figure_ids:
+        - '12.12'
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+- printed_section_id: 12.5.1
+  parent_printed_section_id: '12.5'
+  title: Dynamic programming
+  source_heading: 12.5.1 Dynamic programming
+  source_location:
+    page:
+      pdf_page_index: 629
+      pdf_page_number: 630
+      printed_page_label: '608'
+    bbox:
+    - 114.734
+    - 631.351
+    - 301.389
+    - 644.091
+  page_range:
+    pdf_page_index_start: 629
+    pdf_page_index_end: 631
+    pdf_page_number_start: 630
+    pdf_page_number_end: 632
+    printed_page_start: '608'
+    printed_page_end: '610'
+  outline: []
+  retrieval_plan:
+  - page:
+      pdf_page_index: 629
+      pdf_page_number: 630
+      printed_page_label: '608'
+    content_window:
+      start_at:
+        kind: heading
+        value: 12.5.1 Dynamic programming
+      end_before: null
+    queries:
+    - +(12.5.1 Dynamic programming) +(printed page 608) --QDF=0
+    - +(scanlines in polynomial time Dynamic programming was first used for stereo vision in sparse) +(Dynamic programming)
+      +(printed page 608) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '608'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: scanlines in polynomial time. Dynamic programming was first used for stereo vision in sparse,
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.5.1 Dynamic programming
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - 12.5.1 Dynamic programming
+      figure_ids: []
+      equation_ids:
+      - '12.7'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 630
+      pdf_page_number: 631
+      printed_page_label: '609'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(the matrix Matches are indicated by M while partially occluded points which have a fixed cost) +(printed page 609)
+      --QDF=0
+    - +(the matrix Matches are indicated by M while partially occluded points which have a fixed cost) +(Dynamic programming)
+      +(printed page 609) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '609'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: the matrix. Matches are indicated by M, while partially occluded points (which have a fixed cost) are indicated
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.13'
+      equation_ids:
+      - '12.9'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 631
+      pdf_page_number: 632
+      printed_page_label: '610'
+    content_window:
+      start_at: null
+      end_before:
+        kind: heading
+        value: 12.5.2 Segmentation-based techniques
+    queries:
+    - +(Haubold et al 2014 show that SGM is equivalent to early stopping for a particular variant) +(printed page 610) --QDF=0
+    - +(Haubold et al 2014 show that SGM is equivalent to early stopping for a particular variant) +(Dynamic programming)
+      +(printed page 610) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '610'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Haubold et al. (2014) show that SGM is equivalent to early stopping for a particular variant of
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.5.2 Segmentation-based techniques
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.14'
+      equation_ids:
+      - '12.7'
+      example_ids: []
+      table_ids: []
+  learning_units: []
+- printed_section_id: 12.5.2
+  parent_printed_section_id: '12.5'
+  title: Segmentation-based techniques
+  source_heading: 12.5.2 Segmentation-based techniques
+  source_location:
+    page:
+      pdf_page_index: 631
+      pdf_page_number: 632
+      printed_page_label: '610'
+    bbox:
+    - 114.734
+    - 455.544
+    - 358.859
+    - 468.284
+  page_range:
+    pdf_page_index_start: 631
+    pdf_page_index_end: 632
+    pdf_page_number_start: 632
+    pdf_page_number_end: 633
+    printed_page_start: '610'
+    printed_page_end: '611'
+  outline: []
+  retrieval_plan:
+  - page:
+      pdf_page_index: 631
+      pdf_page_number: 632
+      printed_page_label: '610'
+    content_window:
+      start_at:
+        kind: heading
+        value: 12.5.2 Segmentation-based techniques
+      end_before: null
+    queries:
+    - +(12.5.2 Segmentation-based techniques) +(printed page 610) --QDF=0
+    - +(relaxation or loopy belief propagation in the more recent work of Zitnick and Kang 2007 is) +(Segmentation-based techniques)
+      +(printed page 610) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '610'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: relaxation (or loopy belief propagation, in the more recent work of Zitnick and Kang (2007)) is used
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.5.2 Segmentation-based techniques
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - 12.5.2 Segmentation-based techniques
+      figure_ids:
+      - '12.14'
+      - '12.15'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 632
+      pdf_page_number: 633
+      printed_page_label: '611'
+    content_window:
+      start_at: null
+      end_before:
+        kind: heading
+        value: '12.5.3 Application: Z-keying and background replacement'
+    queries:
+    - +(or boundary extraction Hasinoff Kang and Szeliski 2006 is the ability to extract fractional pixel) +(printed page
+      611) --QDF=0
+    - +(or boundary extraction Hasinoff Kang and Szeliski 2006 is the ability to extract fractional pixel) +(Segmentation-based
+      techniques) +(printed page 611) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '611'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: or boundary extraction (Hasinoff, Kang, and Szeliski 2006), is the ability to extract fractional pixel
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: '12.5.3 Application: Z-keying and background replacement'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.15'
+      - '12.16'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  learning_units: []
+- printed_section_id: 12.5.3
+  parent_printed_section_id: '12.5'
+  title: 'Application: Z-keying and background replacement'
+  source_heading: '12.5.3 Application: Z-keying and background replacement'
+  source_location:
+    page:
+      pdf_page_index: 632
+      pdf_page_number: 633
+      printed_page_label: '611'
+    bbox:
+    - 57.188
+    - 657.351
+    - 416.494
+    - 670.127
+  page_range:
+    pdf_page_index_start: 632
+    pdf_page_index_end: 633
+    pdf_page_number_start: 633
+    pdf_page_number_end: 634
+    printed_page_start: '611'
+    printed_page_end: '612'
+  outline: []
+  retrieval_plan:
+  - page:
+      pdf_page_index: 632
+      pdf_page_number: 633
+      printed_page_label: '611'
+    content_window:
+      start_at:
+        kind: heading
+        value: '12.5.3 Application: Z-keying and background replacement'
+      end_before: null
+    queries:
+    - +(12.5.3 Application Z-keying and background replacement) +(printed page 611) --QDF=0
+    - +(foreground actor from the background using depth information usually for the purpose of replacing) +(Application Z-keying
+      and background replacement) +(printed page 611) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '611'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: foreground actor from the background using depth information, usually for the purpose of replacing
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: '12.5.3 Application: Z-keying and background replacement'
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - '12.5.3 Application: Z-keying and background replacement'
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 633
+      pdf_page_number: 634
+      printed_page_label: '612'
+    content_window:
+      start_at: null
+      end_before:
+        kind: heading
+        value: 12.6 Deep neural networks
+    queries:
+    - +(depth maps in real time and were therefore restricted to broadcast studio applications Kanade) +(printed page 612)
+      --QDF=0
+    - +(depth maps in real time and were therefore restricted to broadcast studio applications Kanade) +(Application Z-keying
+      and background replacement) +(printed page 612) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '612'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: depth maps in real time and were, therefore, restricted to broadcast studio applications (Kanade,
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.6 Deep neural networks
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.17'
+      - '11.28'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  learning_units: []
+- printed_section_id: '12.6'
+  parent_printed_section_id: '12'
+  title: Deep neural networks
+  source_heading: 12.6 Deep neural networks
+  source_location:
+    page:
+      pdf_page_index: 633
+      pdf_page_number: 634
+      printed_page_label: '612'
+    bbox:
+    - 114.734
+    - 463.164
+    - 318.338
+    - 478.452
+  page_range:
+    pdf_page_index_start: 633
+    pdf_page_index_end: 635
+    pdf_page_number_start: 634
+    pdf_page_number_end: 636
+    printed_page_start: '612'
+    printed_page_end: '614'
+  outline:
+  - Learning in the stereo pipeline
+  - End-to-end learning with 2D architectures
+  - End-to-end learning with 3D architectures
+  retrieval_plan:
+  - page:
+      pdf_page_index: 633
+      pdf_page_number: 634
+      printed_page_label: '612'
+    content_window:
+      start_at:
+        kind: heading
+        value: 12.6 Deep neural networks
+      end_before: null
+    queries:
+    - +(12.6 Deep neural networks) +(printed page 612) --QDF=0
+    - +(As with other areas of computer vision deep neural networks and end-to-end learning have had a) +(Deep neural networks)
+      +(printed page 612) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '612'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: As with other areas of computer vision, deep neural networks and end-to-end learning have had a
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.6 Deep neural networks
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - 12.6 Deep neural networks
+      - Learning in the stereo pipeline
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 634
+      pdf_page_number: 635
+      printed_page_label: '613'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(residual corrections to the original disparities Pang Sun et al 2017 which can also be done) +(printed page 613) --QDF=0
+    - +(residual corrections to the original disparities Pang Sun et al 2017 which can also be done) +(Deep neural networks)
+      +(printed page 613) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '613'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: residual corrections to the original disparities (Pang, Sun et al. 2017), which can also be done in an
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - End-to-end learning with 2D architectures
+      - End-to-end learning with 3D architectures
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 635
+      pdf_page_number: 636
+      printed_page_label: '614'
+    content_window:
+      start_at: null
+      end_before:
+        kind: heading
+        value: 12.7 Multi-view stereo
+    queries:
+    - +(provides very limited training data deep learning methods are still notably absent Poggi Tosi et) +(printed page 614)
+      --QDF=0
+    - +(provides very limited training data deep learning methods are still notably absent Poggi Tosi et) +(Deep neural networks)
+      +(printed page 614) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '614'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: provides very limited training data, deep learning methods are still notably absent. Poggi, Tosi et
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.7 Multi-view stereo
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.18'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  learning_units:
+  - title: Learning in the stereo pipeline
+    source_heading: Learning in the stereo pipeline
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 633
+        pdf_page_number: 634
+        printed_page_label: '612'
+      bbox:
+      - 114.734
+      - 673.123
+      - 268.717
+      - 683.739
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 633
+      pdf_page_index_end: 634
+      pdf_page_number_start: 634
+      pdf_page_number_end: 635
+      printed_page_start: '612'
+      printed_page_end: '613'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 633
+        pdf_page_number: 634
+        printed_page_label: '612'
+      content_window:
+        start_at:
+          kind: heading
+          value: Learning in the stereo pipeline
+        end_before: null
+      queries:
+      - +(Learning in the stereo pipeline) +(printed page 612) --QDF=0
+      - +(ditional stereo pipeline e.g to learn hyperparameters of MRF and CRF stereo models Zhang and) +(Learning in the
+        stereo pipeline) +(printed page 612) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '612'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: ditional stereo pipeline, e.g., to learn hyperparameters of MRF and CRF stereo models (Zhang and
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: Learning in the stereo pipeline
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - Learning in the stereo pipeline
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    - page:
+        pdf_page_index: 634
+        pdf_page_number: 635
+        printed_page_label: '613'
+      content_window:
+        start_at: null
+        end_before:
+          kind: heading
+          value: End-to-end learning with 2D architectures
+      queries:
+      - +(Seitz 2007 Pal Weinman et al 2012 Zbontar and LeCun 2016 were the first to bring) +(printed page 613) --QDF=0
+      - +(Seitz 2007 Pal Weinman et al 2012 Zbontar and LeCun 2016 were the first to bring) +(Learning in the stereo pipeline)
+        +(printed page 613) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '613'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: Seitz 2007; Pal, Weinman et al. 2012). ˇZbontar and LeCun (2016) were the first to bring deep learn-
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: End-to-end learning with 2D architectures
+        verification_mode: visual_required
+      coverage:
+        subheadings: []
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: End-to-end learning with 2D architectures
+    source_heading: End-to-end learning with 2D architectures
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 634
+        pdf_page_number: 635
+        printed_page_label: '613'
+      bbox:
+      - 57.188
+      - 262.437
+      - 267.47
+      - 273.053
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 634
+      pdf_page_index_end: 634
+      pdf_page_number_start: 635
+      pdf_page_number_end: 635
+      printed_page_start: '613'
+      printed_page_end: '613'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 634
+        pdf_page_number: 635
+        printed_page_label: '613'
+      content_window:
+        start_at:
+          kind: heading
+          value: End-to-end learning with 2D architectures
+        end_before:
+          kind: heading
+          value: End-to-end learning with 3D architectures
+      queries:
+      - +(End-to-end learning with 2D architectures) +(printed page 613) --QDF=0
+      - +(residual corrections to the original disparities Pang Sun et al 2017 which can also be done) +(End-to-end learning
+        with 2D architectures) +(printed page 613) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '613'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: residual corrections to the original disparities (Pang, Sun et al. 2017), which can also be done in an
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: End-to-end learning with 2D architectures
+        verification_mode: visual_required
+      - kind: contains_heading
+        value: End-to-end learning with 3D architectures
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - End-to-end learning with 2D architectures
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: End-to-end learning with 3D architectures
+    source_heading: End-to-end learning with 3D architectures
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 634
+        pdf_page_number: 635
+        printed_page_label: '613'
+      bbox:
+      - 57.188
+      - 657.672
+      - 267.47
+      - 668.288
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 634
+      pdf_page_index_end: 635
+      pdf_page_number_start: 635
+      pdf_page_number_end: 636
+      printed_page_start: '613'
+      printed_page_end: '614'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 634
+        pdf_page_number: 635
+        printed_page_label: '613'
+      content_window:
+        start_at:
+          kind: heading
+          value: End-to-end learning with 3D architectures
+        end_before: null
+      queries:
+      - +(End-to-end learning with 3D architectures) +(printed page 613) --QDF=0
+      - +(In other words such architectures explicitly represent the disparity space image DSI while still) +(End-to-end learning
+        with 3D architectures) +(printed page 613) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '613'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: In other words, such architectures explicitly represent the disparity space image (DSI), while still
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: End-to-end learning with 3D architectures
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - End-to-end learning with 3D architectures
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    - page:
+        pdf_page_index: 635
+        pdf_page_number: 636
+        printed_page_label: '614'
+      content_window:
+        start_at: null
+        end_before:
+          kind: heading
+          value: 12.7 Multi-view stereo
+      queries:
+      - +(provides very limited training data deep learning methods are still notably absent Poggi Tosi et) +(printed page
+        614) --QDF=0
+      - +(provides very limited training data deep learning methods are still notably absent Poggi Tosi et) +(End-to-end learning
+        with 3D architectures) +(printed page 614) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '614'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: provides very limited training data, deep learning methods are still notably absent. Poggi, Tosi et
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: 12.7 Multi-view stereo
+        verification_mode: visual_required
+      coverage:
+        subheadings: []
+        figure_ids:
+        - '12.18'
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+- printed_section_id: '12.7'
+  parent_printed_section_id: '12'
+  title: Multi-view stereo
+  source_heading: 12.7 Multi-view stereo
+  source_location:
+    page:
+      pdf_page_index: 635
+      pdf_page_number: 636
+      printed_page_label: '614'
+    bbox:
+    - 114.734
+    - 651.543
+    - 283.576
+    - 666.831
+  page_range:
+    pdf_page_index_start: 635
+    pdf_page_index_end: 647
+    pdf_page_number_start: 636
+    pdf_page_number_end: 648
+    printed_page_start: '614'
+    printed_page_end: '626'
+  outline:
+  - 12.7.1
+  - 12.7.2
+  - 12.7.3
+  retrieval_plan:
+  - page:
+      pdf_page_index: 635
+      pdf_page_number: 636
+      printed_page_label: '614'
+    content_window:
+      start_at:
+        kind: heading
+        value: 12.7 Multi-view stereo
+      end_before: null
+    queries:
+    - +(12.7 Multi-view stereo) +(printed page 614) --QDF=0
+    - +(can significantly improve results In this section we review not only techniques for creating com) +(Multi-view stereo)
+      +(printed page 614) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '614'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: can significantly improve results. In this section, we review not only techniques for creating com-
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.7 Multi-view stereo
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - 12.7 Multi-view stereo
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 636
+      pdf_page_number: 637
+      printed_page_label: '615'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(with velocities slopes proportional to their inverse depth Occlusion and translucency effects can easily be) +(printed
+      page 615) --QDF=0
+    - +(with velocities slopes proportional to their inverse depth Occlusion and translucency effects can easily be) +(Multi-view
+      stereo) +(printed page 615) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '615'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: with velocities (slopes) proportional to their inverse depth. Occlusion (and translucency) effects can easily
+        be
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.19'
+      - '12.20'
+      equation_ids:
+      - '12.4'
+      - '12.11'
+      - '12.1'
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 637
+      pdf_page_number: 638
+      printed_page_label: '616'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(Shiftable windows help mitigate the problems in partially occluded regions and near depth discontinuities The) +(printed
+      page 616) --QDF=0
+    - +(Shiftable windows help mitigate the problems in partially occluded regions and near depth discontinuities The) +(Multi-view
+      stereo) +(printed page 616) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '616'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Shiftable windows help mitigate the problems in partially occluded regions and near depth discontinuities. The
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.20'
+      - '12.21'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 638
+      pdf_page_number: 639
+      printed_page_label: '617'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(clouds Yao Luo et al 2018 2018 Springer The red boxes indicate problem areas where MVSNet) +(printed page 617) --QDF=0
+    - +(clouds Yao Luo et al 2018 2018 Springer The red boxes indicate problem areas where MVSNet) +(Multi-view stereo) +(printed
+      page 617) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '617'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: clouds (Yao, Luo et al. 2018) © 2018 Springer. The red boxes indicate problem areas where MVSNet does better.
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.21'
+      - '12.22'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 639
+      pdf_page_number: 640
+      printed_page_label: '618'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(struction of globally consistent 3D models Seitz Curless et al 2006 This topic has a long) +(printed page 618) --QDF=0
+    - +(struction of globally consistent 3D models Seitz Curless et al 2006 This topic has a long) +(Multi-view stereo) +(printed
+      page 618) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '618'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: struction of globally consistent 3D models (Seitz, Curless et al. 2006). This topic has a long history
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - 12.7.1 Scene flow
+      - 12.7.2 Volumetric and 3D surface reconstruction
+      figure_ids:
+      - '12.23'
+      - '12.24'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 640
+      pdf_page_number: 641
+      printed_page_label: '619'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(more details please consult the full survey paper Seitz Curless et al 2006 as well as) +(printed page 619) --QDF=0
+    - +(more details please consult the full survey paper Seitz Curless et al 2006 as well as) +(Multi-view stereo) +(printed
+      page 619) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '619'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: more details, please consult the full survey paper (Seitz, Curless et al. 2006) as well as more recent
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - Scene representation.
+      figure_ids:
+      - '12.24'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 641
+      pdf_page_number: 642
+      printed_page_label: '620'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(8For outdoor scenes that go to infinity an inverted gridding of space may be preferable Slabaugh) +(printed page 620)
+      --QDF=0
+    - +(8For outdoor scenes that go to infinity an inverted gridding of space may be preferable Slabaugh) +(Multi-view stereo)
+      +(printed page 620) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '620'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 8For outdoor scenes that go to infinity, an inverted gridding of space may be preferable (Slabaugh, Culbertson
+        et al. 2004;
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.25'
+      - '12.24'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 642
+      pdf_page_number: 643
+      printed_page_label: '621'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(stereo pipeline Sch onberger Zheng et al 2016 2016 Springer c thin structures recovered from gradients) +(printed
+      page 621) --QDF=0
+    - +(stereo pipeline Sch onberger Zheng et al 2016 2016 Springer c thin structures recovered from gradients) +(Multi-view
+      stereo) +(printed page 621) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '621'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: stereo pipeline (Sch ̈onberger, Zheng et al. 2016) © 2016 Springer; (c) thin structures recovered from gradients
+        in
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.26'
+      - '14.7'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 643
+      pdf_page_number: 644
+      printed_page_label: '622'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(resolution followed by filtering of conflicting points based on visibility constraints and finally tri) +(printed
+      page 622) --QDF=0
+    - +(resolution followed by filtering of conflicting points based on visibility constraints and finally tri) +(Multi-view
+      stereo) +(printed page 622) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '622'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: resolution, followed by filtering of conflicting points based on visibility constraints, and finally tri-
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - Photoconsistency measure.
+      - Visibility model.
+      figure_ids:
+      - '12.27'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 644
+      pdf_page_number: 645
+      printed_page_label: '623'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(most surfaces of interest are axis-aligned Furukawa Curless et al 2009a b or at related orientations) +(printed page
+      623) --QDF=0
+    - +(most surfaces of interest are axis-aligned Furukawa Curless et al 2009a b or at related orientations) +(Multi-view
+      stereo) +(printed page 623) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '623'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: most surfaces of interest are axis-aligned (Furukawa, Curless et al. 2009a,b) or at related orientations
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - Shape priors.
+      - Reconstruction algorithm.
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 645
+      pdf_page_number: 646
+      printed_page_label: '624'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(et al 2008 or to impose a convex set of constraints on multi-view stereo Kolev and) +(printed page 624) --QDF=0
+    - +(et al 2008 or to impose a convex set of constraints on multi-view stereo Kolev and) +(Multi-view stereo) +(printed
+      page 624) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '624'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: et al. 2008) or to impose a convex set of constraints on multi-view stereo (Kolev and Cremers 2008).
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - Initialization requirements.
+      - Empirical evaluation.
+      - 12.7.3 Shape from silhouettes
+      figure_ids:
+      - '12.28'
+      equation_ids: []
+      example_ids: []
+      table_ids:
+      - '12.1'
+  - page:
+      pdf_page_index: 646
+      pdf_page_number: 647
+      printed_page_label: '625'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(octree representation and its corresponding b tree structure c input image of an object on a) +(printed page 625)
+      --QDF=0
+    - +(octree representation and its corresponding b tree structure c input image of an object on a) +(Multi-view stereo)
+      +(printed page 625) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '625'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: octree representation and its corresponding (b) tree structure; (c) input image of an object on a turntable;
+        (d)
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.29'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 647
+      pdf_page_number: 648
+      printed_page_label: '626'
+    content_window:
+      start_at: null
+      end_before:
+        kind: heading
+        value: 12.8 Monocular depth estimation
+    queries:
+    - +(from the input images This approach can also be combined with high-quality deformable templates) +(printed page 626)
+      --QDF=0
+    - +(from the input images This approach can also be combined with high-quality deformable templates) +(Multi-view stereo)
+      +(printed page 626) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '626'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: from the input images. This approach can also be combined with high-quality deformable templates
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.8 Monocular depth estimation
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.30'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  learning_units: []
+- printed_section_id: 12.7.1
+  parent_printed_section_id: '12.7'
+  title: Scene flow
+  source_heading: 12.7.1 Scene flow
+  source_location:
+    page:
+      pdf_page_index: 639
+      pdf_page_number: 640
+      printed_page_label: '618'
+    bbox:
+    - 114.734
+    - 244.609
+    - 229.255
+    - 257.349
+  page_range:
+    pdf_page_index_start: 639
+    pdf_page_index_end: 639
+    pdf_page_number_start: 640
+    pdf_page_number_end: 640
+    printed_page_start: '618'
+    printed_page_end: '618'
+  outline: []
+  retrieval_plan:
+  - page:
+      pdf_page_index: 639
+      pdf_page_number: 640
+      printed_page_label: '618'
+    content_window:
+      start_at:
+        kind: heading
+        value: 12.7.1 Scene flow
+      end_before:
+        kind: heading
+        value: 12.7.2 Volumetric and 3D surface reconstruction
+    queries:
+    - +(12.7.1 Scene flow) +(printed page 618) --QDF=0
+    - +(has enabled the extension of scene flow algorithms to use this modality as an additional input) +(Scene flow) +(printed
+      page 618) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '618'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: has enabled the extension of scene flow algorithms to use this modality as an additional input (Sun,
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.7.1 Scene flow
+      verification_mode: visual_required
+    - kind: contains_heading
+      value: 12.7.2 Volumetric and 3D surface reconstruction
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - 12.7.1 Scene flow
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  learning_units: []
+- printed_section_id: 12.7.2
+  parent_printed_section_id: '12.7'
+  title: Volumetric and 3D surface reconstruction
+  source_heading: 12.7.2 Volumetric and 3D surface reconstruction
+  source_location:
+    page:
+      pdf_page_index: 639
+      pdf_page_number: 640
+      printed_page_label: '618'
+    bbox:
+    - 114.734
+    - 537.548
+    - 415.198
+    - 550.288
+  page_range:
+    pdf_page_index_start: 639
+    pdf_page_index_end: 645
+    pdf_page_number_start: 640
+    pdf_page_number_end: 646
+    printed_page_start: '618'
+    printed_page_end: '624'
+  outline:
+  - Scene representation.
+  - Photoconsistency measure.
+  - Visibility model.
+  - Shape priors.
+  - Reconstruction algorithm.
+  - Initialization requirements.
+  - Empirical evaluation.
+  retrieval_plan:
+  - page:
+      pdf_page_index: 639
+      pdf_page_number: 640
+      printed_page_label: '618'
+    content_window:
+      start_at:
+        kind: heading
+        value: 12.7.2 Volumetric and 3D surface reconstruction
+      end_before: null
+    queries:
+    - +(12.7.2 Volumetric and 3D surface reconstruction) +(printed page 618) --QDF=0
+    - +(struction of globally consistent 3D models Seitz Curless et al 2006 This topic has a long) +(Volumetric and 3D surface
+      reconstruction) +(printed page 618) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '618'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: struction of globally consistent 3D models (Seitz, Curless et al. 2006). This topic has a long history
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.7.2 Volumetric and 3D surface reconstruction
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - 12.7.2 Volumetric and 3D surface reconstruction
+      figure_ids:
+      - '12.24'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 640
+      pdf_page_number: 641
+      printed_page_label: '619'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(more details please consult the full survey paper Seitz Curless et al 2006 as well as) +(printed page 619) --QDF=0
+    - +(more details please consult the full survey paper Seitz Curless et al 2006 as well as) +(Volumetric and 3D surface
+      reconstruction) +(printed page 619) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '619'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: more details, please consult the full survey paper (Seitz, Curless et al. 2006) as well as more recent
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - Scene representation.
+      figure_ids:
+      - '12.24'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 641
+      pdf_page_number: 642
+      printed_page_label: '620'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(8For outdoor scenes that go to infinity an inverted gridding of space may be preferable Slabaugh) +(printed page 620)
+      --QDF=0
+    - +(8For outdoor scenes that go to infinity an inverted gridding of space may be preferable Slabaugh) +(Volumetric and
+      3D surface reconstruction) +(printed page 620) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '620'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 8For outdoor scenes that go to infinity, an inverted gridding of space may be preferable (Slabaugh, Culbertson
+        et al. 2004;
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.25'
+      - '12.24'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 642
+      pdf_page_number: 643
+      printed_page_label: '621'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(stereo pipeline Sch onberger Zheng et al 2016 2016 Springer c thin structures recovered from gradients) +(printed
+      page 621) --QDF=0
+    - +(stereo pipeline Sch onberger Zheng et al 2016 2016 Springer c thin structures recovered from gradients) +(Volumetric
+      and 3D surface reconstruction) +(printed page 621) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '621'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: stereo pipeline (Sch ̈onberger, Zheng et al. 2016) © 2016 Springer; (c) thin structures recovered from gradients
+        in
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.26'
+      - '14.7'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 643
+      pdf_page_number: 644
+      printed_page_label: '622'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(resolution followed by filtering of conflicting points based on visibility constraints and finally tri) +(printed
+      page 622) --QDF=0
+    - +(resolution followed by filtering of conflicting points based on visibility constraints and finally tri) +(Volumetric
+      and 3D surface reconstruction) +(printed page 622) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '622'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: resolution, followed by filtering of conflicting points based on visibility constraints, and finally tri-
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - Photoconsistency measure.
+      - Visibility model.
+      figure_ids:
+      - '12.27'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 644
+      pdf_page_number: 645
+      printed_page_label: '623'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(most surfaces of interest are axis-aligned Furukawa Curless et al 2009a b or at related orientations) +(printed page
+      623) --QDF=0
+    - +(most surfaces of interest are axis-aligned Furukawa Curless et al 2009a b or at related orientations) +(Volumetric
+      and 3D surface reconstruction) +(printed page 623) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '623'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: most surfaces of interest are axis-aligned (Furukawa, Curless et al. 2009a,b) or at related orientations
+      verification_mode: text_or_visual
+    coverage:
+      subheadings:
+      - Shape priors.
+      - Reconstruction algorithm.
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 645
+      pdf_page_number: 646
+      printed_page_label: '624'
+    content_window:
+      start_at: null
+      end_before:
+        kind: heading
+        value: 12.7.3 Shape from silhouettes
+    queries:
+    - +(and 12.26 Pointers to additional datasets can be found in Mayer Ilg et al 2018 Janai) +(printed page 624) --QDF=0
+    - +(and 12.26 Pointers to additional datasets can be found in Mayer Ilg et al 2018 Janai) +(Volumetric and 3D surface
+      reconstruction) +(printed page 624) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '624'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: and 12.26. Pointers to additional datasets can be found in Mayer, Ilg et al. (2018), Janai, G ̈uney
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.7.3 Shape from silhouettes
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - Initialization requirements.
+      - Empirical evaluation.
+      figure_ids:
+      - '12.28'
+      equation_ids: []
+      example_ids: []
+      table_ids:
+      - '12.1'
+  learning_units:
+  - title: Scene representation.
+    source_heading: Scene representation.
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 640
+        pdf_page_number: 641
+        printed_page_label: '619'
+      bbox:
+      - 57.188
+      - 612.519
+      - 168.556
+      - 623.135
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 640
+      pdf_page_index_end: 643
+      pdf_page_number_start: 641
+      pdf_page_number_end: 644
+      printed_page_start: '619'
+      printed_page_end: '622'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 640
+        pdf_page_number: 641
+        printed_page_label: '619'
+      content_window:
+        start_at:
+          kind: heading
+          value: Scene representation.
+        end_before: null
+      queries:
+      - +(Scene representation) +(printed page 619) --QDF=0
+      - +(into a complete pipeline that includes camera pose estimation per-image depth map or point cloud) +(Scene representation)
+        +(printed page 619) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '619'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: into a complete pipeline that includes camera pose estimation, per-image depth map or point cloud
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: Scene representation.
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - Scene representation.
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    - page:
+        pdf_page_index: 641
+        pdf_page_number: 642
+        printed_page_label: '620'
+      content_window:
+        start_at: null
+        end_before: null
+      queries:
+      - +(8For outdoor scenes that go to infinity an inverted gridding of space may be preferable Slabaugh) +(printed page
+        620) --QDF=0
+      - +(8For outdoor scenes that go to infinity an inverted gridding of space may be preferable Slabaugh) +(Scene representation)
+        +(printed page 620) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '620'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: 8For outdoor scenes that go to infinity, an inverted gridding of space may be preferable (Slabaugh, Culbertson
+          et al. 2004;
+        verification_mode: text_or_visual
+      coverage:
+        subheadings: []
+        figure_ids:
+        - '12.25'
+        - '12.24'
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    - page:
+        pdf_page_index: 642
+        pdf_page_number: 643
+        printed_page_label: '621'
+      content_window:
+        start_at: null
+        end_before: null
+      queries:
+      - +(stereo pipeline Sch onberger Zheng et al 2016 2016 Springer c thin structures recovered from gradients) +(printed
+        page 621) --QDF=0
+      - +(stereo pipeline Sch onberger Zheng et al 2016 2016 Springer c thin structures recovered from gradients) +(Scene
+        representation) +(printed page 621) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '621'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: stereo pipeline (Sch ̈onberger, Zheng et al. 2016) © 2016 Springer; (c) thin structures recovered from gradients
+          in
+        verification_mode: text_or_visual
+      coverage:
+        subheadings: []
+        figure_ids:
+        - '12.26'
+        - '14.7'
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    - page:
+        pdf_page_index: 643
+        pdf_page_number: 644
+        printed_page_label: '622'
+      content_window:
+        start_at: null
+        end_before:
+          kind: heading
+          value: Photoconsistency measure.
+      queries:
+      - +(resolution followed by filtering of conflicting points based on visibility constraints and finally tri) +(printed
+        page 622) --QDF=0
+      - +(resolution followed by filtering of conflicting points based on visibility constraints and finally tri) +(Scene
+        representation) +(printed page 622) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '622'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: resolution, followed by filtering of conflicting points based on visibility constraints, and finally tri-
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: Photoconsistency measure.
+        verification_mode: visual_required
+      coverage:
+        subheadings: []
+        figure_ids:
+        - '12.27'
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: Photoconsistency measure.
+    source_heading: Photoconsistency measure.
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 643
+        pdf_page_number: 644
+        printed_page_label: '622'
+      bbox:
+      - 114.734
+      - 474.512
+      - 255.626
+      - 485.128
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 643
+      pdf_page_index_end: 643
+      pdf_page_number_start: 644
+      pdf_page_number_end: 644
+      printed_page_start: '622'
+      printed_page_end: '622'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 643
+        pdf_page_number: 644
+        printed_page_label: '622'
+      content_window:
+        start_at:
+          kind: heading
+          value: Photoconsistency measure.
+        end_before:
+          kind: heading
+          value: Visibility model.
+      queries:
+      - +(Photoconsistency measure) +(printed page 622) --QDF=0
+      - +(sures can be used to compare pixel values in different images including measures that try to) +(Photoconsistency
+        measure) +(printed page 622) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '622'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: sures can be used to compare pixel values in different images, including measures that try to discount
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: Photoconsistency measure.
+        verification_mode: visual_required
+      - kind: contains_heading
+        value: Visibility model.
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - Photoconsistency measure.
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: Visibility model.
+    source_heading: Visibility model.
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 643
+        pdf_page_number: 644
+        printed_page_label: '622'
+      bbox:
+      - 114.734
+      - 613.404
+      - 195.25
+      - 624.02
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 643
+      pdf_page_index_end: 644
+      pdf_page_number_start: 644
+      pdf_page_number_end: 645
+      printed_page_start: '622'
+      printed_page_end: '623'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 643
+        pdf_page_number: 644
+        printed_page_label: '622'
+      content_window:
+        start_at:
+          kind: heading
+          value: Visibility model.
+        end_before: null
+      queries:
+      - +(Visibility model) +(printed page 622) --QDF=0
+      - +(as using geometric visibility models in the taxonomy of Seitz Curless et al 2006 Techniques that) +(Visibility model)
+        +(printed page 622) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '622'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: as using geometric visibility models in the taxonomy of Seitz, Curless et al. (2006). Techniques that
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: Visibility model.
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - Visibility model.
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    - page:
+        pdf_page_index: 644
+        pdf_page_number: 645
+        printed_page_label: '623'
+      content_window:
+        start_at: null
+        end_before:
+          kind: heading
+          value: Shape priors.
+      queries:
+      - +(traditional robust similarity measures are called outlier-based While full geometric reasoning is the) +(printed
+        page 623) --QDF=0
+      - +(traditional robust similarity measures are called outlier-based While full geometric reasoning is the) +(Visibility
+        model) +(printed page 623) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '623'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: traditional robust similarity measures are called outlier-based. While full geometric reasoning is the
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: Shape priors.
+        verification_mode: visual_required
+      coverage:
+        subheadings: []
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: Shape priors.
+    source_heading: Shape priors.
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 644
+        pdf_page_number: 645
+        printed_page_label: '623'
+      bbox:
+      - 57.188
+      - 151.295
+      - 125.643
+      - 161.911
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 644
+      pdf_page_index_end: 644
+      pdf_page_number_start: 645
+      pdf_page_number_end: 645
+      printed_page_start: '623'
+      printed_page_end: '623'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 644
+        pdf_page_number: 645
+        printed_page_label: '623'
+      content_window:
+        start_at:
+          kind: heading
+          value: Shape priors.
+        end_before:
+          kind: heading
+          value: Reconstruction algorithm.
+      queries:
+      - +(Shape priors) +(printed page 623) --QDF=0
+      - +(most surfaces of interest are axis-aligned Furukawa Curless et al 2009a b or at related orientations) +(Shape priors)
+        +(printed page 623) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '623'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: most surfaces of interest are axis-aligned (Furukawa, Curless et al. 2009a,b) or at related orientations
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: Shape priors.
+        verification_mode: visual_required
+      - kind: contains_heading
+        value: Reconstruction algorithm.
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - Shape priors.
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: Reconstruction algorithm.
+    source_heading: Reconstruction algorithm.
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 644
+        pdf_page_number: 645
+        printed_page_label: '623'
+      bbox:
+      - 57.188
+      - 397.75
+      - 189.227
+      - 408.366
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 644
+      pdf_page_index_end: 645
+      pdf_page_number_start: 645
+      pdf_page_number_end: 646
+      printed_page_start: '623'
+      printed_page_end: '624'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 644
+        pdf_page_number: 645
+        printed_page_label: '623'
+      content_window:
+        start_at:
+          kind: heading
+          value: Reconstruction algorithm.
+        end_before: null
+      queries:
+      - +(Reconstruction algorithm) +(printed page 623) --QDF=0
+      - +(can then be erased as they are already accounted for and therefore do not contribute to) +(Reconstruction algorithm)
+        +(printed page 623) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '623'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: can then be “erased”, as they are already accounted for, and therefore do not contribute to further
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: Reconstruction algorithm.
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - Reconstruction algorithm.
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    - page:
+        pdf_page_index: 645
+        pdf_page_number: 646
+        printed_page_label: '624'
+      content_window:
+        start_at: null
+        end_before:
+          kind: heading
+          value: Initialization requirements.
+      queries:
+      - +(respect to the cameras c d space carving uses multiple sweep directions to deal with more) +(printed page 624) --QDF=0
+      - +(respect to the cameras c d space carving uses multiple sweep directions to deal with more) +(Reconstruction algorithm)
+        +(printed page 624) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '624'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: 'respect to the cameras. (c–d): space carving uses multiple sweep directions to deal with more general camera'
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: Initialization requirements.
+        verification_mode: visual_required
+      coverage:
+        subheadings: []
+        figure_ids:
+        - '12.28'
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: Initialization requirements.
+    source_heading: Initialization requirements.
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 645
+        pdf_page_number: 646
+        printed_page_label: '624'
+      bbox:
+      - 114.734
+      - 396.93
+      - 249.564
+      - 407.546
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 645
+      pdf_page_index_end: 645
+      pdf_page_number_start: 646
+      pdf_page_number_end: 646
+      printed_page_start: '624'
+      printed_page_end: '624'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 645
+        pdf_page_number: 646
+        printed_page_label: '624'
+      content_window:
+        start_at:
+          kind: heading
+          value: Initialization requirements.
+        end_before:
+          kind: heading
+          value: Empirical evaluation.
+      queries:
+      - +(Initialization requirements) +(printed page 624) --QDF=0
+      - +(which can often be obtained by reconstructing a volume from object silhouettes as discussed in) +(Initialization
+        requirements) +(printed page 624) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '624'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: which can often be obtained by reconstructing a volume from object silhouettes, as discussed in
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: Initialization requirements.
+        verification_mode: visual_required
+      - kind: contains_heading
+        value: Empirical evaluation.
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - Initialization requirements.
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids: []
+    children: []
+  - title: Empirical evaluation.
+    source_heading: Empirical evaluation.
+    source_heading_numbered: false
+    source_location:
+      page:
+        pdf_page_index: 645
+        pdf_page_number: 646
+        printed_page_label: '624'
+      bbox:
+      - 114.734
+      - 493.625
+      - 220.126
+      - 504.241
+    source_level: 1
+    page_range:
+      pdf_page_index_start: 645
+      pdf_page_index_end: 645
+      pdf_page_number_start: 646
+      pdf_page_number_end: 646
+      printed_page_start: '624'
+      printed_page_end: '624'
+    outline: []
+    retrieval_plan:
+    - page:
+        pdf_page_index: 645
+        pdf_page_number: 646
+        printed_page_label: '624'
+      content_window:
+        start_at:
+          kind: heading
+          value: Empirical evaluation.
+        end_before:
+          kind: heading
+          value: 12.7.3 Shape from silhouettes
+      queries:
+      - +(Empirical evaluation) +(printed page 624) --QDF=0
+      - +(and 12.26 Pointers to additional datasets can be found in Mayer Ilg et al 2018 Janai) +(Empirical evaluation) +(printed
+        page 624) --QDF=0
+      required_evidence:
+      - kind: printed_page_equals
+        value: '624'
+        verification_mode: visual_required
+      - kind: contains_text
+        value: and 12.26. Pointers to additional datasets can be found in Mayer, Ilg et al. (2018), Janai, G ̈uney
+        verification_mode: text_or_visual
+      - kind: contains_heading
+        value: Empirical evaluation.
+        verification_mode: visual_required
+      - kind: contains_heading
+        value: 12.7.3 Shape from silhouettes
+        verification_mode: visual_required
+      coverage:
+        subheadings:
+        - Empirical evaluation.
+        figure_ids: []
+        equation_ids: []
+        example_ids: []
+        table_ids:
+        - '12.1'
+    children: []
+- printed_section_id: 12.7.3
+  parent_printed_section_id: '12.7'
+  title: Shape from silhouettes
+  source_heading: 12.7.3 Shape from silhouettes
+  source_location:
+    page:
+      pdf_page_index: 645
+      pdf_page_number: 646
+      printed_page_label: '624'
+    bbox:
+    - 114.734
+    - 604.285
+    - 303.519
+    - 617.025
+  page_range:
+    pdf_page_index_start: 645
+    pdf_page_index_end: 647
+    pdf_page_number_start: 646
+    pdf_page_number_end: 648
+    printed_page_start: '624'
+    printed_page_end: '626'
+  outline: []
+  retrieval_plan:
+  - page:
+      pdf_page_index: 645
+      pdf_page_number: 646
+      printed_page_label: '624'
+    content_window:
+      start_at:
+        kind: heading
+        value: 12.7.3 Shape from silhouettes
+      end_before: null
+    queries:
+    - +(12.7.3 Shape from silhouettes) +(printed page 624) --QDF=0
+    - +(et al 2008 or to impose a convex set of constraints on multi-view stereo Kolev and) +(Shape from silhouettes) +(printed
+      page 624) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '624'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: et al. 2008) or to impose a convex set of constraints on multi-view stereo (Kolev and Cremers 2008).
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.7.3 Shape from silhouettes
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - 12.7.3 Shape from silhouettes
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 646
+      pdf_page_number: 647
+      printed_page_label: '625'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(octree representation and its corresponding b tree structure c input image of an object on a) +(printed page 625)
+      --QDF=0
+    - +(octree representation and its corresponding b tree structure c input image of an object on a) +(Shape from silhouettes)
+      +(printed page 625) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '625'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: octree representation and its corresponding (b) tree structure; (c) input image of an object on a turntable;
+        (d)
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.29'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 647
+      pdf_page_number: 648
+      printed_page_label: '626'
+    content_window:
+      start_at: null
+      end_before:
+        kind: heading
+        value: 12.8 Monocular depth estimation
+    queries:
+    - +(from the input images This approach can also be combined with high-quality deformable templates) +(printed page 626)
+      --QDF=0
+    - +(from the input images This approach can also be combined with high-quality deformable templates) +(Shape from silhouettes)
+      +(printed page 626) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '626'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: from the input images. This approach can also be combined with high-quality deformable templates
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.8 Monocular depth estimation
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.30'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  learning_units: []
+- printed_section_id: '12.8'
+  parent_printed_section_id: '12'
+  title: Monocular depth estimation
+  source_heading: 12.8 Monocular depth estimation
+  source_location:
+    page:
+      pdf_page_index: 647
+      pdf_page_number: 648
+      printed_page_label: '626'
+    bbox:
+    - 114.734
+    - 448.973
+    - 363.638
+    - 464.261
+  page_range:
+    pdf_page_index_start: 647
+    pdf_page_index_end: 649
+    pdf_page_number_start: 648
+    pdf_page_number_end: 650
+    printed_page_start: '626'
+    printed_page_end: '628'
+  outline: []
+  retrieval_plan:
+  - page:
+      pdf_page_index: 647
+      pdf_page_number: 648
+      printed_page_label: '626'
+    content_window:
+      start_at:
+        kind: heading
+        value: 12.8 Monocular depth estimation
+      end_before: null
+    queries:
+    - +(12.8 Monocular depth estimation) +(printed page 626) --QDF=0
+    - +(neural networks These are described in two recent surveys Poggi Tosi et al 2021 Section 7) +(Monocular depth estimation)
+      +(printed page 626) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '626'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: neural networks. These are described in two recent surveys (Poggi, Tosi et al. 2021, Section 7; Zhao,
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.8 Monocular depth estimation
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - 12.8 Monocular depth estimation
+      figure_ids:
+      - '6.41'
+      - '12.31'
+      - '12.30'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 648
+      pdf_page_number: 649
+      printed_page_label: '627'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(and testing on such closed world datasets is that the network can learn shortcuts such as) +(printed page 627) --QDF=0
+    - +(and testing on such closed world datasets is that the network can learn shortcuts such as) +(Monocular depth estimation)
+      +(printed page 627) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '627'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: and testing on such “closed world” datasets is that the network can learn shortcuts, such as inferring
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.31'
+      - '12.32'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 649
+      pdf_page_number: 650
+      printed_page_label: '628'
+    content_window:
+      start_at: null
+      end_before:
+        kind: heading
+        value: 12.9 Additional reading
+    queries:
+    - +(Monocular depth map estimates and novel views from images in COCO dataset Ranftl Lasinger) +(printed page 628) --QDF=0
+    - +(Monocular depth map estimates and novel views from images in COCO dataset Ranftl Lasinger) +(Monocular depth estimation)
+      +(printed page 628) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '628'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Monocular depth map estimates and novel views from images in COCO dataset (Ranftl, Lasinger
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.9 Additional reading
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '12.32'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  learning_units: []
+- printed_section_id: '12.9'
+  parent_printed_section_id: '12'
+  title: Additional reading
+  source_heading: 12.9 Additional reading
+  source_location:
+    page:
+      pdf_page_index: 649
+      pdf_page_number: 650
+      printed_page_label: '628'
+    bbox:
+    - 114.734
+    - 368.457
+    - 293.835
+    - 383.745
+  page_range:
+    pdf_page_index_start: 649
+    pdf_page_index_end: 650
+    pdf_page_number_start: 650
+    pdf_page_number_end: 651
+    printed_page_start: '628'
+    printed_page_end: '629'
+  outline: []
+  retrieval_plan:
+  - page:
+      pdf_page_index: 649
+      pdf_page_number: 650
+      printed_page_label: '628'
+    content_window:
+      start_at:
+        kind: heading
+        value: 12.9 Additional reading
+      end_before: null
+    queries:
+    - +(12.9 Additional reading) +(printed page 628) --QDF=0
+    - +(The plane sweep algorithm was first popularized by Collins 1996 and then generalized to a full) +(Additional reading)
+      +(printed page 628) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '628'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: The plane sweep algorithm was first popularized by Collins (1996) and then generalized to a full
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.9 Additional reading
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - 12.9 Additional reading
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 650
+      pdf_page_number: 651
+      printed_page_label: '629'
+    content_window:
+      start_at: null
+      end_before:
+        kind: heading
+        value: 12.10 Exercises
+    queries:
+    - +(The topic of monocular depth inference is currently very active Good places to start in addition) +(printed page 629)
+      --QDF=0
+    - +(The topic of monocular depth inference is currently very active Good places to start in addition) +(Additional reading)
+      +(printed page 629) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '629'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: The topic of monocular depth inference is currently very active. Good places to start, in addition
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.10 Exercises
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids:
+      - '12.1'
+  learning_units: []
+- printed_section_id: '12.10'
+  parent_printed_section_id: '12'
+  title: Exercises
+  source_heading: 12.10 Exercises
+  source_location:
+    page:
+      pdf_page_index: 650
+      pdf_page_number: 651
+      printed_page_label: '629'
+    bbox:
+    - 57.188
+    - 433.602
+    - 181.663
+    - 448.89
+  page_range:
+    pdf_page_index_start: 650
+    pdf_page_index_end: 653
+    pdf_page_number_start: 651
+    pdf_page_number_end: 654
+    printed_page_start: '629'
+    printed_page_end: '632'
+  outline: []
+  retrieval_plan:
+  - page:
+      pdf_page_index: 650
+      pdf_page_number: 651
+      printed_page_label: '629'
+    content_window:
+      start_at:
+        kind: heading
+        value: 12.10 Exercises
+      end_before: null
+    queries:
+    - +(12.10 Exercises) +(printed page 629) --QDF=0
+    - +(Now compare your results to the algorithm proposed by Loop and Zhang 1999 Can you think) +(Exercises) +(printed page
+      629) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '629'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Now compare your results to the algorithm proposed by Loop and Zhang (1999). Can you think of
+      verification_mode: text_or_visual
+    - kind: contains_heading
+      value: 12.10 Exercises
+      verification_mode: visual_required
+    coverage:
+      subheadings:
+      - 12.10 Exercises
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 651
+      pdf_page_number: 652
+      printed_page_label: '630'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(formance by visualizing the disparity space image DSI which should be dark for pixels at correct) +(printed page 630)
+      --QDF=0
+    - +(formance by visualizing the disparity space image DSI which should be dark for pixels at correct) +(Exercises) +(printed
+      page 630) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '630'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: formance by visualizing the disparity space image (DSI), which should be dark for pixels at correct
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 652
+      pdf_page_number: 653
+      printed_page_label: '631'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(you developed above and use it or better yet a depth map for each source image) +(printed page 631) --QDF=0
+    - +(you developed above and use it or better yet a depth map for each source image) +(Exercises) +(printed page 631) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '631'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: you developed above and use it (or, better yet, a depth map for each source image) to generate
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 653
+      pdf_page_number: 654
+      printed_page_label: '632'
+    content_window:
+      start_at: null
+      end_before: null
+    queries:
+    - +(cise 12.8 or a different technique such as the one described by Goesele Snavely et al) +(printed page 632) --QDF=0
+    - +(cise 12.8 or a different technique such as the one described by Goesele Snavely et al) +(Exercises) +(printed page
+      632) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '632'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: cise 12.8 or a different technique, such as the one described by Goesele, Snavely et al. (2007), to
+      verification_mode: text_or_visual
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  learning_units: []

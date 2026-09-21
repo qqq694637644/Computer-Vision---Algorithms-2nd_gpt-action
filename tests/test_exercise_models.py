@@ -54,7 +54,7 @@ def test_compiled_exercise_index_rejects_missing_cross_exercise_reference() -> N
         CompiledExerciseIndex.model_validate(raw)
 
 
-def test_compiled_exercise_index_rejects_reference_cycles() -> None:
+def test_compiled_exercise_index_allows_source_reference_cycles() -> None:
     index = complete_exercise_index()
     raw = index.model_dump(mode="json")
     first_target = raw["exercises"]["2.14"]["reference_targets"][0]
@@ -70,8 +70,9 @@ def test_compiled_exercise_index_rejects_reference_cycles() -> None:
         }
     ]
 
-    with pytest.raises(ValidationError, match="reference cycle"):
-        CompiledExerciseIndex.model_validate(raw)
+    compiled = CompiledExerciseIndex.model_validate(raw)
+    assert compiled.exercises["2.14"].reference_targets[0].target_id == "2.15"
+    assert compiled.exercises["2.15"].reference_targets[0].target_id == "2.14"
 
 
 def test_exercise_repository_loads_strict_package(tmp_path) -> None:

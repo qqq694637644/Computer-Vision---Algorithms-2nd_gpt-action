@@ -1,0 +1,5482 @@
+{
+  "data_version": "3",
+  "sections": {
+    "4": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "4",
+      "printed_section_id": "4",
+      "parent_section_id": null,
+      "title": "Model fitting and optimization",
+      "source_heading": "Chapter 4 Model fitting and optimization",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 172,
+          "pdf_page_number": 173,
+          "printed_page_label": "151"
+        },
+        "bbox": [
+          135.037,
+          151.586,
+          479.191,
+          229.122
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 1,
+      "page_range": {
+        "pdf_page_index_start": 172,
+        "pdf_page_index_end": 205,
+        "pdf_page_number_start": 173,
+        "pdf_page_number_end": 206,
+        "printed_page_start": "151",
+        "printed_page_end": "184"
+      },
+      "outline": [
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 172,
+            "pdf_page_number": 173,
+            "printed_page_label": "151"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "Chapter 4 Model fitting and optimization"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(Chapter 4 Model fitting and optimization) +(printed page 151) --QDF=0",
+            "+(R Szeliski Computer Vision Texts in Computer Science) +(Model fitting and optimization) +(printed page 151) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "151",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "R. Szeliski, Computer Vision, Texts in Computer Science,",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "Chapter 4 Model fitting and optimization",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Chapter 4 Model fitting and optimization"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 173,
+            "pdf_page_number": 174,
+            "printed_page_label": "152"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(formulated as an unordered label MRF Agarwala Dontcheva et al 2004 2004 ACM) +(printed page 152) --QDF=0",
+            "+(formulated as an unordered label MRF Agarwala Dontcheva et al 2004 2004 ACM) +(Model fitting and optimization) +(printed page 152) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "152",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "formulated as an unordered label MRF (Agarwala, Dontcheva et al. 2004) © 2004 ACM.",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.1"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 174,
+            "pdf_page_number": 175,
+            "printed_page_label": "153"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(tion this class of techniques are often called regularization or energy-based approaches To find the) +(printed page 153) --QDF=0",
+            "+(tion this class of techniques are often called regularization or energy-based approaches To find the) +(Model fitting and optimization) +(printed page 153) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "153",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "tion, this class of techniques are often called regularization or energy-based approaches. To find the",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.1 Scattered data interpolation"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.1",
+              "4.2"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 4,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 175,
+            "pdf_page_number": 176,
+            "printed_page_label": "154"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(widely used planar triangulation technique due to its attractive computational properties such as the) +(printed page 154) --QDF=0",
+            "+(widely used planar triangulation technique due to its attractive computational properties such as the) +(Model fitting and optimization) +(printed page 154) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "154",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "widely used planar triangulation technique due to its attractive computational properties, such as the",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.2"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 5,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 176,
+            "pdf_page_number": 177,
+            "printed_page_label": "155"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(phase values and weights are computed at a hierarchical set of lower resolution grids by combining) +(printed page 155) --QDF=0",
+            "+(phase values and weights are computed at a hierarchical set of lower resolution grids by combining) +(Model fitting and optimization) +(printed page 155) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "155",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "phase, values and weights are computed at a hierarchical set of lower resolution grids by combining",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.1.1 Radial basis functions"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "3.64",
+              "4.3",
+              "4.4",
+              "4.5",
+              "4.6",
+              "4.7",
+              "4.19"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 6,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 177,
+            "pdf_page_number": 178,
+            "printed_page_label": "156"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(technique is called lasso least absolute shrinkage and selection operator since for sufficiently large) +(printed page 156) --QDF=0",
+            "+(technique is called lasso least absolute shrinkage and selection operator since for sufficiently large) +(Model fitting and optimization) +(printed page 156) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "156",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "technique is called lasso (least absolute shrinkage and selection operator), since for sufficiently large",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.1",
+              "4.8",
+              "4.2",
+              "4.9",
+              "4.10",
+              "4.11",
+              "4.12"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 7,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 178,
+            "pdf_page_number": 179,
+            "printed_page_label": "157"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(curves we see that choosing a good intermediate value of will produce the best result In) +(printed page 157) --QDF=0",
+            "+(curves we see that choosing a good intermediate value of will produce the best result In) +(Model fitting and optimization) +(printed page 157) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "157",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "curves, we see that choosing a good intermediate value of λ will produce the best result. In practice,",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.1.2 Overfitting and underfitting"
+            ],
+            "figure_ids": [
+              "4.3",
+              "4.4"
+            ],
+            "equation_ids": [
+              "4.13",
+              "4.14",
+              "4.12",
+              "4.9",
+              "4.11"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 8,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 179,
+            "pdf_page_number": 180,
+            "printed_page_label": "158"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(The left plot shows a reasonable amount of regularization resulting in a plausible fit while the) +(printed page 158) --QDF=0",
+            "+(The left plot shows a reasonable amount of regularization resulting in a plausible fit while the) +(Model fitting and optimization) +(printed page 158) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "158",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "The left plot shows a reasonable amount of regularization, resulting in a plausible fit, while the larger value of λ",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.3",
+              "4.4"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 9,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 180,
+            "pdf_page_number": 181,
+            "printed_page_label": "159"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(curve than the less heavily regularized version log 2.4 which has much higher variance Bishop 2006) +(printed page 159) --QDF=0",
+            "+(curve than the less heavily regularized version log 2.4 which has much higher variance Bishop 2006) +(Model fitting and optimization) +(printed page 159) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "159",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "curve) than the less heavily regularized version (log λ = −2.4), which has much higher variance (Bishop 2006)",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.5",
+              "4.6"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 10,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 181,
+            "pdf_page_number": 182,
+            "printed_page_label": "160"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(Zhang Lipton et al 2021 Section 4.4.2 splits the training data into K folds equal sized) +(printed page 160) --QDF=0",
+            "+(Zhang Lipton et al 2021 Section 4.4.2 splits the training data into K folds equal sized) +(Model fitting and optimization) +(printed page 160) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "160",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Zhang, Lipton et al. 2021, Section 4.4.2), splits the training data into K folds (equal sized pieces).",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.1.3 Robust data fitting"
+            ],
+            "figure_ids": [
+              "4.5",
+              "4.6",
+              "4.7"
+            ],
+            "equation_ids": [
+              "4.9",
+              "4.2",
+              "4.15"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 11,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 182,
+            "pdf_page_number": 183,
+            "printed_page_label": "161"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(residuals making such an algorithm self-tuning to a wide variety of noise levels and outlier distri) +(printed page 161) --QDF=0",
+            "+(residuals making such an algorithm self-tuning to a wide variety of noise levels and outlier distri) +(Model fitting and optimization) +(printed page 161) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "161",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "residuals, making such an algorithm self-tuning to a wide variety of noise levels and outlier distri-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.2 Variational methods and regularization"
+            ],
+            "figure_ids": [
+              "4.7",
+              "4.8"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 12,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 183,
+            "pdf_page_number": 184,
+            "printed_page_label": "162"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(Here we use subscripts to denote differentiation Such energy measures are examples of function) +(printed page 162) --QDF=0",
+            "+(Here we use subscripts to denote differentiation Such energy measures are examples of function) +(Model fitting and optimization) +(printed page 162) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "162",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "(Here, we use subscripts to denote differentiation.) Such energy measures are examples of function-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.8"
+            ],
+            "equation_ids": [
+              "4.16",
+              "4.17",
+              "4.18"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 13,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 184,
+            "pdf_page_number": 185,
+            "printed_page_label": "163"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(continuity interpolator fit to nine scattered data points In practice it is more common to find) +(printed page 163) --QDF=0",
+            "+(continuity interpolator fit to nine scattered data points In practice it is more common to find) +(Model fitting and optimization) +(printed page 163) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "163",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "continuity interpolator fit to nine scattered data points. In practice, it is more common to find first-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.8"
+            ],
+            "equation_ids": [
+              "4.19",
+              "4.20",
+              "4.21",
+              "4.22",
+              "4.23"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 14,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 185,
+            "pdf_page_number": 186,
+            "printed_page_label": "164"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(These values are set to zero where there is no data and can be set to) +(printed page 164) --QDF=0",
+            "+(These values are set to zero where there is no data and can be set to) +(Model fitting and optimization) +(printed page 164) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "164",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "These values are set to zero where there is no data and can be set to the inverse variance of the data",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.2.1 Discrete energy minimization"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.24",
+              "4.25",
+              "4.18",
+              "4.26",
+              "4.27"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 15,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 186,
+            "pdf_page_number": 187,
+            "printed_page_label": "165"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(springs The same graphical model can be used to depict a first-order Markov random field Figure) +(printed page 165) --QDF=0",
+            "+(springs The same graphical model can be used to depict a first-order Markov random field Figure) +(Model fitting and optimization) +(printed page 165) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "165",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "springs. The same graphical model can be used to depict a first-order Markov random field (Figure 4.12).",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.9",
+              "4.12"
+            ],
+            "equation_ids": [
+              "4.28"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 16,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 187,
+            "pdf_page_number": 188,
+            "printed_page_label": "166"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(advantage of this norm is that it tends to better preserve discontinuities but still results in) +(printed page 166) --QDF=0",
+            "+(advantage of this norm is that it tends to better preserve discontinuities but still results in) +(Model fitting and optimization) +(printed page 166) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "166",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "advantage of this norm is that it tends to better preserve discontinuities, but still results in a convex",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Robust regularization",
+              "4.2.2 Total variation",
+              "4.2.3 Bilateral solver"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.24",
+              "4.29",
+              "4.30",
+              "4.43"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 17,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 188,
+            "pdf_page_number": 189,
+            "printed_page_label": "167"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(5Note that in their paper Barron and Poole 2016 use different r values for the luminance) +(printed page 167) --QDF=0",
+            "+(5Note that in their paper Barron and Poole 2016 use different r values for the luminance) +(Model fitting and optimization) +(printed page 167) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "167",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "5Note that in their paper, Barron and Poole (2016) use different σr values for the luminance and chrominance components",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.2.4 Application: Interactive colorization"
+            ],
+            "figure_ids": [
+              "4.10"
+            ],
+            "equation_ids": [
+              "4.24",
+              "4.31",
+              "4.32",
+              "3.37"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 18,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 189,
+            "pdf_page_number": 190,
+            "printed_page_label": "168"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(As we have just seen regularization which involves the minimization of energy functionals defined) +(printed page 168) --QDF=0",
+            "+(As we have just seen regularization which involves the minimization of energy functionals defined) +(Model fitting and optimization) +(printed page 168) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "168",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "As we have just seen, regularization, which involves the minimization of energy functionals defined",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.3 Markov random fields"
+            ],
+            "figure_ids": [
+              "4.11"
+            ],
+            "equation_ids": [
+              "4.24"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 19,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 190,
+            "pdf_page_number": 191,
+            "printed_page_label": "169"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(random field models can be defined over discrete variables such as image labels where the variables) +(printed page 169) --QDF=0",
+            "+(random field models can be defined over discrete variables such as image labels where the variables) +(Model fitting and optimization) +(printed page 169) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "169",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "random field models can be defined over discrete variables, such as image labels (where the variables",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.12"
+            ],
+            "equation_ids": [
+              "4.33",
+              "4.34",
+              "4.35",
+              "4.36",
+              "4.37",
+              "4.38"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 20,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 191,
+            "pdf_page_number": 192,
+            "printed_page_label": "170"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(The sx i j and sy i j black boxes denote arbitrary interaction potentials between adjacent) +(printed page 170) --QDF=0",
+            "+(The sx i j and sy i j black boxes denote arbitrary interaction potentials between adjacent) +(Model fitting and optimization) +(printed page 170) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "170",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "The sx(i, j) and sy(i, j) black boxes denote arbitrary interaction potentials between adjacent nodes in the random",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Binary MRFs"
+            ],
+            "figure_ids": [
+              "4.12",
+              "4.9"
+            ],
+            "equation_ids": [
+              "4.39"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 21,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 192,
+            "pdf_page_number": 193,
+            "printed_page_label": "171"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(ordering e.g that higher values are lighter pixels In the next section we look at unordered) +(printed page 171) --QDF=0",
+            "+(ordering e.g that higher values are lighter pixels In the next section we look at unordered) +(Model fitting and optimization) +(printed page 171) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "171",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "ordering, e.g., that higher values are lighter pixels. In the next section, we look at unordered labels,",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Ordinal-valued MRFs"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.40",
+              "4.41",
+              "4.42",
+              "4.26",
+              "4.24",
+              "4.29"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 22,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 193,
+            "pdf_page_number": 194,
+            "printed_page_label": "172"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(expansion move graph cuts Images are from https vision.middlebury.edu MRF results Szeliski Zabih et al) +(printed page 172) --QDF=0",
+            "+(expansion move graph cuts Images are from https vision.middlebury.edu MRF results Szeliski Zabih et al) +(Model fitting and optimization) +(printed page 172) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "172",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "expansion move graph cuts. Images are from https://vision.middlebury.edu/MRF/results (Szeliski, Zabih et al.",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.13",
+              "9.16"
+            ],
+            "equation_ids": [
+              "4.43",
+              "4.28"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 23,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 194,
+            "pdf_page_number": 195,
+            "printed_page_label": "173"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(binary MRF optimization inside their inner loop they are subject to the kind of constraints on) +(printed page 173) --QDF=0",
+            "+(binary MRF optimization inside their inner loop they are subject to the kind of constraints on) +(Model fitting and optimization) +(printed page 173) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "173",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "binary MRF optimization inside their inner loop, they are subject to the kind of constraints on the",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.14",
+              "4.13",
+              "4.15"
+            ],
+            "equation_ids": [
+              "4.42"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 24,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 195,
+            "pdf_page_number": 196,
+            "printed_page_label": "174"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(additional colored edges show how combinations of unknown values say in a sharp image produce the) +(printed page 174) --QDF=0",
+            "+(additional colored edges show how combinations of unknown values say in a sharp image produce the) +(Model fitting and optimization) +(printed page 174) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "174",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "additional colored edges show how combinations of unknown values (say, in a sharp image) produce the measured",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Unordered labels"
+            ],
+            "figure_ids": [
+              "4.15",
+              "4.16"
+            ],
+            "equation_ids": [
+              "4.44",
+              "4.45"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 25,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 196,
+            "pdf_page_number": 197,
+            "printed_page_label": "175"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(7An alternative formulation that also uses detected edges to modulate the smoothness of a depth or) +(printed page 175) --QDF=0",
+            "+(7An alternative formulation that also uses detected edges to modulate the smoothness of a depth or) +(Model fitting and optimization) +(printed page 175) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "175",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "7An alternative formulation that also uses detected edges to modulate the smoothness of a depth or motion field and hence",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.3.1 Conditional random fields"
+            ],
+            "figure_ids": [
+              "4.16",
+              "4.12",
+              "4.17"
+            ],
+            "equation_ids": [
+              "4.46",
+              "4.42",
+              "4.47",
+              "4.45"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 26,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 197,
+            "pdf_page_number": 198,
+            "printed_page_label": "176"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(sy i j in 4.42 depend on adjacent d i j values These additional links factors) +(printed page 176) --QDF=0",
+            "+(sy i j in 4.42 depend on adjacent d i j values These additional links factors) +(Model fitting and optimization) +(printed page 176) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "176",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "sy(i, j) in (4.42) depend on adjacent d(i, j) values. These additional links (factors) enable the smoothness to",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.17",
+              "4.18",
+              "4.12.8"
+            ],
+            "equation_ids": [
+              "4.42"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 27,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 198,
+            "pdf_page_number": 199,
+            "printed_page_label": "177"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(sparse set of linear equations However for situations where the discontinuities are not self-evident) +(printed page 177) --QDF=0",
+            "+(sparse set of linear equations However for situations where the discontinuities are not self-evident) +(Model fitting and optimization) +(printed page 177) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "177",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "sparse set of linear equations. However, for situations where the discontinuities are not self-evident",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Dense Conditional Random Fields (CRFs)"
+            ],
+            "figure_ids": [
+              "4.18",
+              "4.17"
+            ],
+            "equation_ids": [
+              "4.42"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 28,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 199,
+            "pdf_page_number": 200,
+            "printed_page_label": "178"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(labels in each column describe the image or algorithm being run which include a robust P) +(printed page 178) --QDF=0",
+            "+(labels in each column describe the image or algorithm being run which include a robust P) +(Model fitting and optimization) +(printed page 178) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "178",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "labels in each column describe the image or algorithm being run, which include a robust P n CRF (Kohli, Ladick ́y,",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.19"
+            ],
+            "equation_ids": [
+              "4.47",
+              "4.48",
+              "4.49",
+              "3.37"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 29,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 200,
+            "pdf_page_number": 201,
+            "printed_page_label": "179"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(a few strokes of an image brush These pixels then become the seeds that tie nodes) +(printed page 179) --QDF=0",
+            "+(a few strokes of an image brush These pixels then become the seeds that tie nodes) +(Model fitting and optimization) +(printed page 179) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "179",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "a few strokes of an image brush. These pixels then become the seeds that tie nodes in the S–T graph",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.3.2 Application: Interactive segmentation"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.24",
+              "4.50",
+              "4.51",
+              "4.52",
+              "4.53"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 30,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 201,
+            "pdf_page_number": 202,
+            "printed_page_label": "180"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(stronger connections to the respective source or sink adjacent pixels with greater smoothness also) +(printed page 180) --QDF=0",
+            "+(stronger connections to the respective source or sink adjacent pixels with greater smoothness also) +(Model fitting and optimization) +(printed page 180) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "180",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "stronger connections to the respective source or sink; adjacent pixels with greater smoothness also",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.20",
+              "4.19",
+              "4.21"
+            ],
+            "equation_ids": [
+              "4.50"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 31,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 202,
+            "pdf_page_number": 203,
+            "printed_page_label": "181"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(by iterating through the seed labels using a binary problem with one label set to 1) +(printed page 181) --QDF=0",
+            "+(by iterating through the seed labels using a binary problem with one label set to 1) +(Model fitting and optimization) +(printed page 181) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "181",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "by iterating through the seed labels, using a binary problem with one label set to 1 and all the others",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.21"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 32,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 203,
+            "pdf_page_number": 204,
+            "printed_page_label": "182"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(duced this formalism to computer vision researchers and also introduced the notion of line processes) +(printed page 182) --QDF=0",
+            "+(duced this formalism to computer vision researchers and also introduced the notion of line processes) +(Model fitting and optimization) +(printed page 182) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "182",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "duced this formalism to computer vision researchers and also introduced the notion of line processes,",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.4 Additional reading"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 33,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 204,
+            "pdf_page_number": 205,
+            "printed_page_label": "183"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(to become more familiar with data-parallel programming and the linear algebra operators built into) +(printed page 183) --QDF=0",
+            "+(to become more familiar with data-parallel programming and the linear algebra operators built into) +(Model fitting and optimization) +(printed page 183) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "183",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "to become more familiar with data-parallel programming and the linear algebra operators built into",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.5 Exercises"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 34,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 205,
+            "pdf_page_number": 206,
+            "printed_page_label": "184"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(pected edges along block boundaries or looking at the quantization step as a projection of a) +(printed page 184) --QDF=0",
+            "+(pected edges along block boundaries or looking at the quantization step as a projection of a) +(Model fitting and optimization) +(printed page 184) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "184",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "pected edges along block boundaries, or looking at the quantization step as a projection of a convex",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.15"
+            ],
+            "equation_ids": [
+              "2.116"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "4.1": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "4.1",
+      "printed_section_id": "4.1",
+      "parent_section_id": "4",
+      "title": "Scattered data interpolation",
+      "source_heading": "4.1 Scattered data interpolation",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 174,
+          "pdf_page_number": 175,
+          "printed_page_label": "153"
+        },
+        "bbox": [
+          57.188,
+          526.83,
+          295.91,
+          542.118
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 2,
+      "page_range": {
+        "pdf_page_index_start": 174,
+        "pdf_page_index_end": 182,
+        "pdf_page_number_start": 175,
+        "pdf_page_number_end": 183,
+        "printed_page_start": "153",
+        "printed_page_end": "161"
+      },
+      "outline": [
+        "4.1.1",
+        "4.1.2",
+        "4.1.3"
+      ],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 174,
+            "pdf_page_number": 175,
+            "printed_page_label": "153"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "4.1 Scattered data interpolation"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(4.1 Scattered data interpolation) +(printed page 153) --QDF=0",
+            "+(tion Section 4.1.3 In statistics and machine learning the problem of predicting an output function) +(Scattered data interpolation) +(printed page 153) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "153",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "tion (Section 4.1.3). In statistics and machine learning, the problem of predicting an output function",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.1 Scattered data interpolation",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.1 Scattered data interpolation"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.1",
+              "4.2"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 175,
+            "pdf_page_number": 176,
+            "printed_page_label": "154"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(widely used planar triangulation technique due to its attractive computational properties such as the) +(printed page 154) --QDF=0",
+            "+(widely used planar triangulation technique due to its attractive computational properties such as the) +(Scattered data interpolation) +(printed page 154) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "154",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "widely used planar triangulation technique due to its attractive computational properties, such as the",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.2"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 176,
+            "pdf_page_number": 177,
+            "printed_page_label": "155"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(phase values and weights are computed at a hierarchical set of lower resolution grids by combining) +(printed page 155) --QDF=0",
+            "+(phase values and weights are computed at a hierarchical set of lower resolution grids by combining) +(Scattered data interpolation) +(printed page 155) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "155",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "phase, values and weights are computed at a hierarchical set of lower resolution grids by combining",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.1.1 Radial basis functions"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "3.64",
+              "4.3",
+              "4.4",
+              "4.5",
+              "4.6",
+              "4.7",
+              "4.19"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 4,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 177,
+            "pdf_page_number": 178,
+            "printed_page_label": "156"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(technique is called lasso least absolute shrinkage and selection operator since for sufficiently large) +(printed page 156) --QDF=0",
+            "+(technique is called lasso least absolute shrinkage and selection operator since for sufficiently large) +(Scattered data interpolation) +(printed page 156) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "156",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "technique is called lasso (least absolute shrinkage and selection operator), since for sufficiently large",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.1",
+              "4.8",
+              "4.2",
+              "4.9",
+              "4.10",
+              "4.11",
+              "4.12"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 5,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 178,
+            "pdf_page_number": 179,
+            "printed_page_label": "157"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(curves we see that choosing a good intermediate value of will produce the best result In) +(printed page 157) --QDF=0",
+            "+(curves we see that choosing a good intermediate value of will produce the best result In) +(Scattered data interpolation) +(printed page 157) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "157",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "curves, we see that choosing a good intermediate value of λ will produce the best result. In practice,",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.1.2 Overfitting and underfitting"
+            ],
+            "figure_ids": [
+              "4.3",
+              "4.4"
+            ],
+            "equation_ids": [
+              "4.13",
+              "4.14",
+              "4.12",
+              "4.9",
+              "4.11"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 6,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 179,
+            "pdf_page_number": 180,
+            "printed_page_label": "158"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(The left plot shows a reasonable amount of regularization resulting in a plausible fit while the) +(printed page 158) --QDF=0",
+            "+(The left plot shows a reasonable amount of regularization resulting in a plausible fit while the) +(Scattered data interpolation) +(printed page 158) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "158",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "The left plot shows a reasonable amount of regularization, resulting in a plausible fit, while the larger value of λ",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.3",
+              "4.4"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 7,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 180,
+            "pdf_page_number": 181,
+            "printed_page_label": "159"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(curve than the less heavily regularized version log 2.4 which has much higher variance Bishop 2006) +(printed page 159) --QDF=0",
+            "+(curve than the less heavily regularized version log 2.4 which has much higher variance Bishop 2006) +(Scattered data interpolation) +(printed page 159) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "159",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "curve) than the less heavily regularized version (log λ = −2.4), which has much higher variance (Bishop 2006)",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.5",
+              "4.6"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 8,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 181,
+            "pdf_page_number": 182,
+            "printed_page_label": "160"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(Zhang Lipton et al 2021 Section 4.4.2 splits the training data into K folds equal sized) +(printed page 160) --QDF=0",
+            "+(Zhang Lipton et al 2021 Section 4.4.2 splits the training data into K folds equal sized) +(Scattered data interpolation) +(printed page 160) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "160",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Zhang, Lipton et al. 2021, Section 4.4.2), splits the training data into K folds (equal sized pieces).",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.1.3 Robust data fitting"
+            ],
+            "figure_ids": [
+              "4.5",
+              "4.6",
+              "4.7"
+            ],
+            "equation_ids": [
+              "4.9",
+              "4.2",
+              "4.15"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 9,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 182,
+            "pdf_page_number": 183,
+            "printed_page_label": "161"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "4.2 Variational methods and regularization"
+            }
+          },
+          "queries": [
+            "+(residuals making such an algorithm self-tuning to a wide variety of noise levels and outlier distri) +(printed page 161) --QDF=0",
+            "+(residuals making such an algorithm self-tuning to a wide variety of noise levels and outlier distri) +(Scattered data interpolation) +(printed page 161) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "161",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "residuals, making such an algorithm self-tuning to a wide variety of noise levels and outlier distri-",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.2 Variational methods and regularization",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.7"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "4.1.1": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "4.1.1",
+      "printed_section_id": "4.1.1",
+      "parent_section_id": "4.1",
+      "title": "Radial basis functions",
+      "source_heading": "4.1.1 Radial basis functions",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 176,
+          "pdf_page_number": 177,
+          "printed_page_label": "155"
+        },
+        "bbox": [
+          57.188,
+          308.919,
+          233.485,
+          321.659
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 176,
+        "pdf_page_index_end": 178,
+        "pdf_page_number_start": 177,
+        "pdf_page_number_end": 179,
+        "printed_page_start": "155",
+        "printed_page_end": "157"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 176,
+            "pdf_page_number": 177,
+            "printed_page_label": "155"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "4.1.1 Radial basis functions"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(4.1.1 Radial basis functions) +(printed page 155) --QDF=0",
+            "+(approaches that define the desired interpolant as a weighted sum of basis functions similar to the) +(Radial basis functions) +(printed page 155) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "155",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "approaches that define the desired interpolant as a weighted sum of basis functions, similar to the",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.1.1 Radial basis functions",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.1.1 Radial basis functions"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "3.64",
+              "4.3",
+              "4.4",
+              "4.5",
+              "4.6",
+              "4.7",
+              "4.19"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 177,
+            "pdf_page_number": 178,
+            "printed_page_label": "156"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(technique is called lasso least absolute shrinkage and selection operator since for sufficiently large) +(printed page 156) --QDF=0",
+            "+(technique is called lasso least absolute shrinkage and selection operator since for sufficiently large) +(Radial basis functions) +(printed page 156) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "156",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "technique is called lasso (least absolute shrinkage and selection operator), since for sufficiently large",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.1",
+              "4.8",
+              "4.2",
+              "4.9",
+              "4.10",
+              "4.11",
+              "4.12"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 178,
+            "pdf_page_number": 179,
+            "printed_page_label": "157"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "4.1.2 Overfitting and underfitting"
+            }
+          },
+          "queries": [
+            "+(which form a partition of unity i.e sum up to 1 at every location Anjyo Lewis) +(printed page 157) --QDF=0",
+            "+(which form a partition of unity i.e sum up to 1 at every location Anjyo Lewis) +(Radial basis functions) +(printed page 157) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "157",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "which form a partition of unity, i.e., sum up to 1 at every location (Anjyo, Lewis, and Pighin 2014).",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.1.2 Overfitting and underfitting",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.13",
+              "4.14",
+              "4.12"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "4.1.2": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "4.1.2",
+      "printed_section_id": "4.1.2",
+      "parent_section_id": "4.1",
+      "title": "Overfitting and underfitting",
+      "source_heading": "4.1.2 Overfitting and underfitting",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 178,
+          "pdf_page_number": 179,
+          "printed_page_label": "157"
+        },
+        "bbox": [
+          57.188,
+          361.613,
+          263.182,
+          374.353
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 178,
+        "pdf_page_index_end": 181,
+        "pdf_page_number_start": 179,
+        "pdf_page_number_end": 182,
+        "printed_page_start": "157",
+        "printed_page_end": "160"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 178,
+            "pdf_page_number": 179,
+            "printed_page_label": "157"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "4.1.2 Overfitting and underfitting"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(4.1.2 Overfitting and underfitting) +(printed page 157) --QDF=0",
+            "+(curves we see that choosing a good intermediate value of will produce the best result In) +(Overfitting and underfitting) +(printed page 157) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "157",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "curves, we see that choosing a good intermediate value of λ will produce the best result. In practice,",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.1.2 Overfitting and underfitting",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.1.2 Overfitting and underfitting"
+            ],
+            "figure_ids": [
+              "4.3",
+              "4.4"
+            ],
+            "equation_ids": [
+              "4.9",
+              "4.11"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 179,
+            "pdf_page_number": 180,
+            "printed_page_label": "158"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(The left plot shows a reasonable amount of regularization resulting in a plausible fit while the) +(printed page 158) --QDF=0",
+            "+(The left plot shows a reasonable amount of regularization resulting in a plausible fit while the) +(Overfitting and underfitting) +(printed page 158) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "158",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "The left plot shows a reasonable amount of regularization, resulting in a plausible fit, while the larger value of λ",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.3",
+              "4.4"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 180,
+            "pdf_page_number": 181,
+            "printed_page_label": "159"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(curve than the less heavily regularized version log 2.4 which has much higher variance Bishop 2006) +(printed page 159) --QDF=0",
+            "+(curve than the less heavily regularized version log 2.4 which has much higher variance Bishop 2006) +(Overfitting and underfitting) +(printed page 159) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "159",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "curve) than the less heavily regularized version (log λ = −2.4), which has much higher variance (Bishop 2006)",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.5",
+              "4.6"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 4,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 181,
+            "pdf_page_number": 182,
+            "printed_page_label": "160"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "4.1.3 Robust data fitting"
+            }
+          },
+          "queries": [
+            "+(Zhang Lipton et al 2021 Section 4.4.2 splits the training data into K folds equal sized) +(printed page 160) --QDF=0",
+            "+(Zhang Lipton et al 2021 Section 4.4.2 splits the training data into K folds equal sized) +(Overfitting and underfitting) +(printed page 160) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "160",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Zhang, Lipton et al. 2021, Section 4.4.2), splits the training data into K folds (equal sized pieces).",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.1.3 Robust data fitting",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.5",
+              "4.6"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "4.1.3": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "4.1.3",
+      "printed_section_id": "4.1.3",
+      "parent_section_id": "4.1",
+      "title": "Robust data fitting",
+      "source_heading": "4.1.3 Robust data fitting",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 181,
+          "pdf_page_number": 182,
+          "printed_page_label": "160"
+        },
+        "bbox": [
+          114.734,
+          442.886,
+          268.086,
+          455.626
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 181,
+        "pdf_page_index_end": 182,
+        "pdf_page_number_start": 182,
+        "pdf_page_number_end": 183,
+        "printed_page_start": "160",
+        "printed_page_end": "161"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 181,
+            "pdf_page_number": 182,
+            "printed_page_label": "160"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "4.1.3 Robust data fitting"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(4.1.3 Robust data fitting) +(printed page 160) --QDF=0",
+            "+(This same idea can be applied to data terms such as 4.2 where instead of using) +(Robust data fitting) +(printed page 160) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "160",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "This same idea can be applied to data terms such as (4.2), where, instead of using a quadratic",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.1.3 Robust data fitting",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.1.3 Robust data fitting"
+            ],
+            "figure_ids": [
+              "4.7"
+            ],
+            "equation_ids": [
+              "4.9",
+              "4.2",
+              "4.15"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 182,
+            "pdf_page_number": 183,
+            "printed_page_label": "161"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "4.2 Variational methods and regularization"
+            }
+          },
+          "queries": [
+            "+(residuals making such an algorithm self-tuning to a wide variety of noise levels and outlier distri) +(printed page 161) --QDF=0",
+            "+(residuals making such an algorithm self-tuning to a wide variety of noise levels and outlier distri) +(Robust data fitting) +(printed page 161) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "161",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "residuals, making such an algorithm self-tuning to a wide variety of noise levels and outlier distri-",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.2 Variational methods and regularization",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.7"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "4.2": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "4.2",
+      "printed_section_id": "4.2",
+      "parent_section_id": "4",
+      "title": "Variational methods and regularization",
+      "source_heading": "4.2 Variational methods and regularization",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 182,
+          "pdf_page_number": 183,
+          "printed_page_label": "161"
+        },
+        "bbox": [
+          57.188,
+          556.905,
+          374.856,
+          572.193
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 2,
+      "page_range": {
+        "pdf_page_index_start": 182,
+        "pdf_page_index_end": 189,
+        "pdf_page_number_start": 183,
+        "pdf_page_number_end": 190,
+        "printed_page_start": "161",
+        "printed_page_end": "168"
+      },
+      "outline": [
+        "4.2.1",
+        "4.2.2",
+        "4.2.3",
+        "4.2.4"
+      ],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 182,
+            "pdf_page_number": 183,
+            "printed_page_label": "161"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "4.2 Variational methods and regularization"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(4.2 Variational methods and regularization) +(printed page 161) --QDF=0",
+            "+(sometimes lead to large changes in the fit e.g if we use polynomial interpolation such problems) +(Variational methods and regularization) +(printed page 161) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "161",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "sometimes lead to large changes in the fit (e.g., if we use polynomial interpolation), such problems",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.2 Variational methods and regularization",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.2 Variational methods and regularization"
+            ],
+            "figure_ids": [
+              "4.8"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 183,
+            "pdf_page_number": 184,
+            "printed_page_label": "162"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(Here we use subscripts to denote differentiation Such energy measures are examples of function) +(printed page 162) --QDF=0",
+            "+(Here we use subscripts to denote differentiation Such energy measures are examples of function) +(Variational methods and regularization) +(printed page 162) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "162",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "(Here, we use subscripts to denote differentiation.) Such energy measures are examples of function-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.8"
+            ],
+            "equation_ids": [
+              "4.16",
+              "4.17",
+              "4.18"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 184,
+            "pdf_page_number": 185,
+            "printed_page_label": "163"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(continuity interpolator fit to nine scattered data points In practice it is more common to find) +(printed page 163) --QDF=0",
+            "+(continuity interpolator fit to nine scattered data points In practice it is more common to find) +(Variational methods and regularization) +(printed page 163) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "163",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "continuity interpolator fit to nine scattered data points. In practice, it is more common to find first-",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.8"
+            ],
+            "equation_ids": [
+              "4.19",
+              "4.20",
+              "4.21",
+              "4.22",
+              "4.23"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 4,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 185,
+            "pdf_page_number": 186,
+            "printed_page_label": "164"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(These values are set to zero where there is no data and can be set to) +(printed page 164) --QDF=0",
+            "+(These values are set to zero where there is no data and can be set to) +(Variational methods and regularization) +(printed page 164) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "164",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "These values are set to zero where there is no data and can be set to the inverse variance of the data",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.2.1 Discrete energy minimization"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.24",
+              "4.25",
+              "4.18",
+              "4.26",
+              "4.27"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 5,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 186,
+            "pdf_page_number": 187,
+            "printed_page_label": "165"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(springs The same graphical model can be used to depict a first-order Markov random field Figure) +(printed page 165) --QDF=0",
+            "+(springs The same graphical model can be used to depict a first-order Markov random field Figure) +(Variational methods and regularization) +(printed page 165) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "165",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "springs. The same graphical model can be used to depict a first-order Markov random field (Figure 4.12).",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.9",
+              "4.12"
+            ],
+            "equation_ids": [
+              "4.28"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 6,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 187,
+            "pdf_page_number": 188,
+            "printed_page_label": "166"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(advantage of this norm is that it tends to better preserve discontinuities but still results in) +(printed page 166) --QDF=0",
+            "+(advantage of this norm is that it tends to better preserve discontinuities but still results in) +(Variational methods and regularization) +(printed page 166) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "166",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "advantage of this norm is that it tends to better preserve discontinuities, but still results in a convex",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Robust regularization",
+              "4.2.2 Total variation",
+              "4.2.3 Bilateral solver"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.24",
+              "4.29",
+              "4.30",
+              "4.43"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 7,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 188,
+            "pdf_page_number": 189,
+            "printed_page_label": "167"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(5Note that in their paper Barron and Poole 2016 use different r values for the luminance) +(printed page 167) --QDF=0",
+            "+(5Note that in their paper Barron and Poole 2016 use different r values for the luminance) +(Variational methods and regularization) +(printed page 167) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "167",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "5Note that in their paper, Barron and Poole (2016) use different σr values for the luminance and chrominance components",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.2.4 Application: Interactive colorization"
+            ],
+            "figure_ids": [
+              "4.10"
+            ],
+            "equation_ids": [
+              "4.24",
+              "4.31",
+              "4.32",
+              "3.37"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 8,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 189,
+            "pdf_page_number": 190,
+            "printed_page_label": "168"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "4.3 Markov random fields"
+            }
+          },
+          "queries": [
+            "+(veloped by Yatziv and Sapiro 2006 Neural networks can also be used to implement deep priors) +(printed page 168) --QDF=0",
+            "+(veloped by Yatziv and Sapiro 2006 Neural networks can also be used to implement deep priors) +(Variational methods and regularization) +(printed page 168) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "168",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "veloped by Yatziv and Sapiro (2006). Neural networks can also be used to implement deep priors",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.3 Markov random fields",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.11"
+            ],
+            "equation_ids": [
+              "4.24"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "4.2.1": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "4.2.1",
+      "printed_section_id": "4.2.1",
+      "parent_section_id": "4.2",
+      "title": "Discrete energy minimization",
+      "source_heading": "4.2.1 Discrete energy minimization",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 185,
+          "pdf_page_number": 186,
+          "printed_page_label": "164"
+        },
+        "bbox": [
+          114.734,
+          77.644,
+          332.618,
+          90.384
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 185,
+        "pdf_page_index_end": 187,
+        "pdf_page_number_start": 186,
+        "pdf_page_number_end": 188,
+        "printed_page_start": "164",
+        "printed_page_end": "166"
+      },
+      "outline": [
+        "Robust regularization"
+      ],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 185,
+            "pdf_page_number": 186,
+            "printed_page_label": "164"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "4.2.1 Discrete energy minimization"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(4.2.1 Discrete energy minimization) +(printed page 164) --QDF=0",
+            "+(These values are set to zero where there is no data and can be set to) +(Discrete energy minimization) +(printed page 164) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "164",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "These values are set to zero where there is no data and can be set to the inverse variance of the data",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.2.1 Discrete energy minimization",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.2.1 Discrete energy minimization"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.24",
+              "4.25",
+              "4.18",
+              "4.26",
+              "4.27"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 186,
+            "pdf_page_number": 187,
+            "printed_page_label": "165"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(springs The same graphical model can be used to depict a first-order Markov random field Figure) +(printed page 165) --QDF=0",
+            "+(springs The same graphical model can be used to depict a first-order Markov random field Figure) +(Discrete energy minimization) +(printed page 165) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "165",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "springs. The same graphical model can be used to depict a first-order Markov random field (Figure 4.12).",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.9",
+              "4.12"
+            ],
+            "equation_ids": [
+              "4.28"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 187,
+            "pdf_page_number": 188,
+            "printed_page_label": "166"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "4.2.2 Total variation"
+            }
+          },
+          "queries": [
+            "+(also using continuation to infer the tear and crease variables in his surface interpolation problems) +(printed page 166) --QDF=0",
+            "+(also using continuation to infer the tear and crease variables in his surface interpolation problems) +(Discrete energy minimization) +(printed page 166) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "166",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "also using continuation to infer the tear and crease variables in his surface interpolation problems.)",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.2.2 Total variation",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Robust regularization"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.24",
+              "4.29",
+              "4.30"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "4.2.2": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "4.2.2",
+      "printed_section_id": "4.2.2",
+      "parent_section_id": "4.2",
+      "title": "Total variation",
+      "source_heading": "4.2.2 Total variation",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 187,
+          "pdf_page_number": 188,
+          "printed_page_label": "166"
+        },
+        "bbox": [
+          114.734,
+          392.787,
+          241.613,
+          405.527
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 187,
+        "pdf_page_index_end": 187,
+        "pdf_page_number_start": 188,
+        "pdf_page_number_end": 188,
+        "printed_page_start": "166",
+        "printed_page_end": "166"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 187,
+            "pdf_page_number": 188,
+            "printed_page_label": "166"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "4.2.2 Total variation"
+            },
+            "end_before": {
+              "kind": "heading",
+              "value": "4.2.3 Bilateral solver"
+            }
+          },
+          "queries": [
+            "+(4.2.2 Total variation) +(printed page 166) --QDF=0",
+            "+(advantage of this norm is that it tends to better preserve discontinuities but still results in) +(Total variation) +(printed page 166) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "166",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "advantage of this norm is that it tends to better preserve discontinuities, but still results in a convex",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.2.2 Total variation",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.2.3 Bilateral solver",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.2.2 Total variation"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.43"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "4.2.3": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "4.2.3",
+      "printed_section_id": "4.2.3",
+      "parent_section_id": "4.2",
+      "title": "Bilateral solver",
+      "source_heading": "4.2.3 Bilateral solver",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 187,
+          "pdf_page_number": 188,
+          "printed_page_label": "166"
+        },
+        "bbox": [
+          114.734,
+          671.482,
+          247.155,
+          684.222
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 187,
+        "pdf_page_index_end": 188,
+        "pdf_page_number_start": 188,
+        "pdf_page_number_end": 189,
+        "printed_page_start": "166",
+        "printed_page_end": "167"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 187,
+            "pdf_page_number": 188,
+            "printed_page_label": "166"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "4.2.3 Bilateral solver"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(4.2.3 Bilateral solver) +(printed page 166) --QDF=0",
+            "+(In our discussion of variational methods we have focused on energy minimization problems based) +(Bilateral solver) +(printed page 166) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "166",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "In our discussion of variational methods, we have focused on energy minimization problems based",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.2.3 Bilateral solver",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.2.3 Bilateral solver"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 188,
+            "pdf_page_number": 189,
+            "printed_page_label": "167"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "4.2.4 Application: Interactive colorization"
+            }
+          },
+          "queries": [
+            "+(bles those used for bilateral filtering except that after splatting and before slicing an iterative least) +(printed page 167) --QDF=0",
+            "+(bles those used for bilateral filtering except that after splatting and before slicing an iterative least) +(Bilateral solver) +(printed page 167) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "167",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "bles those used for bilateral filtering, except that after splatting and before slicing, an iterative least",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.2.4 Application: Interactive colorization",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.10"
+            ],
+            "equation_ids": [
+              "4.24",
+              "4.31",
+              "4.32",
+              "3.37"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "4.2.4": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "4.2.4",
+      "printed_section_id": "4.2.4",
+      "parent_section_id": "4.2",
+      "title": "Application: Interactive colorization",
+      "source_heading": "4.2.4 Application: Interactive colorization",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 188,
+          "pdf_page_number": 189,
+          "printed_page_label": "167"
+        },
+        "bbox": [
+          57.188,
+          628.632,
+          315.25,
+          641.408
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 188,
+        "pdf_page_index_end": 189,
+        "pdf_page_number_start": 189,
+        "pdf_page_number_end": 190,
+        "printed_page_start": "167",
+        "printed_page_end": "168"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 188,
+            "pdf_page_number": 189,
+            "printed_page_label": "167"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "4.2.4 Application: Interactive colorization"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(4.2.4 Application Interactive colorization) +(printed page 167) --QDF=0",
+            "+(5Note that in their paper Barron and Poole 2016 use different r values for the luminance) +(Application Interactive colorization) +(printed page 167) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "167",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "5Note that in their paper, Barron and Poole (2016) use different σr values for the luminance and chrominance components",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.2.4 Application: Interactive colorization",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.2.4 Application: Interactive colorization"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 189,
+            "pdf_page_number": 190,
+            "printed_page_label": "168"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "4.3 Markov random fields"
+            }
+          },
+          "queries": [
+            "+(veloped by Yatziv and Sapiro 2006 Neural networks can also be used to implement deep priors) +(printed page 168) --QDF=0",
+            "+(veloped by Yatziv and Sapiro 2006 Neural networks can also be used to implement deep priors) +(Application Interactive colorization) +(printed page 168) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "168",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "veloped by Yatziv and Sapiro (2006). Neural networks can also be used to implement deep priors",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.3 Markov random fields",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.11"
+            ],
+            "equation_ids": [
+              "4.24"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "4.3": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "4.3",
+      "printed_section_id": "4.3",
+      "parent_section_id": "4",
+      "title": "Markov random fields",
+      "source_heading": "4.3 Markov random fields",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 189,
+          "pdf_page_number": 190,
+          "printed_page_label": "168"
+        },
+        "bbox": [
+          114.734,
+          465.037,
+          308.754,
+          480.325
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 2,
+      "page_range": {
+        "pdf_page_index_start": 189,
+        "pdf_page_index_end": 202,
+        "pdf_page_number_start": 190,
+        "pdf_page_number_end": 203,
+        "printed_page_start": "168",
+        "printed_page_end": "181"
+      },
+      "outline": [
+        "4.3.1",
+        "4.3.2",
+        "Binary MRFs",
+        "Ordinal-valued MRFs",
+        "Unordered labels"
+      ],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 189,
+            "pdf_page_number": 190,
+            "printed_page_label": "168"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "4.3 Markov random fields"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(4.3 Markov random fields) +(printed page 168) --QDF=0",
+            "+(As we have just seen regularization which involves the minimization of energy functionals defined) +(Markov random fields) +(printed page 168) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "168",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "As we have just seen, regularization, which involves the minimization of energy functionals defined",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.3 Markov random fields",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.3 Markov random fields"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 190,
+            "pdf_page_number": 191,
+            "printed_page_label": "169"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(random field models can be defined over discrete variables such as image labels where the variables) +(printed page 169) --QDF=0",
+            "+(random field models can be defined over discrete variables such as image labels where the variables) +(Markov random fields) +(printed page 169) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "169",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "random field models can be defined over discrete variables, such as image labels (where the variables",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.12"
+            ],
+            "equation_ids": [
+              "4.33",
+              "4.34",
+              "4.35",
+              "4.36",
+              "4.37",
+              "4.38"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 191,
+            "pdf_page_number": 192,
+            "printed_page_label": "170"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(The sx i j and sy i j black boxes denote arbitrary interaction potentials between adjacent) +(printed page 170) --QDF=0",
+            "+(The sx i j and sy i j black boxes denote arbitrary interaction potentials between adjacent) +(Markov random fields) +(printed page 170) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "170",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "The sx(i, j) and sy(i, j) black boxes denote arbitrary interaction potentials between adjacent nodes in the random",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Binary MRFs"
+            ],
+            "figure_ids": [
+              "4.12",
+              "4.9"
+            ],
+            "equation_ids": [
+              "4.39"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 4,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 192,
+            "pdf_page_number": 193,
+            "printed_page_label": "171"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(ordering e.g that higher values are lighter pixels In the next section we look at unordered) +(printed page 171) --QDF=0",
+            "+(ordering e.g that higher values are lighter pixels In the next section we look at unordered) +(Markov random fields) +(printed page 171) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "171",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "ordering, e.g., that higher values are lighter pixels. In the next section, we look at unordered labels,",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Ordinal-valued MRFs"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.40",
+              "4.41",
+              "4.42",
+              "4.26",
+              "4.24",
+              "4.29"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 5,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 193,
+            "pdf_page_number": 194,
+            "printed_page_label": "172"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(expansion move graph cuts Images are from https vision.middlebury.edu MRF results Szeliski Zabih et al) +(printed page 172) --QDF=0",
+            "+(expansion move graph cuts Images are from https vision.middlebury.edu MRF results Szeliski Zabih et al) +(Markov random fields) +(printed page 172) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "172",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "expansion move graph cuts. Images are from https://vision.middlebury.edu/MRF/results (Szeliski, Zabih et al.",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.13",
+              "9.16"
+            ],
+            "equation_ids": [
+              "4.43",
+              "4.28"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 6,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 194,
+            "pdf_page_number": 195,
+            "printed_page_label": "173"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(binary MRF optimization inside their inner loop they are subject to the kind of constraints on) +(printed page 173) --QDF=0",
+            "+(binary MRF optimization inside their inner loop they are subject to the kind of constraints on) +(Markov random fields) +(printed page 173) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "173",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "binary MRF optimization inside their inner loop, they are subject to the kind of constraints on the",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.14",
+              "4.13",
+              "4.15"
+            ],
+            "equation_ids": [
+              "4.42"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 7,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 195,
+            "pdf_page_number": 196,
+            "printed_page_label": "174"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(additional colored edges show how combinations of unknown values say in a sharp image produce the) +(printed page 174) --QDF=0",
+            "+(additional colored edges show how combinations of unknown values say in a sharp image produce the) +(Markov random fields) +(printed page 174) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "174",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "additional colored edges show how combinations of unknown values (say, in a sharp image) produce the measured",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Unordered labels"
+            ],
+            "figure_ids": [
+              "4.15",
+              "4.16"
+            ],
+            "equation_ids": [
+              "4.44",
+              "4.45"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 8,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 196,
+            "pdf_page_number": 197,
+            "printed_page_label": "175"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(7An alternative formulation that also uses detected edges to modulate the smoothness of a depth or) +(printed page 175) --QDF=0",
+            "+(7An alternative formulation that also uses detected edges to modulate the smoothness of a depth or) +(Markov random fields) +(printed page 175) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "175",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "7An alternative formulation that also uses detected edges to modulate the smoothness of a depth or motion field and hence",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.3.1 Conditional random fields"
+            ],
+            "figure_ids": [
+              "4.16",
+              "4.12",
+              "4.17"
+            ],
+            "equation_ids": [
+              "4.46",
+              "4.42",
+              "4.47",
+              "4.45"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 9,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 197,
+            "pdf_page_number": 198,
+            "printed_page_label": "176"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(sy i j in 4.42 depend on adjacent d i j values These additional links factors) +(printed page 176) --QDF=0",
+            "+(sy i j in 4.42 depend on adjacent d i j values These additional links factors) +(Markov random fields) +(printed page 176) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "176",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "sy(i, j) in (4.42) depend on adjacent d(i, j) values. These additional links (factors) enable the smoothness to",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.17",
+              "4.18",
+              "4.12.8"
+            ],
+            "equation_ids": [
+              "4.42"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 10,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 198,
+            "pdf_page_number": 199,
+            "printed_page_label": "177"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(sparse set of linear equations However for situations where the discontinuities are not self-evident) +(printed page 177) --QDF=0",
+            "+(sparse set of linear equations However for situations where the discontinuities are not self-evident) +(Markov random fields) +(printed page 177) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "177",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "sparse set of linear equations. However, for situations where the discontinuities are not self-evident",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Dense Conditional Random Fields (CRFs)"
+            ],
+            "figure_ids": [
+              "4.18",
+              "4.17"
+            ],
+            "equation_ids": [
+              "4.42"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 11,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 199,
+            "pdf_page_number": 200,
+            "printed_page_label": "178"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(labels in each column describe the image or algorithm being run which include a robust P) +(printed page 178) --QDF=0",
+            "+(labels in each column describe the image or algorithm being run which include a robust P) +(Markov random fields) +(printed page 178) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "178",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "labels in each column describe the image or algorithm being run, which include a robust P n CRF (Kohli, Ladick ́y,",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.19"
+            ],
+            "equation_ids": [
+              "4.47",
+              "4.48",
+              "4.49",
+              "3.37"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 12,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 200,
+            "pdf_page_number": 201,
+            "printed_page_label": "179"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(a few strokes of an image brush These pixels then become the seeds that tie nodes) +(printed page 179) --QDF=0",
+            "+(a few strokes of an image brush These pixels then become the seeds that tie nodes) +(Markov random fields) +(printed page 179) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "179",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "a few strokes of an image brush. These pixels then become the seeds that tie nodes in the S–T graph",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.3.2 Application: Interactive segmentation"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.24",
+              "4.50",
+              "4.51",
+              "4.52",
+              "4.53"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 13,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 201,
+            "pdf_page_number": 202,
+            "printed_page_label": "180"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(stronger connections to the respective source or sink adjacent pixels with greater smoothness also) +(printed page 180) --QDF=0",
+            "+(stronger connections to the respective source or sink adjacent pixels with greater smoothness also) +(Markov random fields) +(printed page 180) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "180",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "stronger connections to the respective source or sink; adjacent pixels with greater smoothness also",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.20",
+              "4.19",
+              "4.21"
+            ],
+            "equation_ids": [
+              "4.50"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 14,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 202,
+            "pdf_page_number": 203,
+            "printed_page_label": "181"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(by iterating through the seed labels using a binary problem with one label set to 1) +(printed page 181) --QDF=0",
+            "+(by iterating through the seed labels using a binary problem with one label set to 1) +(Markov random fields) +(printed page 181) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "181",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "by iterating through the seed labels, using a binary problem with one label set to 1 and all the others",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.21"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "4.3.1": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "4.3.1",
+      "printed_section_id": "4.3.1",
+      "parent_section_id": "4.3",
+      "title": "Conditional random fields",
+      "source_heading": "4.3.1 Conditional random fields",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 196,
+          "pdf_page_number": 197,
+          "printed_page_label": "175"
+        },
+        "bbox": [
+          57.188,
+          287.548,
+          255.41,
+          300.288
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 196,
+        "pdf_page_index_end": 200,
+        "pdf_page_number_start": 197,
+        "pdf_page_number_end": 201,
+        "printed_page_start": "175",
+        "printed_page_end": "179"
+      },
+      "outline": [
+        "Dense Conditional Random Fields (CRFs)"
+      ],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 196,
+            "pdf_page_number": 197,
+            "printed_page_label": "175"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "4.3.1 Conditional random fields"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(4.3.1 Conditional random fields) +(printed page 175) --QDF=0",
+            "+(7An alternative formulation that also uses detected edges to modulate the smoothness of a depth or) +(Conditional random fields) +(printed page 175) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "175",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "7An alternative formulation that also uses detected edges to modulate the smoothness of a depth or motion field and hence",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.3.1 Conditional random fields",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.3.1 Conditional random fields"
+            ],
+            "figure_ids": [
+              "4.12",
+              "4.17"
+            ],
+            "equation_ids": [
+              "4.46",
+              "4.42",
+              "4.47",
+              "4.45"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 197,
+            "pdf_page_number": 198,
+            "printed_page_label": "176"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(sy i j in 4.42 depend on adjacent d i j values These additional links factors) +(printed page 176) --QDF=0",
+            "+(sy i j in 4.42 depend on adjacent d i j values These additional links factors) +(Conditional random fields) +(printed page 176) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "176",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "sy(i, j) in (4.42) depend on adjacent d(i, j) values. These additional links (factors) enable the smoothness to",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.17",
+              "4.18",
+              "4.12.8"
+            ],
+            "equation_ids": [
+              "4.42"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 198,
+            "pdf_page_number": 199,
+            "printed_page_label": "177"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(sparse set of linear equations However for situations where the discontinuities are not self-evident) +(printed page 177) --QDF=0",
+            "+(sparse set of linear equations However for situations where the discontinuities are not self-evident) +(Conditional random fields) +(printed page 177) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "177",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "sparse set of linear equations. However, for situations where the discontinuities are not self-evident",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Dense Conditional Random Fields (CRFs)"
+            ],
+            "figure_ids": [
+              "4.18",
+              "4.17"
+            ],
+            "equation_ids": [
+              "4.42"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 4,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 199,
+            "pdf_page_number": 200,
+            "printed_page_label": "178"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(labels in each column describe the image or algorithm being run which include a robust P) +(printed page 178) --QDF=0",
+            "+(labels in each column describe the image or algorithm being run which include a robust P) +(Conditional random fields) +(printed page 178) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "178",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "labels in each column describe the image or algorithm being run, which include a robust P n CRF (Kohli, Ladick ́y,",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.19"
+            ],
+            "equation_ids": [
+              "4.47",
+              "4.48",
+              "4.49",
+              "3.37"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 5,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 200,
+            "pdf_page_number": 201,
+            "printed_page_label": "179"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "4.3.2 Application: Interactive segmentation"
+            }
+          },
+          "queries": [
+            "+(Warrell and Torr 2014 Desmaison Bunel et al 2016 Dense CRFs have seen widespread use in) +(printed page 179) --QDF=0",
+            "+(Warrell and Torr 2014 Desmaison Bunel et al 2016 Dense CRFs have seen widespread use in) +(Conditional random fields) +(printed page 179) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "179",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Warrell, and Torr 2014; Desmaison, Bunel et al. 2016). Dense CRFs have seen widespread use in",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.3.2 Application: Interactive segmentation",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "4.3.2": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "4.3.2",
+      "printed_section_id": "4.3.2",
+      "parent_section_id": "4.3",
+      "title": "Application: Interactive segmentation",
+      "source_heading": "4.3.2 Application: Interactive segmentation",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 200,
+          "pdf_page_number": 201,
+          "printed_page_label": "179"
+        },
+        "bbox": [
+          57.188,
+          161.886,
+          326.576,
+          174.662
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 200,
+        "pdf_page_index_end": 202,
+        "pdf_page_number_start": 201,
+        "pdf_page_number_end": 203,
+        "printed_page_start": "179",
+        "printed_page_end": "181"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 200,
+            "pdf_page_number": 201,
+            "printed_page_label": "179"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "4.3.2 Application: Interactive segmentation"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(4.3.2 Application Interactive segmentation) +(printed page 179) --QDF=0",
+            "+(a few strokes of an image brush These pixels then become the seeds that tie nodes) +(Application Interactive segmentation) +(printed page 179) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "179",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "a few strokes of an image brush. These pixels then become the seeds that tie nodes in the S–T graph",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.3.2 Application: Interactive segmentation",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.3.2 Application: Interactive segmentation"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.24",
+              "4.50",
+              "4.51",
+              "4.52",
+              "4.53"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 201,
+            "pdf_page_number": 202,
+            "printed_page_label": "180"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(stronger connections to the respective source or sink adjacent pixels with greater smoothness also) +(printed page 180) --QDF=0",
+            "+(stronger connections to the respective source or sink adjacent pixels with greater smoothness also) +(Application Interactive segmentation) +(printed page 180) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "180",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "stronger connections to the respective source or sink; adjacent pixels with greater smoothness also",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.20",
+              "4.19",
+              "4.21"
+            ],
+            "equation_ids": [
+              "4.50"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 202,
+            "pdf_page_number": 203,
+            "printed_page_label": "181"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(by iterating through the seed labels using a binary problem with one label set to 1) +(printed page 181) --QDF=0",
+            "+(by iterating through the seed labels using a binary problem with one label set to 1) +(Application Interactive segmentation) +(printed page 181) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "181",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "by iterating through the seed labels, using a binary problem with one label set to 1 and all the others",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.21"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "4.4": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "4.4",
+      "printed_section_id": "4.4",
+      "parent_section_id": "4",
+      "title": "Additional reading",
+      "source_heading": "4.4 Additional reading",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 203,
+          "pdf_page_number": 204,
+          "printed_page_label": "182"
+        },
+        "bbox": [
+          114.734,
+          76.211,
+          285.335,
+          91.499
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 2,
+      "page_range": {
+        "pdf_page_index_start": 203,
+        "pdf_page_index_end": 204,
+        "pdf_page_number_start": 204,
+        "pdf_page_number_end": 205,
+        "printed_page_start": "182",
+        "printed_page_end": "183"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 203,
+            "pdf_page_number": 204,
+            "printed_page_label": "182"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "4.4 Additional reading"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(4.4 Additional reading) +(printed page 182) --QDF=0",
+            "+(duced this formalism to computer vision researchers and also introduced the notion of line processes) +(Additional reading) +(printed page 182) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "182",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "duced this formalism to computer vision researchers and also introduced the notion of line processes,",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.4 Additional reading",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.4 Additional reading"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 204,
+            "pdf_page_number": 205,
+            "printed_page_label": "183"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "4.5 Exercises"
+            }
+          },
+          "queries": [
+            "+(popularized the use of loopy belief propagation for MRF inference Many more additional refer) +(printed page 183) --QDF=0",
+            "+(popularized the use of loopy belief propagation for MRF inference Many more additional refer) +(Additional reading) +(printed page 183) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "183",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "popularized the use of loopy belief propagation for MRF inference. Many more additional refer-",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.5 Exercises",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "4.5": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "printed",
+      "section_id": "4.5",
+      "printed_section_id": "4.5",
+      "parent_section_id": "4",
+      "title": "Exercises",
+      "source_heading": "4.5 Exercises",
+      "source_heading_numbered": true,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 204,
+          "pdf_page_number": 205,
+          "printed_page_label": "183"
+        },
+        "bbox": [
+          57.188,
+          299.037,
+          164.662,
+          314.325
+        ]
+      },
+      "source_level": 0,
+      "hierarchy_depth": 2,
+      "page_range": {
+        "pdf_page_index_start": 204,
+        "pdf_page_index_end": 205,
+        "pdf_page_number_start": 205,
+        "pdf_page_number_end": 206,
+        "printed_page_start": "183",
+        "printed_page_end": "184"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 204,
+            "pdf_page_number": 205,
+            "printed_page_label": "183"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "4.5 Exercises"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(4.5 Exercises) +(printed page 183) --QDF=0",
+            "+(to become more familiar with data-parallel programming and the linear algebra operators built into) +(Exercises) +(printed page 183) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "183",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "to become more familiar with data-parallel programming and the linear algebra operators built into",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.5 Exercises",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "4.5 Exercises"
+            ],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 205,
+            "pdf_page_number": 206,
+            "printed_page_label": "184"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(pected edges along block boundaries or looking at the quantization step as a projection of a) +(printed page 184) --QDF=0",
+            "+(pected edges along block boundaries or looking at the quantization step as a projection of a) +(Exercises) +(printed page 184) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "184",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "pected edges along block boundaries, or looking at the quantization step as a projection of a convex",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.15"
+            ],
+            "equation_ids": [
+              "2.116"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "4.2.1.1": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "learning_unit",
+      "section_id": "4.2.1.1",
+      "printed_section_id": "4.2.1",
+      "parent_section_id": "4.2.1",
+      "title": "Robust regularization",
+      "source_heading": "Robust regularization",
+      "source_heading_numbered": false,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 187,
+          "pdf_page_number": 188,
+          "printed_page_label": "166"
+        },
+        "bbox": [
+          114.734,
+          79.285,
+          223.65,
+          89.901
+        ]
+      },
+      "source_level": 1,
+      "hierarchy_depth": 4,
+      "page_range": {
+        "pdf_page_index_start": 187,
+        "pdf_page_index_end": 187,
+        "pdf_page_number_start": 188,
+        "pdf_page_number_end": 188,
+        "printed_page_start": "166",
+        "printed_page_end": "166"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "single",
+          "page": {
+            "pdf_page_index": 187,
+            "pdf_page_number": 188,
+            "printed_page_label": "166"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "Robust regularization"
+            },
+            "end_before": {
+              "kind": "heading",
+              "value": "4.2.2 Total variation"
+            }
+          },
+          "queries": [
+            "+(Robust regularization) +(printed page 166) --QDF=0",
+            "+(also using continuation to infer the tear and crease variables in his surface interpolation problems) +(Robust regularization) +(printed page 166) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "166",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "also using continuation to infer the tear and crease variables in his surface interpolation problems.)",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "Robust regularization",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.2.2 Total variation",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Robust regularization"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.24",
+              "4.29",
+              "4.30"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "4.3.3": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "learning_unit",
+      "section_id": "4.3.3",
+      "printed_section_id": "4.3",
+      "parent_section_id": "4.3",
+      "title": "Binary MRFs",
+      "source_heading": "Binary MRFs",
+      "source_heading_numbered": false,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 191,
+          "pdf_page_number": 192,
+          "printed_page_label": "170"
+        },
+        "bbox": [
+          114.734,
+          616.715,
+          179.728,
+          627.331
+        ]
+      },
+      "source_level": 1,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 191,
+        "pdf_page_index_end": 192,
+        "pdf_page_number_start": 192,
+        "pdf_page_number_end": 193,
+        "printed_page_start": "170",
+        "printed_page_end": "171"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 191,
+            "pdf_page_number": 192,
+            "printed_page_label": "170"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "Binary MRFs"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(Binary MRFs) +(printed page 170) --QDF=0",
+            "+(The simplest possible example of a Markov random field is a binary field Examples of such) +(Binary MRFs) +(printed page 170) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "170",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "The simplest possible example of a Markov random field is a binary field. Examples of such fields",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "Binary MRFs",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Binary MRFs"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.39"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 192,
+            "pdf_page_number": 193,
+            "printed_page_label": "171"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "Ordinal-valued MRFs"
+            }
+          },
+          "queries": [
+            "+(perform gradient descent flipping one state at a time if it produces a lower energy This) +(printed page 171) --QDF=0",
+            "+(perform gradient descent flipping one state at a time if it produces a lower energy This) +(Binary MRFs) +(printed page 171) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "171",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "perform gradient descent, flipping one state at a time if it produces a lower energy. This approach",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "Ordinal-valued MRFs",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.40"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "4.3.4": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "learning_unit",
+      "section_id": "4.3.4",
+      "printed_section_id": "4.3",
+      "parent_section_id": "4.3",
+      "title": "Ordinal-valued MRFs",
+      "source_heading": "Ordinal-valued MRFs",
+      "source_heading_numbered": false,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 192,
+          "pdf_page_number": 193,
+          "printed_page_label": "171"
+        },
+        "bbox": [
+          57.188,
+          528.232,
+          162.951,
+          538.848
+        ]
+      },
+      "source_level": 1,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 192,
+        "pdf_page_index_end": 195,
+        "pdf_page_number_start": 193,
+        "pdf_page_number_end": 196,
+        "printed_page_start": "171",
+        "printed_page_end": "174"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 192,
+            "pdf_page_number": 193,
+            "printed_page_label": "171"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "Ordinal-valued MRFs"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(Ordinal-valued MRFs) +(printed page 171) --QDF=0",
+            "+(ordering e.g that higher values are lighter pixels In the next section we look at unordered) +(Ordinal-valued MRFs) +(printed page 171) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "171",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "ordering, e.g., that higher values are lighter pixels. In the next section, we look at unordered labels,",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "Ordinal-valued MRFs",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Ordinal-valued MRFs"
+            ],
+            "figure_ids": [],
+            "equation_ids": [
+              "4.41",
+              "4.42",
+              "4.26",
+              "4.24",
+              "4.29"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 193,
+            "pdf_page_number": 194,
+            "printed_page_label": "172"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(expansion move graph cuts Images are from https vision.middlebury.edu MRF results Szeliski Zabih et al) +(printed page 172) --QDF=0",
+            "+(expansion move graph cuts Images are from https vision.middlebury.edu MRF results Szeliski Zabih et al) +(Ordinal-valued MRFs) +(printed page 172) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "172",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "expansion move graph cuts. Images are from https://vision.middlebury.edu/MRF/results (Szeliski, Zabih et al.",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.13",
+              "9.16"
+            ],
+            "equation_ids": [
+              "4.43",
+              "4.28"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 194,
+            "pdf_page_number": 195,
+            "printed_page_label": "173"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(binary MRF optimization inside their inner loop they are subject to the kind of constraints on) +(printed page 173) --QDF=0",
+            "+(binary MRF optimization inside their inner loop they are subject to the kind of constraints on) +(Ordinal-valued MRFs) +(printed page 173) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "173",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "binary MRF optimization inside their inner loop, they are subject to the kind of constraints on the",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.14",
+              "4.13",
+              "4.15"
+            ],
+            "equation_ids": [
+              "4.42"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 4,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 195,
+            "pdf_page_number": 196,
+            "printed_page_label": "174"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "Unordered labels"
+            }
+          },
+          "queries": [
+            "+(additional colored edges show how combinations of unknown values say in a sharp image produce the) +(printed page 174) --QDF=0",
+            "+(additional colored edges show how combinations of unknown values say in a sharp image produce the) +(Ordinal-valued MRFs) +(printed page 174) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "174",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "additional colored edges show how combinations of unknown values (say, in a sharp image) produce the measured",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "Unordered labels",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.15"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "4.3.5": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "learning_unit",
+      "section_id": "4.3.5",
+      "printed_section_id": "4.3",
+      "parent_section_id": "4.3",
+      "title": "Unordered labels",
+      "source_heading": "Unordered labels",
+      "source_heading_numbered": false,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 195,
+          "pdf_page_number": 196,
+          "printed_page_label": "174"
+        },
+        "bbox": [
+          114.734,
+          325.818,
+          201.25,
+          336.434
+        ]
+      },
+      "source_level": 1,
+      "hierarchy_depth": 3,
+      "page_range": {
+        "pdf_page_index_start": 195,
+        "pdf_page_index_end": 196,
+        "pdf_page_number_start": 196,
+        "pdf_page_number_end": 197,
+        "printed_page_start": "174",
+        "printed_page_end": "175"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 195,
+            "pdf_page_number": 196,
+            "printed_page_label": "174"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "Unordered labels"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(Unordered labels) +(printed page 174) --QDF=0",
+            "+(f i j with l i j to make it clearer that these are labels rather) +(Unordered labels) +(printed page 174) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "174",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "f (i, j) with l(i, j) to make it clearer that these are labels rather than function samples.) An alterna-",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "Unordered labels",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Unordered labels"
+            ],
+            "figure_ids": [
+              "4.16"
+            ],
+            "equation_ids": [
+              "4.44",
+              "4.45"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 196,
+            "pdf_page_number": 197,
+            "printed_page_label": "175"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "4.3.1 Conditional random fields"
+            }
+          },
+          "queries": [
+            "+(The resulting multi-valued label field is shown as a color overlay in the middle image and) +(printed page 175) --QDF=0",
+            "+(The resulting multi-valued label field is shown as a color overlay in the middle image and) +(Unordered labels) +(printed page 175) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "175",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "The resulting multi-valued label field is shown as a color overlay in the middle image, and the final composite is",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.3.1 Conditional random fields",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.16"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    },
+    "4.3.1.1": {
+      "data_version": "3",
+      "book_id": "cvaa2e",
+      "section_kind": "learning_unit",
+      "section_id": "4.3.1.1",
+      "printed_section_id": "4.3.1",
+      "parent_section_id": "4.3.1",
+      "title": "Dense Conditional Random Fields (CRFs)",
+      "source_heading": "Dense Conditional Random Fields (CRFs)",
+      "source_heading_numbered": false,
+      "source_location": {
+        "page": {
+          "pdf_page_index": 198,
+          "pdf_page_number": 199,
+          "printed_page_label": "177"
+        },
+        "bbox": [
+          57.188,
+          632.047,
+          267.184,
+          642.663
+        ]
+      },
+      "source_level": 1,
+      "hierarchy_depth": 4,
+      "page_range": {
+        "pdf_page_index_start": 198,
+        "pdf_page_index_end": 200,
+        "pdf_page_number_start": 199,
+        "pdf_page_number_end": 201,
+        "printed_page_start": "177",
+        "printed_page_end": "179"
+      },
+      "outline": [],
+      "retrieval_plan": [
+        {
+          "sequence": 1,
+          "page_role": "start",
+          "page": {
+            "pdf_page_index": 198,
+            "pdf_page_number": 199,
+            "printed_page_label": "177"
+          },
+          "content_window": {
+            "start_at": {
+              "kind": "heading",
+              "value": "Dense Conditional Random Fields (CRFs)"
+            },
+            "end_before": null
+          },
+          "queries": [
+            "+(Dense Conditional Random Fields CRFs) +(printed page 177) --QDF=0",
+            "+(ure 4.19 In order to model such longer-range interactions Kr ahenb uhl and Koltun 2011 intro) +(Dense Conditional Random Fields CRFs) +(printed page 177) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "177",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "ure 4.19). In order to model such longer-range interactions, Kr ̈ahenb ̈uhl and Koltun (2011) intro-",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "Dense Conditional Random Fields (CRFs)",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [
+              "Dense Conditional Random Fields (CRFs)"
+            ],
+            "figure_ids": [
+              "4.17"
+            ],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 2,
+          "page_role": "body",
+          "page": {
+            "pdf_page_index": 199,
+            "pdf_page_number": 200,
+            "printed_page_label": "178"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": null
+          },
+          "queries": [
+            "+(labels in each column describe the image or algorithm being run which include a robust P) +(printed page 178) --QDF=0",
+            "+(labels in each column describe the image or algorithm being run which include a robust P) +(Dense Conditional Random Fields CRFs) +(printed page 178) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "178",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "labels in each column describe the image or algorithm being run, which include a robust P n CRF (Kohli, Ladick ́y,",
+              "verification_mode": "text_or_visual"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [
+              "4.19"
+            ],
+            "equation_ids": [
+              "4.47",
+              "4.48",
+              "4.49",
+              "3.37"
+            ],
+            "example_ids": [],
+            "table_ids": []
+          }
+        },
+        {
+          "sequence": 3,
+          "page_role": "end",
+          "page": {
+            "pdf_page_index": 200,
+            "pdf_page_number": 201,
+            "printed_page_label": "179"
+          },
+          "content_window": {
+            "start_at": null,
+            "end_before": {
+              "kind": "heading",
+              "value": "4.3.2 Application: Interactive segmentation"
+            }
+          },
+          "queries": [
+            "+(Warrell and Torr 2014 Desmaison Bunel et al 2016 Dense CRFs have seen widespread use in) +(printed page 179) --QDF=0",
+            "+(Warrell and Torr 2014 Desmaison Bunel et al 2016 Dense CRFs have seen widespread use in) +(Dense Conditional Random Fields CRFs) +(printed page 179) --QDF=0"
+          ],
+          "required_evidence": [
+            {
+              "kind": "printed_page_equals",
+              "value": "179",
+              "verification_mode": "visual_required"
+            },
+            {
+              "kind": "contains_text",
+              "value": "Warrell, and Torr 2014; Desmaison, Bunel et al. 2016). Dense CRFs have seen widespread use in",
+              "verification_mode": "text_or_visual"
+            },
+            {
+              "kind": "contains_heading",
+              "value": "4.3.2 Application: Interactive segmentation",
+              "verification_mode": "visual_required"
+            }
+          ],
+          "coverage": {
+            "subheadings": [],
+            "figure_ids": [],
+            "equation_ids": [],
+            "example_ids": [],
+            "table_ids": []
+          }
+        }
+      ]
+    }
+  }
+}

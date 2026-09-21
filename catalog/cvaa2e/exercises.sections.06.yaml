@@ -1,0 +1,641 @@
+data_version: '3'
+chapter_id: '6'
+exercises:
+- exercise_id: '6.1'
+  chapter_id: '6'
+  exercise_number: 1
+  starred: false
+  source_order: 1
+  problem_page_range:
+    pdf_page_index_start: 347
+    pdf_page_index_end: 347
+    pdf_page_number_start: 348
+    pdf_page_number_end: 348
+    printed_page_start: '326'
+    printed_page_end: '326'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 347
+      pdf_page_number: 348
+      printed_page_label: '326'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '6.1'
+      end_before:
+        kind: exercise
+        value: '6.2'
+    queries:
+    - +(6.1) +(printed page 326) --QDF=0
+    - +(Now try the network on your own data either from a web search or from your) +(printed page 326) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '326'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Now try the network on your own data, either from a web search or from your personal photo
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '6.1'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '6.2'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids:
+      - '6.39'
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs:
+  - kind: figure
+    target_id: '6.39'
+    reason: Explicit figure reference in exercise text
+    selected_context_pages: []
+- exercise_id: '6.2'
+  chapter_id: '6'
+  exercise_number: 2
+  starred: false
+  source_order: 2
+  problem_page_range:
+    pdf_page_index_start: 347
+    pdf_page_index_end: 348
+    pdf_page_number_start: 348
+    pdf_page_number_end: 349
+    printed_page_start: '326'
+    printed_page_end: '327'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 347
+      pdf_page_number: 348
+      printed_page_label: '326'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '6.2'
+      end_before: null
+    queries:
+    - +(6.2) +(printed page 326) --QDF=0
+    - +(31Click on the Colab Notebook link at https github.com facebookresearch detectron2 and then edit the input) +(printed
+      page 326) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '326'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 31Click on the “Colab Notebook” link at https://github.com/facebookresearch/detectron2 and then edit the input
+        image
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '6.2'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  - page:
+      pdf_page_index: 348
+      pdf_page_number: 349
+      printed_page_label: '327'
+    content_window:
+      start_at: null
+      end_before:
+        kind: exercise
+        value: '6.3'
+    queries:
+    - +(Train your network try to optimize its architecture and report on the challenges you faced and) +(printed page 327)
+      --QDF=0
+    - +(Train your network try to optimize its architecture and report on the challenges you faced and) +(Exercises) +(printed
+      page 327) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '327'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Train your network, try to optimize its architecture, and report on the challenges you faced and
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '6.3'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '6.3'
+  chapter_id: '6'
+  exercise_number: 3
+  starred: false
+  source_order: 3
+  problem_page_range:
+    pdf_page_index_start: 348
+    pdf_page_index_end: 348
+    pdf_page_number_start: 349
+    pdf_page_number_end: 349
+    printed_page_start: '327'
+    printed_page_end: '327'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 348
+      pdf_page_number: 349
+      printed_page_label: '327'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '6.3'
+      end_before:
+        kind: exercise
+        value: '6.4'
+    queries:
+    - +(6.3) +(printed page 327) --QDF=0
+    - +(Using any image classification model 33 e.g ResNet EfficientNet or ViT train the model from) +(printed page 327) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '327'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Using any image classification model,33 e.g., ResNet, EfficientNet, or ViT, train the model from
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '6.3'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '6.4'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '6.4'
+  chapter_id: '6'
+  exercise_number: 4
+  starred: false
+  source_order: 4
+  problem_page_range:
+    pdf_page_index_start: 348
+    pdf_page_index_end: 348
+    pdf_page_number_start: 349
+    pdf_page_number_end: 349
+    printed_page_start: '327'
+    printed_page_end: '327'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 348
+      pdf_page_number: 349
+      printed_page_label: '327'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '6.4'
+      end_before:
+        kind: exercise
+        value: '6.5'
+    queries:
+    - +(6.4) +(printed page 327) --QDF=0
+    - +(a ViT model and remove all the intermediate layer normalization operations Are you able to train) +(printed page 327)
+      --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '327'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: a ViT model and remove all the intermediate layer normalization operations. Are you able to train
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '6.4'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '6.5'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '6.5'
+  chapter_id: '6'
+  exercise_number: 5
+  starred: false
+  source_order: 5
+  problem_page_range:
+    pdf_page_index_start: 348
+    pdf_page_index_end: 348
+    pdf_page_number_start: 349
+    pdf_page_number_end: 349
+    printed_page_start: '327'
+    printed_page_end: '327'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 348
+      pdf_page_number: 349
+      printed_page_label: '327'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '6.5'
+      end_before:
+        kind: exercise
+        value: '6.6'
+    queries:
+    - +(6.5) +(printed page 327) --QDF=0
+    - +(tic segmentation and panoptic segmentation For each type of segmentation can it be post-processed) +(printed page
+      327) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '327'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: tic segmentation, and panoptic segmentation. For each type of segmentation, can it be post-processed
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '6.5'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '6.6'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '6.6'
+  chapter_id: '6'
+  exercise_number: 6
+  starred: false
+  source_order: 6
+  problem_page_range:
+    pdf_page_index_start: 348
+    pdf_page_index_end: 348
+    pdf_page_number_start: 349
+    pdf_page_number_end: 349
+    printed_page_start: '327'
+    printed_page_end: '327'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 348
+      pdf_page_number: 349
+      printed_page_label: '327'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '6.6'
+      end_before:
+        kind: exercise
+        value: '6.7'
+    queries:
+    - +(6.6) +(printed page 327) --QDF=0
+    - +(Class encoding Categorical inputs to a neural network such as a word or object can be) +(printed page 327) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '327'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Class encoding. Categorical inputs to a neural network, such as a word or object, can be
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '6.6'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '6.7'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '6.7'
+  chapter_id: '6'
+  exercise_number: 7
+  starred: false
+  source_order: 7
+  problem_page_range:
+    pdf_page_index_start: 348
+    pdf_page_index_end: 348
+    pdf_page_number_start: 349
+    pdf_page_number_end: 349
+    printed_page_start: '327'
+    printed_page_end: '327'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 348
+      pdf_page_number: 349
+      printed_page_label: '327'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '6.7'
+      end_before:
+        kind: exercise
+        value: '6.8'
+    queries:
+    - +(6.7) +(printed page 327) --QDF=0
+    - +(Faster-RCNN and YOLOv4 compare Try training each of them on MS COCO Which one tends) +(printed page 327) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '327'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Faster-RCNN, and YOLOv4 compare? Try training each of them on MS COCO. Which one tends
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '6.7'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '6.8'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '6.8'
+  chapter_id: '6'
+  exercise_number: 8
+  starred: false
+  source_order: 8
+  problem_page_range:
+    pdf_page_index_start: 348
+    pdf_page_index_end: 348
+    pdf_page_number_start: 349
+    pdf_page_number_end: 349
+    printed_page_start: '327'
+    printed_page_end: '327'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 348
+      pdf_page_number: 349
+      printed_page_label: '327'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '6.8'
+      end_before:
+        kind: exercise
+        value: '6.9'
+    queries:
+    - +(6.8) +(printed page 327) --QDF=0
+    - +(Image classification vs description For image classification list at least two significant) +(printed page 327) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '327'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: Image classification vs. description. For image classification, list at least two significant
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '6.8'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '6.9'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '6.9'
+  chapter_id: '6'
+  exercise_number: 9
+  starred: false
+  source_order: 9
+  problem_page_range:
+    pdf_page_index_start: 348
+    pdf_page_index_end: 348
+    pdf_page_number_start: 349
+    pdf_page_number_end: 349
+    printed_page_start: '327'
+    printed_page_end: '327'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 348
+      pdf_page_number: 349
+      printed_page_label: '327'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '6.9'
+      end_before:
+        kind: exercise
+        value: '6.10'
+    queries:
+    - +(6.9) +(printed page 327) --QDF=0
+    - +(them without any fine-tuning on ImageNet Sketch Wang Ge et al 2019 For each of these) +(printed page 327) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '327'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: them, without any fine-tuning, on ImageNet Sketch (Wang, Ge et al. 2019). For each of these
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '6.9'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '6.10'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '6.10'
+  chapter_id: '6'
+  exercise_number: 10
+  starred: false
+  source_order: 10
+  problem_page_range:
+    pdf_page_index_start: 348
+    pdf_page_index_end: 348
+    pdf_page_number_start: 349
+    pdf_page_number_end: 349
+    printed_page_start: '327'
+    printed_page_end: '327'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 348
+      pdf_page_number: 349
+      printed_page_label: '327'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '6.10'
+      end_before: null
+    queries:
+    - +(6.10) +(printed page 327) --QDF=0
+    - +(33You may find the PyTorch Image Models at https github.com rwightman pytorch-image-models useful) +(printed page
+      327) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '327'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: 33You may find the PyTorch Image Models at https://github.com/rwightman/pytorch-image-models useful.
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '6.10'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '6.11'
+  chapter_id: '6'
+  exercise_number: 11
+  starred: false
+  source_order: 11
+  problem_page_range:
+    pdf_page_index_start: 349
+    pdf_page_index_end: 349
+    pdf_page_number_start: 350
+    pdf_page_number_end: 350
+    printed_page_start: '328'
+    printed_page_end: '328'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 349
+      pdf_page_number: 350
+      printed_page_label: '328'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '6.11'
+      end_before:
+        kind: exercise
+        value: '6.12'
+    queries:
+    - +(6.11) +(printed page 328) --QDF=0
+    - +(tracking an object through time Why might this be preferred to making predictions independently) +(printed page 328)
+      --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '328'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: tracking an object through time. Why might this be preferred to making predictions independently
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '6.11'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '6.12'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '6.12'
+  chapter_id: '6'
+  exercise_number: 12
+  starred: false
+  source_order: 12
+  problem_page_range:
+    pdf_page_index_start: 349
+    pdf_page_index_end: 349
+    pdf_page_number_start: 350
+    pdf_page_number_end: 350
+    printed_page_start: '328'
+    printed_page_end: '328'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 349
+      pdf_page_number: 350
+      printed_page_label: '328'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '6.12'
+      end_before:
+        kind: exercise
+        value: '6.13'
+    queries:
+    - +(6.12) +(printed page 328) --QDF=0
+    - +(tion and fine-tune it for object detection with a variant of YOLO Why might it be) +(printed page 328) --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '328'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: tion and fine-tune it for object detection with a variant of YOLO. Why might it be desirable to freeze
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '6.12'
+      verification_mode: visual_required
+    - kind: contains_exercise
+      value: '6.13'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
+- exercise_id: '6.13'
+  chapter_id: '6'
+  exercise_number: 13
+  starred: false
+  source_order: 13
+  problem_page_range:
+    pdf_page_index_start: 349
+    pdf_page_index_end: 349
+    pdf_page_number_start: 350
+    pdf_page_number_end: 350
+    printed_page_start: '328'
+    printed_page_end: '328'
+  problem_retrieval_plan:
+  - page:
+      pdf_page_index: 349
+      pdf_page_number: 350
+      printed_page_label: '328'
+    content_window:
+      start_at:
+        kind: exercise
+        value: '6.13'
+      end_before: null
+    queries:
+    - +(6.13) +(printed page 328) --QDF=0
+    - +(discussed in this chapter tend to only deal with short video clips as input What modifications) +(printed page 328)
+      --QDF=0
+    required_evidence:
+    - kind: printed_page_equals
+      value: '328'
+      verification_mode: visual_required
+    - kind: contains_text
+      value: discussed in this chapter, tend to only deal with short video clips as input. What modifications
+      verification_mode: text_or_visual
+    - kind: contains_exercise
+      value: '6.13'
+      verification_mode: visual_required
+    coverage:
+      subheadings: []
+      figure_ids: []
+      equation_ids: []
+      example_ids: []
+      table_ids: []
+  reference_specs: []
