@@ -9,6 +9,7 @@ from app.core.errors import ExerciseIndexLoadError, LocatorIndexLoadError
 from app.core.security import api_key_fingerprint
 from app.main import create_app
 from app.services.index_compiler import LocatorIndexCompiler
+from skill_temple.action_logging import clear_action_events
 from tests.helpers import complete_exercise_index, complete_manifest
 
 
@@ -71,6 +72,64 @@ def test_api_serves_section_and_exercise_locators(tmp_path) -> None:
         assert client.get("/gpt/search?q=spatial").status_code == 404
         assert client.get("/gpt/figures/2.41").status_code == 404
         assert client.post("/admin/books/upload").status_code == 404
+
+
+def test_locator_actions_publish_structured_monitor_activity(tmp_path) -> None:
+    settings = Settings(
+        locator_index_path=write_index(tmp_path),
+        exercise_index_path=write_exercise_index(tmp_path),
+        require_api_key=False,
+    )
+    clear_action_events()
+    with TestClient(create_app(settings)) as client:
+        assert client.get("/gpt/section-locators/2.6.5").status_code == 200
+        assert client.get("/gpt/exercise-locators/2.14").status_code == 200
+        assert client.get("/gpt/chapters/2/exercises").status_code == 200
+        assert client.get("/gpt/section-locators/2.6.99").status_code == 404
+        event_response = client.get(
+            "/v1/action-logs",
+            params={"after": 0, "wait": 0, "limit": 100},
+        )
+
+    assert event_response.status_code == 200, event_response.text
+    events = [item["event"] for item in event_response.json()["items"] if "event" in item]
+
+    section_events = [
+        event for event in events if event["payload"].get("operation") == "get_section_locator"
+    ]
+    assert [event["phase"] for event in section_events] == [
+        "started",
+        "completed",
+        "started",
+        "failed",
+    ]
+    assert section_events[1]["payload"] == {
+        "operation": "get_section_locator",
+        "section_id": "2.6.5",
+        "title": "Spatial Operations",
+        "printed_page_start": "100",
+        "printed_page_end": "101",
+    }
+    assert section_events[-1]["payload"]["error_code"] == "SECTION_NOT_FOUND"
+
+    exercise_events = [
+        event for event in events if event["payload"].get("operation") == "get_exercise_locator"
+    ]
+    assert [event["phase"] for event in exercise_events] == ["started", "completed"]
+    assert exercise_events[-1]["payload"]["exercise_id"] == "2.14"
+    assert exercise_events[-1]["payload"]["reference_count"] == 1
+
+    chapter_events = [
+        event for event in events if event["payload"].get("operation") == "list_chapter_exercises"
+    ]
+    assert [event["phase"] for event in chapter_events] == ["started", "completed"]
+    assert chapter_events[-1]["payload"] == {
+        "operation": "list_chapter_exercises",
+        "chapter_id": "2",
+        "exercise_count": 2,
+        "first_exercise": "2.14",
+        "last_exercise": "2.15",
+    }
 
 
 def test_exercise_api_reports_unconfigured_catalog(tmp_path) -> None:
